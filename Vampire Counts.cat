@@ -1422,7 +1422,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="697f-248b-9709-c374" name="Mounts (Stirgoi cannot chose this)" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="697f-248b-9709-c374" name="Mounts (Stirgoi cannot chose this)" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08d5-014f-6858-1a0c" type="max"/>
                     <constraint field="selections" scope="bf30-4ff0-a4d8-3909" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="43c3-a379-1697-a83c" type="max"/>
@@ -1562,7 +1562,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="bd66-2ca7-7967-b341" name="Mounts (Stirgoi cannot chose this)" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="bd66-2ca7-7967-b341" name="Mounts (Stirgoi cannot chose this)" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55c4-2adc-e4d7-cd88" type="max"/>
                     <constraint field="selections" scope="bf30-4ff0-a4d8-3909" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="beeb-4678-df2e-635e" type="max"/>
@@ -1667,7 +1667,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="74cc-ed04-2836-4ca5" name="Mounts (Stirgoi cannot chose this)" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="74cc-ed04-2836-4ca5" name="Mounts (Stirgoi cannot chose this)" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f49-3f5e-ddfa-00e1" type="max"/>
                     <constraint field="selections" scope="bf30-4ff0-a4d8-3909" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9516-26e4-62c4-1d45" type="max"/>
@@ -1827,7 +1827,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="dac7-85ad-0ea6-2ad8" name="Mounts (Stirgoi cannot chose this)" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="dac7-85ad-0ea6-2ad8" name="Mounts (Stirgoi cannot chose this)" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5183-9e07-da8c-b154" type="max"/>
                     <constraint field="selections" scope="bf30-4ff0-a4d8-3909" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f70-4e8d-eb0b-bbdf" type="max"/>
@@ -1874,6 +1874,51 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vlrd-moun-grp0-0001" name="Mounts " hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="vlrd-moun-con0-0001" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef7a-5896-8856-076b" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-moun-con0-0001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vlrd-nmar-mnt0-0001" name="Nightmare" hidden="false" collective="false" import="true" targetId="1c56-48e6-7c01-5ae9" type="selectionEntry">
+              <selectionEntries>
+                <selectionEntry id="vlrd-bard-mnt0-0001" name="Barding" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="vlrd-bard-inf0-0001" name="Barding" hidden="false" targetId="25e4-8f3a-a1a8-a7b6" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="vlrd-wing-mnt0-0001" name="Winged Nightmare" hidden="false" collective="false" import="true" targetId="70f3-c286-d1ac-5942" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="vlrd-zdra-mnt0-0001" name="Zombie Dragon" hidden="false" collective="false" import="true" targetId="1a86-7ed1-3c74-8d15" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="vlrd-zdra-cat0-0001" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
+                <categoryLink id="vlrd-zdra-cat0-0002" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b8ff-7e47-2614-1ecd" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="42d9-cebe-18d5-cdbd">
           <constraints>
