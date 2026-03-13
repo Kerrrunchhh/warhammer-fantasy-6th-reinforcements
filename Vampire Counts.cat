@@ -1389,7 +1389,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="113c-c27a-f202-1b76" name="Von Carstein" hidden="false" targetId="ff24-ca11-afd5-865b" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="26e3-9f5f-52f3-49d7" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="26e3-9f5f-52f3-49d7" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fd2-955f-0de2-c7a6" type="max"/>
                   </constraints>
@@ -1529,7 +1529,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="86dc-9021-f073-6dec" name="Necrach" hidden="false" targetId="fc4b-a86d-5897-9e4c" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="8ed4-dac6-b506-caae" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="8ed4-dac6-b506-caae" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b24-fd16-b53d-2f16" type="max"/>
                   </constraints>
@@ -1634,7 +1634,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="da8f-2175-f6c6-55ee" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="da8f-2175-f6c6-55ee" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3116-bb47-c7bf-39cd" type="max"/>
                   </constraints>
@@ -1774,7 +1774,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="261b-6e13-782f-68c1" name="Strigoi" hidden="false" targetId="bf30-4ff0-a4d8-3909" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="a6c1-2c2d-da97-de05" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="a6c1-2c2d-da97-de05" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafe-179a-a8c3-7d3c" type="max"/>
                   </constraints>
@@ -1794,7 +1794,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="7798-c791-d208-9a34" name="Lahmia" hidden="false" targetId="c872-4b18-1aad-6953" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="6761-c7bf-1fed-5db1" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="6761-c7bf-1fed-5db1" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="920c-6bef-17e4-d3b4" type="max"/>
                   </constraints>
@@ -1995,6 +1995,173 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="vlrd-magic-von-0001" name="Magic and Traits (Von Carstein)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a13a-36f6-00d9-4ae6" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-von-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vlrd-mgic-von-mwcb-001" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="74b7-0e6b-69df-50dc" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-von-mwcb-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-von-marc-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="1bf0-c096-8a65-b43b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-von-marc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-von-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="vlrd-mgic-von-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-von-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-von-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-von-trt-001" name="Von Carstein traits" hidden="false" collective="false" import="true" targetId="b1a2-07df-1a18-9bf9" type="selectionEntryGroup"/>
+            <entryLink id="vlrd-mgic-von-tal-001" name="Carstein Magic Talisman" hidden="false" collective="false" import="true" targetId="7360-2451-00fb-53a5" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-von-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vlrd-magic-nec-0001" name="Magic and Traits (Necrach)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a11-4f11-3806-c00c" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-nec-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vlrd-mgic-nec-mwcb-001" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="74b7-0e6b-69df-50dc" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-nec-mwcb-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-nec-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="vlrd-mgic-nec-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-nec-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-nec-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-nec-trt-001" name="Necrach traits" hidden="false" collective="false" import="true" targetId="8627-7a0f-231c-7572" type="selectionEntryGroup"/>
+            <entryLink id="vlrd-mgic-nec-tal-001" name="Magic Talisman" hidden="false" collective="false" import="true" targetId="70c0-82cd-31ec-e269" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-nec-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-nec-marml-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="03a2-e74a-14e0-cb24" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vlrd-magic-bld-0001" name="Magic and Traits (Blood Dragon)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0158-ed16-cbbf-6a78" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-bld-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vlrd-mgic-bld-mwcb-001" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="74b7-0e6b-69df-50dc" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-bld-mwcb-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-bld-marc-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="1bf0-c096-8a65-b43b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-bld-marc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-bld-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-bld-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-bld-trt-001" name="Blood Dragon traits" hidden="false" collective="false" import="true" targetId="84fd-049b-21b4-9075" type="selectionEntryGroup"/>
+            <entryLink id="vlrd-mgic-bld-tal-001" name="Magic Talisman" hidden="false" collective="false" import="true" targetId="70c0-82cd-31ec-e269" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-bld-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-bld-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-bld-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vlrd-magic-str-0001" name="Magic and Traits (Strigoi)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef7a-5896-8856-076b" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-str-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vlrd-mgic-str-trt-001" name="Strigoi traits" hidden="false" collective="false" import="true" targetId="0304-9b9c-c3cc-7cbf" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vlrd-magic-lah-0001" name="Magic and Traits (Lahmia)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="20cf-d4a7-041d-43f4" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-lah-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vlrd-mgic-lah-mwl-001" name="Magic Weapons Lahmia" hidden="false" collective="false" import="true" targetId="2acf-6355-fcad-d6e9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-lah-mwl-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-lah-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="vlrd-mgic-lah-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-lah-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-lah-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-lah-trt-001" name="Lahmia traits" hidden="false" collective="false" import="true" targetId="b61f-0992-3a94-a5d3" type="selectionEntryGroup"/>
+            <entryLink id="vlrd-mgic-lah-tal-001" name="Magic Talisman" hidden="false" collective="false" import="true" targetId="70c0-82cd-31ec-e269" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-mgic-lah-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vlrd-mgic-lah-marml-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="03a2-e74a-14e0-cb24" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
         <selectionEntryGroup id="b8ff-7e47-2614-1ecd" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="42d9-cebe-18d5-cdbd">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c66-4f74-2201-82ec" type="min"/>
@@ -2111,7 +2278,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="b8da-51d7-a534-7438" name="Von Carstein" hidden="false" targetId="ff24-ca11-afd5-865b" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="cb0d-e0d3-b917-5d78" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="cb0d-e0d3-b917-5d78" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b214-8951-7e6a-7cbd" type="max"/>
                   </constraints>
@@ -2156,7 +2323,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="c3b2-9789-aaf1-bf62" name="Necrach" hidden="false" targetId="fc4b-a86d-5897-9e4c" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="c8d4-9eac-1243-083a" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="c8d4-9eac-1243-083a" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a8c-e1ad-2b15-e938" type="max"/>
                   </constraints>
@@ -2222,7 +2389,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="7e4f-7a8f-7c28-5ab2" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="7e4f-7a8f-7c28-5ab2" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1099-032a-ac92-fbb9" type="max"/>
                   </constraints>
@@ -2267,7 +2434,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="0c7d-e8ac-6810-9962" name="Strigoi" hidden="false" targetId="bf30-4ff0-a4d8-3909" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="349e-f2b4-b0a7-7c24" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="349e-f2b4-b0a7-7c24" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f27d-83fd-4ecd-a074" type="max"/>
                   </constraints>
@@ -2287,7 +2454,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="580e-987c-c1c1-b6c9" name="Lahmia" hidden="false" targetId="c872-4b18-1aad-6953" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="0bb8-5e8b-28c1-1921" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="0bb8-5e8b-28c1-1921" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa00-0fdf-fc98-f006" type="max"/>
                   </constraints>
@@ -2372,7 +2539,19 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b0b7-81ef-c0f6-dd23" name="Weapons for Carstein and Blooddragons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b0b7-81ef-c0f6-dd23" name="Weapons for Carstein and Blooddragons" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff24-ca11-afd5-865b" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4cae-a20e-8374-b6cb" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="4d5c-1c1a-3f61-0679" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2428,12 +2607,179 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <infoLink id="aafc-81a8-1e73-1622" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vcnt-magic-von-0001" name="Magic and Traits (Von Carstein)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1d4e-dcc1-f62a-c578" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-von-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vcnt-mgic-von-mwcb-001" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="74b7-0e6b-69df-50dc" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-von-mwcb-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-von-marc-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="1bf0-c096-8a65-b43b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-von-marc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-von-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="vcnt-mgic-von-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-von-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-von-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-von-trt-001" name="Von Carstein traits" hidden="false" collective="false" import="true" targetId="b1a2-07df-1a18-9bf9" type="selectionEntryGroup"/>
+            <entryLink id="vcnt-mgic-von-tal-001" name="Carstein Magic Talisman" hidden="false" collective="false" import="true" targetId="7360-2451-00fb-53a5" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-von-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vcnt-magic-nec-0001" name="Magic and Traits (Necrach)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a8be-2466-4c0c-d453" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-nec-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vcnt-mgic-nec-mwcb-001" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="74b7-0e6b-69df-50dc" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-nec-mwcb-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-nec-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="vcnt-mgic-nec-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-nec-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-nec-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-nec-trt-001" name="Necrach traits" hidden="false" collective="false" import="true" targetId="8627-7a0f-231c-7572" type="selectionEntryGroup"/>
+            <entryLink id="vcnt-mgic-nec-tal-001" name="Magic Talisman" hidden="false" collective="false" import="true" targetId="70c0-82cd-31ec-e269" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-nec-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-nec-marml-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="03a2-e74a-14e0-cb24" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vcnt-magic-bld-0001" name="Magic and Traits (Blood Dragon)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="60a4-751a-19aa-35dc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-bld-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vcnt-mgic-bld-mwcb-001" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="74b7-0e6b-69df-50dc" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-bld-mwcb-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-bld-marc-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="1bf0-c096-8a65-b43b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-bld-marc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-bld-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-bld-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-bld-trt-001" name="Blood Dragon traits" hidden="false" collective="false" import="true" targetId="84fd-049b-21b4-9075" type="selectionEntryGroup"/>
+            <entryLink id="vcnt-mgic-bld-tal-001" name="Magic Talisman" hidden="false" collective="false" import="true" targetId="70c0-82cd-31ec-e269" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-bld-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-bld-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-bld-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vcnt-magic-str-0001" name="Magic and Traits (Strigoi)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30ba-e15f-9acd-7663" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-str-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vcnt-mgic-str-trt-001" name="Strigoi traits" hidden="false" collective="false" import="true" targetId="0304-9b9c-c3cc-7cbf" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vcnt-magic-lah-0001" name="Magic and Traits (Lahmia)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1c3b-07da-b7f9-4b22" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-lah-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vcnt-mgic-lah-mwl-001" name="Magic Weapons Lahmia" hidden="false" collective="false" import="true" targetId="2acf-6355-fcad-d6e9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-lah-mwl-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-lah-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="vcnt-mgic-lah-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-lah-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-lah-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-lah-trt-001" name="Lahmia traits" hidden="false" collective="false" import="true" targetId="b61f-0992-3a94-a5d3" type="selectionEntryGroup"/>
+            <entryLink id="vcnt-mgic-lah-tal-001" name="Magic Talisman" hidden="false" collective="false" import="true" targetId="70c0-82cd-31ec-e269" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vcnt-mgic-lah-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vcnt-mgic-lah-marml-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="03a2-e74a-14e0-cb24" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7ab1-d9dc-6124-443f" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="3c1a-3350-04ae-7a3f">
           <constraints>
@@ -2547,7 +2893,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="bb73-1ae0-28de-2c99" name="Von Carstein" hidden="false" targetId="ff24-ca11-afd5-865b" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="76ea-dc67-c27f-68cd" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="76ea-dc67-c27f-68cd" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6462-adf4-4373-7820" type="max"/>
                   </constraints>
@@ -2735,7 +3081,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="0190-67bc-023b-4149" name="Necrach" hidden="false" targetId="fc4b-a86d-5897-9e4c" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="02c3-0139-f799-00a9" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="02c3-0139-f799-00a9" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41da-a120-3b8c-e4c7" type="max"/>
                   </constraints>
@@ -2842,7 +3188,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="f60f-9d2f-2b0f-fe23" name="Blood Dragon" hidden="false" targetId="4cae-a20e-8374-b6cb" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="7c68-e4c2-427d-d400" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="7c68-e4c2-427d-d400" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccbe-b14f-031b-3eba" type="max"/>
                   </constraints>
@@ -3025,7 +3371,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="5565-6042-b96a-a17b" name="Strigoi" hidden="false" targetId="bf30-4ff0-a4d8-3909" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="207b-56c1-d2ca-b232" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="207b-56c1-d2ca-b232" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="597f-2ea8-3b7e-f045" type="max"/>
                   </constraints>
@@ -3060,7 +3406,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <categoryLink id="5280-5a1a-81e6-0bf5" name="Lahmia" hidden="false" targetId="c872-4b18-1aad-6953" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="e305-ac2f-c343-bd14" name="Magic and Traits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="e305-ac2f-c343-bd14" name="Magic and Traits" hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f82-3c8b-4eb4-d916" type="max"/>
                   </constraints>
@@ -3176,6 +3522,168 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vthr-magic-von-0001" name="Magic and Traits (Von Carstein)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="10a7-9b20-f053-61df" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-von-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vthr-mgic-von-mwcb-001" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="74b7-0e6b-69df-50dc" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-von-mwcb-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-von-marc-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="1bf0-c096-8a65-b43b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-von-marc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-von-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2f34-a145-911a-fa00" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="vthr-mgic-von-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-von-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-von-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-von-trt-001" name="Von Carstein traits" hidden="false" collective="false" import="true" targetId="b1a2-07df-1a18-9bf9" type="selectionEntryGroup"/>
+            <entryLink id="vthr-mgic-von-tal-001" name="Carstein Magic Talisman" hidden="false" collective="false" import="true" targetId="7360-2451-00fb-53a5" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-von-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vthr-magic-nec-0001" name="Magic and Traits (Necrach)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bb37-616b-6963-09b8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-nec-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vthr-mgic-nec-mwn-001" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="2acf-6355-fcad-d6e9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-nec-mwn-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-nec-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="vthr-mgic-nec-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-nec-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-nec-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-nec-trt-001" name="Necrach traits" hidden="false" collective="false" import="true" targetId="8627-7a0f-231c-7572" type="selectionEntryGroup"/>
+            <entryLink id="vthr-mgic-nec-tal-001" name="Magic Talisman" hidden="false" collective="false" import="true" targetId="70c0-82cd-31ec-e269" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-nec-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-nec-marml-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="03a2-e74a-14e0-cb24" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vthr-magic-bld-0001" name="Magic and Traits (Blood Dragon)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ce4-651b-a585-6886" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-bld-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vthr-mgic-bld-mwcb-001" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="74b7-0e6b-69df-50dc" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-bld-mwcb-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-bld-marc-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="1bf0-c096-8a65-b43b" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-bld-marc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-bld-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-bld-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-bld-trt-001" name="Blood Dragon traits" hidden="false" collective="false" import="true" targetId="84fd-049b-21b4-9075" type="selectionEntryGroup"/>
+            <entryLink id="vthr-mgic-bld-tal-001" name="Magic Talisman" hidden="false" collective="false" import="true" targetId="70c0-82cd-31ec-e269" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-bld-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vthr-magic-str-0001" name="Magic and Traits (Strigoi)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c14f-1bd4-3d59-fc4e" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-str-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vthr-mgic-str-trt-001" name="Strigoi traits" hidden="false" collective="false" import="true" targetId="0304-9b9c-c3cc-7cbf" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vthr-magic-lah-0001" name="Magic and Traits (Lahmia)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bd0a-5f03-cd37-a01c" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-lah-con-001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="vthr-mgic-lah-mwl-001" name="Magic Weapons Lahmia" hidden="false" collective="false" import="true" targetId="eee4-4082-8085-e203" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-lah-mwl-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-lah-arc-001" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="vthr-mgic-lah-arc-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-lah-ench-001" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="76c3-b01d-0836-2f86" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-lah-ench-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-lah-trt-001" name="Lahmia traits" hidden="false" collective="false" import="true" targetId="b61f-0992-3a94-a5d3" type="selectionEntryGroup"/>
+            <entryLink id="vthr-mgic-lah-tal-001" name="Magic Talisman" hidden="false" collective="false" import="true" targetId="70c0-82cd-31ec-e269" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-mgic-lah-tal-c01" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="vthr-mgic-lah-marc-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="03a2-e74a-14e0-cb24" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
