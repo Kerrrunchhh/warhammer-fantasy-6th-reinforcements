@@ -79,6 +79,25 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="wars-tk-mnt0-0001" name="Warsphinx" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="wars-tk-cons-max" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="wars-tk-prof-0001" name="Warsphinx" hidden="false" targetId="wars-phin-prof-0001" type="profile"/>
+            <infoLink id="wars-tk-dead-0002" name="Undead" hidden="false" targetId="97a4-d2a9-5b16-f0c3" type="rule"/>
+            <infoLink id="wars-tk-cons-0003" name="Construct" hidden="false" targetId="149b-a988-a985-bb71" type="rule"/>
+            <infoLink id="wars-tk-lrgt-0004" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+            <infoLink id="wars-tk-terr-0005" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+            <infoLink id="wars-tk-imph-0006" name="Impact Hits (1D3)" hidden="false" targetId="wars-impa-hits-0001" type="rule"/>
+            <infoLink id="wars-tk-scha-0007" name="Sphinx and Character" hidden="false" targetId="wars-sphx-char-0001" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="230.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
         <selectionEntry id="2cc7-cbab-e203-e0e4" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1bd-eb3b-6dad-d76c" type="max"/>
@@ -437,6 +456,25 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="wars-tp-mnt0-0001" name="Warsphinx" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="wars-tp-cons-max" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="wars-tp-prof-0001" name="Warsphinx" hidden="false" targetId="wars-phin-prof-0001" type="profile"/>
+            <infoLink id="wars-tp-dead-0002" name="Undead" hidden="false" targetId="97a4-d2a9-5b16-f0c3" type="rule"/>
+            <infoLink id="wars-tp-cons-0003" name="Construct" hidden="false" targetId="149b-a988-a985-bb71" type="rule"/>
+            <infoLink id="wars-tp-lrgt-0004" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+            <infoLink id="wars-tp-terr-0005" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
+            <infoLink id="wars-tp-imph-0006" name="Impact Hits (1D3)" hidden="false" targetId="wars-impa-hits-0001" type="rule"/>
+            <infoLink id="wars-tp-scha-0007" name="Sphinx and Character" hidden="false" targetId="wars-sphx-char-0001" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="230.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>

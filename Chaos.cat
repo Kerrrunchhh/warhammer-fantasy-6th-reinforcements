@@ -2556,6 +2556,16 @@
               </costs>
             </entryLink>
             <entryLink id="loc-palq-nrgl-0001" name="Palanquin of Nurgle" hidden="false" collective="false" import="true" targetId="palq-of-nu-rgl-0001" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="loc-palq-cmax-0001" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9d4e-2569-e41a-32ae" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="loc-palq-cmax-0001" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
               </costs>
@@ -3925,6 +3935,16 @@
               </costs>
             </entryLink>
             <entryLink id="exc-palq-nrgl-0001" name="Palanquin of Nurgle" hidden="false" collective="false" import="true" targetId="palq-of-nu-rgl-0001" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="exc-palq-cmax-0001" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bd6c-b9b1-03f8-273d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="exc-palq-cmax-0001" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
               </costs>
@@ -4338,6 +4358,21 @@
               </costs>
             </entryLink>
             <entryLink id="f12c-0e19-d66e-7428" name="Chaos Chariot" hidden="false" collective="false" import="true" targetId="67d3-8378-745d-e025" type="selectionEntry"/>
+            <entryLink id="asc-palq-nrgl-0001" name="Palanquin of Nurgle" hidden="false" collective="false" import="true" targetId="palq-of-nu-rgl-0001" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="asc-palq-cmax-0001" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bd6c-b9b1-03f8-273d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asc-palq-cmax-0001" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4493,6 +4528,21 @@
             </entryLink>
             <entryLink id="0238-0307-a73b-3fb5" name="Chaos Chariot" hidden="false" collective="false" import="true" targetId="67d3-8378-745d-e025" type="selectionEntry"/>
             <entryLink id="0438-ed42-c24b-0ab2" name="Steed of Slaanesh" hidden="false" collective="false" import="true" targetId="404b-4847-c51e-44d7" type="selectionEntry"/>
+            <entryLink id="sor-palq-nrgl-0001" name="Palanquin of Nurgle" hidden="false" collective="false" import="true" targetId="palq-of-nu-rgl-0001" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="sor-palq-cmax-0001" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bd6c-b9b1-03f8-273d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sor-palq-cmax-0001" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7c2b-6b87-55bf-35e1" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="635e-6193-e402-df4c">
@@ -6186,7 +6236,14 @@
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="dher-moun-palq-0001" name="Palanquin of Nurgle" hidden="false" collective="false" import="true" targetId="palq-of-nu-rgl-0001" type="selectionEntry">
+                <entryLink id="dher-moun-palq-0001" name="Palanquin of Nurgle" hidden="true" collective="false" import="true" targetId="palq-of-nu-rgl-0001" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de30-bd00-67a7-5a25" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
                   </costs>
