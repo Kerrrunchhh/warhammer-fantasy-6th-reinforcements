@@ -6251,7 +6251,14 @@
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="dher-moun-jugg-0001" name="Juggernaut of Khorne" hidden="false" collective="false" import="true" targetId="ba34-87a0-8cd2-c77d" type="selectionEntry">
+                <entryLink id="dher-moun-jugg-0001" name="Juggernaut of Khorne" hidden="true" collective="false" import="true" targetId="ba34-87a0-8cd2-c77d" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1e5a-e1dc-3591-46bc" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
                   </costs>
@@ -6268,14 +6275,52 @@
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="dher-moun-disc-0001" name="Disc of Tzeentch" hidden="false" collective="false" import="true" targetId="c19f-53b8-a24b-df46" type="selectionEntry">
+                <entryLink id="dher-moun-disc-0001" name="Disc of Tzeentch" hidden="true" collective="false" import="true" targetId="c19f-53b8-a24b-df46" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9f21-dc73-dcc0-cb19" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="dher-moun-fien-0001" name="Fiend of Slaanesh" hidden="false" collective="false" import="true" targetId="fien-d0sl-mnt0-0001" type="selectionEntry">
+                <entryLink id="dher-moun-bcht-0001" name="Burning Chariot of Tzeentch" hidden="true" collective="false" import="true" targetId="bcht-zeet-0001-0001" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9f21-dc73-dcc0-cb19" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="dher-moun-fien-0001" name="Fiend of Slaanesh" hidden="true" collective="false" import="true" targetId="fien-d0sl-mnt0-0001" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9333-d169-d123-1353" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <costs>
                     <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="dher-moun-csla-0001" name="Chariot of Slaanesh" hidden="true" collective="false" import="true" targetId="csla-ansh-unit-0001" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9333-d169-d123-1353" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
