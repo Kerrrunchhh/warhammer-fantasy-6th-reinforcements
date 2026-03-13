@@ -2239,6 +2239,13 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </entryLink>
             <entryLink id="4e98-0bed-d453-0822" name="Winged Nightmare" hidden="false" collective="false" import="true" targetId="70f3-c286-d1ac-5942" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30ba-e15f-9acd-7663" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
               </costs>
@@ -2545,7 +2552,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="536c-a7c7-bb40-eb28" name="Mounts " hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="536c-a7c7-bb40-eb28" name="Mounts " hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ad-a422-605d-2c42" type="max"/>
                     <constraint field="selections" scope="bf30-4ff0-a4d8-3909" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="15bc-3e1e-9430-98f8" type="max"/>
@@ -2641,7 +2648,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="77ed-4065-f689-a5fa" name="Mounts " hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="77ed-4065-f689-a5fa" name="Mounts " hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7145-d379-1e74-445d" type="max"/>
                     <constraint field="selections" scope="bf30-4ff0-a4d8-3909" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e0a9-390e-b931-2de3" type="max"/>
@@ -2835,7 +2842,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="0f51-90a6-8871-f499" name="Mounts " hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="0f51-90a6-8871-f499" name="Mounts " hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e6c-75c2-98f1-ee6b" type="max"/>
                     <constraint field="selections" scope="bf30-4ff0-a4d8-3909" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6753-a69e-4550-a4c4" type="max"/>
@@ -2962,7 +2969,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     <entryLink id="b6ba-f623-29f4-be81" name="Magic Armour" hidden="false" collective="false" import="true" targetId="03a2-e74a-14e0-cb24" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="3cf8-610e-a411-a027" name="Mounts " hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="3cf8-610e-a411-a027" name="Mounts " hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0293-4f81-39b3-07ed" type="max"/>
                     <constraint field="selections" scope="bf30-4ff0-a4d8-3909" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="249a-91f6-91ae-8d73" type="max"/>
@@ -3006,6 +3013,50 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vthr-moun-grp0-0001" name="Mounts " hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="vthr-moun-con0-0001" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c14f-1bd4-3d59-fc4e" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-moun-con0-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="vthr-nwbd-mnt0-0001" name="Nightmare with Barding" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vthr-nwbd-con0-0001" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="vthr-nwbd-inf0-0001" name="Nightmare" hidden="false" targetId="feac-c0a8-0243-181f" type="profile"/>
+                <infoLink id="vthr-nwbd-inf0-0002" name="Barding" hidden="false" targetId="25e4-8f3a-a1a8-a7b6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="vthr-nmar-mnt0-0001" name="Nightmare" hidden="false" collective="false" import="true" targetId="1c56-48e6-7c01-5ae9" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="vthr-wing-0-mn-0001" name="Winged Nightmare" hidden="false" collective="false" import="true" targetId="70f3-c286-d1ac-5942" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
