@@ -1287,6 +1287,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="necr-wing-mnt0-0001" name="Winged Nightmare" hidden="false" collective="false" import="true" targetId="70f3-c286-d1ac-5942" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2563,6 +2572,13 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
                       </costs>
                     </entryLink>
+                    <entryLink id="vthr-wing-1-mn-0001" name="Winged Nightmare" hidden="false" collective="false" import="true" targetId="70f3-c286-d1ac-5942" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2650,6 +2666,13 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     <entryLink id="b26e-9340-a99c-f86e" name="Nightmare" hidden="false" collective="false" import="true" targetId="1c56-48e6-7c01-5ae9" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="vthr-wing-2-mn-0001" name="Winged Nightmare" hidden="false" collective="false" import="true" targetId="70f3-c286-d1ac-5942" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -2839,6 +2862,13 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
                       </costs>
                     </entryLink>
+                    <entryLink id="vthr-wing-3-mn-0001" name="Winged Nightmare" hidden="false" collective="false" import="true" targetId="70f3-c286-d1ac-5942" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2957,6 +2987,13 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     <entryLink id="dbc3-9e44-f615-e9ba" name="Nightmare" hidden="false" collective="false" import="true" targetId="1c56-48e6-7c01-5ae9" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="vthr-wing-4-mn-0001" name="Winged Nightmare" hidden="false" collective="false" import="true" targetId="70f3-c286-d1ac-5942" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="175.0"/>
+                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
