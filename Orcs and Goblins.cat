@@ -1453,6 +1453,7 @@
               </constraints>
               <infoLinks>
                 <infoLink id="ngwb-arch-ilnk-0001" name="Mounted" hidden="false" targetId="ong-arch-mntd-0001" type="rule"/>
+                <infoLink id="ngwb-arch-ilnk-0002" name="Arachnarok Spider" hidden="false" targetId="arch-prof-spid-0001" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0"/>
@@ -1676,6 +1677,7 @@
               </constraints>
               <infoLinks>
                 <infoLink id="nggs-arch-ilnk-0001" name="Mounted" hidden="false" targetId="ong-arch-mntd-0001" type="rule"/>
+                <infoLink id="nggs-arch-ilnk-0002" name="Arachnarok Spider" hidden="false" targetId="arch-prof-spid-0001" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0"/>
@@ -2866,6 +2868,7 @@
               </constraints>
               <infoLinks>
                 <infoLink id="ngbb-arch-ilnk-0001" name="Mounted" hidden="false" targetId="ong-arch-mntd-0001" type="rule"/>
+                <infoLink id="ngbb-arch-ilnk-0002" name="Arachnarok Spider" hidden="false" targetId="arch-prof-spid-0001" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0"/>
@@ -3124,6 +3127,7 @@
               </constraints>
               <infoLinks>
                 <infoLink id="ngsh-arch-ilnk-0001" name="Mounted" hidden="false" targetId="ong-arch-mntd-0001" type="rule"/>
+                <infoLink id="ngsh-arch-ilnk-0002" name="Arachnarok Spider" hidden="false" targetId="arch-prof-spid-0001" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0"/>
