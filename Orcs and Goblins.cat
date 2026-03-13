@@ -1442,6 +1442,26 @@
             <entryLink id="e012-1bf9-0fa1-40c1" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true" targetId="7883-3006-7a0c-f13b" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="ngwb-moun-grp0-0001" name="Mounts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngwb-moun-cmax-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ngwb-arch-mnt0-0001" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngwb-arch-cmax-0001" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ngwb-arch-ilnk-0001" name="Mounted" hidden="false" targetId="ong-arch-mntd-0001" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1d69-5704-7e5e-86e2" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
@@ -1644,6 +1664,26 @@
             <entryLink id="ed6f-d15b-1aa7-b492" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true" targetId="7883-3006-7a0c-f13b" type="selectionEntryGroup"/>
             <entryLink id="243a-a2ad-15c5-2819" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2eab-0673-0cb1-a5ea" type="selectionEntryGroup"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="nggs-moun-grp0-0001" name="Mounts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="nggs-moun-cmax-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="nggs-arch-mnt0-0001" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="nggs-arch-cmax-0001" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="nggs-arch-ilnk-0001" name="Mounted" hidden="false" targetId="ong-arch-mntd-0001" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="237a-32b9-75ed-79b5" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="63f5-d9c3-b179-6980">
           <constraints>
@@ -2815,6 +2855,26 @@
             <entryLink id="4534-4a9a-3081-a276" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true" targetId="7883-3006-7a0c-f13b" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="ngbb-moun-grp0-0001" name="Mounts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngbb-moun-cmax-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ngbb-arch-mnt0-0001" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngbb-arch-cmax-0001" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ngbb-arch-ilnk-0001" name="Mounted" hidden="false" targetId="ong-arch-mntd-0001" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f124-7342-d91e-07fa" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="e9ad-f1ce-aebf-6d23" type="selectionEntry">
@@ -3049,6 +3109,26 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2.0"/>
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ngsh-moun-grp0-0001" name="Mounts" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngsh-moun-cmax-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ngsh-arch-mnt0-0001" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngsh-arch-cmax-0001" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ngsh-arch-ilnk-0001" name="Mounted" hidden="false" targetId="ong-arch-mntd-0001" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7995,7 +8075,7 @@ The Gaze of Mork is a magic missile with a range of up to 24&quot;. If successfu
       <description>One of the Arachnarok&apos;s attacks (best marked with a different coloured die) causes D6 Wounds. It is also Poisoned.</description>
     </rule>
     <rule id="ong-arch-mntd-0001" name="Mounted" hidden="false">
-      <description>An Arachnarok may serve as the mount of a Warboss or a Great Shaman. The character does not replace any of the Goblins already on the Arachnarok. A character riding an Arachnarok is treated like any other model mounted on a monstrous mount, except that the Arachnarok grants the character a 2+ Armour Save, which may not be improved in any way.</description>
+      <description>An Arachnarok may serve as the mount of a Nightgoblin Great Shaman, Nightgoblin Warboss, Nightgoblin Shaman and Nightgoblin Bigboss. The character does not replace any of the Goblins already on the Arachnarok. A character riding an Arachnarok is treated like any other model mounted on a monstrous mount, except that the Arachnarok grants the character a 2+ Armour Save, which may not be improved in any way.</description>
     </rule>
     <rule id="ong-arch-howd-0001" name="Howdah" hidden="false">
       <description>Thanks to the platform, the Goblins have 360° line of sight. They are armed with short bows that fire poisoned arrows. The Arachnarok counts as a gigantic spider ridden (more or less) by Goblins. In close combat, all attacks must be directed against the Arachnarok (or against the character, if present); the Goblins merely provide additional attacks.</description>
