@@ -2570,6 +2570,11 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
               </costs>
             </entryLink>
+            <entryLink id="loc-wshp-mnt0-0001" name="Chaos Warshrine" hidden="false" collective="false" import="true" targetId="wshp-rine-0001-0001" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3949,6 +3954,11 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
               </costs>
             </entryLink>
+            <entryLink id="exc-wshp-mnt0-0001" name="Chaos Warshrine" hidden="false" collective="false" import="true" targetId="wshp-rine-0001-0001" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4373,6 +4383,11 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
               </costs>
             </entryLink>
+            <entryLink id="asc-wshp-mnt0-0001" name="Chaos Warshrine" hidden="false" collective="false" import="true" targetId="wshp-rine-0001-0001" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4541,6 +4556,11 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="sor-wshp-mnt0-0001" name="Chaos Warshrine" hidden="false" collective="false" import="true" targetId="wshp-rine-0001-0001" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
               </costs>
             </entryLink>
           </entryLinks>
