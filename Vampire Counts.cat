@@ -1461,7 +1461,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="320d-0a7f-2b51-aafd" name="Weapons for Carstein and Blooddragons" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="320d-0a7f-2b51-aafd" name="Weapons for Carstein and Blooddragons" hidden="true" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="adf2-06fe-089e-0c77" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -1706,7 +1706,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="8f76-2754-c82d-0798" name="Weapons for Carstein and Blooddragons" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="8f76-2754-c82d-0798" name="Weapons for Carstein and Blooddragons" hidden="true" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="4fcd-1fe0-d936-7dcf" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -1877,7 +1877,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntryGroup>
         <selectionEntryGroup id="vlrd-moun-grp0-0001" name="Mounts " hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="vlrd-moun-con0-0001" value="0.0">
+            <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef7a-5896-8856-076b" type="greaterThan"/>
               </conditions>
@@ -1919,6 +1919,81 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vlrd-weap-grp0-0001" name="Weapons for Carstein and Blooddragons" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff24-ca11-afd5-865b" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4cae-a20e-8374-b6cb" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="vlrd-gwpn-mnt0-0001" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-gwpn-con0-0001" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="vlrd-gwpn-inf0-0001" name="Great Weapon" hidden="false" targetId="97d4-ed3b-5f76-5a23" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="vlrd-ahwp-mnt0-0001" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-ahwp-con0-0001" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="vlrd-ahwp-inf0-0001" name="Additional Hand weapon" hidden="false" targetId="72aa-da68-2dae-4ab6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="vlrd-lanc-mnt0-0001" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-lanc-con0-0001" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="vlrd-lanc-inf0-0001" name="Lance" hidden="false" targetId="a15a-0123-6693-7a50" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="vlrd-shld-mnt0-0001" name="Shield (Blood dragons only)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="vlrd-shld-con0-0001" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4cae-a20e-8374-b6cb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vlrd-shld-con0-0001" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="vlrd-shld-inf0-0001" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="b8ff-7e47-2614-1ecd" name="Wizard Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="42d9-cebe-18d5-cdbd">
           <constraints>
@@ -3061,7 +3136,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntryGroup>
         <selectionEntryGroup id="vthr-moun-grp0-0001" name="Mounts " hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="vthr-moun-con0-0001" value="0.0">
+            <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c14f-1bd4-3d59-fc4e" type="greaterThan"/>
               </conditions>
