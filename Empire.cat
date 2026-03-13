@@ -2205,6 +2205,11 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
               </costs>
             </entryLink>
+            <entryLink id="wp-alts-mnt0-0001" name="Altar of Sigmar" hidden="false" collective="false" import="true" targetId="alts-igma-r000-0001" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
