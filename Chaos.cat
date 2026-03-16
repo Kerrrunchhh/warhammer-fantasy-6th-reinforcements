@@ -5927,7 +5927,7 @@
       <infoLinks>
         <infoLink id="muta-terr-0001-0001" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
         <infoLink id="muta-larg-0001-0001" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
-        <infoLink id="muta-rege-0001-0001" name="Regeneration (5+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
+        <infoLink id="muta-rege-0001-0001" name="Regeneration (4+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
         <infoLink id="muta-muta-info-0001" name="Mutate" hidden="false" targetId="muta-muta-te00-0001" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -7001,7 +7001,7 @@
     <selectionEntry id="skin-wolf-0001-0001" name="Skinwolves" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="skwv-fear-0001-0001" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
-        <infoLink id="skwv-rege-0001-0001" name="Regeneration (5+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
+        <infoLink id="skwv-rege-0001-0001" name="Regeneration (4+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
         <infoLink id="skwv-fren-0001-0001" name="Frenzy" hidden="false" targetId="ab5d-dda1-bffc-a027" type="rule"/>
         <infoLink id="skwv-mark-info-0001" name="Mark Selection" hidden="false" targetId="skwv-mark-rule-0001" type="rule"/>
       </infoLinks>

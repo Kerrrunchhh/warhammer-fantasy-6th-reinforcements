@@ -1747,7 +1747,7 @@
       <infoLinks>
         <infoLink id="broo-dhor-terr-0001" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
         <infoLink id="broo-dhor-ltgt-0001" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
-        <infoLink id="broo-dhor-rege-0001" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
+        <infoLink id="broo-dhor-rege-0001" name="Regeneration (4+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
         <infoLink id="broo-dhor-pois-0001" name="Poisoned Attacks" hidden="false" targetId="2738-27d5-f4af-4722" type="rule"/>
       </infoLinks>
       <categoryLinks>

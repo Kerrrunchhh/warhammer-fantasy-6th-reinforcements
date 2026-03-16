@@ -3939,7 +3939,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       <infoLinks>
         <infoLink id="crpt-horr-undd-0001" name="Undead" hidden="false" targetId="vamc-unde-ad00-0001" type="rule"/>
         <infoLink id="crpt-horr-pois-0001" name="Poisoned Attacks" hidden="false" targetId="2738-27d5-f4af-4722" type="rule"/>
-        <infoLink id="crpt-horr-rege-0001" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
+        <infoLink id="crpt-horr-rege-0001" name="Regeneration (4+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="crpt-horr-cat0-0001" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -3990,7 +3990,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </profiles>
       <infoLinks>
         <infoLink id="vrgh-ulf0-undd-0001" name="Undead" hidden="false" targetId="vamc-unde-ad00-0001" type="rule"/>
-        <infoLink id="vrgh-ulf0-rege-0001" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
+        <infoLink id="vrgh-ulf0-rege-0001" name="Regeneration (4+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
         <infoLink id="vrgh-ulf0-hatr-0001" name="Hatred" hidden="false" targetId="1e6c-d634-a65c-78eb" type="rule"/>
         <infoLink id="vrgh-ulf0-mbl0-0001" name="Mobile" hidden="false" targetId="vamc-varg-mbl0-0001" type="rule"/>
         <infoLink id="vrgh-ulf0-mnst-0001" name="Monster" hidden="false" targetId="vamc-varg-mnst-0001" type="rule"/>
