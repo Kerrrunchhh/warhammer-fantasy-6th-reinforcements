@@ -233,6 +233,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="nght-gob0-anim-0001" name="Animosity" hidden="false" targetId="23f9-c5d1-7c15-0c4c" type="rule"/>
+        <infoLink id="nght-gob0-fear-0001" name="Fear Elves" hidden="false" targetId="b9cb-9cdd-44c3-ba52" type="rule"/>
+        <infoLink id="nght-gob0-hate-0001" name="Hate Dwarfs" hidden="false" targetId="9d06-d305-182a-2eb9" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8348-331a-5049-1c2f" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
