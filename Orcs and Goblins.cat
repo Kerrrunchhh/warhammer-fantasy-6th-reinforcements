@@ -395,7 +395,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="57b1-9345-c6a2-bf52" name="Ignore Greenskin Panic: " hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
+        <infoLink id="57b1-9345-c6a2-bf52" name="Ignore Greenskin Panic" hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
         <infoLink id="e3ee-7691-6fc2-0926" name="Choppa" hidden="false" targetId="ab83-3475-b1c7-aafa" type="rule"/>
         <infoLink id="5712-8ce0-576b-8256" name="Quell Animosity" hidden="false" targetId="0f2a-c100-8eb9-7490" type="rule"/>
       </infoLinks>
@@ -1742,7 +1742,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ae44-beaa-aa93-89bb" name="Ignore Greenskin Panic: " hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
+        <infoLink id="ae44-beaa-aa93-89bb" name="Ignore Greenskin Panic" hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
         <infoLink id="5d87-b81e-f15f-1feb" name="Choppa" hidden="false" targetId="ab83-3475-b1c7-aafa" type="rule"/>
         <infoLink id="76c6-b97a-cc37-c68e" name="Quell Animosity" hidden="false" targetId="0f2a-c100-8eb9-7490" type="rule"/>
       </infoLinks>
@@ -1966,7 +1966,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="997e-fd3c-d01d-9b43" name="Ignore Greenskin Panic: " hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
+        <infoLink id="997e-fd3c-d01d-9b43" name="Ignore Greenskin Panic" hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
         <infoLink id="86e0-439f-4755-4207" name="Choppa" hidden="false" targetId="ab83-3475-b1c7-aafa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2173,7 +2173,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7564-1510-f66c-9a8d" name="Ignore Greenskin Panic: " hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
+        <infoLink id="7564-1510-f66c-9a8d" name="Ignore Greenskin Panic" hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
         <infoLink id="4659-535a-1ebd-e50d" name="Choppa" hidden="false" targetId="ab83-3475-b1c7-aafa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3974,7 +3974,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="dcd4-bc87-a38b-ca0c" name="Quell Animosity" hidden="false" targetId="0f2a-c100-8eb9-7490" type="rule"/>
-        <infoLink id="5666-bc71-4252-ffd9" name="Ignore Greenskin Panic: " hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
+        <infoLink id="5666-bc71-4252-ffd9" name="Ignore Greenskin Panic" hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
         <infoLink id="e66c-d8ce-bd07-d26a" name="Choppa" hidden="false" targetId="ab83-3475-b1c7-aafa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -4837,7 +4837,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="5551-a55f-a547-a856" name="Ignore Greenskin Panic: " hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
+        <infoLink id="5551-a55f-a547-a856" name="Ignore Greenskin Panic" hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
         <infoLink id="9406-7d10-252e-7517" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
         <infoLink id="f244-06d9-3e72-b8ae" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
         <infoLink id="4c5e-803e-5eb8-811c" name="Move (Giants)" hidden="false" targetId="cf9d-173b-a26c-5142" type="rule"/>
@@ -7745,7 +7745,7 @@
     <rule id="f457-297e-425b-75d4" name="Ignore Goblin Panic" publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
       <description>Orcs expect the smaller greenskins to run awayy and it doesn&apos;t really surprise them when they do. The sight of fleeing Goblins and Snotlings simply reminds the bigger and bolder Orcs why they are best. Consequently when a Goblin unit. Snotling Swarm or Snotling Pump Wagon is destroyed, breaks or flees pat. Orc units do not need to test for panic. See the Viarhammer rulebook. pages 80-81</description>
     </rule>
-    <rule id="47bc-b420-0136-87a8" name="Ignore Greenskin Panic: " publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
+    <rule id="47bc-b420-0136-87a8" name="Ignore Greenskin Panic" publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
       <description>Black Orcs and Giants expect normal Orcs and Goblins to run away and would be disappointed if they didn&apos;t . Consequendy, when an Orc or Goblin unit (any type), a Snotling Swarm or Snotling Pump Wagon is destroyed. breaks or flees past. Black Orc units and Giants do not need to test for panic. See the Wuhammer rulebook for the complete Panic rules, pages 80-81</description>
     </rule>
     <rule id="ab83-3475-b1c7-aafa" name="Choppa" publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
