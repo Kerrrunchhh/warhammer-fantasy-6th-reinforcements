@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="84d2-86cf-1048-402b" name="Tomb Kings" revision="6" battleScribeVersion="2.03" authorName="Ergo Fargo and Bryce Rutledge" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="84d2-86cf-1048-402b" name="Tomb Kings" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele and Bryce Rutledge" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="04f9-cede-fdb3-1e6c" name="Tomb Kings"/>
     <publication id="024c-2a27-ea11-a5e8" name="Chronicles 2004"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ddd-ff5a-8838-45fc" name="High Elf" revision="5" battleScribeVersion="2.03" authorName="Ergo Fargo" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ddd-ff5a-8838-45fc" name="High Elf" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Any errors or suggestions post in the Warhammer Fantasy 6th edition facebook group. Else mail me.</readme>
   <publications>
     <publication id="a40f-696a-94e8-ecfb" name="High Elf Army book" shortName="HE-AB"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="1" battleScribeVersion="2.03" authorName="Ergo Fargo, Jakub Kindl" authorContact="ergofargo@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="1" battleScribeVersion="2.03" authorName="Markus Döbele, Jakub Kindl" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>I dedicate this list to Sam Terris, Ogre general 
 Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise leave it alone. 
 </readme>
