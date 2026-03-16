@@ -1422,6 +1422,11 @@ Frenzied troops must pursue broken units.</description>
 Troops that are able to can regenerate damage if not too badly hurt. Work this out as follows. When attacked in close combat, shot at, or the target of spells, calculate the number of wounds suffered as normal. Once all attacks for the phase have been made, the creature may try to regenerate. Roll a D6 for each wound suffered during that phase. If a 4 or more is rolled, that wound has regenerated. You may only try to regenerate any single wound once. Any regenerated wounds are reinstated, and models removed as casualties are replaced if enough wounds are regenerated.
 The results of combat, panic, etc are worked out after creatures have regenerated (the number of wounds inflicted does not include any that arc regenerated).</description>
     </rule>
+    <rule id="gst0-rege-5p00-0001" name="Regeneration (5+)" hidden="false">
+      <description>A creature with this ability may try to regenerate any wound on a 1d6 roll of 5+. Only one attempt may be made on each wound to regenerate it.
+When attacked in close combat, shot at, or the target of spells, calculate the number of wounds suffered as normal. Once all attacks for the phase have been made, the creature may try to regenerate. Roll a D6 for each wound suffered during that phase. If a 5 or more is rolled, that wound has regenerated. You may only try to regenerate any single wound once. Any regenerated wounds are reinstated, and models removed as casualties are replaced if enough wounds are regenerated.
+The results of combat, panic, etc are worked out after creatures have regenerated (the number of wounds inflicted does not include any that are regenerated).</description>
+    </rule>
     <rule id="8ae3-9724-980f-7308" name="Unbreakable" hidden="false">
       <description>Some creatures are utterly fearless and will never give 
 up a battle, no matter how hopeless the situation 
