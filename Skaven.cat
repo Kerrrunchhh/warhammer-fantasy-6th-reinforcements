@@ -834,6 +834,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fc42-956d-d586-3eb2" name="Rat Swarm" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="rats-warm-prof-0001" name="Rat Swarms" hidden="false" targetId="5355-e4ec-c94b-d4d4" type="profile"/>
+          </infoLinks>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad62-f671-9f04-4082" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="922a-2ddf-a85d-6764" type="max"/>
