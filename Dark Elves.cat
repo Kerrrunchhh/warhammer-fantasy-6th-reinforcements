@@ -3169,6 +3169,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f74-3185-9cb1-fc15" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a149-d32f-293b-ebc4" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="blck-amul-link-0001" name="Black Amulet" hidden="false" targetId="blck-amul-rule-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3180,6 +3183,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42d6-9751-49ad-4a90" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d6-17c2-f9c6-6956" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="dead-mask-link-0001" name="Deathmask" hidden="false" targetId="dead-mask-terr-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3191,6 +3197,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ac-289b-6b8f-b093" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad43-f98e-51e4-a126" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="crwn-iron-link-0001" name="Crown of Black Iron" hidden="false" targetId="crwn-iron-rule-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3202,6 +3211,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9864-b31d-745a-b3d0" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc0-beb4-9da4-d52d" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ring-hotek-link-0001" name="Ring of Hotek" hidden="false" targetId="ring-hotek-rule-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3630,6 +3642,18 @@ Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand
     </rule>
     <rule id="khar-abys-howl-0001" name="Abyssal Howl" hidden="false">
       <description>Enemy units that are in base contact with one or more Kharibdyss suffer -1 Leadership (to a minimum of 2).</description>
+    </rule>
+    <rule id="blck-amul-rule-0001" name="Black Amulet" hidden="false">
+      <description>The wearer has a 5+ Ward save against close combat hits. If the wearer passes his Ward save then the attacking model suffers 1 wound instead. There is no save against such a rebounded wound, even from Wards.</description>
+    </rule>
+    <rule id="crwn-iron-rule-0001" name="Crown of Black Iron" hidden="false">
+      <description>The character has a 5+ Ward save. In addition, the wearer is completely immune to the effects of Light Magic and High Magic spells. Note that this is not a Dispel and thus other models (excluding the character&apos;s mount) may be affected by High Magic and Light Magic.</description>
+    </rule>
+    <rule id="ring-hotek-rule-0001" name="Ring of Hotek" hidden="false">
+      <description>Any magic user (friend or foe) attempting to cast a spell within 6&quot; of the wearer will miscast on the roll of any double. If they roll a double 6 they cast the spell (with Irresistible Force) and then suffer a Miscast.</description>
+    </rule>
+    <rule id="dead-mask-terr-0001" name="Deathmask" hidden="false">
+      <description>The wearer causes Terror.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
