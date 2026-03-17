@@ -1781,7 +1781,7 @@
       <infoLinks>
         <infoLink id="hpab-omin-terr-0001" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
         <infoLink id="hpab-omin-ltgt-0001" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
-        <infoLink id="hpab-omin-rege-0001" name="Regeneration (4+)" hidden="false" targetId="hpab-rege-4000-0001" type="rule"/>
+        <infoLink id="hpab-omin-rege-0001" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="hpab-omin-cat0-0001" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
@@ -3153,9 +3153,7 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
     <rule id="verm-daem-aura-0001" name="Daemonic Aura" hidden="false">
       <description>The Vermin Lord has a 5+ Ward Save against all non-magical attacks.</description>
     </rule>
-    <rule id="hpab-rege-4000-0001" name="Regeneration (4+)" hidden="false">
-      <description>At the start of each Skaven turn roll a D6 for each wound the Hell Pit Abomination has suffered. On a 4+ that wound is healed. This replaces the standard Regeneration special rule.</description>
-    </rule>
+
   </sharedRules>
   <sharedProfiles>
     <profile id="76a0-6aa7-9c16-c99f" name="Warlord" publicationId="f804-741f-2593-2dec" page="11" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
