@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="89dd-15b8-82d8-414d" name="RH Chaos Dwarfs" revision="1" battleScribeVersion="2.03" authorName="Jakub Kurcek and Markus Döbele" authorContact="jkurcek@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="89dd-15b8-82d8-414d" name="Chaos Dwarfs from Ravening Hordes" revision="1" battleScribeVersion="2.03" authorName="Jakub Kurcek and Markus Döbele" authorContact="jkurcek@gmail.com" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="756d-4758-8a13-1d8a" name="Ravening Hordes " shortName="RH" publicationDate=""/>
     <publication id="d22a-b2ad-8731-c6f7" name="Orc &amp; Goblins Army Book" shortName="O+G" publicationDate="2000"/>

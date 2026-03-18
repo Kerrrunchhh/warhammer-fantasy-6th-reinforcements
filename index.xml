@@ -4,8 +4,8 @@
     <ns0:dataIndexEntry filePath="Warhammer.Fantasy.Battle.6th.edition.with.Reinforcements.gstz" dataType="gamesystem" dataId="6d8e-38d9-3c69-feba" dataName="Warhammer Fantasy Battle 6th edition with Reinforcements" dataBattleScribeVersion="2.03" dataRevision="8" />
     <ns0:dataIndexEntry filePath="Dogs.of.War.catz" dataType="catalogue" dataId="6c35-2c41-ec5b-4854" dataName="Dogs of War" dataBattleScribeVersion="2.03" dataRevision="4" />
     <ns0:dataIndexEntry filePath="Tomb.Kings.catz" dataType="catalogue" dataId="84d2-86cf-1048-402b" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="6" />
-    <ns0:dataIndexEntry filePath="RH.Chaos.Dwarfs.catz" dataType="catalogue" dataId="89dd-15b8-82d8-414d" dataName="RH Chaos Dwarfs" dataBattleScribeVersion="2.03" dataRevision="1" />
-    <ns0:dataIndexEntry filePath="RH.Orcs.and.Goblins.catz" dataType="catalogue" dataId="639a-c473-422e-40d7" dataName="RH Orcs and Goblins" dataBattleScribeVersion="2.03" dataRevision="2" />
+    <ns0:dataIndexEntry filePath="RH.Chaos.Dwarfs.catz" dataType="catalogue" dataId="89dd-15b8-82d8-414d" dataName="Chaos Dwarfs from Ravening Hordes" dataBattleScribeVersion="2.03" dataRevision="1" />
+    <ns0:dataIndexEntry filePath="RH.Orcs.and.Goblins.catz" dataType="catalogue" dataId="639a-c473-422e-40d7" dataName="Orcs and Goblins from Ravening Hordes" dataBattleScribeVersion="2.03" dataRevision="2" />
     <ns0:dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="ef4e-a0d0-6423-46b3" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="4" />
     <ns0:dataIndexEntry filePath="Skaven.Clan.Skryre.catz" dataType="catalogue" dataId="d5e6-f7a8-b9c0-1234" dataName="Skaven Clan Skryre" dataBattleScribeVersion="2.03" dataRevision="1" />
     <ns0:dataIndexEntry filePath="Skaven.Clan.Eshin.catz" dataType="catalogue" dataId="c3e5-1a2b-9f4d-7e8c" dataName="Skaven Clan Eshin" dataBattleScribeVersion="2.03" dataRevision="2" />
