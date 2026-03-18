@@ -5,7 +5,7 @@
     <publication id="bcda-b53d-2fbc-be67" name="Storm of Chaos" />
   </publications>
   <selectionEntries>
-    <selectionEntry id="c65a-6a95-3fa5-a20d" name="Dark Elf Highborn" publicationId="d82e-5e6d-5df0-8ddd" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c65a-6a95-3fa5-a20d" name="Dark Elf Highborn" publicationId="20b9-0ee7-8f6f-8d28" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b38b-b68a-4e16-ad6c" name="Dark Elf Highborn" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -161,7 +161,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e6a-2352-b9d4-825b" type="max" />
               </constraints>
             </entryLink>
-            <entryLink id="24f5-0440-8e7b-d1c3" name="Dark Pegasus" publicationId="d82e-5e6d-5df0-8ddd" page="14" hidden="false" collective="false" import="true" targetId="e7e6-ab3c-b227-fb39" type="selectionEntry">
+            <entryLink id="24f5-0440-8e7b-d1c3" name="Dark Pegasus" publicationId="20b9-0ee7-8f6f-8d28" page="14" hidden="false" collective="false" import="true" targetId="e7e6-ab3c-b227-fb39" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e21-8b55-71d8-8a7a" type="max" />
               </constraints>
@@ -188,7 +188,7 @@
             <selectionEntry id="0144-c11d-a6c2-c534" name="Sea Dragon Cloak" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="205d-e740-daae-482d" type="max" />
-              <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="raid-sdc-hb-min1" type="min" /></constraints>
+              <constraint type="min" value="1" scope="parent" shared="true" id="raid-sdc1-hbor-min1" field="selections" /></constraints>
               <infoLinks>
                 <infoLink id="7819-1cd9-9e8e-d846" name="Sea Dragon Cloak" hidden="false" targetId="9d6b-0bd6-314d-9ccd" type="profile" />
               </infoLinks>
@@ -390,7 +390,7 @@
           <selectionEntries>
             <selectionEntry id="92e8-71bd-21b3-e6ab" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="6c84-3c16-98b3-8e17" value="0.0" />
+                <modifier type="set" field="9a15-d160-50b1-aebf" value="0.0" />
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0523-e404-b59e-50ce" type="max" />
@@ -598,7 +598,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="477b-9ab2-c0f5-c588" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true" />
+        <categoryLink id="477b-9ab2-c0f5-c588" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true" />
         <categoryLink id="e130-a5a6-0b65-a082" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false" />
       </categoryLinks>
       <selectionEntries>
@@ -673,7 +673,7 @@
             <selectionEntry id="d434-62cd-bf85-82fe" name="Sea Dragon Cloak" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b03-0263-5675-d8b1" type="max" />
-              <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="raid-sdc-nb-min1" type="min" /></constraints>
+              <constraint type="min" value="1" scope="parent" shared="true" id="raid-sdc1-nobl-min1" field="selections" /></constraints>
               <infoLinks>
                 <infoLink id="5828-2508-b167-ea5c" name="Sea Dragon Cloak" hidden="false" targetId="9d6b-0bd6-314d-9ccd" type="profile" />
               </infoLinks>
@@ -807,7 +807,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ad9-47e5-5ae8-025f" type="max" />
               </constraints>
             </entryLink>
-            <entryLink id="8c27-6c40-3aa8-5b80" name="Dark Pegasus" publicationId="d82e-5e6d-5df0-8ddd" page="14" hidden="false" collective="false" import="true" targetId="e7e6-ab3c-b227-fb39" type="selectionEntry">
+            <entryLink id="8c27-6c40-3aa8-5b80" name="Dark Pegasus" publicationId="20b9-0ee7-8f6f-8d28" page="14" hidden="false" collective="false" import="true" targetId="e7e6-ab3c-b227-fb39" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dae4-c8ee-3e8d-3aef" type="max" />
               </constraints>
@@ -1484,7 +1484,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a17e-d47e-7e97-4a4c" name="Shades" hidden="false" collective="false" import="true" type="unit">
-      <constraints><constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="raid-shad-max1-0001" type="max" /></constraints><profiles>
+      <profiles>
         <profile id="7c9c-8cac-abf6-7a99" name="Dark Elf basic" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <modifiers>
             <modifier type="set" field="name" value="Shades" />
@@ -1594,7 +1594,10 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
-    <constraints /></selectionEntry>
+      <constraints>
+        <constraint type="max" value="1" scope="roster" shared="true" id="raid-shad-max1-0001" field="selections" />
+      </constraints>
+    </selectionEntry>
     <selectionEntry id="27db-9203-dfa7-c48a" name="Witch Elves Of Kaine" hidden="true" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9725-2c1b-47ac-36e3" name="Frenzy" hidden="false" targetId="ab5d-dda1-bffc-a027" type="rule" />
@@ -2255,7 +2258,7 @@
         <infoLink id="1443-bd20-00db-43e2" name="Hate High Elves" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7b04-bdff-61f5-4acc" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
+        <categoryLink id="7b04-bdff-61f5-4acc" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fcae-5edc-279a-d5e7" name="Reaper Bolt Thrower" hidden="false" collective="false" import="true" type="model">
@@ -2337,22 +2340,22 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="sost-er00-0001-0001" name="Sisters of Slaughter" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="b507-5532-557f-78e0" name="Sisters of Slaughter" hidden="true" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="sost-info-hate-0001" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
-        <infoLink id="sost-info-skir-0002" name="Skirmisher" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule" />
-        <infoLink id="sost-info-danc-0003" name="Dance of Death" hidden="false" targetId="sost-danc-dead-0001" type="rule" />
+        <infoLink id="e7ce-fbd7-14eb-6f70" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
+        <infoLink id="0de2-7632-7a90-9dae" name="Skirmisher" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule" />
+        <infoLink id="928e-dd25-5fdf-716d" name="Dance of Death" hidden="false" targetId="dc09-3196-61a3-559e" type="rule" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="sost-cate-spec-0001" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
+        <categoryLink id="080f-17d1-493f-969e" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="sost-mode-base-0001" name="Sister of Slaughter" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="80c9-eedd-f064-848b" name="Sister of Slaughter" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sost-cons-min0-0001" type="min" />
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc8a-5b68-5f3f-6953" type="min" />
           </constraints>
           <profiles>
-            <profile id="sost-prof-base-0001" name="Sister of Slaughter" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+            <profile id="20b5-aabe-3354-74c5" name="Sister of Slaughter" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
               <characteristics>
                 <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
                 <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
@@ -2372,12 +2375,12 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="sost-mode-cham-0001" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="48e6-9bf6-0c11-e274" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sost-cons-cham-0001" type="max" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a319-5b90-c16a-d49d" type="max" />
           </constraints>
           <profiles>
-            <profile id="sost-prof-cham-0001" name="Champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+            <profile id="218f-08e7-90a5-8a1d" name="Champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
               <characteristics>
                 <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
                 <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
@@ -2397,9 +2400,9 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="sost-mode-musi-0001" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b862-5260-1de1-841f" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sost-cons-musi-0001" type="max" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f979-35c3-1bab-ca75" type="max" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0" />
@@ -2407,9 +2410,9 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="sost-mode-stan-0001" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="346b-2dc3-083d-eaaa" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sost-cons-stan-0001" type="max" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a498-2f91-7660-5f43" type="max" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
@@ -2419,23 +2422,23 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="doom-fire-warl-0001" name="Doomfire Warlocks" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="7d41-0d2f-c8f9-9e6f" name="Doomfire Warlocks" hidden="true" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="doom-info-hate-0001" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
-        <infoLink id="doom-info-fcav-0002" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule" />
-        <infoLink id="doom-info-ward-0003" name="Ward Save (6+)" hidden="false" targetId="doom-ward-save-0001" type="rule" />
-        <infoLink id="doom-info-magu-0004" name="Magical Unit" hidden="false" targetId="doom-magi-unit-0001" type="rule" />
+        <infoLink id="b33e-8cf0-f89f-be4f" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
+        <infoLink id="89a9-f877-4547-2d09" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule" />
+        <infoLink id="8646-ca0e-c764-0ac0" name="Ward Save (6+)" hidden="false" targetId="6056-008c-ed3d-d7a0" type="rule" />
+        <infoLink id="0575-6348-1d2a-9fba" name="Magical Unit" hidden="false" targetId="df31-06a6-42cf-377e" type="rule" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="doom-cate-spec-0001" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
+        <categoryLink id="b957-0737-f343-efd7" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="doom-mode-base-0001" name="Doomfire Warlock" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e957-2517-19be-fa41" name="Doomfire Warlock" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="doom-cons-min0-0001" type="min" />
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7db-2dab-550d-3dad" type="min" />
           </constraints>
           <profiles>
-            <profile id="doom-prof-ride-0001" name="Doomfire Warlock" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+            <profile id="3a1e-f7ea-eb7b-10e8" name="Doomfire Warlock" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
               <characteristics>
                 <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
                 <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
@@ -2448,7 +2451,7 @@
                 <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
               </characteristics>
             </profile>
-            <profile id="doom-prof-stee-0001" name="Dark Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+            <profile id="f983-db37-4c45-3d7d" name="Dark Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
               <characteristics>
                 <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">9</characteristic>
                 <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
@@ -2468,12 +2471,12 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="doom-mode-cham-0001" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cf03-98f5-587f-6803" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="doom-cons-cham-0001" type="max" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c50f-b981-9f88-0ce3" type="max" />
           </constraints>
           <profiles>
-            <profile id="doom-prof-cham-0001" name="Champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+            <profile id="153c-7031-15f2-9f5c" name="Champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
               <characteristics>
                 <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
                 <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
@@ -2495,27 +2498,27 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="medu-sa00-0001-0001" name="Medusa" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="0655-51f0-35f6-6c4c" name="Medusa" hidden="true" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="medu-cons-max0-0001" type="max" />
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4033-0cd1-4be8-298b" type="max" />
       </constraints>
       <infoLinks>
-        <infoLink id="medu-info-hate-0001" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
-        <infoLink id="medu-info-fear-0002" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule" />
-        <infoLink id="medu-info-pgaz-0003" name="Petrifying Gaze" hidden="false" targetId="medu-petr-gaze-0001" type="rule" />
-        <infoLink id="medu-info-soli-0004" name="Solitary" hidden="false" targetId="medu-soli-tary-0001" type="rule" />
+        <infoLink id="8c8a-4a67-3c2a-fad6" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
+        <infoLink id="c06a-16ca-d994-943b" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule" />
+        <infoLink id="0b72-be0f-b260-7932" name="Petrifying Gaze" hidden="false" targetId="59cb-22f5-6155-1f10" type="rule" />
+        <infoLink id="7af0-ce91-534b-ad84" name="Solitary" hidden="false" targetId="be2b-a792-4371-a5b3" type="rule" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="medu-cate-rare-0001" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
+        <categoryLink id="a71e-1122-65fd-695e" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="medu-mode-base-0001" name="Medusa" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c2e3-8722-e033-b87a" name="Medusa" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="medu-cons-mod-min" type="min" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="medu-cons-mod-max" type="max" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f0f-222d-6523-2c43" type="min" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11dd-af90-b65b-657e" type="max" />
           </constraints>
           <profiles>
-            <profile id="medu-prof-base-0001" name="Medusa" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+            <profile id="7045-4b25-d2b0-2cf6" name="Medusa" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
               <characteristics>
                 <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
                 <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
@@ -2535,10 +2538,10 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="medu-weap-halb-0001" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2bfd-6fee-8fdf-34cb" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="medu-cons-halb-min" type="min" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="medu-cons-halb-max" type="max" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b1f-af78-cd82-ae5f" type="min" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4860-822c-5cf7-d370" type="max" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2546,9 +2549,9 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="medu-weap-bow0-0001" name="Bow (replaces Halberd)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0038-5757-9377-becf" name="Bow (replaces Halberd)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="medu-cons-bow0-max" type="max" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e93b-ae51-fb16-20c0" type="max" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2558,30 +2561,30 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="khar-ibdy-s000-0001" name="Kharibdys" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="8184-c7c9-1655-c41a" name="Kharibdys" hidden="true" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="khar-cons-max0-0001" type="max" />
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3093-0ea2-9161-b001" type="max" />
       </constraints>
       <infoLinks>
-        <infoLink id="khar-info-hate-0001" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
-        <infoLink id="khar-info-terr-0002" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
-        <infoLink id="khar-info-aqua-0003" name="Aquatic" hidden="false" targetId="khar-aqua-tic0-0001" type="rule" />
-        <infoLink id="khar-info-pois-0004" name="Poisoned Attacks (Kharibdys)" hidden="false" targetId="2738-27d5-f4af-4722" type="rule" />
-        <infoLink id="khar-info-hand-0005" name="Handler" hidden="false" targetId="khar-hand-ler0-0001" type="rule" />
-        <infoLink id="khar-info-maw0-0006" name="Ravenous Maw" hidden="false" targetId="khar-rave-maw0-0001" type="rule" />
-        <infoLink id="khar-info-howl-0007" name="Abyssal Howl" hidden="false" targetId="khar-abys-howl-0001" type="rule" />
+        <infoLink id="a8cc-2475-6955-d097" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
+        <infoLink id="5608-c2a7-a8e3-6367" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
+        <infoLink id="d776-1259-0fc0-cabb" name="Aquatic" hidden="false" targetId="e38c-8b50-0154-c993" type="rule" />
+        <infoLink id="ce59-912b-6b42-87f4" name="Poisoned Attacks (Kharibdys)" hidden="false" targetId="2738-27d5-f4af-4722" type="rule" />
+        <infoLink id="d8c7-9db8-f720-5bbb" name="Handler" hidden="false" targetId="6a18-9fb6-3404-d4e0" type="rule" />
+        <infoLink id="4aa7-ad47-5139-2b4e" name="Ravenous Maw" hidden="false" targetId="1943-65b4-6861-6c59" type="rule" />
+        <infoLink id="2e3b-2465-1312-61d1" name="Abyssal Howl" hidden="false" targetId="fb74-4ece-bf95-e575" type="rule" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="khar-cate-rare-0001" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
+        <categoryLink id="758c-25f9-5f4c-b708" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="khar-mode-body-0001" name="Kharibdys" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0ada-999e-bd05-4b61" name="Kharibdys" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="khar-cons-bod-min" type="min" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="khar-cons-bod-max" type="max" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3acd-4be1-c744-ed71" type="min" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59bf-f1dc-c1f0-ce5a" type="max" />
           </constraints>
           <profiles>
-            <profile id="khar-prof-body-0001" name="Kharibdys" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+            <profile id="125a-3c59-bc6d-f9d9" name="Kharibdys" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
               <characteristics>
                 <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
                 <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
@@ -2601,13 +2604,13 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="khar-mode-hand-0001" name="Handlers" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2981-d525-ebfd-fe74" name="Handlers" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="khar-cons-han-min" type="min" />
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="khar-cons-han-max" type="max" />
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ecc-90fe-0bac-244c" type="min" />
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f74c-1ca3-7797-435a" type="max" />
           </constraints>
           <profiles>
-            <profile id="khar-prof-hand-0001" name="Handler" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+            <profile id="29d5-9eb9-b2f8-a673" name="Handler" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
               <characteristics>
                 <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
                 <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
@@ -2629,7 +2632,35 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-  <selectionEntry id="raid-dogs-of-war-0001" name="Dogs Of War" hidden="false" collective="false" import="true" type="unit"><categoryLinks><categoryLink id="raid-dogs-of-war-0002" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" /></categoryLinks><costs><cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" /><cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" /><cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" /></costs></selectionEntry></selectionEntries>
+    <selectionEntry id="raid-dogs-owar-0001" name="Dogs of War" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="raid-dogs-owar-0002" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="0" scope="roster" shared="true" id="raid-dogs-owar-0003" field="selections" />
+      </constraints>
+      <profiles>
+        <profile id="raid-dogs-owar-0004" name="Dogs of War" hidden="false" typeId="1716-3bb5-f625-5e55" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="3a7d-eb85-5c1c-d4ac">4</characteristic>
+            <characteristic name="WS" typeId="8a16-36c7-9c75-1c27">3</characteristic>
+            <characteristic name="BS" typeId="1a44-81d7-5c6f-3e75">3</characteristic>
+            <characteristic name="S" typeId="86eb-c14e-e8aa-7c38">3</characteristic>
+            <characteristic name="T" typeId="effa-18d0-16e4-b2e9">3</characteristic>
+            <characteristic name="W" typeId="1e70-e8b5-4b6a-a1a5">1</characteristic>
+            <characteristic name="I" typeId="3699-01f4-4a6e-2a8e">3</characteristic>
+            <characteristic name="A" typeId="47e7-0f49-bec8-1d7b">1</characteristic>
+            <characteristic name="Ld" typeId="f2ed-3018-eb7e-f12c">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="raid-dogs-owar-0005" name="Dogs of War" hidden="false">
+          <description>Dogs of War are mercenary units available to the Raiders of Naggaroth. Refer to the Dogs of War army book for available units and their rules.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="3a28-d926-6e38-b122" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -3037,7 +3068,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="0bf8-17d5-9c35-2fea" name="Draich of Dark Power" publicationId="bcda-b53d-2fbc-be67" page="86" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0bf8-17d5-9c35-2fea" name="Draich of Dark Power" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff27-84a7-2c43-3cde" type="max" />
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b7c0-98e5-2e96-309a" type="max" />
@@ -3051,7 +3082,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="c787-1488-cf50-a3aa" name="Blade of Spite" publicationId="bcda-b53d-2fbc-be67" page="86" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c787-1488-cf50-a3aa" name="Blade of Spite" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f48c-9e5b-97d3-5e9d" type="max" />
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bb7e-1aae-fa6a-8f71" type="max" />
@@ -3065,7 +3096,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="23a6-3173-f5ca-26ce" name="Heart-Stone of Darkness" publicationId="bcda-b53d-2fbc-be67" page="86" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="23a6-3173-f5ca-26ce" name="Heart-Stone of Darkness" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a17a-7aac-9849-014a" type="max" />
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9c47-50f9-b169-84c0" type="max" />
@@ -3079,7 +3110,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="5666-d8da-95cb-60b8" name="Wand of Kharaidon" publicationId="bcda-b53d-2fbc-be67" page="86" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5666-d8da-95cb-60b8" name="Wand of Kharaidon" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e44-6c8d-fae2-6075" type="max" />
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9e66-31ca-59b9-cb68" type="max" />
@@ -3093,7 +3124,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="c737-91a1-fb6e-314e" name="The Cloak of  Dark Souls" publicationId="bcda-b53d-2fbc-be67" page="86" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c737-91a1-fb6e-314e" name="The Cloak of  Dark Souls" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6227-4a0f-09d9-a8e6" type="max" />
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e419-148c-e7a7-8727" type="max" />
@@ -3170,7 +3201,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c74-45ec-5425-6c37" type="max" />
           </constraints>
           <infoLinks>
-            <infoLink id="blck-amul-link-0001" name="Black Amulet" hidden="false" targetId="blck-amul-rule-0001" type="rule" />
+            <infoLink id="5c64-90b7-1241-c2e6" name="Black Amulet" hidden="false" targetId="b2d5-1419-531b-80bb" type="rule" />
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0" />
@@ -3184,7 +3215,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8489-0640-bdcb-3937" type="max" />
           </constraints>
           <infoLinks>
-            <infoLink id="dead-mask-link-0001" name="Deathmask" hidden="false" targetId="dead-mask-terr-0001" type="rule" />
+            <infoLink id="e8b4-247a-1af3-7251" name="Deathmask" hidden="false" targetId="bdb0-0e2b-c7c0-b0d9" type="rule" />
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0" />
@@ -3198,7 +3229,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad0e-c90d-3cdc-a037" type="max" />
           </constraints>
           <infoLinks>
-            <infoLink id="crwn-iron-link-0001" name="Crown of Black Iron" hidden="false" targetId="crwn-iron-rule-0001" type="rule" />
+            <infoLink id="4ccb-5dab-b937-6b88" name="Crown of Black Iron" hidden="false" targetId="b918-4e12-80d6-2f7a" type="rule" />
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0" />
@@ -3212,7 +3243,7 @@
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8570-c5d0-1e92-fcb2" type="max" />
           </constraints>
           <infoLinks>
-            <infoLink id="ring-hotek-link-0001" name="Ring of Hotek" hidden="false" targetId="ring-hotek-rule-0001" type="rule" />
+            <infoLink id="4df4-a614-6e45-3e38" name="Ring of Hotek" hidden="false" targetId="e10e-3979-976f-f56d" type="rule" />
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0" />
@@ -3265,7 +3296,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="eb41-8625-d431-8826" name="Arcane Items" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="increment" field="b592-7117-e3eb-3c4c" value="1.0">
+        <modifier type="increment" field="bb40-3961-3617-75af" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false" />
           </repeats>
@@ -3509,10 +3540,10 @@ Spell still fails</characteristic>
     <rule id="dc1d-558b-8bdf-d49e" name="Hate High Elves" hidden="false">
       <description>Reroll missed hits on first round of combat.</description>
     </rule>
-    <rule id="102b-545f-1fcd-2452" name="Thick Skinned" publicationId="d82e-5e6d-5df0-8ddd" page="8" hidden="false">
+    <rule id="102b-545f-1fcd-2452" name="Thick Skinned" publicationId="20b9-0ee7-8f6f-8d28" page="8" hidden="false">
       <description>A cold one has scaly skin which acts like armour giving the rider a +2 Armour save for being mounted insread of normal +1</description>
     </rule>
-    <rule id="3cfb-55da-b19b-9dfb" name="Impale" publicationId="d82e-5e6d-5df0-8ddd" page="14" hidden="false">
+    <rule id="3cfb-55da-b19b-9dfb" name="Impale" publicationId="20b9-0ee7-8f6f-8d28" page="14" hidden="false">
       <description>A dark Pegasus uses its horn when charging giving a +1S on charge.</description>
     </rule>
     <rule id="f620-0e40-238c-3c85" name="Noxious Breath" hidden="false">
@@ -3531,48 +3562,48 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
     </rule>
     <rule id="97de-5f48-d5a8-9366" name="Beasts" hidden="false" />
     <rule id="a72d-333d-2ed1-05e5" name="Repeater Bolt Thrower" hidden="false" />
-    <rule id="02cc-9713-1c7e-144a" name="Hatred" publicationId="d82e-5e6d-5df0-8ddd" page="6" hidden="false">
+    <rule id="02cc-9713-1c7e-144a" name="Hatred" publicationId="20b9-0ee7-8f6f-8d28" page="6" hidden="false">
       <description>Hatred: Black Guard arc vicious killers and bate everybody and everything (see page 84-85 of the Warhammer rulebook for the rules for hatred). </description>
     </rule>
     <rule id="65eb-ff09-1a54-d068" name="Stubborn" hidden="false">
       <description>Raised from birth to protect the Witch King himself, Black Guard would rather die than give ground. Black Guard are stubborn (see page 85 of the Warhammer rulebook). 
 </description>
     </rule>
-    <rule id="8f91-2aba-9489-fbc1" name="Dance of Doom" publicationId="d82e-5e6d-5df0-8ddd" page="23" hidden="false">
+    <rule id="8f91-2aba-9489-fbc1" name="Dance of Doom" publicationId="20b9-0ee7-8f6f-8d28" page="23" hidden="false">
       <description>The model has a 5+ ward save</description>
     </rule>
-    <rule id="5e13-4ed2-9dc1-0e3b" name="Executioner's Axe" publicationId="d82e-5e6d-5df0-8ddd" page="18" hidden="false">
+    <rule id="5e13-4ed2-9dc1-0e3b" name="Executioner's Axe" publicationId="20b9-0ee7-8f6f-8d28" page="18" hidden="false">
       <description>When rolling to wound and for armour saves, the bearer counts as having a Strength double that of the targets toughness. Two Handed Weapon. Always Strikes Last except in the turn it charges.</description>
     </rule>
-    <rule id="9d5f-0395-ff6c-d901" name="Venom Sword" publicationId="d82e-5e6d-5df0-8ddd" page="18" hidden="false">
+    <rule id="9d5f-0395-ff6c-d901" name="Venom Sword" publicationId="20b9-0ee7-8f6f-8d28" page="18" hidden="false">
       <description>Any model which suffers a wound to the Venom sword must roll equal to or under their toughtness on 2d6 or be slain.</description>
     </rule>
-    <rule id="40f2-8761-75f9-8931" name="Blade of Ruin" publicationId="d82e-5e6d-5df0-8ddd" page="18" hidden="false">
+    <rule id="40f2-8761-75f9-8931" name="Blade of Ruin" publicationId="20b9-0ee7-8f6f-8d28" page="18" hidden="false">
       <description>No armour save may be taken for wounds from this blade. Ward saves are taken as normal.</description>
     </rule>
-    <rule id="eb55-003d-29d7-375b" name="Hydra Blade" publicationId="d82e-5e6d-5df0-8ddd" page="18" hidden="false">
+    <rule id="eb55-003d-29d7-375b" name="Hydra Blade" publicationId="20b9-0ee7-8f6f-8d28" page="18" hidden="false">
       <description>Gain D3 attacks each Close combat phase.</description>
     </rule>
-    <rule id="b3e7-0c89-8e3b-ea9f" name="Crimson Death" publicationId="d82e-5e6d-5df0-8ddd" page="18" hidden="false">
+    <rule id="b3e7-0c89-8e3b-ea9f" name="Crimson Death" publicationId="20b9-0ee7-8f6f-8d28" page="18" hidden="false">
       <description>Always Strikes with Strength of 6. No other modifiers will effect this. Requires Two Hands</description>
     </rule>
-    <rule id="4808-7fe7-0cd4-7ba3" name="Lifetaker" publicationId="d82e-5e6d-5df0-8ddd" page="18" hidden="false">
+    <rule id="4808-7fe7-0cd4-7ba3" name="Lifetaker" publicationId="20b9-0ee7-8f6f-8d28" page="18" hidden="false">
       <description>Lifetaker is treated as a repeating crossbow but always hits on 2+ regardless of modifiers. You may reroll failed to wound rolls.</description>
     </rule>
-    <rule id="751d-c666-007b-70bf" name="Web of Shadows" publicationId="d82e-5e6d-5df0-8ddd" page="18" hidden="false">
+    <rule id="751d-c666-007b-70bf" name="Web of Shadows" publicationId="20b9-0ee7-8f6f-8d28" page="18" hidden="false">
       <description>One Use Only.
 A web of shadows can only be used once per game. The character uses the Web of Shadows instead of normal attacks. When used , one model in b2b contact automatically take 2D6 str3 hits. The bearer may take a non magical weapon but not another magical weapon.</description>
     </rule>
-    <rule id="9f92-c204-eff6-c13a" name="Heartseeker" publicationId="d82e-5e6d-5df0-8ddd" page="19" hidden="false">
+    <rule id="9f92-c204-eff6-c13a" name="Heartseeker" publicationId="20b9-0ee7-8f6f-8d28" page="19" hidden="false">
       <description>You may reroll missed attacks. Remember a dice can never be rerolled more than once.</description>
     </rule>
-    <rule id="e245-de57-8b31-a4a5" name="Chill Blade" publicationId="d82e-5e6d-5df0-8ddd" page="19" hidden="false">
+    <rule id="e245-de57-8b31-a4a5" name="Chill Blade" publicationId="20b9-0ee7-8f6f-8d28" page="19" hidden="false">
       <description>Any model wounded by this blade after saves ect may not attack this round.</description>
     </rule>
-    <rule id="c05a-cfd3-5794-34a4" name="Dark Sword" publicationId="d82e-5e6d-5df0-8ddd" page="19" hidden="false">
+    <rule id="c05a-cfd3-5794-34a4" name="Dark Sword" publicationId="20b9-0ee7-8f6f-8d28" page="19" hidden="false">
       <description>Models wounded by this blade subject to stupidity for rest of the battle</description>
     </rule>
-    <rule id="dbe4-ce91-fb65-e019" name="Ring of Darkness" publicationId="d82e-5e6d-5df0-8ddd" page="20" hidden="false">
+    <rule id="dbe4-ce91-fb65-e019" name="Ring of Darkness" publicationId="20b9-0ee7-8f6f-8d28" page="20" hidden="false">
       <description>Bound Spell: Power level 3
 Attacks in CC require a 6 to hit the bearer regardless of WS or modifiers. Remains in Play</description>
     </rule>
@@ -3616,48 +3647,48 @@ Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand
     <rule id="945c-e347-8fd0-3f96" name="Soul Shadows Standard" hidden="false">
       <description>The unit may make a flee response (Even if immune to pyschology) and will always wutomatical rally at the end of its flee movement providing it is not causght by pursuers.</description>
     </rule>
-    <rule id="sost-danc-dead-0001" name="Dance of Death" hidden="false">
+    <rule id="dc09-3196-61a3-559e" name="Dance of Death" hidden="false">
       <description>The Sisters of Slaughter may negate an enemy's rank bonus when determining combat resolution, even though they are Skirmishers. However, they must still meet the normal requirements (Unit Strength 5 or more and charging the enemy in the flank or rear). Remember that this effect also negates the Skaven rank bonus to Leadership.</description>
     </rule>
-    <rule id="doom-ward-save-0001" name="Ward Save (6+)" hidden="false">
+    <rule id="6056-008c-ed3d-d7a0" name="Ward Save (6+)" hidden="false">
       <description>The Doomfire Warlocks have a Ward save of 6+.</description>
     </rule>
-    <rule id="doom-magi-unit-0001" name="Magical Unit (&quot;Doombolt of Kharaidon&quot;)" hidden="false">
+    <rule id="df31-06a6-42cf-377e" name="Magical Unit (&quot;Doombolt of Kharaidon&quot;)" hidden="false">
       <description>In the Magic phase, the unit, provided it is not fleeing, may cast the spell "Doombolt of Kharaidon" as if it were a bound spell with a Power Level equal to the unit's current number of models at the moment of casting. The unit counts as a wizard for this purpose, but does not generate any power or dispel dice and cannot attempt to dispel spells. The unit itself casts the spell and it cannot be negated by items or effects that nullify magical items. All restrictions of the spell must always be observed (line of sight, casting into close combat, and so on).</description>
     </rule>
-    <rule id="medu-petr-gaze-0001" name="Petrifying Gaze" hidden="false">
+    <rule id="59cb-22f5-6155-1f10" name="Petrifying Gaze" hidden="false">
       <description>The Medusa's Petrifying Gaze is treated as a ranged attack. Any model hit by this attack must pass a Toughness test or be turned to stone and removed as a casualty, regardless of Wounds. This attack ignores armour saves. Ward saves may still be taken. The Medusa may not use the Petrifying Gaze in the same turn she shoots with a bow.</description>
     </rule>
-    <rule id="medu-soli-tary-0001" name="Solitary" hidden="false">
+    <rule id="be2b-a792-4371-a5b3" name="Solitary" hidden="false">
       <description>Medusae are treated as Monsters.</description>
     </rule>
-    <rule id="khar-aqua-tic0-0001" name="Aquatic" hidden="false">
+    <rule id="e38c-8b50-0154-c993" name="Aquatic" hidden="false">
       <description>The Kharibdys may move through water terrain without penalty and is never slowed by it.</description>
     </rule>
-    <rule id="khar-hand-ler0-0001" name="Handler" hidden="false">
+    <rule id="6a18-9fb6-3404-d4e0" name="Handler" hidden="false">
       <description>The Kharibdys is accompanied by 2 Handlers. As long as at least one Handler is alive, the Kharibdys is Immune to Psychology. If all Handlers are slain, the Kharibdys must test for Stupidity each turn.</description>
     </rule>
-    <rule id="khar-rave-maw0-0001" name="Ravenous Maw" hidden="false">
+    <rule id="1943-65b4-6861-6c59" name="Ravenous Maw" hidden="false">
       <description>One of the Kharibdys' attacks must be made using a differently coloured die. This attack inflicts D6 Wounds.</description>
     </rule>
-    <rule id="khar-abys-howl-0001" name="Abyssal Howl" hidden="false">
+    <rule id="fb74-4ece-bf95-e575" name="Abyssal Howl" hidden="false">
       <description>Enemy units that are in base contact with one or more Kharibdyss suffer -1 Leadership (to a minimum of 2).</description>
     </rule>
-    <rule id="blck-amul-rule-0001" name="Black Amulet" hidden="false">
+    <rule id="b2d5-1419-531b-80bb" name="Black Amulet" hidden="false">
       <description>The wearer has a 5+ Ward save against close combat hits. If the wearer passes his Ward save then the attacking model suffers 1 wound instead. There is no save against such a rebounded wound, even from Wards.</description>
     </rule>
-    <rule id="crwn-iron-rule-0001" name="Crown of Black Iron" hidden="false">
+    <rule id="b918-4e12-80d6-2f7a" name="Crown of Black Iron" hidden="false">
       <description>The character has a 5+ Ward save. In addition, the wearer is completely immune to the effects of Light Magic and High Magic spells. Note that this is not a Dispel and thus other models (excluding the character's mount) may be affected by High Magic and Light Magic.</description>
     </rule>
-    <rule id="ring-hotek-rule-0001" name="Ring of Hotek" hidden="false">
+    <rule id="e10e-3979-976f-f56d" name="Ring of Hotek" hidden="false">
       <description>Any magic user (friend or foe) attempting to cast a spell within 6" of the wearer will miscast on the roll of any double. If they roll a double 6 they cast the spell (with Irresistible Force) and then suffer a Miscast.</description>
     </rule>
-    <rule id="dead-mask-terr-0001" name="Deathmask" hidden="false">
+    <rule id="bdb0-0e2b-c7c0-b0d9" name="Deathmask" hidden="false">
       <description>The wearer causes Terror.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="2755-29d0-a370-5a45" name="Repeater crossbow" publicationId="d82e-5e6d-5df0-8ddd" page="22" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+    <profile id="2755-29d0-a370-5a45" name="Repeater crossbow" publicationId="20b9-0ee7-8f6f-8d28" page="22" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="3107-4d1e-9a51-6564">24"</characteristic>
         <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">3</characteristic>
@@ -3677,7 +3708,7 @@ Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="7db7-1e49-44fd-a11e" name="Dark Pegasus" publicationId="d82e-5e6d-5df0-8ddd" page="14" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="7db7-1e49-44fd-a11e" name="Dark Pegasus" publicationId="20b9-0ee7-8f6f-8d28" page="14" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
@@ -3774,7 +3805,7 @@ Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand
         <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e" />
       </characteristics>
     </profile>
-    <profile id="2a66-f442-1c2f-ffd0" name="Lordling" publicationId="d82e-5e6d-5df0-8ddd" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="2a66-f442-1c2f-ffd0" name="Lordling" publicationId="20b9-0ee7-8f6f-8d28" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
@@ -3826,7 +3857,7 @@ Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
       </characteristics>
     </profile>
-    <profile id="6ca1-5d90-9145-a028" name="Dark Elf Noble" publicationId="d82e-5e6d-5df0-8ddd" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="6ca1-5d90-9145-a028" name="Dark Elf Noble" publicationId="20b9-0ee7-8f6f-8d28" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
@@ -3839,7 +3870,7 @@ Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
       </characteristics>
     </profile>
-    <profile id="726e-c13b-974b-175c" name="Highborn" publicationId="d82e-5e6d-5df0-8ddd" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="726e-c13b-974b-175c" name="Highborn" publicationId="20b9-0ee7-8f6f-8d28" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">7</characteristic>
