@@ -1594,7 +1594,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
-    <constraints><constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="raid-shad-max1-0001" type="max" /></constraints></selectionEntry>
+    <constraints /></selectionEntry>
     <selectionEntry id="27db-9203-dfa7-c48a" name="Witch Elves Of Kaine" hidden="true" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9725-2c1b-47ac-36e3" name="Frenzy" hidden="false" targetId="ab5d-dda1-bffc-a027" type="rule" />
