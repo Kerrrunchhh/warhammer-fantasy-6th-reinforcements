@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d1e2-f3a4-b5c6-7890" name="Dwarfs Guild Expedition" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="0d3e-b1c2-4d39-9714" name="Dwarfs Guild Expedition" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="0b31-acf1-436a-fa53" name="Dwarf Army Book 2000" />
   </publications>
@@ -242,6 +242,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="75d7-46e8-f93e-6ddb" name="Rune Lord" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ef09-cb39-672c-fb44" name="Rune lord" hidden="false" targetId="47b7-9956-7fad-7ab4" type="profile" />
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="33bf-fd1b-39bb-b432" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true" />
         <categoryLink id="302f-992e-e4e5-5c36" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false" />
@@ -335,7 +338,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0" />
       </costs>
-    <infoLinks><infoLink id="guld-rlrd-prof-0001" name="Rune lord" hidden="false" targetId="47b7-9956-7fad-7ab4" type="profile" /></infoLinks></selectionEntry>
+    </selectionEntry>
     <selectionEntry id="ff9e-e9c2-392b-ceb2" name="Daemon Slayer" hidden="true" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="5491-9051-33fb-1429" name="Daemon Slayer " hidden="false" targetId="84fb-7ef3-0247-1c73" type="profile" />
