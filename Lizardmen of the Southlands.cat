@@ -1882,23 +1882,9 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
       </infoLinks>
       <categoryLinks>
         <categoryLink id="soth-skco-clnk-0001" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true">
-          <modifiers>
-            <modifier type="set" field="primary" value="false">
-              <conditions>
-                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="soth-skco-cond-0001" type="atLeast" childId="soth-skco-spwn-0008" />
-              </conditions>
-            </modifier>
-          </modifiers>
-        </categoryLink>
+          </categoryLink>
         <categoryLink id="soth-skco-clnk-0002" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false">
-          <modifiers>
-            <modifier type="set" field="primary" value="true">
-              <conditions>
-                <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="soth-skco-cond-0002" type="atLeast" childId="soth-skco-spwn-0008" />
-              </conditions>
-            </modifier>
-          </modifiers>
-        </categoryLink>
+          </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="soth-skco-modl-0002" name="Skink Cohort" hidden="false" collective="false" import="true" type="model">
