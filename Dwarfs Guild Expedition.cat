@@ -335,7 +335,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0" />
       </costs>
-    </selectionEntry>
+    <infoLinks><infoLink id="guld-rlrd-prof-0001" name="Rune lord" hidden="false" targetId="47b7-9956-7fad-7ab4" type="profile" /></infoLinks></selectionEntry>
     <selectionEntry id="ff9e-e9c2-392b-ceb2" name="Daemon Slayer" hidden="true" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="5491-9051-33fb-1429" name="Daemon Slayer " hidden="false" targetId="84fb-7ef3-0247-1c73" type="profile" />
