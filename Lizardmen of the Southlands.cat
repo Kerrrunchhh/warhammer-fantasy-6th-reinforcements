@@ -427,13 +427,13 @@
             </entryLink>
           </entryLinks>
           <selectionEntries>
-            <selectionEntry id="soth-skch-horn-0001" name="Horned One" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soth-skch-horn-0001" name="Horned One" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
               <infoLinks>
-                <infoLink id="soth-skch-horn-0002" name="Horned One" hidden="false" targetId="soth-horn-prof-0003" type="profile" />
-                <infoLink id="soth-skch-horn-0003" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
+                <infoLink id="soth-skch-horn-0002" name="Horned One" hidden="false" targetId="soth-horn-prof-0003" type="profile" page="" publicationId="" />
+                <infoLink id="soth-skch-horn-0003" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" page="" publicationId="" />
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skch-horn-0004" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skch-horn-0004" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16.0" />
@@ -990,7 +990,7 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5af-8a1a-4fbb-21b2" type="max" />
-        <constraint type="max" value="1" scope="roster" shared="true" id="soth-tgrd-max1-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+        <constraint type="max" value="1" scope="roster" shared="true" id="soth-tgrd-max1-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
       </constraints>
       <infoLinks>
         <infoLink id="a7c3-fe0e-77f3-66e6" name="Cold Blooded" hidden="false" targetId="18a8-9ce9-6213-9c01" type="rule" />
@@ -1857,12 +1857,12 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="soth-dogs-unit-0001" name="Dogs of War" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="soth-dogs-unit-0001" name="Dogs of War" hidden="false" collective="false" import="true" type="unit" page="" publicationId="">
       <categoryLinks>
-        <categoryLink id="soth-dogs-clnk-0001" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
+        <categoryLink id="soth-dogs-clnk-0001" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" page="" />
       </categoryLinks>
       <rules>
-        <rule id="soth-dogs-rule-0001" name="Dogs of War" hidden="false">
+        <rule id="soth-dogs-rule-0001" name="Dogs of War" hidden="false" page="" publicationId="">
           <description>Dogs of War are mercenary units available to the Lizardmen of the Southlands. Refer to the Dogs of War army book for available units and their rules.</description>
         </rule>
       </rules>
@@ -1872,25 +1872,25 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="soth-skco-unit-0001" name="Skink Cohorts" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="soth-skco-unit-0001" name="Skink Cohorts" hidden="false" collective="false" import="true" type="unit" page="" publicationId="">
       <infoLinks>
-        <infoLink id="soth-skco-il-0001" name="Skink Cohort" hidden="false" targetId="soth-skco-prof-0001" type="profile" />
-        <infoLink id="soth-skco-il-0002" name="Skink Cohort Brave" hidden="false" targetId="soth-skco-prof-0002" type="profile" />
-        <infoLink id="soth-skco-il-0003" name="Aquatic" hidden="false" targetId="b4b9-90f6-f2be-cb4a" type="rule" />
-        <infoLink id="soth-skco-il-0004" name="Cold Blooded" hidden="false" targetId="18a8-9ce9-6213-9c01" type="rule" />
-        <infoLink id="soth-skco-il-0005" name="Sacred Spawning (Special)" hidden="false" targetId="soth-sacr-spec-0001" type="rule" />
+        <infoLink id="soth-skco-il-0001" name="Skink Cohort" hidden="false" targetId="soth-skco-prof-0001" type="profile" page="" publicationId="" />
+        <infoLink id="soth-skco-il-0002" name="Skink Cohort Brave" hidden="false" targetId="soth-skco-prof-0002" type="profile" page="" publicationId="" />
+        <infoLink id="soth-skco-il-0003" name="Aquatic" hidden="false" targetId="b4b9-90f6-f2be-cb4a" type="rule" page="" publicationId="" />
+        <infoLink id="soth-skco-il-0004" name="Cold Blooded" hidden="false" targetId="18a8-9ce9-6213-9c01" type="rule" page="" publicationId="" />
+        <infoLink id="soth-skco-il-0005" name="Sacred Spawning (Special)" hidden="false" targetId="soth-sacr-spec-0001" type="rule" page="" publicationId="" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="soth-skco-clnk-0001" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true">
+        <categoryLink id="soth-skco-clnk-0001" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" page="">
           </categoryLink>
-        <categoryLink id="soth-skco-clnk-0002" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false">
+        <categoryLink id="soth-skco-clnk-0002" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false" page="">
           </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="soth-skco-modl-0002" name="Skink Cohort" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="soth-skco-modl-0002" name="Skink Cohort" hidden="false" collective="false" import="true" type="model" page="" publicationId="">
           <constraints>
-            <constraint type="min" value="10" scope="parent" shared="true" id="soth-skco-min1-0013" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
-            <constraint type="max" value="-1" scope="parent" shared="true" id="soth-skco-max1-0014" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="min" value="10" scope="parent" shared="true" id="soth-skco-min1-0013" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
+            <constraint type="max" value="-1" scope="parent" shared="true" id="soth-skco-max1-0014" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0" />
@@ -1898,9 +1898,9 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-skco-brav-0003" name="Brave" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-skco-brav-0003" name="Brave" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-brmx-0015" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-brmx-0015" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
@@ -1908,9 +1908,9 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-skco-musi-0004" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-skco-musi-0004" name="Musician" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-mumx-0016" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-mumx-0016" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
@@ -1918,9 +1918,9 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-skco-stnd-0005" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-skco-stnd-0005" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-stmx-0017" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-stmx-0017" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
@@ -1928,9 +1928,9 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-skco-shld-0006" name="Shields" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-skco-shld-0006" name="Shields" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <infoLinks>
-            <infoLink id="soth-skco-shil-01" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile" />
+            <infoLink id="soth-skco-shil-01" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile" page="" publicationId="" />
           </infoLinks>
           <modifiers>
             <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
@@ -1945,9 +1945,9 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-skco-jvln-0007" name="Javelins" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-skco-jvln-0007" name="Javelins" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <infoLinks>
-            <infoLink id="soth-skco-jvil-01" name="Javelin" hidden="false" targetId="e7ce-dcc0-c615-4d64" type="profile" />
+            <infoLink id="soth-skco-jvil-01" name="Javelin" hidden="false" targetId="e7ce-dcc0-c615-4d64" type="profile" page="" publicationId="" />
           </infoLinks>
           <modifiers>
             <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
@@ -1962,13 +1962,13 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-skco-hndw-0018" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-skco-hndw-0018" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <infoLinks>
-            <infoLink id="soth-skco-hwil-01" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile" />
+            <infoLink id="soth-skco-hwil-01" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile" page="" publicationId="" />
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" scope="parent" shared="true" id="soth-skco-hwmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-hwmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="min" value="1" scope="parent" shared="true" id="soth-skco-hwmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-hwmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -1978,17 +1978,17 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="soth-skco-spwn-0008" name="Sacred Spawning" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="soth-skco-spwn-0008" name="Sacred Spawning" hidden="false" collective="false" import="true" page="" defaultSelectionEntryId="">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-spgm-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-spgm-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="soth-skco-sotk-0009" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soth-skco-sotk-0009" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-sotk-0009-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-sotk-0009-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
               </constraints>
               <infoLinks>
-                <infoLink id="soth-skco-sotk-0009-il" name="Blessed Spawning of Sotek" hidden="false" targetId="d818-d0c6-9888-3165" type="rule" />
+                <infoLink id="soth-skco-sotk-0009-il" name="Blessed Spawning of Sotek" hidden="false" targetId="d818-d0c6-9888-3165" type="rule" page="" publicationId="" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -1996,12 +1996,12 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="soth-skco-tepk-0010" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soth-skco-tepk-0010" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-tepk-0010-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-tepk-0010-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
               </constraints>
               <infoLinks>
-                <infoLink id="soth-skco-tepk-0010-il" name="Blessed Spawning of Tepok" hidden="false" targetId="b8e6-8353-db42-470c" type="rule" />
+                <infoLink id="soth-skco-tepk-0010-il" name="Blessed Spawning of Tepok" hidden="false" targetId="b8e6-8353-db42-470c" type="rule" page="" publicationId="" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2009,12 +2009,12 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="soth-skco-huan-0011" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soth-skco-huan-0011" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-huan-0011-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-huan-0011-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
               </constraints>
               <infoLinks>
-                <infoLink id="soth-skco-huan-0011-il" name="Blessed Spawning of Huanchi" hidden="false" targetId="46ca-e242-ede6-65ce" type="rule" />
+                <infoLink id="soth-skco-huan-0011-il" name="Blessed Spawning of Huanchi" hidden="false" targetId="46ca-e242-ede6-65ce" type="rule" page="" publicationId="" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2022,12 +2022,12 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="soth-skco-chot-0012" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soth-skco-chot-0012" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-chot-0012-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-chot-0012-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
               </constraints>
               <infoLinks>
-                <infoLink id="soth-skco-chot-0012-il" name="Blessed Spawning of Chotec" hidden="false" targetId="e8f4-0997-68ea-ad45" type="rule" />
+                <infoLink id="soth-skco-chot-0012-il" name="Blessed Spawning of Chotec" hidden="false" targetId="e8f4-0997-68ea-ad45" type="rule" page="" publicationId="" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2044,25 +2044,25 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="soth-horn-unit-0001" name="Horned One Raiders" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="soth-horn-unit-0001" name="Horned One Raiders" hidden="false" collective="false" import="true" type="unit" page="" publicationId="">
       <infoLinks>
-        <infoLink id="soth-horn-il-0001" name="Horned One Rider (Skink)" hidden="false" targetId="soth-horn-prof-0001" type="profile" />
-        <infoLink id="soth-horn-il-0002" name="Horned One Rider Brave (Skink)" hidden="false" targetId="soth-horn-prof-0002" type="profile" />
-        <infoLink id="soth-horn-il-0003" name="Horned One" hidden="false" targetId="soth-horn-prof-0003" type="profile" />
-        <infoLink id="soth-horn-il-0004" name="Aquatic" hidden="false" targetId="b4b9-90f6-f2be-cb4a" type="rule" />
-        <infoLink id="soth-horn-il-0005" name="Cold Blooded" hidden="false" targetId="18a8-9ce9-6213-9c01" type="rule" />
-        <infoLink id="soth-horn-il-0006" name="Fear" hidden="false" targetId="fd59-7f91-74f1-587c" type="rule" />
-        <infoLink id="soth-horn-il-0007" name="Fast Cavalry" hidden="false" targetId="soth-fast-cavl-0001" type="rule" />
-        <infoLink id="soth-horn-il-0008" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
+        <infoLink id="soth-horn-il-0001" name="Horned One Rider (Skink)" hidden="false" targetId="soth-horn-prof-0001" type="profile" page="" publicationId="" />
+        <infoLink id="soth-horn-il-0002" name="Horned One Rider Brave (Skink)" hidden="false" targetId="soth-horn-prof-0002" type="profile" page="" publicationId="" />
+        <infoLink id="soth-horn-il-0003" name="Horned One" hidden="false" targetId="soth-horn-prof-0003" type="profile" page="" publicationId="" />
+        <infoLink id="soth-horn-il-0004" name="Aquatic" hidden="false" targetId="b4b9-90f6-f2be-cb4a" type="rule" page="" publicationId="" />
+        <infoLink id="soth-horn-il-0005" name="Cold Blooded" hidden="false" targetId="18a8-9ce9-6213-9c01" type="rule" page="" publicationId="" />
+        <infoLink id="soth-horn-il-0006" name="Fear" hidden="false" targetId="fd59-7f91-74f1-587c" type="rule" page="" publicationId="" />
+        <infoLink id="soth-horn-il-0007" name="Fast Cavalry" hidden="false" targetId="soth-fast-cavl-0001" type="rule" page="" publicationId="" />
+        <infoLink id="soth-horn-il-0008" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" page="" publicationId="" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="soth-horn-clnk-0001" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
+        <categoryLink id="soth-horn-clnk-0001" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" page="" />
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="soth-horn-modl-0002" name="Horned One Rider" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="soth-horn-modl-0002" name="Horned One Rider" hidden="false" collective="false" import="true" type="model" page="" publicationId="">
           <constraints>
-            <constraint type="min" value="5" scope="parent" shared="true" id="soth-horn-min1-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
-            <constraint type="max" value="-1" scope="parent" shared="true" id="soth-horn-max1-0002" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="min" value="5" scope="parent" shared="true" id="soth-horn-min1-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
+            <constraint type="max" value="-1" scope="parent" shared="true" id="soth-horn-max1-0002" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="21.0" />
@@ -2070,9 +2070,9 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-horn-brav-0003" name="Brave" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-horn-brav-0003" name="Brave" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-brmx-0003" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-brmx-0003" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0" />
@@ -2080,9 +2080,9 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-horn-musi-0004" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-horn-musi-0004" name="Musician" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-mumx-0004" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-mumx-0004" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="7.0" />
@@ -2090,9 +2090,9 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-horn-stnd-0005" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-horn-stnd-0005" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-stmx-0005" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-stmx-0005" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0" />
@@ -2100,13 +2100,13 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-horn-hndw-0006" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-horn-hndw-0006" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <infoLinks>
-            <infoLink id="soth-horn-hwil-01" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile" />
+            <infoLink id="soth-horn-hwil-01" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile" page="" publicationId="" />
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-hwmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-hwmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-hwmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-hwmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2114,13 +2114,13 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-horn-shld-0007" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-horn-shld-0007" name="Shield" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <infoLinks>
-            <infoLink id="soth-horn-shil-01" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile" />
+            <infoLink id="soth-horn-shil-01" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile" page="" publicationId="" />
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-shmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-shmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-shmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-shmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2128,13 +2128,13 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="soth-horn-spear-008" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="soth-horn-spear-008" name="Spear" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
           <infoLinks>
-            <infoLink id="soth-horn-spil-01" name="Spears (Infantry)" hidden="false" targetId="222b-1e29-9d24-09d7" type="profile" />
+            <infoLink id="soth-horn-spil-01" name="Spears (Infantry)" hidden="false" targetId="222b-1e29-9d24-09d7" type="profile" page="" publicationId="" />
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-spmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-spmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-spmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-spmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2144,17 +2144,17 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="soth-horn-spwn-0006" name="Sacred Spawning" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="soth-horn-spwn-0006" name="Sacred Spawning" hidden="false" collective="false" import="true" page="" defaultSelectionEntryId="">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-spgm-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-spgm-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="soth-horn-sotk-0007" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soth-horn-sotk-0007" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-sotk-0007-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-sotk-0007-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
               </constraints>
               <infoLinks>
-                <infoLink id="soth-horn-sotk-0007-il" name="Blessed Spawning of Sotek" hidden="false" targetId="d818-d0c6-9888-3165" type="rule" />
+                <infoLink id="soth-horn-sotk-0007-il" name="Blessed Spawning of Sotek" hidden="false" targetId="d818-d0c6-9888-3165" type="rule" page="" publicationId="" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2162,12 +2162,12 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="soth-horn-tepk-0008" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soth-horn-tepk-0008" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-tepk-0008-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-tepk-0008-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
               </constraints>
               <infoLinks>
-                <infoLink id="soth-horn-tepk-0008-il" name="Blessed Spawning of Tepok" hidden="false" targetId="b8e6-8353-db42-470c" type="rule" />
+                <infoLink id="soth-horn-tepk-0008-il" name="Blessed Spawning of Tepok" hidden="false" targetId="b8e6-8353-db42-470c" type="rule" page="" publicationId="" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2175,12 +2175,12 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="soth-horn-huan-0009" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soth-horn-huan-0009" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-huan-0009-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-huan-0009-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
               </constraints>
               <infoLinks>
-                <infoLink id="soth-horn-huan-0009-il" name="Blessed Spawning of Huanchi" hidden="false" targetId="46ca-e242-ede6-65ce" type="rule" />
+                <infoLink id="soth-horn-huan-0009-il" name="Blessed Spawning of Huanchi" hidden="false" targetId="46ca-e242-ede6-65ce" type="rule" page="" publicationId="" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2188,12 +2188,12 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="soth-horn-chot-0010" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soth-horn-chot-0010" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-chot-0010-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-chot-0010-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" page="" />
               </constraints>
               <infoLinks>
-                <infoLink id="soth-horn-chot-0010-il" name="Blessed Spawning of Chotec" hidden="false" targetId="e8f4-0997-68ea-ad45" type="rule" />
+                <infoLink id="soth-horn-chot-0010-il" name="Blessed Spawning of Chotec" hidden="false" targetId="e8f4-0997-68ea-ad45" type="rule" page="" publicationId="" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -4077,16 +4077,16 @@ The spell lasts until the start of the caster's next Magic phase.</description>
     <rule id="3843-ccb0-60f6-d2e4" name="Thundering Strike" hidden="false">
       <description>One of the Bastiladon's attack dice must be rolled in a different colour. This attack is made with the tail at Strength 10 and gains +1 to hit when used against models to the Bastiladon's rear.</description>
     </rule>
-    <rule id="soth-fast-cavl-0001" name="Fast Cavalry" hidden="false">
+    <rule id="soth-fast-cavl-0001" name="Fast Cavalry" hidden="false" page="" publicationId="">
       <description>Fast Cavalry units may skirmish, move and shoot, reform freely, and pursue/flee with a bonus. Refer to the Warhammer rulebook for the full rules for Fast Cavalry.</description>
     </rule>
-    <rule id="soth-skch-lord-0001" name="Skink Lord Choice" hidden="false">
+    <rule id="soth-skch-lord-0001" name="Skink Lord Choice" hidden="false" page="" publicationId="">
       <description>Two hero-level Skink characters (Skink Chiefs or Skink Priests) may be chosen as a single Lord choice in this army.</description>
     </rule>
-    <rule id="soth-scva-notw-0001" name="No Blessed Spawnings (Warriors)" hidden="false">
+    <rule id="soth-scva-notw-0001" name="No Blessed Spawnings (Warriors)" hidden="false" page="" publicationId="">
       <description>Saurus Warriors in this army cannot be given Blessed Spawnings.</description>
     </rule>
-    <rule id="soth-sacr-spec-0001" name="Sacred Spawning (Special)" hidden="false">
+    <rule id="soth-sacr-spec-0001" name="Sacred Spawning (Special)" hidden="false" page="" publicationId="">
       <description>If this unit is given a Sacred Spawning, it counts as a Special choice rather than a Core choice.</description>
     </rule>
   </sharedRules>
@@ -4534,7 +4534,7 @@ The spell lasts until the start of the caster's next Magic phase.</description>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
-    <profile id="soth-skco-prof-0001" name="Skink Cohort" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="soth-skco-prof-0001" name="Skink Cohort" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile" page="" publicationId="">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
@@ -4547,7 +4547,7 @@ The spell lasts until the start of the caster's next Magic phase.</description>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
-    <profile id="soth-skco-prof-0002" name="Skink Cohort Brave" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="soth-skco-prof-0002" name="Skink Cohort Brave" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile" page="" publicationId="">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
@@ -4560,7 +4560,7 @@ The spell lasts until the start of the caster's next Magic phase.</description>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
-    <profile id="soth-horn-prof-0001" name="Horned One Rider (Skink)" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="soth-horn-prof-0001" name="Horned One Rider (Skink)" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile" page="" publicationId="">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
@@ -4573,7 +4573,7 @@ The spell lasts until the start of the caster's next Magic phase.</description>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
-    <profile id="soth-horn-prof-0002" name="Horned One Rider Brave (Skink)" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="soth-horn-prof-0002" name="Horned One Rider Brave (Skink)" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile" page="" publicationId="">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
@@ -4586,7 +4586,7 @@ The spell lasts until the start of the caster's next Magic phase.</description>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
-    <profile id="soth-horn-prof-0003" name="Horned One" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="soth-horn-prof-0003" name="Horned One" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile" page="" publicationId="">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
