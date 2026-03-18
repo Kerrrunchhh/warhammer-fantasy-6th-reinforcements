@@ -433,7 +433,7 @@
                 <infoLink id="soth-skch-horn-0003" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skch-horn-0004" field="selections" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skch-horn-0004" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16.0" />
@@ -990,7 +990,7 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5af-8a1a-4fbb-21b2" type="max" />
-        <constraint type="max" value="1" scope="roster" shared="true" id="soth-tgrd-max1-0001" field="selections" />
+        <constraint type="max" value="1" scope="roster" shared="true" id="soth-tgrd-max1-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
       </constraints>
       <infoLinks>
         <infoLink id="a7c3-fe0e-77f3-66e6" name="Cold Blooded" hidden="false" targetId="18a8-9ce9-6213-9c01" type="rule" />
@@ -1889,8 +1889,8 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
       <selectionEntries>
         <selectionEntry id="soth-skco-modl-0002" name="Skink Cohort" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint type="min" value="10" scope="parent" shared="true" id="soth-skco-min1-0013" field="selections" />
-            <constraint type="max" value="-1" scope="parent" shared="true" id="soth-skco-max1-0014" field="selections" />
+            <constraint type="min" value="10" scope="parent" shared="true" id="soth-skco-min1-0013" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="-1" scope="parent" shared="true" id="soth-skco-max1-0014" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0" />
@@ -1900,7 +1900,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         </selectionEntry>
         <selectionEntry id="soth-skco-brav-0003" name="Brave" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-brmx-0015" field="selections" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-brmx-0015" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
@@ -1910,7 +1910,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         </selectionEntry>
         <selectionEntry id="soth-skco-musi-0004" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-mumx-0016" field="selections" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-mumx-0016" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
@@ -1920,7 +1920,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         </selectionEntry>
         <selectionEntry id="soth-skco-stnd-0005" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-stmx-0017" field="selections" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-stmx-0017" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
@@ -1967,8 +1967,8 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <infoLink id="soth-skco-hwil-01" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile" />
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" scope="parent" shared="true" id="soth-skco-hwmn-01" field="selections" />
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-hwmx-01" field="selections" />
+            <constraint type="min" value="1" scope="parent" shared="true" id="soth-skco-hwmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-hwmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -1980,12 +1980,12 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
       <selectionEntryGroups>
         <selectionEntryGroup id="soth-skco-spwn-0008" name="Sacred Spawning" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-spgm-0001" field="selections" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-spgm-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <selectionEntries>
             <selectionEntry id="soth-skco-sotk-0009" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-sotk-0009-c1" field="selections" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-sotk-0009-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
               <infoLinks>
                 <infoLink id="soth-skco-sotk-0009-il" name="Blessed Spawning of Sotek" hidden="false" targetId="d818-d0c6-9888-3165" type="rule" />
@@ -1998,7 +1998,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             </selectionEntry>
             <selectionEntry id="soth-skco-tepk-0010" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-tepk-0010-c1" field="selections" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-tepk-0010-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
               <infoLinks>
                 <infoLink id="soth-skco-tepk-0010-il" name="Blessed Spawning of Tepok" hidden="false" targetId="b8e6-8353-db42-470c" type="rule" />
@@ -2011,7 +2011,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             </selectionEntry>
             <selectionEntry id="soth-skco-huan-0011" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-huan-0011-c1" field="selections" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-huan-0011-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
               <infoLinks>
                 <infoLink id="soth-skco-huan-0011-il" name="Blessed Spawning of Huanchi" hidden="false" targetId="46ca-e242-ede6-65ce" type="rule" />
@@ -2024,7 +2024,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             </selectionEntry>
             <selectionEntry id="soth-skco-chot-0012" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-chot-0012-c1" field="selections" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skco-chot-0012-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
               <infoLinks>
                 <infoLink id="soth-skco-chot-0012-il" name="Blessed Spawning of Chotec" hidden="false" targetId="e8f4-0997-68ea-ad45" type="rule" />
@@ -2061,8 +2061,8 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
       <selectionEntries>
         <selectionEntry id="soth-horn-modl-0002" name="Horned One Rider" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint type="min" value="5" scope="parent" shared="true" id="soth-horn-min1-0001" field="selections" />
-            <constraint type="max" value="-1" scope="parent" shared="true" id="soth-horn-max1-0002" field="selections" />
+            <constraint type="min" value="5" scope="parent" shared="true" id="soth-horn-min1-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="-1" scope="parent" shared="true" id="soth-horn-max1-0002" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="21.0" />
@@ -2072,7 +2072,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         </selectionEntry>
         <selectionEntry id="soth-horn-brav-0003" name="Brave" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-brmx-0003" field="selections" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-brmx-0003" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0" />
@@ -2082,7 +2082,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         </selectionEntry>
         <selectionEntry id="soth-horn-musi-0004" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-mumx-0004" field="selections" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-mumx-0004" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="7.0" />
@@ -2092,7 +2092,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         </selectionEntry>
         <selectionEntry id="soth-horn-stnd-0005" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-stmx-0005" field="selections" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-stmx-0005" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0" />
@@ -2105,8 +2105,8 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <infoLink id="soth-horn-hwil-01" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile" />
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-hwmn-01" field="selections" />
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-hwmx-01" field="selections" />
+            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-hwmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-hwmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2119,8 +2119,8 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <infoLink id="soth-horn-shil-01" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile" />
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-shmn-01" field="selections" />
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-shmx-01" field="selections" />
+            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-shmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-shmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2133,8 +2133,8 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <infoLink id="soth-horn-spil-01" name="Spears (Infantry)" hidden="false" targetId="222b-1e29-9d24-09d7" type="profile" />
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-spmn-01" field="selections" />
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-spmx-01" field="selections" />
+            <constraint type="min" value="1" scope="parent" shared="true" id="soth-horn-spmn-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-spmx-01" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -2146,12 +2146,12 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
       <selectionEntryGroups>
         <selectionEntryGroup id="soth-horn-spwn-0006" name="Sacred Spawning" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-spgm-0001" field="selections" />
+            <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-spgm-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
           </constraints>
           <selectionEntries>
             <selectionEntry id="soth-horn-sotk-0007" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-sotk-0007-c1" field="selections" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-sotk-0007-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
               <infoLinks>
                 <infoLink id="soth-horn-sotk-0007-il" name="Blessed Spawning of Sotek" hidden="false" targetId="d818-d0c6-9888-3165" type="rule" />
@@ -2164,7 +2164,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             </selectionEntry>
             <selectionEntry id="soth-horn-tepk-0008" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-tepk-0008-c1" field="selections" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-tepk-0008-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
               <infoLinks>
                 <infoLink id="soth-horn-tepk-0008-il" name="Blessed Spawning of Tepok" hidden="false" targetId="b8e6-8353-db42-470c" type="rule" />
@@ -2177,7 +2177,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             </selectionEntry>
             <selectionEntry id="soth-horn-huan-0009" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-huan-0009-c1" field="selections" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-huan-0009-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
               <infoLinks>
                 <infoLink id="soth-horn-huan-0009-il" name="Blessed Spawning of Huanchi" hidden="false" targetId="46ca-e242-ede6-65ce" type="rule" />
@@ -2190,7 +2190,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             </selectionEntry>
             <selectionEntry id="soth-horn-chot-0010" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-chot-0010-c1" field="selections" />
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-horn-chot-0010-c1" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
               <infoLinks>
                 <infoLink id="soth-horn-chot-0010-il" name="Blessed Spawning of Chotec" hidden="false" targetId="e8f4-0997-68ea-ad45" type="rule" />
