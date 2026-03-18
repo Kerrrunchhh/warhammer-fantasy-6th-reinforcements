@@ -578,7 +578,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0" />
       </costs>
-    </selectionEntry>
+    <infoLinks><infoLink id="2191-bcb8-0b80-6261" name="Rune Smith" hidden="false" targetId="6d1c-e0dc-86eb-d6bd" type="profile" /></infoLinks></selectionEntry>
     <selectionEntry id="4ea3-029b-572a-5827" name="Engineer" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="c692-3be3-d8ae-8bd0" name="Engineer" hidden="false" targetId="90e9-4d1e-73f2-b6e7" type="profile" />
@@ -3639,5 +3639,5 @@ Dwarf Hanguns get a +1 to hit at short range</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
       </characteristics>
     </profile>
-  </sharedProfiles>
+  <profile id="6d1c-e0dc-86eb-d6bd" name="Rune Smith" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile"><characteristics><characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic><characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic><characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic><characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic><characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic><characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic><characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic><characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic><characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic></characteristics></profile></sharedProfiles>
 </catalogue>
