@@ -238,7 +238,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="snot-warb-catl-0001" name="Characters" hidden="false" targetId="f5e7-e47d-33dc-0a29" primary="false" />
+        <categoryLink id="snot-warb-catl-0001" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false" />
         <categoryLink id="snot-warb-catl-0002" name="Lords" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true" />
       </categoryLinks>
       <selectionEntries>
@@ -267,7 +267,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="snot-warb-genr-0001" name="General" hidden="false" collective="false" import="true" targetId="0e2c-2c56-34bc-7bd9" type="selectionEntry">
+        <entryLink id="snot-warb-genr-0001" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="snot-warb-gnmn-0001" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="snot-warb-gnmx-0001" type="max"/>
