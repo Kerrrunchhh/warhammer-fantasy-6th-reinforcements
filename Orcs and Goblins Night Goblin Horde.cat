@@ -6428,7 +6428,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="0aa9-eeba-7c61-3657" name="Colossal Squig" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="0aa9-eeba-7c61-3657" name="Colossal Squig" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7e78-2af1-eb45-a6c0" name="Colossal Squig" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
