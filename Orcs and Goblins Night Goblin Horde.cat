@@ -240,7 +240,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="14ca-aafe-0a90-e830" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
-      <categoryLink id="2772-c505-e5df-b3be" name="Magical standard boyz" hidden="false" targetId="590b-56ba-c277-c78b" primary="false" /></categoryLinks>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7a33-7124-76e8-17a9" name="Night Goblin" hidden="false" collective="false" import="true" type="model">
           <constraints>
