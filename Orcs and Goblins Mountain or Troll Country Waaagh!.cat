@@ -6556,7 +6556,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="trol-l0ha-g000-0001" name="Troll Hag" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="trol-l0ha-g000-0001" name="Troll Hag" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="trol-prof-0001-0001" name="Troll Hag" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -6582,7 +6582,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="trol-cate-rare-0001" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
-        <categoryLink id="trol-cate-hero-0001" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false" />
+        <categoryLink id="trol-cate-hero-0001" name="Lords" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false" />
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="trol-shsp-0001-0001" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
