@@ -29,7 +29,7 @@
           <modifierGroups>
             <modifierGroup>
               <modifiers>
-                <modifier type="increment" field="b926-f95e-b738-223f" value="1.0">
+                <modifier type="increment" field="cbd9-4d51-37b5-23c5" value="1.0">
                   <repeats>
                     <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
                   </repeats>
@@ -37,7 +37,7 @@
                     <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
                   </conditions>
                 </modifier>
-                <modifier type="set" field="b926-f95e-b738-223f" value="0.0">
+                <modifier type="set" field="cbd9-4d51-37b5-23c5" value="0.0">
                   <conditions>
                     <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan" />
                   </conditions>
@@ -52,7 +52,7 @@
         <categoryLink id="776d-d233-65f0-c2a5" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false" />
         <categoryLink id="a653-bf72-8e7c-9712" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false">
           <modifiers>
-            <modifier type="increment" field="ecf8-02cf-b24c-7c1c" value="1.0">
+            <modifier type="increment" field="c3d4-fa0f-17a3-62bd" value="1.0">
               <conditions>
                 <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
               </conditions>
@@ -64,7 +64,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="ecf8-02cf-b24c-7c1c" value="6.0">
+            <modifier type="set" field="c3d4-fa0f-17a3-62bd" value="6.0">
               <repeats>
                 <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
               </repeats>
@@ -72,7 +72,7 @@
                 <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="4999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
               </conditions>
             </modifier>
-            <modifier type="set" field="ecf8-02cf-b24c-7c1c" value="4.0">
+            <modifier type="set" field="c3d4-fa0f-17a3-62bd" value="4.0">
               <conditions>
                 <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
               </conditions>
@@ -84,7 +84,7 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="ecf8-02cf-b24c-7c1c" value="5.0">
+            <modifier type="set" field="c3d4-fa0f-17a3-62bd" value="5.0">
               <conditions>
                 <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="3999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
               </conditions>
@@ -103,7 +103,7 @@
         </categoryLink>
         <categoryLink id="15ab-dd16-47c8-a904" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false">
           <modifiers>
-            <modifier type="set" field="1957-9860-027c-2153" value="3.0">
+            <modifier type="set" field="78cb-8917-83a6-ec48" value="3.0">
               <conditions>
                 <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="lessThan" />
               </conditions>
@@ -112,7 +112,7 @@
           <modifierGroups>
             <modifierGroup>
               <modifiers>
-                <modifier type="increment" field="1957-9860-027c-2153" value="1.0">
+                <modifier type="increment" field="78cb-8917-83a6-ec48" value="1.0">
                   <repeats>
                     <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
                   </repeats>
@@ -120,7 +120,7 @@
                     <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
                   </conditions>
                 </modifier>
-                <modifier type="set" field="1957-9860-027c-2153" value="4.0">
+                <modifier type="set" field="78cb-8917-83a6-ec48" value="4.0">
                   <conditions>
                     <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
                   </conditions>
@@ -141,7 +141,7 @@
         </categoryLink>
         <categoryLink id="e1ab-d5e6-7919-904a" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false">
           <modifiers>
-            <modifier type="set" field="6703-513c-3302-99de" value="1.0">
+            <modifier type="set" field="9e01-75b8-be1d-c77d" value="1.0">
               <conditions>
                 <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan" />
               </conditions>
@@ -150,7 +150,7 @@
           <modifierGroups>
             <modifierGroup>
               <modifiers>
-                <modifier type="increment" field="6703-513c-3302-99de" value="1.0">
+                <modifier type="increment" field="9e01-75b8-be1d-c77d" value="1.0">
                   <repeats>
                     <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
                   </repeats>
@@ -158,7 +158,7 @@
                     <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
                   </conditions>
                 </modifier>
-                <modifier type="set" field="6703-513c-3302-99de" value="2.0">
+                <modifier type="set" field="9e01-75b8-be1d-c77d" value="2.0">
                   <conditions>
                     <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
                   </conditions>
@@ -179,12 +179,12 @@
         </categoryLink>
         <categoryLink id="48b2-cfb0-b94c-8c87" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false">
           <modifiers>
-            <modifier type="set" field="f02d-5e38-58c3-d21d" value="3.0">
+            <modifier type="set" field="6d1b-7264-130a-8a5f" value="3.0">
               <conditions>
                 <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="lessThan" />
               </conditions>
             </modifier>
-            <modifier type="set" field="f02d-5e38-58c3-d21d" value="4.0">
+            <modifier type="set" field="6d1b-7264-130a-8a5f" value="4.0">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -194,12 +194,12 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" field="f02d-5e38-58c3-d21d" value="0.0">
+            <modifier type="set" field="6d1b-7264-130a-8a5f" value="0.0">
               <conditions>
                 <condition field="limit::ecfa-8486-4f6c-c249" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan" />
               </conditions>
             </modifier>
-            <modifier type="increment" field="f02d-5e38-58c3-d21d" value="2.0">
+            <modifier type="increment" field="6d1b-7264-130a-8a5f" value="2.0">
               <repeats>
                 <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
               </repeats>
@@ -282,7 +282,7 @@
           <selectionEntries>
             <selectionEntry id="6367-0013-f332-4b04" name="Hand Weapons and Shields" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="93d9-66e3-6b22-a5a2" value="0.0" />
+                <modifier type="set" field="cd1a-8aa7-f1aa-191c" value="0.0" />
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1a-8aa7-f1aa-191c" type="min" />
@@ -3666,7 +3666,7 @@
           <selectionEntries>
             <selectionEntry id="890e-7fe8-5e49-143d" name="Hand Weapons and Shields" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="2fc1-8026-5495-9fce" value="0.0" />
+                <modifier type="set" field="d86c-81c2-64a1-f44b" value="0.0" />
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d86c-81c2-64a1-f44b" type="min" />
@@ -3830,7 +3830,7 @@
             </selectionEntry>
             <selectionEntry id="d3ad-8cb4-6e1c-df83" name="Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="eec3-9384-de4e-cef9" value="0.0" />
+                <modifier type="set" field="b27e-93b6-7552-82fd" value="0.0" />
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b27e-93b6-7552-82fd" type="min" />
@@ -4465,7 +4465,7 @@
     </selectionEntry>
     <selectionEntry id="da0a-9252-6b85-9b99" name="Orc Boar Chariot" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="1d06-5b8c-0443-5979" value="1.0">
+        <modifier type="increment" field="a1bf-cbf8-53f3-1267" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bbd-d350-341b-ba0d" repeats="1" roundUp="false" />
           </repeats>
@@ -5239,7 +5239,7 @@
     </selectionEntry>
     <selectionEntry id="c168-bdac-1e89-809d" name="Extra Goblin Hero" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="186c-6345-5b25-5aa2" value="0.0">
+        <modifier type="set" field="ec4c-9dfa-881e-4e84" value="0.0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -5249,7 +5249,7 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="increment" field="186c-6345-5b25-5aa2" value="1.0">
+        <modifier type="increment" field="ec4c-9dfa-881e-4e84" value="1.0">
           <repeats>
             <repeat field="limit::ecfa-8486-4f6c-c249" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
           </repeats>
@@ -5614,7 +5614,7 @@
     </selectionEntry>
     <selectionEntry id="46f1-16bb-06e1-493c" name="Orc Big 'uns Boar Boyz" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="4ebf-ca55-1ef8-9431" value="1.0">
+        <modifier type="increment" field="0f44-ee8a-bde4-7330" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3521-9d44-2035-9b6e" repeats="1" roundUp="false" />
           </repeats>
@@ -5749,7 +5749,7 @@
     </selectionEntry>
     <selectionEntry id="bf1e-3a30-ef07-373e" name="Orc Big 'Uns" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="938b-15b1-f433-e0d5" value="1.0">
+        <modifier type="increment" field="9d38-672d-d755-c1c3" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0a3-d85c-24a1-34bf" repeats="1" roundUp="false" />
           </repeats>
@@ -5921,7 +5921,7 @@
     </selectionEntry>
     <selectionEntry id="ccd9-cb62-40d8-fa97" name="Savage Orc Boar Big 'Uns" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="3f45-a5bb-0dda-6ef9" value="1.0">
+        <modifier type="increment" field="75d2-a633-e05f-f965" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76ed-103b-982f-7135" repeats="1" roundUp="false" />
           </repeats>
@@ -6058,7 +6058,7 @@
     </selectionEntry>
     <selectionEntry id="13aa-8b52-8765-73e9" name="Savage Orc Big 'Uns" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="f98e-8656-b468-229e" value="1.0">
+        <modifier type="increment" field="993c-9591-449d-0ff5" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="abcc-a049-2b7c-1343" repeats="1" roundUp="false" />
           </repeats>
@@ -7538,7 +7538,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="ef22-6979-e5bd-db56" name="Magic Armour Orc" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="increment" field="4928-8a21-ef4a-3007" value="1.0">
+        <modifier type="increment" field="6376-1beb-0fe1-cd50" value="1.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5c1-60aa-745f-c9d3" type="equalTo" />
           </conditions>
@@ -7571,7 +7571,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="56be-d97a-f328-ccc7" name="Arcane Items" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="increment" field="8c44-1e38-e587-56cf" value="1.0">
+        <modifier type="increment" field="f742-e41e-4e81-f2d6" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false" />
           </repeats>
@@ -7615,7 +7615,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="ec72-2624-1d20-283c" name="Magic Armour Goblin" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="increment" field="fcdb-85e5-ff5e-c15c" value="1.0">
+        <modifier type="increment" field="a84d-4a79-6dcf-dbf7" value="1.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5c1-60aa-745f-c9d3" type="equalTo" />
           </conditions>
@@ -7649,7 +7649,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="6e88-c173-aa08-832b" name="Arcane Items Goblin" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="increment" field="5d20-7d0e-bd61-db6a" value="1.0">
+        <modifier type="increment" field="8699-8fdc-5988-dc9d" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b76c-6bad-4650-dbb0" repeats="1" roundUp="false" />
           </repeats>
