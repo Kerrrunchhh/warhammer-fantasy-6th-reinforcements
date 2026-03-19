@@ -267,7 +267,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="snot-warb-genr-0001" name="General" hidden="false" collective="false" import="true" targetId="0e2c-2c56-34bc-7bd9" type="selectionEntry" />
+        <entryLink id="snot-warb-genr-0001" name="General" hidden="false" collective="false" import="true" targetId="0e2c-2c56-34bc-7bd9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="snot-warb-gnmn-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="snot-warb-gnmx-0001" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0" />
