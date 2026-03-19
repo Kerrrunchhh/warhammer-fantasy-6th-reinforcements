@@ -6284,7 +6284,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="ffd3-8b23-950c-60b0" name="Arachnarok Spider" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="ffd3-8b23-950c-60b0" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="8404-91bb-8e08-4457" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="7c5f-d86a-d457-16fc" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
@@ -6383,7 +6383,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="2740-911d-f9c7-d0c3" name="Mangler Squigs" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="2740-911d-f9c7-d0c3" name="Mangler Squigs" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="81a3-6c0b-8d4f-de13" name="Mangler Squigs" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
