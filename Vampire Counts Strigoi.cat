@@ -831,7 +831,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fff-a53a-836d-d795" name="Dogs of War" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4fff-a53a-836d-d795" name="Dogs of War" hidden="true" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="cc2b-75c4-be17-93e9" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
       </categoryLinks>
