@@ -37,5 +37,6 @@
     <dataIndexEntry filePath="Wood.Elf.catz" dataType="catalogue" dataId="1d30-bbdf-823d-416a" dataName="Wood Elf" dataBattleScribeVersion="2.03" dataRevision="3"/>
     <dataIndexEntry filePath="Empire.The.Emperors.Guard.catz" dataType="catalogue" dataId="c3d4-e5f6-a7b8-9012" dataName="Empire The Emperor's Guard" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.The.Artillery.Train.of.Nuln.catz" dataType="catalogue" dataId="d4e5-f6a7-b8c9-0123" dataName="Empire The Artillery Train of Nuln" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Empire.Sigmarite.Army.catz" dataType="catalogue" dataId="e5f6-a7b8-c9d0-1234" dataName="Empire Sigmarite Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
   </dataIndexEntries>
 </dataIndex>
