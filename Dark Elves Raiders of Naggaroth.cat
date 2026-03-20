@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a1b2-c3d4-e5f6-7abc" name="Dark Elves Raiders of Naggaroth" revision="1" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="d82e-5e6d-5df0-8ddd" name="Dark Elves AB 2001" />
@@ -188,7 +188,8 @@
             <selectionEntry id="0144-c11d-a6c2-c534" name="Sea Dragon Cloak" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="205d-e740-daae-482d" type="max" />
-              <constraint type="min" value="1" scope="parent" shared="true" id="raid-sdc1-hbor-min1" field="selections" /></constraints>
+                <constraint type="min" value="1" scope="parent" shared="true" id="raid-sdc1-hbor-min1" field="selections" />
+              </constraints>
               <infoLinks>
                 <infoLink id="7819-1cd9-9e8e-d846" name="Sea Dragon Cloak" hidden="false" targetId="9d6b-0bd6-314d-9ccd" type="profile" />
               </infoLinks>
@@ -673,7 +674,8 @@
             <selectionEntry id="d434-62cd-bf85-82fe" name="Sea Dragon Cloak" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b03-0263-5675-d8b1" type="max" />
-              <constraint type="min" value="1" scope="parent" shared="true" id="raid-sdc1-nobl-min1" field="selections" /></constraints>
+                <constraint type="min" value="1" scope="parent" shared="true" id="raid-sdc1-nobl-min1" field="selections" />
+              </constraints>
               <infoLinks>
                 <infoLink id="5828-2508-b167-ea5c" name="Sea Dragon Cloak" hidden="false" targetId="9d6b-0bd6-314d-9ccd" type="profile" />
               </infoLinks>
@@ -2340,7 +2342,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="b507-5532-557f-78e0" name="Sisters of Slaughter" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="b507-5532-557f-78e0" name="Sisters of Slaughter" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e7ce-fbd7-14eb-6f70" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
         <infoLink id="0de2-7632-7a90-9dae" name="Skirmisher" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule" />
@@ -2422,7 +2424,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="7d41-0d2f-c8f9-9e6f" name="Doomfire Warlocks" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="7d41-0d2f-c8f9-9e6f" name="Doomfire Warlocks" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b33e-8cf0-f89f-be4f" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
         <infoLink id="89a9-f877-4547-2d09" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule" />
@@ -2561,7 +2563,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="8184-c7c9-1655-c41a" name="Kharibdys" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="8184-c7c9-1655-c41a" name="Kharibdys" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3093-0ea2-9161-b001" type="max" />
       </constraints>
