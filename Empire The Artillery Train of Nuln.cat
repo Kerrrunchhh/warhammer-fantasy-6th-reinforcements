@@ -15,7 +15,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f578-b3d3-8812-0cea" type="max" />
       </constraints>
     </categoryEntry>
-  </categoryEntries>
+  <categoryEntry id="nuln-arty-cat0-0001" name="Artillery (Nuln)" hidden="true"><constraints><constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" id="nuln-arty-max-0001" type="max" /></constraints></categoryEntry></categoryEntries>
   <selectionEntries>
     <selectionEntry id="364c-bb73-5c97-3aef" name="Halberdiers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -118,7 +118,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="nuln-arty-max-0001" value="1" /></modifiers></selectionEntry>
     <selectionEntry id="a5a0-8a32-14ac-a68c" name="Elector Count" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="39bc-d729-eeab-363a" name="Elector Count" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -408,7 +408,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="nuln-arty-max-0001" value="1" /></modifiers></selectionEntry>
     <selectionEntry id="6af5-807d-0063-5dc9" name="Swordsmen" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d4e2-0830-621d-c2f0" name="Swordsmen" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -518,7 +518,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="nuln-arty-max-0001" value="1" /></modifiers></selectionEntry>
     <selectionEntry id="0a2e-f9fb-9940-6c59" name="Handgunners" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b108-4cfc-ae66-0f19" name="Empire soldier" hidden="false" targetId="c713-7101-bbbf-7553" type="profile">
@@ -638,7 +638,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="nuln-arty-max-0001" value="1" /></modifiers></selectionEntry>
     <selectionEntry id="a0fe-ac9a-c806-d2fc" name="Free Company" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="8324-39c7-34da-12f1" name="Empire soldier" hidden="false" targetId="c713-7101-bbbf-7553" type="profile">
@@ -720,7 +720,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="nuln-arty-max-0001" value="1" /></modifiers></selectionEntry>
     <selectionEntry id="4cd7-e613-4530-b196" name="Archers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ef15-4b32-4a0e-f902" name="Empire soldier" hidden="false" targetId="c713-7101-bbbf-7553" type="profile">
@@ -790,7 +790,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="nuln-arty-max-0001" value="1" /></modifiers></selectionEntry>
     <selectionEntry id="4afc-94ed-61c2-770f" name="Huntsmen" hidden="true" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5c2-cd06-4d1b-2901" type="max" />
@@ -952,7 +952,7 @@
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="nuln-arty-max-0001" value="1" /></modifiers></selectionEntry>
     <selectionEntry id="75de-f752-db01-604a" name="Knightly Orders" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="83e1-0143-9667-51da" name="Elite" hidden="false" targetId="a050-2625-9c5a-20e0" type="profile">
@@ -1387,7 +1387,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="b420-c85b-f73e-3f4e" name="Great Cannon" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="b420-c85b-f73e-3f4e" name="Great Cannon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9590-0bd2-c326-0aea" name="War machines" hidden="false" targetId="f9f4-4ab2-8b24-8433" type="profile">
           <modifiers>
@@ -1401,8 +1401,8 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="66d4-40cd-6acb-fdc7" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
-      </categoryLinks>
+        <categoryLink id="66d4-40cd-6acb-fdc7" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
+      <categoryLink id="nuln-b420-catl-0001" name="" hidden="false" targetId="nuln-arty-cat0-0001" primary="false" /></categoryLinks>
       <selectionEntries>
         <selectionEntry id="3016-b7e9-672c-88c4" name="3 Crew" hidden="false" collective="true" import="true" type="upgrade">
           <constraints>
@@ -1430,7 +1430,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="c669-27ba-f5b6-8ffb" name="Mortar" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="c669-27ba-f5b6-8ffb" name="Mortar" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="a607-b6c1-278e-f809" name="War machines" hidden="false" targetId="f9f4-4ab2-8b24-8433" type="profile">
           <modifiers>
@@ -1444,8 +1444,8 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7fee-577c-1140-53db" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
-      </categoryLinks>
+        <categoryLink id="7fee-577c-1140-53db" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
+      <categoryLink id="nuln-c669-catl-0001" name="" hidden="false" targetId="nuln-arty-cat0-0001" primary="false" /></categoryLinks>
       <selectionEntries>
         <selectionEntry id="1e62-c098-c21f-3ad8" name="3 Crew" hidden="false" collective="true" import="true" type="upgrade">
           <constraints>
