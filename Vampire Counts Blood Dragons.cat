@@ -4104,7 +4104,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="hexw-rths-0001-0001" name="Hex Wraiths" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="hexw-rths-0001-0001" name="Hex Wraiths" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="hexw-rths-prof-0001" name="Hex Wraith" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -4139,7 +4139,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <infoLink id="hexw-rths-ethu-0001" name="Ethereal Unit" hidden="false" targetId="vamc-hexw-ethu-0001" type="rule" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="hexw-rths-cat0-0001" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
+        <categoryLink id="hexw-rths-cat0-0001" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="hexw-rths-mdl0-0001" name="Hex Wraith" hidden="false" collective="false" import="true" type="model">
