@@ -57,6 +57,7 @@ declare -A MAP=(
     ["Vampire Counts"]="Vampire.Counts"
     ["Vampire Counts von Carstein"]="Vampire.Counts.von.Carstein"
     ["Vampire Counts Necrarchs"]="Vampire.Counts.Necrarchs"
+    ["Vampire Counts Necromancer's Army"]="Vampire.Counts.Necromancers.Army"
     ["Wood Elf"]="Wood.Elf"
 )
 

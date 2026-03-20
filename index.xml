@@ -41,5 +41,6 @@
     <dataIndexEntry filePath="Empire.Crusader.Army.catz" dataType="catalogue" dataId="b8c9-d0e1-f2a3-4567" dataName="Empire Crusader Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Vampire.Counts.von.Carstein.catz" dataType="catalogue" dataId="c9d0-e1f2-a3b4-5678" dataName="Vampire Counts von Carstein" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Vampire.Counts.Necrarchs.catz" dataType="catalogue" dataId="1aa0-400b-d1dd-623d" dataName="Vampire Counts Necrarchs" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Vampire.Counts.Necromancers.Army.catz" dataType="catalogue" dataId="c90f-528f-f604-eeb2" dataName="Vampire Counts Necromancer's Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
   </dataIndexEntries>
 </dataIndex>
