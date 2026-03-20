@@ -86,6 +86,9 @@ with zipfile.ZipFile(f"/tmp/bs-release/{BSI_NAME}.bsi", "w", zipfile.ZIP_DEFLATE
 print(f"  Written {BSI_NAME}.bsi")
 PYEOF
 
+cp "$SRC/install.sh"  "$OUTDIR/"
+cp "$SRC/install.ps1" "$OUTDIR/"
+
 echo "Publishing GitHub release..."
 cd "$SRC"
 gh release delete latest --yes 2>/dev/null || true
