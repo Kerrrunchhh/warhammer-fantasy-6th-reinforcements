@@ -4353,8 +4353,15 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
+          <modifiers>
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1">
+              <conditions>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="cars-frec-larm-0001" type="atLeast" />
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
-        <selectionEntry id="cars-frec-larm-0001" name="Light Armour (per model)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cars-frec-larm-0001" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="cars-frec-la-il1" name="Light Armour" hidden="false" targetId="752a-95b9-343a-8f75" type="profile" />
           </infoLinks>
@@ -4366,11 +4373,6 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-frec-la-max1" type="max" />
           </constraints>
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1">
-              <repeats id="cars-frec-la-rep1" field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="cars-frec-modl-0001" roundUp="false" />
-            </modifier>
-          </modifiers>
         </selectionEntry>
         <selectionEntry id="cars-frec-sarg-0001" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
