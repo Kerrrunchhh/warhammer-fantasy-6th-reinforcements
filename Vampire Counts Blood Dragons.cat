@@ -4305,9 +4305,6 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       <categoryLinks>
         <categoryLink id="bldd-skbw-cat0-0001" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
       </categoryLinks>
-      <constraints>
-        <constraint field="selections" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bldd-skbw-cmin-0001" type="min" />
-      </constraints>
       <selectionEntries>
         <selectionEntry id="bldd-skbw-modl-0001" name="Skeleton Bowman" hidden="false" collective="false" import="true" type="model">
           <profiles>
@@ -4325,6 +4322,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bldd-skbw-cmin-0001" type="min" />
+          </constraints>
           <selectionEntries>
             <selectionEntry id="bldd-skbw-hwpn-0001" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
