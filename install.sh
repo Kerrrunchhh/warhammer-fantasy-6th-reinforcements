@@ -47,6 +47,7 @@ FILES=(
     "Vampire.Counts.Necromancers.Army.catz"
     "Vampire.Counts.Lahmians.catz"
     "Vampire.Counts.Blood.Dragons.catz"
+    "Vampire.Counts.Strigoi.catz"
     "Wood.Elf.catz"
 )
 
