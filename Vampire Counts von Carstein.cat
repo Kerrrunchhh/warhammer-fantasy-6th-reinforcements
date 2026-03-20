@@ -4280,22 +4280,195 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="cars-levy-unit-0001" name="Sylvanian Levy" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-levy-max0-0001" type="max" />
-      </constraints>
+    <selectionEntry id="cars-xbow-unit-0001" name="Crossbowmen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="cars-levy-ipl0-0001" name="Sylvanian Levy" hidden="false" targetId="cars-levy-prof-0001" type="profile" />
-        <infoLink id="cars-levy-irl0-0001" name="Sylvanian Levy" hidden="false" targetId="cars-levy-rule-0001" type="rule" />
+        <infoLink id="cars-xbow-il01" name="Levy" hidden="false" targetId="cars-levy-prof-0001" type="profile" />
+        <infoLink id="cars-xbow-il02" name="Crossbow" hidden="false" targetId="1979-9085-40d4-adee" type="profile" />
+        <infoLink id="cars-xbow-il03" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="cars-levy-cat0-0001" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
+        <categoryLink id="cars-xbow-unit-0001cl" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cars-levy-modl-0001" name="Levy" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="cars-xbow-modl-0001" name="Levy" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-levy-min0-0001" type="min" />
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-xbow-modl-0001m" type="min" />
           </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cars-xbow-mark-0001" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-xbow-mark-0001c" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="cars-xbow-mil1" name="Marksman" hidden="false" targetId="cars-mark-prof-0001" type="profile" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cars-xbow-stnd-0001" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-xbow-stnd-0001c" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cars-xbow-musi-0001" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-xbow-musi-0001c" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="cars-frec-unit-0001" name="Free Companies" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="cars-frec-il01" name="Levy" hidden="false" targetId="cars-levy-prof-0001" type="profile" />
+        <infoLink id="cars-frec-il02" name="Two Hand Weapons" hidden="false" targetId="72aa-da68-2dae-4ab6" type="profile" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cars-frec-unit-0001cl" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cars-frec-modl-0001" name="Levy" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-frec-modl-0001m" type="min" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cars-frec-larm-0001" name="Light Armour (per model)" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="cars-frec-la-il1" name="Light Armour" hidden="false" targetId="752a-95b9-343a-8f75" type="profile" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cars-frec-sarg-0001" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-frec-sarg-0001c" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="cars-frec-sil1" name="Sergeant" hidden="false" targetId="cars-sarg-prof-0001" type="profile" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cars-frec-stnd-0001" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-frec-stnd-0001c" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cars-frec-musi-0001" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-frec-musi-0001c" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="cars-arch-unit-0001" name="Archers" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="cars-arch-il01" name="Levy" hidden="false" targetId="cars-levy-prof-0001" type="profile" />
+        <infoLink id="cars-arch-il02" name="Bow" hidden="false" targetId="ec76-323e-c09d-eae4" type="profile" />
+        <infoLink id="cars-arch-il03" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile" />
+        <infoLink id="cars-arch-il04" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cars-arch-unit-0001cl" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cars-arch-modl-0001" name="Levy" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-arch-modl-0001m" type="min" />
+            <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-arch-modl-0001x" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cars-arch-mark-0001" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-arch-mark-0001c" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="cars-arch-mil1" name="Marksman" hidden="false" targetId="cars-mark-prof-0001" type="profile" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="cars-hunt-unit-0001" name="Huntsmen" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-hunt-unit-0001r" type="max" />
+      </constraints>
+      <infoLinks>
+        <infoLink id="cars-hunt-il01" name="Levy" hidden="false" targetId="cars-levy-prof-0001" type="profile" />
+        <infoLink id="cars-hunt-il02" name="Long Bow" hidden="false" targetId="67c1-cca3-76a7-0667" type="profile" />
+        <infoLink id="cars-hunt-il03" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile" />
+        <infoLink id="cars-hunt-il04" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule" />
+        <infoLink id="cars-hunt-il05" name="Scouts" hidden="false" targetId="889c-dfc3-95a5-2d30" type="rule" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cars-hunt-unit-0001cl" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cars-hunt-modl-0001" name="Levy" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-hunt-modl-0001m" type="min" />
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-hunt-modl-0001x" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cars-hunt-mark-0001" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cars-hunt-mark-0001c" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="cars-hunt-mil1" name="Marksman" hidden="false" targetId="cars-mark-prof-0001" type="profile" />
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -5940,9 +6113,6 @@ At the beginning of the Close Combat phase, before hits are struck, the Familiar
     <rule id="vamc-mort-napr-0001" name="Necromancer's Apprentice" hidden="false">
       <description>The Necromancer on the Mortis Engine does not generate Power Dice for the pool and cannot cast spells himself. He counts as a Necromancer for all other rules purposes.</description>
     </rule>
-    <rule id="cars-levy-rule-0001" name="Sylvanian Levy" hidden="false">
-      <description>The human subjects of Sylvania who march alongside the undead legions of the von Carsteins. Sylvanian Levy are armed with hand weapons and shields.</description>
-    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="d779-7b37-711c-a697" name="Frostblade" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -6307,7 +6477,33 @@ Roll a D6 each time the Book is used. On a result of 1 its powers are temporaril
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
-        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">6</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cars-sarg-prof-0001" name="Sergeant" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cars-mark-prof-0001" name="Marksman" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
