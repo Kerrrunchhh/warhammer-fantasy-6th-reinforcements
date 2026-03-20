@@ -45,6 +45,7 @@ $files = @(
     "Vampire.Counts.Necrarchs.catz",
     "Vampire.Counts.Necromancers.Army.catz",
     "Vampire.Counts.Lahmians.catz",
+    "Vampire.Counts.Blood.Dragons.catz",
     "Wood.Elf.catz"
 )
 
