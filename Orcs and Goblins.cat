@@ -8085,7 +8085,7 @@ The Gaze of Mork is a magic missile with a range of up to 24&quot;. If successfu
       <description>The Arachnarok Spider may move through difficult terrain without penalty (such as rivers, forests, or swamps).</description>
     </rule>
     <rule id="ong-arch-bite-0001" name="Bite Attack" hidden="false">
-      <description>One of the Arachnarok&apos;s attacks (best marked with a different coloured die) causes D6 Wounds. It is also Poisoned.</description>
+      <description>One of the Arachnarok&apos;s attacks must be made using a die of a different colour. If that attack hits and wounds, it is resolved with Multiple Wounds (1D6). Like the rest of its attacks, it is also a Poisoned Attack.</description>
     </rule>
     <rule id="ong-arch-mntd-0001" name="Mounted" hidden="false">
       <description>An Arachnarok may serve as the mount of a Nightgoblin Great Shaman, Nightgoblin Warboss, Nightgoblin Shaman and Nightgoblin Bigboss. The character does not replace any of the Goblins already on the Arachnarok. A character riding an Arachnarok is treated like any other model mounted on a monstrous mount, except that the Arachnarok grants the character a 2+ Armour Save, which may not be improved in any way.</description>

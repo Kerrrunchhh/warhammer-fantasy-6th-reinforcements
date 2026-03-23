@@ -6403,7 +6403,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="2e47-650f-6aa4-1f9a" name="Immune to Psychology" hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule" />
-        <infoLink id="cog1-rand-mv3d-0001" name="Random Movement (3D6)" hidden="false" targetId="cog1-mang-rm3d-0001" type="rule" />
         <infoLink id="29e6-9846-d894-312d" name="Erratic" hidden="false" targetId="74b9-c0fd-27c4-f2f0" type="rule" />
         <infoLink id="7d75-500c-19e0-f33e" name="Splat!" hidden="false" targetId="3a97-da6c-05f7-ab5b" type="rule" />
         <infoLink id="fa76-8e14-0e63-30dc" name="Random Movement" hidden="false" targetId="1c88-d951-0db9-2f9a" type="rule" />
@@ -8086,7 +8085,7 @@ The Gaze of Mork is a magic missile with a range of up to 24". If successfully c
       <description>The Arachnarok Spider may move through difficult terrain without penalty (such as rivers, forests, or swamps).</description>
     </rule>
     <rule id="5dc1-8cea-9af6-12e9" name="Bite Attack" hidden="false">
-      <description>One of the Arachnarok's attacks (best marked with a different coloured die) causes D6 Wounds. It is also Poisoned.</description>
+      <description>One of the Arachnarok's attacks must be made using a die of a different colour. If that attack hits and wounds, it is resolved with Multiple Wounds (1D6). Like the rest of its attacks, it is also a Poisoned Attack.</description>
     </rule>
     <rule id="0af3-eb9c-ddea-5e7c" name="Mounted" hidden="false">
       <description>An Arachnarok may serve as the mount of a Nightgoblin Great Shaman, Nightgoblin Warboss, Nightgoblin Shaman and Nightgoblin Bigboss. The character does not replace any of the Goblins already on the Arachnarok. A character riding an Arachnarok is treated like any other model mounted on a monstrous mount, except that the Arachnarok grants the character a 2+ Armour Save, which may not be improved in any way.</description>
@@ -8099,9 +8098,6 @@ The Gaze of Mork is a magic missile with a range of up to 24". If successfully c
     </rule>
     <rule id="99d8-e3ee-b8d2-b17b" name="Spider Shrine" hidden="false">
       <description>May only be chosen if no Web Thrower is taken and a Goblin Great Shaman rides the Arachnarok. The Shrine grants the Shaman +1 Power Dice and he knows one additional spell (e.g., a Level 4 Great Shaman would know 5 spells total). If the Arachnarok is slain and the Shaman continues on foot, he randomly loses one spell and no longer generates the additional Power Dice.</description>
-    </rule>
-    <rule id="cog1-mang-rm3d-0001" name="Random Movement (3D6)" hidden="false">
-      <description>This unit moves 3D6 cm each turn using random movement.</description>
     </rule>
     <rule id="74b9-c0fd-27c4-f2f0" name="Erratic" hidden="false">
       <description>Shooting attacks made against the Mangler Squigs suffer a –1 to hit.</description>
