@@ -6403,7 +6403,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="mang-immu-psyc-0001" name="Immune to Psychology" hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
-        <infoLink id="mang-rand-mv3d-0001" name="Random Movement (3D6)" hidden="false" targetId="ong-mang-rm3d-0001" type="rule"/>
         <infoLink id="mang-erra-tic0-0001" name="Erratic" hidden="false" targetId="ong-mang-erra-0001" type="rule"/>
         <infoLink id="mang-spla-t000-0001" name="Splat!" hidden="false" targetId="ong-mang-spla-0001" type="rule"/>
         <infoLink id="mang-unco-ntrl-0001" name="Random Movement" hidden="false" targetId="ong-mang-umov-0001" type="rule"/>
@@ -8099,9 +8098,6 @@ The Gaze of Mork is a magic missile with a range of up to 24&quot;. If successfu
     </rule>
     <rule id="ong-arch-shri-0001" name="Spider Shrine" hidden="false">
       <description>May only be chosen if no Web Thrower is taken and a Goblin Great Shaman rides the Arachnarok. The Shrine grants the Shaman +1 Power Dice and he knows one additional spell (e.g., a Level 4 Great Shaman would know 5 spells total). If the Arachnarok is slain and the Shaman continues on foot, he randomly loses one spell and no longer generates the additional Power Dice.</description>
-    </rule>
-    <rule id="ong-mang-rm3d-0001" name="Random Movement (3D6)" hidden="false">
-      <description>This unit moves 3D6 cm each turn using random movement.</description>
     </rule>
     <rule id="ong-mang-erra-0001" name="Erratic" hidden="false">
       <description>Shooting attacks made against the Mangler Squigs suffer a –1 to hit.</description>
