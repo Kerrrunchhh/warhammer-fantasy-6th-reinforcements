@@ -4653,6 +4653,7 @@
         <infoLink id="2dff-f4b0-adff-2115" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule" />
         <infoLink id="8409-c8c2-6d19-91c3" name="Stupidity" hidden="false" targetId="5d6f-7b4d-6093-4922" type="rule" />
         <infoLink id="273c-58b0-634f-dabc" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule" />
+        <infoLink id="mtw-trol-vomi-il01" name="Troll Vomit" hidden="false" targetId="mtw-trol-vomi-0001" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f622-3067-1b5d-4b52" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
@@ -6204,6 +6205,7 @@
         <infoLink id="7e4c-b557-1220-7c72" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule" />
         <infoLink id="e56f-a840-dc62-61dd" name="Stupidity" hidden="false" targetId="5d6f-7b4d-6093-4922" type="rule" />
         <infoLink id="5994-3c71-1151-cdbe" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule" />
+        <infoLink id="mtw-trol-vomi-il02" name="Troll Vomit" hidden="false" targetId="mtw-trol-vomi-0001" type="rule"/>
         <infoLink id="9623-e578-e560-697b" name="Stone Troll" hidden="false" targetId="f272-753d-f1f8-44a8" type="rule" />
       </infoLinks>
       <categoryLinks>
@@ -6344,10 +6346,13 @@
       </profiles>
       <infoLinks>
         <infoLink id="mang-immu-psyc-0001" name="Immune to Psychology" hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule" />
+        <infoLink id="mang-rand-mv3d-0001" name="Random Movement (3D6)" hidden="false" targetId="ong-mang-rm3d-0001" type="rule" />
         <infoLink id="mang-erra-tic0-0001" name="Erratic" hidden="false" targetId="ong-mang-erra-0001" type="rule" />
         <infoLink id="mang-spla-t000-0001" name="Splat!" hidden="false" targetId="ong-mang-spla-0001" type="rule" />
-        <infoLink id="mang-unco-ntrl-0001" name="Uncontrolled Movement" hidden="false" targetId="ong-mang-umov-0001" type="rule" />
-        <infoLink id="mang-madc-ap00-0001" name="Madcap" hidden="false" targetId="ong-mang-madc-0001" type="rule" />
+        <infoLink id="mang-unco-ntrl-0001" name="Random Movement" hidden="false" targetId="ong-mang-umov-0001" type="rule" />
+        <infoLink id="mang-terr-ain0-0001" name="Terrain" hidden="false" targetId="ong-mang-terr-0001" type="rule" />
+        <infoLink id="mang-char-ging-0001" name="Charging the Mangler Squigs" hidden="false" targetId="ong-mang-char-0001" type="rule" />
+        <infoLink id="mang-madc-ap00-0001" name="Mad Frenzy" hidden="false" targetId="ong-mang-madc-0001" type="rule" />
       </infoLinks>
       <categoryLinks>
         <categoryLink id="mang-cate-rare-0001" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
@@ -8040,17 +8045,26 @@ The Gaze of Mork is a magic missile with a range of up to 24". If successfully c
     <rule id="ong-arch-shri-0001" name="Spider Shrine" hidden="false">
       <description>May only be chosen if no Web Thrower is taken and a Goblin Great Shaman rides the Arachnarok. The Shrine grants the Shaman +1 Power Dice and he knows one additional spell (e.g., a Level 4 Great Shaman would know 5 spells total). If the Arachnarok is slain and the Shaman continues on foot, he randomly loses one spell and no longer generates the additional Power Dice.</description>
     </rule>
+    <rule id="ong-mang-rm3d-0001" name="Random Movement (3D6)" hidden="false">
+      <description>This unit moves 3D6 cm each turn using random movement.</description>
+    </rule>
     <rule id="ong-mang-erra-0001" name="Erratic" hidden="false">
-      <description>Ranged attacks against Mangler Squigs suffer a -1 penalty to hit.</description>
+      <description>Shooting attacks made against the Mangler Squigs suffer a –1 to hit.</description>
     </rule>
     <rule id="ong-mang-spla-0001" name="Splat!" hidden="false">
-      <description>As soon as the Mangler Squigs come into contact with a unit (friendly or enemy), whether they move into the unit or the unit charges them, that unit suffers 2D6 Strength 5 hits distributed as for shooting. This happens immediately in the Movement phase — no close combat takes place, no stomps, no overruns, etc.</description>
+      <description>When the Mangler Squigs come into contact with any unit, friend or foe (whether because the Mangler Squigs move into it or because an enemy unit charges them), that unit suffers 2D6 Strength 5 hits, distributed as shooting attacks. In all cases, the damage is resolved in the same Movement phase, so there is no close combat (and no overruns).</description>
     </rule>
-    <rule id="ong-mang-umov-0001" name="Uncontrolled Movement" hidden="false">
-      <description>During the Compulsory Movement phase: determine a direction (initially freely chosen). Move the Squigs 3D6" in that direction. They may move through units; each unit they pass through suffers 2D6 Strength 5 hits. If movement ends on top of a unit, continue moving in the same direction until no longer in contact — like Goblin Fanatics. If they collide with impassable terrain or leave the battlefield, remove them as casualties.</description>
+    <rule id="ong-mang-umov-0001" name="Random Movement" hidden="false">
+      <description>In the Compulsory Moves sub-phase, choose a direction and move the Mangler Squigs 8D6 cm. The Mangler Squigs can move through units (remember they cause hits due to Splat!). If they pass through units engaged in close combat, distribute the hits as normal. If they end their movement on top of a unit, move the Mangler Squigs in that direction until they are no longer in contact with any unit (if there are multiple units in that direction, they pass through them until they find a &quot;gap&quot;), just as you would with a Night Goblin Fanatic.</description>
     </rule>
-    <rule id="ong-mang-madc-0001" name="Madcap" hidden="false">
-      <description>Once the Squigs hit an enemy unit for the first time (Splat! triggered), they become completely uncontrollable: their movement direction is determined by a Scatter Die (no longer freely chosen). Additionally, roll an extra die of a different colour each time they move. On a roll of 1, remove the Squigs.</description>
+    <rule id="ong-mang-terr-0001" name="Terrain" hidden="false">
+      <description>If they collide with terrain that is not open ground for movement purposes, remove them as casualties. If they leave the battlefield, remove them as casualties.</description>
+    </rule>
+    <rule id="ong-mang-char-0001" name="Charging the Mangler Squigs" hidden="false">
+      <description>If a unit, friend or foe, comes into contact with the Mangler Squigs (for example by charging them, or a fanatic colliding with them), that unit suffers 2D6 Strength 5 hits. Then remove the Mangler Squigs as casualties. If it was a charging unit, after resolving the hits it may overrun as normal.</description>
+    </rule>
+    <rule id="ong-mang-madc-0001" name="Mad Frenzy" hidden="false">
+      <description>After the first Splat! against an enemy unit, the Mangler Squigs lose control. From that moment on, their movement becomes completely random. Determine the direction of their movement with a scatter die at the start of each Compulsory Moves phase. Additionally, once they are out of control, each movement roll must include a die of a different colour. If that die rolls a 1, the Mangler Squigs are removed as casualties.</description>
     </rule>
     <rule id="ong-colo-impa-0001" name="Impact Hits (1D3)" hidden="false">
       <description>When the Colossal Squig charges, it causes 1D3 Impact Hits at its Strength value.</description>
@@ -8063,6 +8077,11 @@ The Gaze of Mork is a magic missile with a range of up to 24". If successfully c
     </rule>
     <rule id="ong-trol-moth-0001" name="Mother" hidden="false">
       <description>All Troll units within 8" of the Troll Hag may use her Leadership rating for Stupidity tests.</description>
+    </rule>
+    <rule id="mtw-trol-vomi-0001" name="Troll Vomit" hidden="false">
+      <description>A Troll&apos;s digestive fluid is the most corrosive thing known to science... and about the most revolting too. Trolls are able to vomit their stomach contents upon their enemies if they wish. A unit of Trolls can make Vomit Attacks instead of ordinary attacks during close combat.
+
+Instead of attacking normally the whole unit may elect to vomit on the enemy. As each Troll can make only 1 Vomit Attack at a time, as opposed to 3 ordinary Attacks, this means the unit gets fewer Attacks, although these always hit. Each model inflicts one automatic Strength 5 hit with no Armour saves allowed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
