@@ -409,6 +409,58 @@
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
+            <selectionEntry id="soth-skch-tepk-sel-0001" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skch-tepk-con-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="soth-skch-tepk-il-0001" name="Blessed Spawning of Tepok" hidden="false" targetId="b8e6-8353-db42-470c" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="soth-skch-huan-sel-0001" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skch-huan-con-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="soth-skch-huan-il-0001" name="Blessed Spawning of Huanchi" hidden="false" targetId="46ca-e242-ede6-65ce" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="soth-skch-chot-sel-0001" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skch-chot-con-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="soth-skch-chot-il-0001" name="Blessed Spawning of Chotec" hidden="false" targetId="e8f4-0997-68ea-ad45" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="soth-skch-itzl-sel-0001" name="Blessed Spawning of Itzl" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skch-itzl-con-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="soth-skch-itzl-il-0001" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="54b8-1a14-b37c-c4ea" name="Mount" hidden="false" collective="false" import="true">
@@ -427,20 +479,30 @@
             </entryLink>
           </entryLinks>
           <selectionEntries>
-            <selectionEntry id="soth-skch-horn-0001" name="Horned One" hidden="false" collective="false" import="true" type="upgrade" page="" publicationId="">
-              <infoLinks>
-                <infoLink id="soth-skch-horn-0002" name="Horned One" hidden="false" targetId="soth-horn-prof-0003" type="profile" page="" publicationId="" />
-                <infoLink id="soth-skch-horn-0003" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" page="" publicationId="" />
-              </infoLinks>
+            <selectionEntry id="soth-skch-horn-0001" name="Horned One" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="parent" childId="soth-skch-itzl-sel-0001" includeChildSelections="false" includeChildForces="false" percentValue="false" shared="true" />
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint type="max" value="1" scope="parent" shared="true" id="soth-skch-horn-0004" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </constraints>
+              <infoLinks>
+                <infoLink id="soth-skch-horn-0002" name="Horned One" hidden="false" targetId="soth-horn-prof-0003" type="profile" />
+                <infoLink id="soth-skch-horn-fear-il" name="Fear" hidden="false" targetId="fd59-7f91-74f1-587c" type="rule" />
+                <infoLink id="soth-skch-horn-fcav-il" name="Fast Cavalry" hidden="false" targetId="soth-fast-cavl-0001" type="rule" />
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="16.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
           </selectionEntries>
-          </selectionEntryGroup>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2454-d3ec-e616-9740" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry" />
@@ -636,6 +698,45 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="soth-skpr-tepk-sel-0001" name="Blessed Spawning of Tepok" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skpr-tepk-con-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="soth-skpr-tepk-il-0001" name="Blessed Spawning of Tepok" hidden="false" targetId="b8e6-8353-db42-470c" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="soth-skpr-huan-sel-0001" name="Blessed Spawning of Huanchi" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skpr-huan-con-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="soth-skpr-huan-il-0001" name="Blessed Spawning of Huanchi" hidden="false" targetId="46ca-e242-ede6-65ce" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="soth-skpr-chot-sel-0001" name="Blessed Spawning of Chotec" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint type="max" value="1" scope="parent" shared="true" id="soth-skpr-chot-con-0001" field="selections" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="soth-skpr-chot-il-0001" name="Blessed Spawning of Chotec" hidden="false" targetId="e8f4-0997-68ea-ad45" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0" />
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
@@ -1688,7 +1789,7 @@ If Kroq-Gar is wounded in close combat and does not pass his Ward save, then who
           </rules>
           <infoLinks>
             <infoLink id="1d00-0cb9-028a-6e32" name="Blesssed Spawning of Quetzl" hidden="false" targetId="53b5-0869-f68c-53a2" type="rule" />
-            <infoLink id="ba3f-d012-2666-6150" name="Blesssed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
+            <infoLink id="ba3f-d012-2666-6150" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
             <infoLink id="e690-8f3f-a160-8221" name="Scaly Skin 4+" hidden="false" targetId="f64a-6c8d-6b36-0043" type="rule" />
             <infoLink id="92e3-105e-3c33-1f07" name="Cold Blooded" hidden="false" targetId="18a8-9ce9-6213-9c01" type="rule" />
           </infoLinks>
@@ -2293,7 +2394,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5f8-800c-fe9a-8b43" type="max" />
           </constraints>
           <infoLinks>
-            <infoLink id="bf57-d7c6-53f1-7f71" name="Blesssed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
+            <infoLink id="bf57-d7c6-53f1-7f71" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="0a9f-2c69-0384-74e8" name="Oldblood mount" hidden="false" collective="false" import="true">
@@ -2477,7 +2578,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84c2-3657-d577-b3c3" type="max" />
           </constraints>
           <infoLinks>
-            <infoLink id="30e1-1b20-2a22-1627" name="Blesssed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
+            <infoLink id="30e1-1b20-2a22-1627" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="a016-0119-4262-62b9" name="Scar Veteran mount" hidden="false" collective="false" import="true">
@@ -2866,7 +2967,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1206-b570-3548-cc67" type="max" />
       </constraints>
       <infoLinks>
-        <infoLink id="ea71-4910-f790-6660" name="Blesssed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
+        <infoLink id="ea71-4910-f790-6660" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cc2e-8a41-1376-a70b" name="Oldblood mount" hidden="false" collective="false" import="true">
@@ -3040,7 +3141,7 @@ The Hand of Gods has a range of 8" and strikes every enemy unit within line of s
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="654d-6bdc-bc61-97ca" type="max" />
       </constraints>
       <infoLinks>
-        <infoLink id="bbbf-8fc3-37a6-392b" name="Blesssed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
+        <infoLink id="bbbf-8fc3-37a6-392b" name="Blessed Spawning of Itzl" hidden="false" targetId="8d96-7f24-b875-27d0" type="rule" />
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="4a81-80d5-1430-b9f3" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
@@ -3834,8 +3935,8 @@ This can potentially cause Irresistible Force or avoid a Miscast. Remember that 
     <rule id="46ca-e242-ede6-65ce" name="Blesssed Spawning of Huanchi" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>The unit may move through jungles, woods, and forest as if they were open ground, suffering no penalties for movement.</description>
     </rule>
-    <rule id="8d96-7f24-b875-27d0" name="Blesssed Spawning of Itzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>Characters must take the Blesssed Spawning of Itzl if they wish to ride a Carnosaur or a Cold One.</description>
+    <rule id="8d96-7f24-b875-27d0" name="Blessed Spawning of Itzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+      <description>Characters must take the Blessed Spawning of Itzl if they wish to ride a Carnosaur or a Cold One.</description>
     </rule>
     <rule id="0813-0a03-7c70-ed6a" name="Blesssed Spawning of Tzunki" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>Aquatic, +1 Initiative</description>
