@@ -674,7 +674,6 @@
             <selectionEntry id="d434-62cd-bf85-82fe" name="Sea Dragon Cloak" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b03-0263-5675-d8b1" type="max" />
-                <constraint type="min" value="1" scope="parent" shared="true" id="raid-sdc1-nobl-min1" field="selections" />
               </constraints>
               <infoLinks>
                 <infoLink id="5828-2508-b167-ea5c" name="Sea Dragon Cloak" hidden="false" targetId="9d6b-0bd6-314d-9ccd" type="profile" />
@@ -3803,8 +3802,8 @@ Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand
     </profile>
     <profile id="9d6b-0bd6-314d-9ccd" name="Sea Dragon Cloak" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
       <characteristics>
-        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1" />
-        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e" />
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">+1 close combat, +2 ranged attacks</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">May be combined with other types of armour</characteristic>
       </characteristics>
     </profile>
     <profile id="2a66-f442-1c2f-ffd0" name="Lordling" publicationId="20b9-0ee7-8f6f-8d28" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">

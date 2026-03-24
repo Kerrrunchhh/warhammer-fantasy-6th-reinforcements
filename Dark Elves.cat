@@ -3770,8 +3770,8 @@ Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand
     </profile>
     <profile id="ac64-371e-2bbf-45bb" name="Sea Dragon Cloak" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
       <characteristics>
-        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1"/>
-        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e"/>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">+1 close combat, +2 ranged attacks</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">May be combined with other types of armour</characteristic>
       </characteristics>
     </profile>
     <profile id="912c-0009-269f-c90e" name="Lordling" publicationId="20b9-0ee7-8f6f-8d28" page="6" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
