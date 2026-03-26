@@ -6393,9 +6393,6 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="61b6-a099-a8f6-99d9" name="Weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="defe-871c-ea61-7da8" type="max" />
-          </constraints>
           <selectionEntries>
             <selectionEntry id="7571-1490-c9f6-d785" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
