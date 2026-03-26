@@ -257,6 +257,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="082b-067c-b983-c393" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="01a5-106d-f6e8-560b" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="gst-bsb-il-0001" name="Battle Standard Bearer" hidden="false" targetId="gst-bsb-rule-0001" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -645,6 +648,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b30-f604-aa3b-1c34" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="gst-general-il-0001" name="General" hidden="false" targetId="gst-general-rule-0001" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b6a9-2d67-cff3-dde7" name="General" hidden="false" targetId="a37e-7207-de6d-acb0" primary="false"/>
       </categoryLinks>
@@ -1775,6 +1781,14 @@ Note that a spell cast with a Power Stone can never be cast with Irresistible Fo
     </rule>
     <rule id="f23a-c5c8-d2ef-be75" name="Staff of Sorcery(Arcane Item)" hidden="false">
       <description>+1 To Dispel. A Wizard who has this benefits from the arcane power stored within it. Whenever he dispels a spell, the score required to make a successful dispel is reduced by 1.</description>
+    </rule>
+    <rule id="gst-general-rule-0001" name="General" hidden="false">
+      <description>Any unit within 12&quot; of the General model may use the General&apos;s Leadership value instead of its own when making a Leadership-based test. This means that a unit near the General can use his superior Leadership when testing for Break tests in close combat, when attempting to rally, for Psychology tests such as fear and panic, and for any other Leadership-based test. This rule ceases to apply if the General is fleeing.</description>
+    </rule>
+    <rule id="gst-bsb-rule-0001" name="Battle Standard Bearer" hidden="false">
+      <description>A General can be accompanied by a special Standard Bearer carrying either his personal banner or the Battle Standard of the army itself. This Battle Standard does not have to move along with the General but it is most useful when he is close by.
+
+The Battle Standard Bearer cannot be the army&apos;s General (unless specified in the character&apos;s army list entry), even if he has the highest Leadership in the army. Unlike ordinary standards the Battle Standard cannot be passed on if its bearer is slain. Should the bearer be slain then the Battle Standard can be captured in the same way as a unit banner.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
