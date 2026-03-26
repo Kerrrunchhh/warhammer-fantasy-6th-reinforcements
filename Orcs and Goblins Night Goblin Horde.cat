@@ -6301,7 +6301,7 @@
         <infoLink id="2294-6495-c4e6-e832" name="Cross" hidden="false" targetId="b43a-37d5-426e-af76" type="rule" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ad35-a69c-b359-02fa" name="Special" hidden="false" targetId="1f80-db85-1c4e-a8ac" primary="true" />
+        <categoryLink id="ad35-a69c-b359-02fa" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5a3b-5485-72e3-222e" name="Spider Rider" hidden="false" collective="false" import="true" type="model">
