@@ -51,6 +51,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a108-4b94-0415-b2e4" type="min" />
           </constraints>
+          <infoLinks>
+            <infoLink id="ngh-nght-gob-prof-il01" name="Night Goblin" hidden="false" targetId="c944-4e68-26c1-fe6b" type="profile" />
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
