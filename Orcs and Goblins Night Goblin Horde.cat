@@ -6399,12 +6399,12 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="7571-1490-c9f6-d785" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7571-1490-c9f6-d785" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngh-spid-lanc-max1" type="max" />
           </constraints>
           <infoLinks>
-            <infoLink id="ngh-spid-lanc-il01" name="Lance" hidden="false" targetId="a15a-0123-6693-7a50" type="profile" />
+            <infoLink id="ngh-spid-lanc-il01" name="Spear (Mounted)" hidden="false" targetId="ec7d-fa6d-d0f6-5589" type="profile" />
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
