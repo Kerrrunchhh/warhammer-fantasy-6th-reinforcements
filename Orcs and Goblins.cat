@@ -272,6 +272,32 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="f016-6d92-2790-7351" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb9-c68c-d77f-9b11" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="nght-gob-musi-il01" name="Musician" hidden="false" targetId="ong-musician-0001" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="529d-e643-0542-b6bc" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b6-3d1b-ab9f-4125" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="nght-gob-stnd-il01" name="Standard Bearer" hidden="false" targetId="ong-std-bearer-0001" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="887b-d919-42cf-5bd3" name="Weapons" hidden="false" collective="false" import="true">
@@ -329,26 +355,6 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="3e33-3847-5918-7c79" name="Command Group" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="f016-6d92-2790-7351" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb9-c68c-d77f-9b11" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="529d-e643-0542-b6bc" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b6-3d1b-ab9f-4125" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="4352-e941-22ca-004f" name="Boss" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fe2-865a-cb04-d08b" type="max"/>
@@ -3656,6 +3662,32 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="b6dd-2d09-7921-00c7" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce9b-9d11-214c-6ecf" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="orcb-musi-rule-il01" name="Musician" hidden="false" targetId="ong-musician-0001" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6955-61f9-31c1-6bbf" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4727-b117-a991-ef8c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="orcb-stnd-rule-il01" name="Standard Bearer" hidden="false" targetId="ong-std-bearer-0001" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b417-417b-dedd-fbd5" name="Weapons" hidden="false" collective="false" import="true">
@@ -3721,32 +3753,6 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="1915-0fe3-b92d-5de9" name="Command Group" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="b6dd-2d09-7921-00c7" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce9b-9d11-214c-6ecf" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="orcb-musi-rule-il01" name="Musician" hidden="false" targetId="ong-musician-0001" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6955-61f9-31c1-6bbf" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4727-b117-a991-ef8c" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="orcb-stnd-rule-il01" name="Standard Bearer" hidden="false" targetId="ong-std-bearer-0001" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="4d2f-6d57-256d-4a09" name="Boss" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cbd-40fa-802e-0825" type="max"/>
