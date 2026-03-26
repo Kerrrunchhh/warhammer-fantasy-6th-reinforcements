@@ -6556,6 +6556,9 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="spid-musi-min0-0001" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="spid-musi-max0-0001" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ong-spid-musi-il01" name="Musician" hidden="false" targetId="ong-musician-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -6567,6 +6570,9 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="spid-stnd-min0-0001" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="spid-stnd-max0-0001" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ong-spid-stnd-il01" name="Standard Bearer" hidden="false" targetId="ong-std-bearer-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -6577,6 +6583,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ong-spid-lanc-mx01" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ong-spid-lanc-il01" name="Lance" hidden="false" targetId="a15a-0123-6693-7a50" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -6587,6 +6596,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ong-spid-sbow-mx01" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ong-spid-sbow-il01" name="Short Bow" hidden="false" targetId="5e53-1e3a-3e8e-22b2" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -6597,6 +6609,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ong-spid-shld-mx01" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ong-spid-shld-il01" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -6607,6 +6622,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ong-spid-wpnt-mx01" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ong-spid-wpnt-il01" name="War Paint" hidden="false" targetId="ong-war-paint-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -8136,6 +8154,15 @@ The Gaze of Mork is a magic missile with a range of up to 24&quot;. If successfu
       <description>A Troll&apos;s digestive fluid is the most corrosive thing known to science... and about the most revolting too. Trolls are able to vomit their stomach contents upon their enemies if they wish. A unit of Trolls can make Vomit Attacks instead of ordinary attacks during close combat.
 
 Instead of attacking normally the whole unit may elect to vomit on the enemy. As each Troll can make only 1 Vomit Attack at a time, as opposed to 3 ordinary Attacks, this means the unit gets fewer Attacks, although these always hit. Each model inflicts one automatic Strength 5 hit with no Armour saves allowed.</description>
+    </rule>
+    <rule id="ong-musician-0001" name="Musician" hidden="false">
+      <description>A Musician model is placed in the front rank of its unit. A unit with a Musician may re-roll failed Panic tests and may attempt to rally by rolling equal to or under its Leadership on 2D6 (instead of needing to roll equal to or under half its Leadership). Musicians cannot be captured as trophies.</description>
+    </rule>
+    <rule id="ong-std-bearer-0001" name="Standard Bearer" hidden="false">
+      <description>A unit that includes a Standard Bearer may add +1 to its combat result.</description>
+    </rule>
+    <rule id="ong-war-paint-0001" name="War Paint" hidden="false">
+      <description>Some Savage Orcs adorn themselves with warpaint, tattoos and charms in the belief they will attract the favour of Gork and Mork. Such is a Savage Orc&apos;s faith in his warpaint that he gets a 6+ Ward save. A Savage Orc with warpaint may not wear armour, though he may carry a shield.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
