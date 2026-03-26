@@ -3671,6 +3671,10 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fc1-8026-5495-9fce" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="orcb-hand-weap-il01" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>
+                <infoLink id="orcb-shld-weap-il01" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3686,6 +3690,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <infoLinks>
+                <infoLink id="orcb-sbow-weap-il01" name="Short Bow" hidden="false" targetId="5e53-1e3a-3e8e-22b2" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3702,6 +3709,7 @@
               </modifiers>
               <infoLinks>
                 <infoLink id="3c01-ba45-f7c1-8f46" name="Spears (Infantry)" hidden="false" targetId="222b-1e29-9d24-09d7" type="profile"/>
+                <infoLink id="orcb-spsh-shld-il01" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -3717,6 +3725,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce9b-9d11-214c-6ecf" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="orcb-musi-rule-il01" name="Musician" hidden="false" targetId="ong-musician-0001" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3727,6 +3738,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4727-b117-a991-ef8c" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="orcb-stnd-rule-il01" name="Standard Bearer" hidden="false" targetId="ong-std-bearer-0001" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
