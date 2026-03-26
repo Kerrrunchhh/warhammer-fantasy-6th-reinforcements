@@ -6398,6 +6398,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="7571-1490-c9f6-d785" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngh-spid-lanc-max1" type="max" />
+              </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -6405,6 +6408,9 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="8801-e774-312c-569f" name="Short Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngh-spid-sbow-max1" type="max" />
+              </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -6412,6 +6418,9 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="94c7-4686-bfbc-b23a" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngh-spid-shld-max1" type="max" />
+              </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -6419,6 +6428,9 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="1015-6702-7f0f-e681" name="War Paint" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ngh-spid-warp-max1" type="max" />
+              </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
