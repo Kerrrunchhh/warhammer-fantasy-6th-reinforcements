@@ -1459,6 +1459,7 @@
               <infoLinks>
                 <infoLink id="59e0-5015-ca02-89f9" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
                 <infoLink id="b595-3da7-3c46-775d" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
+                <infoLink id="cgh-ara-crew-il01" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
@@ -1683,6 +1684,7 @@
               <infoLinks>
                 <infoLink id="9e21-082f-6194-3bc1" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
                 <infoLink id="192e-5d1d-ec63-8208" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
+                <infoLink id="cgh-ara-crew-il02" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
@@ -2874,6 +2876,7 @@
               <infoLinks>
                 <infoLink id="29f5-f64b-9ad3-dc4d" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
                 <infoLink id="4a57-d319-2e31-464e" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
+                <infoLink id="cgh-ara-crew-il03" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
@@ -3133,6 +3136,7 @@
               <infoLinks>
                 <infoLink id="68b5-9935-c478-4f24" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
                 <infoLink id="1679-988d-3357-72e5" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
+                <infoLink id="cgh-ara-crew-il04" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
@@ -6286,7 +6290,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="89e2-ea93-60ff-043e" name="Arachnarok Spider" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="89e2-ea93-60ff-043e" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="eb03-3989-7c61-da91" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="7c40-3c4a-6797-a0b4" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
