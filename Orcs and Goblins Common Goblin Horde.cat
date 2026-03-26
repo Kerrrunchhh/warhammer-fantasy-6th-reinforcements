@@ -1319,6 +1319,21 @@
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
+            <selectionEntry id="cgh-wrbs-ara-se01" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cgh-wrbs-ara-mx01" type="max" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="cgh-wrbs-ara-il01" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
+                <infoLink id="cgh-wrbs-ara-il02" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
+                <infoLink id="cgh-wrbs-ara-il03" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="dec7-5f7e-c190-3fa2" name="Magic Items" hidden="false" collective="false" import="true">
@@ -1558,6 +1573,21 @@
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
+            <selectionEntry id="cgh-gshm-ara-se01" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cgh-gshm-ara-mx01" type="max" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="cgh-gshm-ara-il01" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
+                <infoLink id="cgh-gshm-ara-il02" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
+                <infoLink id="cgh-gshm-ara-il03" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2de3-ffac-7776-a827" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e32-8685-6ceb-98c4">
@@ -1671,28 +1701,6 @@
             <entryLink id="32c4-502f-1402-9fb8" name="Enchanted Items Night goblin" hidden="false" collective="false" import="true" targetId="e832-8011-3f0d-7261" type="selectionEntryGroup" />
             <entryLink id="1f30-a876-b31a-f3d3" name="Arcane Items" hidden="false" collective="false" import="true" targetId="56be-d97a-f328-ccc7" type="selectionEntryGroup" />
           </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="f19e-6fb5-4df4-1ab3" name="Mounts" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68fa-0051-828b-6275" type="max" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="b618-9ea3-b702-5644" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed46-5d74-cb13-b1fb" type="max" />
-              </constraints>
-              <infoLinks>
-                <infoLink id="9e21-082f-6194-3bc1" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
-                <infoLink id="192e-5d1d-ec63-8208" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
-                <infoLink id="cgh-ara-crew-il02" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2839-af04-e73d-6f8d" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="63f5-d9c3-b179-6980">
           <constraints>
@@ -2713,6 +2721,21 @@
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
+            <selectionEntry id="cgh-bgbs-ara-se01" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cgh-bgbs-ara-mx01" type="max" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="cgh-bgbs-ara-il01" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
+                <infoLink id="cgh-bgbs-ara-il02" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
+                <infoLink id="cgh-bgbs-ara-il03" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="ae78-143d-ecd5-c665" name="Magic Items" hidden="false" collective="false" import="true">
@@ -2983,6 +3006,21 @@
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
+            <selectionEntry id="cgh-shm-ara-se01" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cgh-shm-ara-mx01" type="max" />
+              </constraints>
+              <infoLinks>
+                <infoLink id="cgh-shm-ara-il01" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
+                <infoLink id="cgh-shm-ara-il02" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
+                <infoLink id="cgh-shm-ara-il03" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c96e-3a8f-3aa7-02b3" name="Magic Items Selection" hidden="false" collective="false" import="true">
@@ -3120,28 +3158,6 @@
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0" />
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2.0" />
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="2995-e303-fa49-ac05" name="Mounts" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a839-b0ff-16dc-d92c" type="max" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6372-0d9c-0176-645b" name="Arachnarok Spider" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b80-1196-70c6-bbd0" type="max" />
-              </constraints>
-              <infoLinks>
-                <infoLink id="68b5-9935-c478-4f24" name="Mounted" hidden="false" targetId="0af3-eb9c-ddea-5e7c" type="rule" />
-                <infoLink id="1679-988d-3357-72e5" name="Arachnarok Spider" hidden="false" targetId="1097-8e39-f6d0-798e" type="profile" />
-                <infoLink id="cgh-ara-crew-il04" name="8x Night Goblin" hidden="false" targetId="8af4-6aa6-40b9-1f96" type="profile" />
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="255.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
               </costs>
             </selectionEntry>
           </selectionEntries>
