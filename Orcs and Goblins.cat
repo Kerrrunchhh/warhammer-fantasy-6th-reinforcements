@@ -6573,44 +6573,47 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="spid-weap-grp0-0001" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntry id="spid-lanc-0001-0001" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="spid-weap-max0-0001" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="spid-lanc-max0-0001" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="spid-lanc-0001-0001" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="spid-sbow-0001-0001" name="Short Bow" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="spid-shld-0001-0001" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="spid-wpnt-0001-0001" name="War Paint" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="spid-sbow-0001-0001" name="Short Bow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="spid-sbow-max0-0001" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="spid-shld-0001-0001" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="spid-shld-max0-0001" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="spid-wpnt-0001-0001" name="War Paint" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="spid-wpnt-max0-0001" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
