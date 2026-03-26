@@ -2628,6 +2628,9 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dca8-0cbd-0953-6206" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a7-abf5-dabc-0abc" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="lzrd-cupp-hand-il01" name="Cupped Hands of the Old Ones" hidden="false" targetId="lzrd-cupp-hand-0001" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2639,6 +2642,9 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4f2-dae2-6376-6782" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4a-43fe-7612-c21f" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="lzrd-plaq-domi-il01" name="Plaque of Dominion" hidden="false" targetId="lzrd-plaq-domi-0001" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2650,6 +2656,9 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3399-27b7-4cb0-856e" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a4-429c-6eb4-3fe4" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="lzrd-plaq-tepo-il01" name="Plaque of Tepok" hidden="false" targetId="lzrd-plaq-tepo-0001" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2661,6 +2670,9 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dd5-339c-6aef-424e" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ae2-0059-a11c-28d4" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="lzrd-plaq-prot-il01" name="The Divine Plaque of Protection" hidden="false" targetId="lzrd-plaq-prot-0001" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2882,6 +2894,9 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7125-117f-2f46-c21a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5e4-aa77-22cf-d911" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-tali-prot-il01" name="Talisman of Protection" hidden="false" targetId="lzrd-tali-prot-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2893,6 +2908,9 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a957-48a0-57b0-bb42" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2df-14ca-cff7-5b5d" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-aura-quet-il01" name="Aura of Quetzl" hidden="false" targetId="lzrd-aura-quet-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2904,6 +2922,9 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba9-9036-1f26-b0b5" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ef8-20b4-a6d8-e901" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-glyp-neck-il01" name="Glyph Necklace" hidden="false" targetId="lzrd-glyp-neck-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2915,6 +2936,9 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb9-5f56-08d6-10f4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152f-0171-643c-887d" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-amul-itzl-il01" name="Amulet of Itzl" hidden="false" targetId="lzrd-amul-itzl-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3184,17 +3208,23 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b0-b863-428e-52ec" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d46-bf8d-4d0e-72ce" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-glea-pend-il01" name="Gleaming Pendant of Chotec" hidden="false" targetId="lzrd-glea-pend-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="baf9-bfc3-fc73-ce53" name="Blod Statuette of Spite" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="baf9-bfc3-fc73-ce53" name="Blood Statuette of Spite" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f2-0727-1b7d-9802" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f8c-4893-58af-fd45" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-bloo-stat-il01" name="Blood Statuette of Spite" hidden="false" targetId="lzrd-bloo-stat-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3206,6 +3236,9 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae0b-8bb1-0785-7de9" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f44-3ca2-6270-a80b" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-cloa-feat-il01" name="Cloak of Feathers" hidden="false" targetId="lzrd-cloa-feat-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3217,6 +3250,9 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5d5-dec9-58f3-12fe" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff4-99e7-4c44-fae5" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-char-jagu-il01" name="Charm of the Jaguar Warrior" hidden="false" targetId="lzrd-char-jagu-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3228,6 +3264,9 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5914-6cc8-2268-e01d" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0909-658a-c5ca-b556" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-curs-tepo-il01" name="Curse-Charm of Tepok" hidden="false" targetId="lzrd-curs-tepo-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3239,6 +3278,9 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee3f-b5d2-ed2a-8a46" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a578-6b00-963f-8b81" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-bane-head-il01" name="Bane Head" hidden="false" targetId="lzrd-bane-head-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3250,6 +3292,9 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa3-51d2-e1e4-67a4" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acfd-b765-8c29-28b8" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-drag-quic-il01" name="Dragonfly of Quicksilver" hidden="false" targetId="lzrd-drag-quic-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3261,6 +3306,9 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d3-3141-e8e2-a8fd" type="max"/>
             <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ec-d9d2-e7b3-28a5" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="lzrd-veno-fire-il01" name="Venom of the Firefly Frog" hidden="false" targetId="lzrd-veno-fire-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3705,6 +3753,54 @@ The spell lasts until the start of the caster&apos;s next Magic phase.</descript
     </rule>
     <rule id="bast-thun-stri-0001" name="Thundering Strike" hidden="false">
       <description>One of the Bastiladon&apos;s attack dice must be rolled in a different colour. This attack is made with the tail at Strength 10 and gains +1 to hit when used against models to the Bastiladon&apos;s rear.</description>
+    </rule>
+    <rule id="lzrd-tali-prot-0001" name="Talisman of Protection" hidden="false">
+      <description>6+ Ward Save.</description>
+    </rule>
+    <rule id="lzrd-glyp-neck-0001" name="Glyph Necklace" hidden="false">
+      <description>The character wearing this has a 5+ Ward save.</description>
+    </rule>
+    <rule id="lzrd-aura-quet-0001" name="Aura of Quetzl" hidden="false">
+      <description>The bearer of this item has a 4+ Ward save against attacks with Strength 5 or more.</description>
+    </rule>
+    <rule id="lzrd-amul-itzl-0001" name="Amulet of Itzl" hidden="false">
+      <description>One use only. The character wearing this amulet has a 2+ Ward save against the first wound suffered.</description>
+    </rule>
+    <rule id="lzrd-plaq-prot-0001" name="The Divine Plaque of Protection" hidden="false">
+      <description>Slann Mage-Priest only. Increases the Ward save that the Slann gets from 4+ to 2+. Note however, that the Slann does not get this increase against models that are attacking it in close combat, for they are slightly inside the mystical shield. In close combat, the Slann still only gets a 4+ Ward save.</description>
+    </rule>
+    <rule id="lzrd-plaq-tepo-0001" name="Plaque of Tepok" hidden="false">
+      <description>Slann Mage-Priest only. The Slann knows one more spell than he is normally allowed.</description>
+    </rule>
+    <rule id="lzrd-plaq-domi-0001" name="Plaque of Dominion" hidden="false">
+      <description>Slann Mage-Priest only. Adds an extra +1 dice to the Lizardmen player&apos;s Power dice and Dispel pools.</description>
+    </rule>
+    <rule id="lzrd-cupp-hand-0001" name="Cupped Hands of the Old Ones" hidden="false">
+      <description>Slann Mage-Priest only. The entire unit that is accompanying the Slann gains a 5+ Ward save. Note, however, that the unit does not get this increase against models that are attacking it in close combat, for they are slightly inside the mystical shield.</description>
+    </rule>
+    <rule id="lzrd-veno-fire-0001" name="Venom of the Firefly Frog" hidden="false">
+      <description>All mundane weapons used by the model with the Venom of the Firefly Frog (both close combat weapons and ranged weapons) are coated with this venom. All attacks made with these weapons count as Poisoned Attacks and are magical.</description>
+    </rule>
+    <rule id="lzrd-glea-pend-0001" name="Gleaming Pendant of Chotec" hidden="false">
+      <description>One use only. The pendant may be used at the start of any Lizardmen player&apos;s Close Combat phase. For that turn only, any enemy unit that is in contact with the model using the pendant will strike last in combat - even striking after great weapons and Zombies! If an enemy has the ability to always strike first, then on the roll of a 4+ they get to attack first; if they roll a 1-3, then they too will strike last.</description>
+    </rule>
+    <rule id="lzrd-drag-quic-0001" name="Dragonfly of Quicksilver" hidden="false">
+      <description>If both the Lizardmen player and his opponent have models with the Scout ability, then the Lizardmen player adds +1 to his dice roll when rolling to see who gets to deploy their scouts first.</description>
+    </rule>
+    <rule id="lzrd-curs-tepo-0001" name="Curse-Charm of Tepok" hidden="false">
+      <description>One use only. After the enemy rolls on the Miscast Table for the first time in the game, the bearer of the Curse-Charm of Tepok may force their opponent to re-roll the result. This second result stands.</description>
+    </rule>
+    <rule id="lzrd-cloa-feat-0001" name="Cloak of Feathers" hidden="false">
+      <description>Skink on foot only. The wearer of the cloak may fly.</description>
+    </rule>
+    <rule id="lzrd-char-jagu-0001" name="Charm of the Jaguar Warrior" hidden="false">
+      <description>Model on foot only. The model&apos;s movement is increased to 9&quot;.</description>
+    </rule>
+    <rule id="lzrd-bloo-stat-0001" name="Blood Statuette of Spite" hidden="false">
+      <description>Bound Spell. Power Level 5. One use only. Once per game, the user may cast the spell bound within the statuette. This spell requires no Power dice to cast as all the power is provided by the statuette. The spell may be cast on any enemy character. That character must immediately take a Toughness test (remember that a roll of 6 always fails). If this test is failed, then the model loses a wound with no saves of any kind allowed. If the model takes a wound, it must immediately take another Toughness test, losing another wound if it fails again. This continues until either the model passes a Toughness test or is slain.</description>
+    </rule>
+    <rule id="lzrd-bane-head-0001" name="Bane Head" hidden="false">
+      <description>Nominate an enemy character at the start of the battle. All unsaved wounds caused by the bearer on the nominated target are doubled.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
