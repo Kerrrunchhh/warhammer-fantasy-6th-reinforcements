@@ -6556,6 +6556,9 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="014f-1872-f3ad-ee5f" type="min" />
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e572-b7d0-da28-8913" type="max" />
           </constraints>
+          <infoLinks>
+            <infoLink id="cgh-spid-musi-il01" name="Musician" hidden="false" targetId="cgh-musician-0001" type="rule" />
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -6567,50 +6570,68 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a4-3793-b3f4-57de" type="min" />
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a48a-368f-7c69-63ea" type="max" />
           </constraints>
+          <infoLinks>
+            <infoLink id="cgh-spid-stnd-il01" name="Standard Bearer" hidden="false" targetId="cgh-std-bearer-0001" type="rule" />
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3a65-56e5-7639-8633" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntry id="8358-2462-a1f5-b240" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="581e-a286-9e1f-28d4" type="max" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cgh-spid-spear-mx1" type="max" />
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="8358-2462-a1f5-b240" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="212f-900b-e59c-f176" name="Short Bow" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9ee3-4eb5-eea0-8246" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8650-4aa2-79f6-202c" name="War Paint" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <infoLinks>
+            <infoLink id="cgh-spid-spear-il01" name="Spear (Mounted)" hidden="false" targetId="ec7d-fa6d-d0f6-5589" type="profile" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="212f-900b-e59c-f176" name="Short Bow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cgh-spid-sbow-mx1" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="cgh-spid-sbow-il01" name="Short Bow" hidden="false" targetId="5e53-1e3a-3e8e-22b2" type="profile" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9ee3-4eb5-eea0-8246" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cgh-spid-shld-mx1" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="cgh-spid-shld-il01" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8650-4aa2-79f6-202c" name="War Paint" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cgh-spid-wpnt-mx1" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="cgh-spid-wpnt-il01" name="War Paint" hidden="false" targetId="cgh-war-paint-0001" type="rule" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="1.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -8133,6 +8154,15 @@ The Gaze of Mork is a magic missile with a range of up to 24". If successfully c
       <description>A Troll&apos;s digestive fluid is the most corrosive thing known to science... and about the most revolting too. Trolls are able to vomit their stomach contents upon their enemies if they wish. A unit of Trolls can make Vomit Attacks instead of ordinary attacks during close combat.
 
 Instead of attacking normally the whole unit may elect to vomit on the enemy. As each Troll can make only 1 Vomit Attack at a time, as opposed to 3 ordinary Attacks, this means the unit gets fewer Attacks, although these always hit. Each model inflicts one automatic Strength 5 hit with no Armour saves allowed.</description>
+    </rule>
+    <rule id="cgh-musician-0001" name="Musician" hidden="false">
+      <description>A Musician model is placed in the front rank of its unit. A unit with a Musician may re-roll failed Panic tests and may attempt to rally by rolling equal to or under its Leadership on 2D6 (instead of needing to roll equal to or under half its Leadership). Musicians cannot be captured as trophies.</description>
+    </rule>
+    <rule id="cgh-std-bearer-0001" name="Standard Bearer" hidden="false">
+      <description>A unit that includes a Standard Bearer may add +1 to its combat result.</description>
+    </rule>
+    <rule id="cgh-war-paint-0001" name="War Paint" hidden="false">
+      <description>Some Savage Orcs adorn themselves with warpaint, tattoos and charms in the belief they will attract the favour of Gork and Mork. Such is a Savage Orc&apos;s faith in his warpaint that he gets a 6+ Ward save. A Savage Orc with warpaint may not wear armour, though he may carry a shield.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
