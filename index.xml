@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="Warhammer Fantasy Battle 6th edition with Reinforcements" indexUrl="https://github.com/Kerrrunchhh/warhammer-fantasy-6th-reinforcements/releases/latest/download/warhammer-fantasy-6th-reinforcements.latest.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Warhammer.Fantasy.Battle.6th.edition.with.Reinforcements.gstz" dataType="gamesystem" dataId="6d8e-38d9-3c69-feba" dataName="Warhammer Fantasy Battle 6th edition with Reinforcements" dataBattleScribeVersion="2.03" dataRevision="8"/>
+    <dataIndexEntry filePath="Warhammer.Fantasy.Battle.6th.edition.with.Reinforcements.gstz" dataType="gamesystem" dataId="6d8e-38d9-3c69-feba" dataName="Warhammer Fantasy Battle 6th edition with Reinforcements" dataBattleScribeVersion="2.03" dataRevision="9"/>
     <dataIndexEntry filePath="Bretonnia.catz" dataType="catalogue" dataId="31c3-8e29-6a12-45bc" dataName="Bretonnia" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="8820-6110-ff77-4173" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="11"/>
     <dataIndexEntry filePath="Dark.Elves.catz" dataType="catalogue" dataId="359b-8eee-bde0-4fe6" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="5"/>
@@ -16,13 +16,13 @@
     <dataIndexEntry filePath="Dwarfs.War.of.Vengeance.catz" dataType="catalogue" dataId="9a35-f65b-8750-4b55" dataName="Dwarfs War of Vengeance" dataBattleScribeVersion="2.03" dataRevision="4"/>
     <dataIndexEntry filePath="Empire.catz" dataType="catalogue" dataId="1c02-7fbd-0a61-4887" dataName="Empire" dataBattleScribeVersion="2.03" dataRevision="10"/>
     <dataIndexEntry filePath="High.Elf.catz" dataType="catalogue" dataId="7ddd-ff5a-8838-45fc" dataName="High Elf" dataBattleScribeVersion="2.03" dataRevision="5"/>
-    <dataIndexEntry filePath="Lizardmen.catz" dataType="catalogue" dataId="d21b-c434-a940-4035" dataName="Lizardmen" dataBattleScribeVersion="2.03" dataRevision="7"/>
+    <dataIndexEntry filePath="Lizardmen.catz" dataType="catalogue" dataId="d21b-c434-a940-4035" dataName="Lizardmen" dataBattleScribeVersion="2.03" dataRevision="8"/>
     <dataIndexEntry filePath="Lizardmen.of.the.Southlands.catz" dataType="catalogue" dataId="d7e8-f9a0-b1c2-3456" dataName="Lizardmen of the Southlands" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Ogre.Kingdoms.catz" dataType="catalogue" dataId="90a1-0c6c-fe67-4296" dataName="Ogre Kingdoms" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Orcs.and.Goblins.catz" dataType="catalogue" dataId="78a7-5b1c-5d75-4e97" dataName="Orcs and Goblins" dataBattleScribeVersion="2.03" dataRevision="12"/>
-    <dataIndexEntry filePath="Orcs.and.Goblins.Common.Goblin.Horde.catz" dataType="catalogue" dataId="f9a0-b1c2-d3e4-5678" dataName="Orcs and Goblins Common Goblin Horde" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Orcs.and.Goblins.catz" dataType="catalogue" dataId="78a7-5b1c-5d75-4e97" dataName="Orcs and Goblins" dataBattleScribeVersion="2.03" dataRevision="13"/>
+    <dataIndexEntry filePath="Orcs.and.Goblins.Common.Goblin.Horde.catz" dataType="catalogue" dataId="f9a0-b1c2-d3e4-5678" dataName="Orcs and Goblins Common Goblin Horde" dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="Orcs.and.Goblins.Savage.Orc.Horde.catz" dataType="catalogue" dataId="a0b1-c2d3-e4f5-6789" dataName="Orcs and Goblins Savage Orc Horde" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Orcs.and.Goblins.Night.Goblin.Horde.catz" dataType="catalogue" dataId="e8f9-a0b1-c2d3-4567" dataName="Orcs and Goblins Night Goblin Horde" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Orcs.and.Goblins.Night.Goblin.Horde.catz" dataType="catalogue" dataId="e8f9-a0b1-c2d3-4567" dataName="Orcs and Goblins Night Goblin Horde" dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="Orcs.and.Goblins.Mountain.or.Troll.Country.Waaagh.catz" dataType="catalogue" dataId="b1c2-d3e4-f5a6-7890" dataName="Orcs and Goblins Mountain or Troll Country Waaagh!" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Orcs.and.Goblins.Snotling.Horde.catz" dataType="catalogue" dataId="c2d3-e4f5-a6b7-8901" dataName="Orcs and Goblins Snotling Horde" dataBattleScribeVersion="2.03" dataRevision="1"/>
 <dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="ef4e-a0d0-6423-46b3" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="4"/>
