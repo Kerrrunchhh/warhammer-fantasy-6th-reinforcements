@@ -3240,6 +3240,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f2e-0361-a96d-c855" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce95-3b33-9ce8-47f2" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a3c1-5f9e-2d7b-4806" name="Rubicon of Dark dimensions" hidden="false" targetId="e7b2-8a4d-1c6f-3095" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3251,6 +3254,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="163c-5aee-e94e-30dd" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f26-c8b0-464e-f168" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b4d7-3a9c-5e2f-8160" name="Crystal of Midnight" hidden="false" targetId="f1c3-4e8a-2b6d-9507" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -3575,6 +3581,12 @@ A web of shadows can only be used once per game. The character uses the Web of S
     <rule id="493e-9ee7-264b-1a6f" name="Ring of Darkness" publicationId="20b9-0ee7-8f6f-8d28" page="20" hidden="false">
       <description>Bound Spell: Power level 3
 Attacks in CC require a 6 to hit the bearer regardless of WS or modifiers. Remains in Play</description>
+    </rule>
+    <rule id="f1c3-4e8a-2b6d-9507" name="Crystal of Midnight" publicationId="20b9-0ee7-8f6f-8d28" page="20" hidden="false">
+      <description>One use only. Bound Spell. Power level 4. Nominate a Wizard anywhere on the table. The Wizard must pass a Leadership test on 3D6 otherwise he forgets one randomly determined spell for the rest of the battle.</description>
+    </rule>
+    <rule id="e7b2-8a4d-1c6f-3095" name="Rubicon of Dark dimensions" publicationId="20b9-0ee7-8f6f-8d28" page="20" hidden="false">
+      <description>One use only. Models on foot only. Bound Spell. Power level 5. All enemy models in base contact with the bearer must roll equal to or under their Strength on a D6 (6 always fails) or be sucked into the dimension of Eternal Nightmares (and count as slain!).</description>
     </rule>
     <rule id="9b84-5845-9235-3330" name="Armour of Living Death" hidden="false">
       <description>Counts as heavy armour (+5 sv) which can be combined with other armor as normal.  In addition the model gains +1T and +1 W.</description>
