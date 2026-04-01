@@ -6200,6 +6200,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="dher-mark-khor-0001" name="Mark of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="dher-mark-khor-info" name="Mark of Khorne" hidden="false" targetId="dher-mark-khor-rule" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="dher-mark-khor-cat" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
                   </categoryLinks>
@@ -6210,6 +6213,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="dher-mark-nurg-0001" name="Mark of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="dher-mark-nurg-info" name="Mark of Nurgle" hidden="false" targetId="dher-mark-nurg-rule" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="dher-mark-nurg-cat" name="Nurgle" hidden="false" targetId="de30-bd00-67a7-5a25" primary="false"/>
                   </categoryLinks>
@@ -6220,6 +6226,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="dher-mark-tzee-0001" name="Mark of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="dher-mark-tzee-info" name="Mark of Tzeentch" hidden="false" targetId="dher-mark-tzee-rule" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="dher-mark-tzee-cat" name="Tzeentch" hidden="false" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
                   </categoryLinks>
@@ -6230,6 +6239,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="dher-mark-slaa-0001" name="Mark of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="dher-mark-slaa-info" name="Mark of Slaanesh" hidden="false" targetId="dher-mark-slaa-rule" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="dher-mark-slaa-cat" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
                   </categoryLinks>
@@ -10320,6 +10332,18 @@ D6 Result
     </rule>
     <rule id="7ef7-2eee-3cab-4001" name="Mark of Chaos Undivided" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
       <description>The character, unit or chariot may re-roll failed Psychology tests.</description>
+    </rule>
+    <rule id="dher-mark-khor-rule" name="Mark of Khorne" hidden="false">
+      <description>Subject to Frenzy and adds 1 die to the Dispel pool.</description>
+    </rule>
+    <rule id="dher-mark-nurg-rule" name="Mark of Nurgle" hidden="false">
+      <description>Causes Fear and gains +1 Wound.</description>
+    </rule>
+    <rule id="dher-mark-tzee-rule" name="Mark of Tzeentch" hidden="false">
+      <description>Is a Level 2 Sorcerer and can cast spells whilst wearing mundane and/or magic armour.</description>
+    </rule>
+    <rule id="dher-mark-slaa-rule" name="Mark of Slaanesh" hidden="false">
+      <description>Immune to Psychology.</description>
     </rule>
     <rule id="8cee-9f8c-2820-a414" name="Doombull Of Tzeentch" publicationId="7f4a-e6ae-d049-ee56" page="60" hidden="false">
       <description>The Doombull is a Level 2 Sorcerer and can cast spells whilst wearing armour.</description>
