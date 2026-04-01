@@ -8506,7 +8506,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67d3-8378-745d-e025" name="Chaos Chariot" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="67d3-8378-745d-e025" name="Chaos Chariot" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e6-f32f-fce0-c076" type="max"/>
       </constraints>
@@ -8515,9 +8515,6 @@
         <infoLink id="e14a-d962-d033-a20a" name="Warrior" hidden="false" targetId="3063-d549-0ef6-74c3" type="profile"/>
         <infoLink id="258c-35c3-9961-832f" name="Chaos Chariot" hidden="false" targetId="350f-e021-ee35-afd3" type="profile"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="655a-87ac-8ea7-65ff" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
-      </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="120.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
