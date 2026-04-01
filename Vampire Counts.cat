@@ -1669,7 +1669,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1430-71db-0f67-b2bc" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="b086-63fa-e276-0689" name="Arcane Items Blood dragon" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+                    <entryLink id="b086-63fa-e276-0689" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb9-aea5-eb23-3982" type="max"/>
                       </constraints>
@@ -2439,7 +2439,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6faa-8999-57a9-3346" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="b962-4fc3-590e-048d" name="Arcane Items Blood dragon" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+                    <entryLink id="b962-4fc3-590e-048d" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964a-fb2d-3557-6cb8" type="max"/>
                       </constraints>
@@ -3461,7 +3461,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3f3-6519-89ea-8ee0" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="e910-eb95-07ad-1663" name="Arcane Items Blood dragon" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
+                    <entryLink id="e910-eb95-07ad-1663" name="Arcane Items" hidden="false" collective="false" import="true" targetId="2466-89af-252c-7f0a" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fd17-fda1-f67c-66dd" type="max"/>
                       </constraints>
@@ -4825,7 +4825,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2466-89af-252c-7f0a" name="Arcane Items Blood dragon" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="2466-89af-252c-7f0a" name="Arcane Items" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="increment" field="b583-f222-c8d1-abea" value="1.0">
           <repeats>
