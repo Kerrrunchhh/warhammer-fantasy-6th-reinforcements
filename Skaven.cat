@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ef4e-a0d0-6423-46b3" name="Skaven" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ef4e-a0d0-6423-46b3" name="Skaven" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f804-741f-2593-2dec" name="Skaven army Book 2002"/>
   </publications>
@@ -1792,6 +1792,29 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="skav-doom-unit-0001" name="Doomwheel" publicationId="f804-741f-2593-2dec" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="skav-doom-prof-il01" name="Doomwheel" hidden="false" targetId="skav-doom-prof-0001" type="profile"/>
+        <infoLink id="skav-doom-rats-il01" name="Giant Rats" hidden="false" targetId="skav-doom-rats-0001" type="profile"/>
+        <infoLink id="skav-doom-drvr-il01" name="Driver" hidden="false" targetId="skav-doom-drvr-0001" type="profile"/>
+        <infoLink id="skav-doom-move-il01" name="Movement (3D6)" hidden="false" targetId="skav-doom-move-0001" type="rule"/>
+        <infoLink id="skav-doom-imph-il01" name="Impact Hits (1D6+2)" hidden="false" targetId="skav-doom-imph-0001" type="rule"/>
+        <infoLink id="skav-doom-wltn-il01" name="Warp Lightning" hidden="false" targetId="skav-doom-wltn-0001" type="rule"/>
+        <infoLink id="skav-doom-crew-il01" name="Crew Attack" hidden="false" targetId="skav-doom-crew-0001" type="rule"/>
+        <infoLink id="skav-doom-flee-il01" name="Fleeing and Pursuing" hidden="false" targetId="skav-doom-flee-0001" type="rule"/>
+        <infoLink id="skav-doom-imps-il01" name="Immune to Psychology" hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="skav-doom-mres-il01" name="Magic Resistance (2)" hidden="false" targetId="skav-doom-mres-0001" type="rule"/>
+        <infoLink id="skav-doom-armr-il01" name="Armour Save (5+)" hidden="false" targetId="skav-doom-armr-0001" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="skav-doom-cat0-0001" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="150.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="5dcc-e6e0-089a-d0ae" name="Warplock Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -3153,6 +3176,27 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
     <rule id="verm-daem-aura-0001" name="Daemonic Aura" hidden="false">
       <description>The Vermin Lord has a 5+ Ward Save against all non-magical attacks.</description>
     </rule>
+    <rule id="skav-doom-move-0001" name="Movement (3D6)" hidden="false">
+      <description>The Doomwheel moves 3D6" in the Movement phase instead of a fixed value. Roll 3D6 at the start of each Movement phase to determine how far it moves. It cannot march.</description>
+    </rule>
+    <rule id="skav-doom-imph-0001" name="Impact Hits (1D6+2)" hidden="false">
+      <description>When the Doomwheel charges, it causes 1D6+2 Impact Hits at its own Strength (5) on the unit it charged. These hits are resolved before normal combat.</description>
+    </rule>
+    <rule id="skav-doom-wltn-0001" name="Warp Lightning" hidden="false">
+      <description>In every Shooting phase the Doomwheel fires 1D3 Warp Lightning bolts. For each bolt, roll an Artillery Dice: on a result of 2, 6, 8, or 10 that is the Strength of the bolt. Range is 3D6" and the bolt always hits the nearest possible model, ignoring terrain. In close combat it always hits the opposing unit. When several units are equidistant, it hits the one with the best armour saving throw. Each bolt damages one model and causes 1D6 wounds. Against war machines and ridden monsters the hit is randomised between the machine/creature and the crew/rider. On a Misfire result the wheel fires 3 bolts at full range (18") and full power (Strength 10), then the Doomwheel is destroyed.</description>
+    </rule>
+    <rule id="skav-doom-crew-0001" name="Crew Attack" hidden="false">
+      <description>In close combat the driver and the giant rats can attack from the front, side and rear of the Doomwheel. The driver carries a Warplock Pistol.</description>
+    </rule>
+    <rule id="skav-doom-flee-0001" name="Fleeing and Pursuing" hidden="false">
+      <description>When the Doomwheel flees or pursues, it moves 3D6" (roll as for its normal movement).</description>
+    </rule>
+    <rule id="skav-doom-mres-0001" name="Magic Resistance (2)" hidden="false">
+      <description>The Doomwheel has Magic Resistance (2). When dispelling any spell that targets or affects the unit, add 2 extra Dispel Dice to the pool.</description>
+    </rule>
+    <rule id="skav-doom-armr-0001" name="Armour Save (5+)" hidden="false">
+      <description>The Doomwheel has an Armour Save of 5+. Base size: 50x100 mm. Unit Strength: 4.</description>
+    </rule>
 
   </sharedRules>
   <sharedProfiles>
@@ -3559,6 +3603,45 @@ Move or Fire</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">0</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">-</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="skav-doom-prof-0001" name="Doomwheel" publicationId="f804-741f-2593-2dec" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3D6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">-</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">-</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">-</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="skav-doom-rats-0001" name="Giant Rats" publicationId="f804-741f-2593-2dec" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="skav-doom-drvr-0001" name="Driver (x1)" publicationId="f804-741f-2593-2dec" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
