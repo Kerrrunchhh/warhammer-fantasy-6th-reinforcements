@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="9" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="315e-e3c4-08af-fd51" name="BRB"/>
   </publications>
@@ -1830,7 +1830,7 @@ Always Strikes Last</characteristic>
     </profile>
     <profile id="3d79-7984-991a-8b67" name="Shield" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
       <characteristics>
-        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">-1 SV, -2SV with HW</characteristic>
+        <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">-1 SV</characteristic>
         <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e"/>
       </characteristics>
     </profile>

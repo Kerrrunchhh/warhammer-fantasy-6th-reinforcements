@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="Warhammer Fantasy Battle 6th edition with Reinforcements" indexUrl="https://github.com/Kerrrunchhh/warhammer-fantasy-6th-reinforcements/releases/latest/download/warhammer-fantasy-6th-reinforcements.latest.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Warhammer.Fantasy.Battle.6th.edition.with.Reinforcements.gstz" dataType="gamesystem" dataId="6d8e-38d9-3c69-feba" dataName="Warhammer Fantasy Battle 6th edition with Reinforcements" dataBattleScribeVersion="2.03" dataRevision="9"/>
+    <dataIndexEntry filePath="Warhammer.Fantasy.Battle.6th.edition.with.Reinforcements.gstz" dataType="gamesystem" dataId="6d8e-38d9-3c69-feba" dataName="Warhammer Fantasy Battle 6th edition with Reinforcements" dataBattleScribeVersion="2.03" dataRevision="10"/>
     <dataIndexEntry filePath="Bretonnia.catz" dataType="catalogue" dataId="31c3-8e29-6a12-45bc" dataName="Bretonnia" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="8820-6110-ff77-4173" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="12"/>
     <dataIndexEntry filePath="Dark.Elves.catz" dataType="catalogue" dataId="359b-8eee-bde0-4fe6" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="6"/>
