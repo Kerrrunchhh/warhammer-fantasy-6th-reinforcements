@@ -31,7 +31,7 @@
     <dataIndexEntry filePath="Skaven.Clan.Pestilens.catz" dataType="catalogue" dataId="c7d8-e9f0-a1b2-3456" dataName="Skaven Clan Pestilens" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Skaven.Clan.Skryre.catz" dataType="catalogue" dataId="d5e6-f7a8-b9c0-1234" dataName="Skaven Clan Skryre" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Tomb.Kings.catz" dataType="catalogue" dataId="84d2-86cf-1048-402b" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="6"/>
-    <dataIndexEntry filePath="Vampire.Counts.catz" dataType="catalogue" dataId="a10f-a81e-cf13-4692" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="10"/>
+    <dataIndexEntry filePath="Vampire.Counts.catz" dataType="catalogue" dataId="a10f-a81e-cf13-4692" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="11"/>
     <dataIndexEntry filePath="Wood.Elf.catz" dataType="catalogue" dataId="1d30-bbdf-823d-416a" dataName="Wood Elf" dataBattleScribeVersion="2.03" dataRevision="3"/>
     <dataIndexEntry filePath="Empire.The.Emperors.Guard.catz" dataType="catalogue" dataId="c3d4-e5f6-a7b8-9012" dataName="Empire The Emperor's Guard" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.The.Artillery.Train.of.Nuln.catz" dataType="catalogue" dataId="d4e5-f6a7-b8c9-0123" dataName="Empire The Artillery Train of Nuln" dataBattleScribeVersion="2.03" dataRevision="1"/>
@@ -39,11 +39,11 @@
     <dataIndexEntry filePath="Empire.Marienburg.Mercenary.Army.catz" dataType="catalogue" dataId="f6a7-b8c9-d0e1-2345" dataName="Empire Marienburg Mercenary Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.Cult.of.Ulric.catz" dataType="catalogue" dataId="a7b8-c9d0-e1f2-3456" dataName="Empire Cult of Ulric" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.Crusader.Army.catz" dataType="catalogue" dataId="b8c9-d0e1-f2a3-4567" dataName="Empire Crusader Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Vampire.Counts.von.Carstein.catz" dataType="catalogue" dataId="c9d0-e1f2-a3b4-5678" dataName="Vampire Counts von Carstein" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Vampire.Counts.Necrarchs.catz" dataType="catalogue" dataId="1aa0-400b-d1dd-623d" dataName="Vampire Counts Necrarchs" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Vampire.Counts.Necromancers.Army.catz" dataType="catalogue" dataId="c90f-528f-f604-eeb2" dataName="Vampire Counts Necromancer's Army" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Vampire.Counts.Lahmians.catz" dataType="catalogue" dataId="c889-15fb-6b0d-2e7f" dataName="Vampire Counts Lahmians" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Vampire.Counts.Blood.Dragons.catz" dataType="catalogue" dataId="f39d-6371-795d-8050" dataName="Vampire Counts Blood Dragons" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Vampire.Counts.Strigoi.catz" dataType="catalogue" dataId="8b02-5c73-d3d7-b72c" dataName="Vampire Counts Strigoi" dataBattleScribeVersion="2.03" dataRevision="2"/>
+    <dataIndexEntry filePath="Vampire.Counts.von.Carstein.catz" dataType="catalogue" dataId="c9d0-e1f2-a3b4-5678" dataName="Vampire Counts von Carstein" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Vampire.Counts.Necrarchs.catz" dataType="catalogue" dataId="1aa0-400b-d1dd-623d" dataName="Vampire Counts Necrarchs" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Vampire.Counts.Necromancers.Army.catz" dataType="catalogue" dataId="c90f-528f-f604-eeb2" dataName="Vampire Counts Necromancer's Army" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Vampire.Counts.Lahmians.catz" dataType="catalogue" dataId="c889-15fb-6b0d-2e7f" dataName="Vampire Counts Lahmians" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Vampire.Counts.Blood.Dragons.catz" dataType="catalogue" dataId="f39d-6371-795d-8050" dataName="Vampire Counts Blood Dragons" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Vampire.Counts.Strigoi.catz" dataType="catalogue" dataId="8b02-5c73-d3d7-b72c" dataName="Vampire Counts Strigoi" dataBattleScribeVersion="2.03" dataRevision="3"/>
   </dataIndexEntries>
 </dataIndex>
