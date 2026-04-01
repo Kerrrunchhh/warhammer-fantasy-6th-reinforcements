@@ -6337,6 +6337,14 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup id="dher-gift-grp0-0001" name="Daemonic Gifts" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dher-gift-max0-0001" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="dher-gift-link-0001" name="Daemonic Gift" hidden="false" collective="false" import="true" targetId="ceff-6d16-8c0e-81b1" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="120.0"/>
