@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1aa0-400b-d1dd-623d" name="Vampire Counts Necrarchs" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1aa0-400b-d1dd-623d" name="Vampire Counts Necrarchs" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 </readme>
@@ -2934,100 +2934,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </constraints>
                     </entryLink>
                   </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="f486-9288-3557-76ad" name="Armour" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="5d8b-c49e-bd25-ff78" name="Shield " hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="badc-a748-a7e2-1184" type="max" />
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="1e38-52da-62c8-f305" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile" />
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
-                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="e8af-30f9-3141-72ab" name="Body Armour" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3499-d0af-fab0-e9eb" type="max" />
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="a0c9-cb9b-6621-cb7c" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc8-4fba-0f9b-8c5d" type="max" />
-                          </constraints>
-                          <costs>
-                            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
-                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="5021-2892-e69f-ac1a" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d7-04e0-67bd-ff42" type="max" />
-                          </constraints>
-                          <costs>
-                            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
-                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="008d-419f-fb86-9997" name="Weapons" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="228e-3888-d1fb-20dd" type="max" />
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="eff3-fbf7-4725-141e" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b37c-8d78-98a0-53b3" type="max" />
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="a251-fc37-e8c7-d01f" name="Great Weapon" hidden="false" targetId="4c06-05cf-370b-4df7" type="profile" />
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
-                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="ed5c-bfa2-446c-0494" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="539c-8246-bddc-3f66" type="max" />
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="e061-efc1-78da-cce7" name="Additional Hand weapon" hidden="false" targetId="72aa-da68-2dae-4ab6" type="profile" />
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
-                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="93d0-0667-cf68-3d63" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2377-ff10-e59c-63d4" type="max" />
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="421d-6523-de90-240f" name="Lance" hidden="false" targetId="ac4e-0c1d-960a-c5d4" type="profile" />
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
-                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="1a32-8bfe-bd94-a6e4" name="Mounts " hidden="true" collective="false" import="true">
+                </selectionEntryGroup>                <selectionEntryGroup id="1a32-8bfe-bd94-a6e4" name="Mounts " hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3275-fb8b-83c2-d4d5" type="max" />
                     <constraint field="selections" scope="d6af-ffac-bd97-699a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="005f-05be-57b8-da7a" type="max" />
@@ -3230,100 +3137,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </constraints>
                     </entryLink>
                   </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="372c-f7ad-1cef-bb27" name="Armour" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="a7aa-c61a-9b30-01c6" name="Shield " hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8d6-3024-4552-5551" type="max" />
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="b201-750d-78c0-15f3" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile" />
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
-                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="4ab0-480e-34be-0383" name="Body Armour" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b20-a32e-7a44-b7e4" type="max" />
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="781e-f35e-d067-0759" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="225c-0909-fd5f-c343" type="max" />
-                          </constraints>
-                          <costs>
-                            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
-                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="3dc0-4b6a-5347-511d" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f9d-5925-7d5b-3a7c" type="max" />
-                          </constraints>
-                          <costs>
-                            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
-                            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="8e30-3725-48d2-258c" name="Weapons" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="337a-6e54-ed56-74f6" type="max" />
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="85b9-dc3d-81fd-c57b" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a639-163a-2efa-8e06" type="max" />
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="df4d-e783-9b01-c339" name="Great Weapon" hidden="false" targetId="4c06-05cf-370b-4df7" type="profile" />
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
-                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4685-2180-da36-415f" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8807-7847-0f35-191e" type="max" />
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="5550-d632-c407-7d33" name="Additional Hand weapon" hidden="false" targetId="72aa-da68-2dae-4ab6" type="profile" />
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
-                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="94b1-0080-6d55-0490" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b56-f529-a9cb-3dce" type="max" />
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="8442-a227-91c5-8760" name="Lance" hidden="false" targetId="ac4e-0c1d-960a-c5d4" type="profile" />
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
-                        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="2d97-25af-8c7b-705f" name="Mounts " hidden="true" collective="false" import="true">
+                </selectionEntryGroup>                <selectionEntryGroup id="2d97-25af-8c7b-705f" name="Mounts " hidden="true" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8058-3f8f-e1e4-5811" type="max" />
                     <constraint field="selections" scope="d6af-ffac-bd97-699a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="48c9-b6ab-92b2-6248" type="max" />
@@ -3707,7 +3521,126 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
             <entryLink id="vthr-mgic-lah-marc-001" name="Magic Armour" hidden="false" collective="false" import="true" targetId="3c99-a43d-f0a8-8a50" type="selectionEntryGroup" />
           </entryLinks>
         </selectionEntryGroup>
-      </selectionEntryGroups>
+      
+      <selectionEntryGroup id="vthr-arm-necr-0001" name="Armour" hidden="true" collective="false" import="true">
+        <modifiers>
+          <modifier type="set" field="hidden" value="false">
+            <conditionGroups>
+              <conditionGroup type="or">
+                <conditions>
+                  <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="35d3-4ca1-c951-15fc" type="greaterThan"/>
+                  <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b9dc-b5bd-32ca-9b16" type="greaterThan"/>
+                </conditions>
+              </conditionGroup>
+            </conditionGroups>
+          </modifier>
+        </modifiers>
+
+        <selectionEntries>
+          <selectionEntry id="5d8b-c49e-bd25-ff78" name="Shield " hidden="false" collective="false" import="true" type="upgrade">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="badc-a748-a7e2-1184" type="max" />
+            </constraints>
+            <infoLinks>
+              <infoLink id="1e38-52da-62c8-f305" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile" />
+            </infoLinks>
+            <costs>
+              <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
+              <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+              <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+            </costs>
+          </selectionEntry>
+        </selectionEntries>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="e8af-30f9-3141-72ab" name="Body Armour" hidden="false" collective="false" import="true">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3499-d0af-fab0-e9eb" type="max" />
+            </constraints>
+            <selectionEntries>
+              <selectionEntry id="a0c9-cb9b-6621-cb7c" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+                <constraints>
+                  <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc8-4fba-0f9b-8c5d" type="max" />
+                </constraints>
+                <costs>
+                  <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
+                  <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                  <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+                </costs>
+              </selectionEntry>
+              <selectionEntry id="5021-2892-e69f-ac1a" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+                <constraints>
+                  <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d7-04e0-67bd-ff42" type="max" />
+                </constraints>
+                <costs>
+                  <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
+                  <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                  <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+                </costs>
+              </selectionEntry>
+            </selectionEntries>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntryGroup>
+      <selectionEntryGroup id="vthr-wpn-necr-0001" name="Weapons" hidden="true" collective="false" import="true">
+        <modifiers>
+          <modifier type="set" field="hidden" value="false">
+            <conditionGroups>
+              <conditionGroup type="or">
+                <conditions>
+                  <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="35d3-4ca1-c951-15fc" type="greaterThan"/>
+                  <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b9dc-b5bd-32ca-9b16" type="greaterThan"/>
+                </conditions>
+              </conditionGroup>
+            </conditionGroups>
+          </modifier>
+        </modifiers>
+
+        <constraints>
+          <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="228e-3888-d1fb-20dd" type="max" />
+        </constraints>
+        <selectionEntries>
+          <selectionEntry id="eff3-fbf7-4725-141e" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b37c-8d78-98a0-53b3" type="max" />
+            </constraints>
+            <infoLinks>
+              <infoLink id="a251-fc37-e8c7-d01f" name="Great Weapon" hidden="false" targetId="4c06-05cf-370b-4df7" type="profile" />
+            </infoLinks>
+            <costs>
+              <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
+              <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+              <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+            </costs>
+          </selectionEntry>
+          <selectionEntry id="ed5c-bfa2-446c-0494" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="539c-8246-bddc-3f66" type="max" />
+            </constraints>
+            <infoLinks>
+              <infoLink id="e061-efc1-78da-cce7" name="Additional Hand weapon" hidden="false" targetId="72aa-da68-2dae-4ab6" type="profile" />
+            </infoLinks>
+            <costs>
+              <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
+              <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+              <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+            </costs>
+          </selectionEntry>
+          <selectionEntry id="93d0-0667-cf68-3d63" name="Lance (if mounted)" hidden="false" collective="false" import="true" type="upgrade">
+            <constraints>
+              <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2377-ff10-e59c-63d4" type="max" />
+            </constraints>
+            <infoLinks>
+              <infoLink id="421d-6523-de90-240f" name="Lance" hidden="false" targetId="ac4e-0c1d-960a-c5d4" type="profile" />
+            </infoLinks>
+            <costs>
+              <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0" />
+              <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+              <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+            </costs>
+          </selectionEntry>
+        </selectionEntries>
+      </selectionEntryGroup>
+</selectionEntryGroups>
       <entryLinks>
         <entryLink id="1d8a-1c01-1f34-ae47" name="Battle Standard Bearer" hidden="false" collective="false" import="true" targetId="4042-9309-a82e-44bc" type="selectionEntry">
           <entryLinks>
