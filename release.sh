@@ -4,7 +4,7 @@
 
 set -e
 
-SRC="/home/markus/Downloads/Spiele/Warhammer/WHFB/6te/Verstärkung für die 6te Edition/Warhammer Fantasy Battle 6th edition with Reinforcements"
+SRC="/home/markusd/warhammer-fantasy-6th-reinforcements"
 NAME="Warhammer Fantasy Battle 6th edition with Reinforcements"
 OUTDIR="/tmp/bs-release"
 BSI_NAME="warhammer-fantasy-6th-reinforcements.latest"
@@ -74,7 +74,7 @@ python3 - << PYEOF
 import xml.etree.ElementTree as ET, zipfile, io
 NS = "http://www.battlescribe.net/schema/dataIndexSchema"
 ET.register_namespace('', NS)
-SRC = "/home/markus/Downloads/Spiele/Warhammer/WHFB/6te/Verstärkung für die 6te Edition/Warhammer Fantasy Battle 6th edition with Reinforcements"
+SRC = "/home/markusd/warhammer-fantasy-6th-reinforcements"
 BASE_URL = "$BASE_URL"
 BSI_NAME = "$BSI_NAME"
 tree = ET.parse(f"{SRC}/index.xml")

@@ -6651,6 +6651,9 @@
         <infoLink id="wshp-ward-info-0001" name="Ward Save 5+" hidden="false" targetId="wshp-ward-save-0001" type="rule"/>
         <infoLink id="wshp-give-info-0001" name="Giver of Glory" hidden="false" targetId="wshp-give-glor-0001" type="rule"/>
         <infoLink id="wshp-main-info-0001" name="Chaos Warshrine" hidden="false" targetId="wshp-main-rule-0001" type="rule"/>
+        <infoLink id="wshp-unit-str0-info" name="Unit Strength 4" hidden="false" targetId="wshp-unit-str0-0001" type="rule"/>
+        <infoLink id="wshp-armo-save-info" name="Armour Save 4+" hidden="false" targetId="wshp-armo-save-0001" type="rule"/>
+        <infoLink id="wshp-char-mnt0-info" name="Character Mount" hidden="false" targetId="wshp-char-mnt0-0001" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="wshp-cate-spec-0001" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -10896,7 +10899,16 @@ It has no effect on war machines (though it does affect their crew), buildings (
       <description>The Chaos Warshrine and its crew have a 5+ Ward Save.</description>
     </rule>
     <rule id="wshp-give-glor-0001" name="Giver of Glory" hidden="false">
-      <description>At the start of each of your turns, pick one friendly unit within 12&quot; of the Chaos Warshrine. Roll a D6: on a 2+ that unit receives a Mark of Chaos benefit for the duration of that turn (use your chosen god&apos;s mark effect). On a 1 nothing happens.</description>
+      <description>All friendly units within 12&quot; of the Chaos Warshrine may re-roll To Hit rolls of 1.</description>
+    </rule>
+    <rule id="wshp-unit-str0-0001" name="Unit Strength 4" hidden="false">
+      <description>The Chaos Warshrine has a Unit Strength of 4 (+1 when mounted on a chariot base, for a total of 5).</description>
+    </rule>
+    <rule id="wshp-armo-save-0001" name="Armour Save 4+" hidden="false">
+      <description>The Chaos Warshrine has a 4+ Armour Save.</description>
+    </rule>
+    <rule id="wshp-char-mnt0-0001" name="Character Mount" hidden="false">
+      <description>If the Chaos Warshrine is taken as a mount for a Character, treat the model as a Character on a Chariot. This applies to randomizing shooting hits and the +2 Armour Save modifier for the rider. The Character replaces the Shrine Guard. The Shrine continues to count as a Special Unit choice, even when used as a mount. The Character does not benefit from the Shrine&apos;s 5+ Ward Save.</description>
     </rule>
     <rule id="skul-cann-fire-0001" name="Skull Cannon" hidden="false">
       <description>The Skull Cannon fires a Skull shot: Range 60&quot;, Strength 5, no armour save. It uses the Bouncing Ball rules (hits multiple units in a line).</description>
