@@ -1397,7 +1397,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cfe-9452-e602-d93f" type="max" />
                   </constraints>
                   <entryLinks>
-                    <entryLink id="216a-71fc-6691-dd4d" name="Magic Weapons Carstein and blood" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
+                    <entryLink id="216a-71fc-6691-dd4d" name="Magic Weapons Blood Dragons" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="771c-f137-4b70-82c1" type="max" />
                       </constraints>
@@ -1540,7 +1540,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c24-7664-8e2b-df57" type="max" />
                   </constraints>
                   <entryLinks>
-                    <entryLink id="61a0-e93d-b772-a866" name="Magic Weapons Carstein and blood" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
+                    <entryLink id="61a0-e93d-b772-a866" name="Magic Weapons Blood Dragons" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cef-668c-e223-d5cc" type="max" />
                       </constraints>
@@ -2301,7 +2301,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3521-09ef-8483-297b" type="max" />
                   </constraints>
                   <entryLinks>
-                    <entryLink id="6973-a2bc-9fbf-4034" name="Magic Weapons Carstein and blood" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
+                    <entryLink id="6973-a2bc-9fbf-4034" name="Magic Weapons Blood Dragons" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d12-0605-b81c-9ce6" type="max" />
                       </constraints>
@@ -2349,7 +2349,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba1f-a279-a884-7a69" type="max" />
                   </constraints>
                   <entryLinks>
-                    <entryLink id="94dc-fa1f-f91d-bd36" name="Magic Weapons Carstein and blood" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
+                    <entryLink id="94dc-fa1f-f91d-bd36" name="Magic Weapons Blood Dragons" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b737-e68e-7057-08c5" type="max" />
                       </constraints>
@@ -2931,7 +2931,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                     <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2549-caa7-3685-8be1" type="max" />
                   </constraints>
                   <entryLinks>
-                    <entryLink id="66fe-58cc-6a90-b69d" name="Magic Weapons Carstein and blood" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
+                    <entryLink id="66fe-58cc-6a90-b69d" name="Magic Weapons Blood Dragons" hidden="false" collective="false" import="true" targetId="36ee-594a-78db-db93" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0db-ea36-f522-3a0e" type="max" />
                       </constraints>
@@ -4523,7 +4523,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="36ee-594a-78db-db93" name="Magic Weapons Carstein and blood" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="36ee-594a-78db-db93" name="Magic Weapons Blood Dragons" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="535b-5f10-df52-1927" name="Frostblade" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
