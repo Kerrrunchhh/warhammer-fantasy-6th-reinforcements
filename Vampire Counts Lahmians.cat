@@ -4982,6 +4982,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eac-c86d-ba4e-cb1e" type="max" />
           </constraints>
+          <infoLinks>
+            <infoLink id="vamc-obsi-amul-0-6afe-f72" name="Obsidian Amulet" hidden="false" targetId="vamc-obsi-amul-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -4992,6 +4995,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1d5-22c3-14e1-9efd" type="max" />
           </constraints>
+          <infoLinks>
+            <infoLink id="vamc-crow-damn-0-e77a-df9" name="Crown of the Damned" hidden="false" targetId="vamc-crow-damn-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -5002,6 +5008,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce7-b2cd-1213-01f1" type="max" />
           </constraints>
+          <infoLinks>
+            <infoLink id="vamc-wris-bgol-0-9e36-349" name="Wristbands of Black Gold" hidden="false" targetId="vamc-wris-bgol-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -5012,6 +5021,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e621-a82a-af81-9087" type="max" />
           </constraints>
+          <infoLinks>
+            <infoLink id="vamc-ring-nigh-0-b0fc-52d" name="Ring of the Night" hidden="false" targetId="vamc-ring-nigh-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -5022,6 +5034,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7311-020a-ec23-25d8" type="max" />
           </constraints>
+          <infoLinks>
+            <infoLink id="vamc-gem0-bloo-0-8515-0d9" name="The Gem of Blood" hidden="false" targetId="vamc-gem0-bloo-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -5211,6 +5226,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </costs>
         </selectionEntry>
         <selectionEntry id="96f3-d171-cc55-b28a" name="Obsidian Amulet" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="vamc-obsi-amul-0-96f3-d17" name="Obsidian Amulet" hidden="false" targetId="vamc-obsi-amul-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -5218,6 +5236,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </costs>
         </selectionEntry>
         <selectionEntry id="0fb5-46df-a17c-3a8e" name="Crown of the Damned" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="vamc-crow-damn-0-0fb5-46d" name="Crown of the Damned" hidden="false" targetId="vamc-crow-damn-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -5225,6 +5246,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </costs>
         </selectionEntry>
         <selectionEntry id="facc-96f1-a9ac-7bbf" name="Wristbands of Black Gold " hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="vamc-wris-bgol-0-facc-96f" name="Wristbands of Black Gold" hidden="false" targetId="vamc-wris-bgol-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -5232,6 +5256,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </costs>
         </selectionEntry>
         <selectionEntry id="cffd-3dc3-0a58-ad89" name="Ring of the Night" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="vamc-ring-nigh-0-cffd-3dc" name="Ring of the Night" hidden="false" targetId="vamc-ring-nigh-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -5239,6 +5266,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </costs>
         </selectionEntry>
         <selectionEntry id="9459-edff-4675-ebef" name="The Gem of Blood" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="vamc-gem0-bloo-0-9459-edf" name="The Gem of Blood" hidden="false" targetId="vamc-gem0-bloo-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
