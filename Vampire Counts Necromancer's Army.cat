@@ -5990,7 +5990,22 @@ At the beginning of the Close Combat phase, before hits are struck, the Familiar
     </rule>
     <rule id="vamc-mort-napr-0001" name="Necromancer's Apprentice" hidden="false">
       <description>The Necromancer on the Mortis Engine does not generate Power Dice for the pool and cannot cast spells himself. He counts as a Necromancer for all other rules purposes.</description>
+    </rule>    <rule id="vamc-vonc-bldl-0001" name="Von Carstein" hidden="false">
+      <description>Archetypal vampires. No special rules.</description>
     </rule>
+    <rule id="vamc-necr-bldl-0001" name="Necrarch" hidden="false">
+      <description>+1 to the total when trying to cast a spell. Thralls can use arcane items. Cannot choose any mundane weapons or armour. -2 to their weapon skill.</description>
+    </rule>
+    <rule id="vamc-bldr-bldl-0001" name="Blood Dragon" hidden="false">
+      <description>+2 to their weapon skill. Lords and counts automatically wear full plate armour and can cast spells, but have 1 casting die less than their power level. The Blood Dragon with the highest leadership in a unit must always issue a challenge and must always accept challenges when possible.</description>
+    </rule>
+    <rule id="vamc-stri-bldl-0001" name="Strigoi" hidden="false">
+      <description>Lords and counts have +1 attack, are affected by Hatred (even being immune to psychology) and have a 6+ ward save. Cannot choose any mundane weapons or armour. Cannot use magic items. Always fight on foot. Thralls cannot be given a battle standard.</description>
+    </rule>
+    <rule id="vamc-lahm-bldl-0001" name="Lahmian" hidden="false">
+      <description>+2 to their initiative. All models in base contact with one or more Lahmian vampires suffer -1 to their leadership. Cannot choose any mundane weapons and armour. -1 to their weapon skill.</description>
+    </rule>
+
   </sharedRules>
   <sharedProfiles>
     <profile id="af37-a7cc-b0d6-707f" name="Frostblade" hidden="false" typeId="03d1-e827-8633-3916" typeName="Weapon">
