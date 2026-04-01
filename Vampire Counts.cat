@@ -1385,6 +1385,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <selectionEntries>
             <selectionEntry id="a13a-36f6-00d9-4ae6" name="Von Carstein" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-vonc-bldl-0-a13a-36f" name="Von Carstein" hidden="false" targetId="vamc-vonc-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="113c-c27a-f202-1b76" name="Von Carstein" hidden="false" targetId="ff24-ca11-afd5-865b" primary="false"/>
               </categoryLinks>
@@ -1525,6 +1528,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="5a11-4f11-3806-c00c" name="Necrach" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-necr-bldl-0-5a11-4f1" name="Necrach" hidden="false" targetId="vamc-necr-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="86dc-9021-f073-6dec" name="Necrach" hidden="false" targetId="fc4b-a86d-5897-9e4c" primary="false"/>
               </categoryLinks>
@@ -1609,6 +1615,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="0158-ed16-cbbf-6a78" name="Blood Dragon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-bldr-bldl-0-0158-ed1" name="Blood Dragon" hidden="false" targetId="vamc-bldr-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="85db-e156-f433-69e1" name="Blood Dragon" hidden="false" targetId="4cae-a20e-8374-b6cb" primary="false"/>
               </categoryLinks>
@@ -1770,6 +1779,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="ef7a-5896-8856-076b" name="Strigoi" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-stri-bldl-0-ef7a-589" name="Strigoi" hidden="false" targetId="vamc-stri-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="261b-6e13-782f-68c1" name="Strigoi" hidden="false" targetId="bf30-4ff0-a4d8-3909" primary="false"/>
               </categoryLinks>
@@ -1790,6 +1802,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="20cf-d4a7-041d-43f4" name="Lahmia" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-lahm-bldl-0-20cf-d4a" name="Lahmia" hidden="false" targetId="vamc-lahm-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="7798-c791-d208-9a34" name="Lahmia" hidden="false" targetId="c872-4b18-1aad-6953" primary="false"/>
               </categoryLinks>
@@ -2274,6 +2289,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <selectionEntries>
             <selectionEntry id="1d4e-dcc1-f62a-c578" name="Von Carstein" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-vonc-bldl-0-1d4e-dcc" name="Von Carstein" hidden="false" targetId="vamc-vonc-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="b8da-51d7-a534-7438" name="Von Carstein" hidden="false" targetId="ff24-ca11-afd5-865b" primary="false"/>
               </categoryLinks>
@@ -2319,6 +2337,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="a8be-2466-4c0c-d453" name="Necrach" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-necr-bldl-0-a8be-246" name="Necrach" hidden="false" targetId="vamc-necr-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="c3b2-9789-aaf1-bf62" name="Necrach" hidden="false" targetId="fc4b-a86d-5897-9e4c" primary="false"/>
               </categoryLinks>
@@ -2364,6 +2385,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="60a4-751a-19aa-35dc" name="Blood Dragon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-bldr-bldl-0-60a4-751" name="Blood Dragon" hidden="false" targetId="vamc-bldr-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="cdd9-6f83-2229-d974" name="Blood Dragon" hidden="false" targetId="4cae-a20e-8374-b6cb" primary="false"/>
               </categoryLinks>
@@ -2430,6 +2454,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="30ba-e15f-9acd-7663" name="Strigoi" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-stri-bldl-0-30ba-e15" name="Strigoi" hidden="false" targetId="vamc-stri-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="0c7d-e8ac-6810-9962" name="Strigoi" hidden="false" targetId="bf30-4ff0-a4d8-3909" primary="false"/>
               </categoryLinks>
@@ -2450,6 +2477,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="1c3b-07da-b7f9-4b22" name="Lahmia" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-lahm-bldl-0-1c3b-07d" name="Lahmia" hidden="false" targetId="vamc-lahm-bldl-0001" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="580e-987c-c1c1-b6c9" name="Lahmia" hidden="false" targetId="c872-4b18-1aad-6953" primary="false"/>
               </categoryLinks>
@@ -2874,6 +2904,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </constraints>
           <selectionEntries>
             <selectionEntry id="10a7-9b20-f053-61df" name="Von Carstein" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-vonc-bldl-0-10a7-9b2" name="Von Carstein" hidden="false" targetId="vamc-vonc-bldl-0001" type="rule"/>
+              </infoLinks>
               <profiles>
                 <profile id="2af4-c245-c124-b63b" name="Thrall" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
                   <characteristics>
@@ -3062,6 +3095,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="bb37-616b-6963-09b8" name="Necrach" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-necr-bldl-0-bb37-616" name="Necrach" hidden="false" targetId="vamc-necr-bldl-0001" type="rule"/>
+              </infoLinks>
               <profiles>
                 <profile id="24ec-191a-6554-c363" name="Thrall" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
                   <characteristics>
@@ -3169,6 +3205,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="3ce4-651b-a585-6886" name="Blood Dragon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-bldr-bldl-0-3ce4-651" name="Blood Dragon" hidden="false" targetId="vamc-bldr-bldl-0001" type="rule"/>
+              </infoLinks>
               <profiles>
                 <profile id="7937-c27a-6bb6-f5f4" name="Blood Dragon" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
                   <characteristics>
@@ -3352,6 +3391,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="c14f-1bd4-3d59-fc4e" name="Strigoi" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-stri-bldl-0-c14f-1bd" name="Strigoi" hidden="false" targetId="vamc-stri-bldl-0001" type="rule"/>
+              </infoLinks>
               <profiles>
                 <profile id="a6cb-9c0b-18fd-a1db" name="Thrall" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
                   <characteristics>
@@ -3387,6 +3429,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </selectionEntry>
             <selectionEntry id="bd0a-5f03-cd37-a01c" name="Lahmia" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vamc-lahm-bldl-0-bd0a-5f0" name="Lahmia" hidden="false" targetId="vamc-lahm-bldl-0001" type="rule"/>
+              </infoLinks>
               <profiles>
                 <profile id="5b44-f2e7-7dea-4f81" name="Thrall" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
                   <characteristics>
