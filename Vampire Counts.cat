@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a10f-a81e-cf13-4692" name="Vampire Counts" revision="12" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a10f-a81e-cf13-4692" name="Vampire Counts" revision="13" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 </readme>
@@ -895,10 +895,6 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </entryLink>
             <entryLink id="2ee8-c3c4-27b0-c668" name="Zombie Dragon" hidden="false" collective="false" import="true" targetId="1a86-7ed1-3c74-8d15" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="b0f3-44cf-8006-356e" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-                <categoryLink id="46be-7011-7887-5b8f" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
               </costs>
@@ -1454,10 +1450,6 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </costs>
                     </entryLink>
                     <entryLink id="a96f-bbc1-f9d0-c018" name="Zombie Dragon" hidden="false" collective="false" import="true" targetId="1a86-7ed1-3c74-8d15" type="selectionEntry">
-                      <categoryLinks>
-                        <categoryLink id="e7b9-69f1-1224-2699" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-                        <categoryLink id="4532-548c-0d78-6ea7" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-                      </categoryLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
                       </costs>
@@ -1597,10 +1589,6 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </costs>
                     </entryLink>
                     <entryLink id="fc43-f0bb-802c-282b" name="Zombie Dragon" hidden="false" collective="false" import="true" targetId="1a86-7ed1-3c74-8d15" type="selectionEntry">
-                      <categoryLinks>
-                        <categoryLink id="cb59-3c71-c207-cd57" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-                        <categoryLink id="c773-98e0-e855-9af0" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-                      </categoryLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
                       </costs>
@@ -1705,10 +1693,6 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </costs>
                     </entryLink>
                     <entryLink id="dc2f-f3e1-d399-3117" name="Zombie Dragon" hidden="false" collective="false" import="true" targetId="1a86-7ed1-3c74-8d15" type="selectionEntry">
-                      <categoryLinks>
-                        <categoryLink id="a00a-9560-f699-24d8" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-                        <categoryLink id="6d17-7b5f-7376-c8f6" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-                      </categoryLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
                       </costs>
@@ -1871,10 +1855,6 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                       </costs>
                     </entryLink>
                     <entryLink id="75c2-1c85-d7d3-9e64" name="Zombie Dragon" hidden="false" collective="false" import="true" targetId="1a86-7ed1-3c74-8d15" type="selectionEntry">
-                      <categoryLinks>
-                        <categoryLink id="0e78-cb54-6208-8a0f" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-                        <categoryLink id="0715-a26b-a250-c1af" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-                      </categoryLinks>
                       <costs>
                         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
                       </costs>
@@ -1925,10 +1905,6 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
               </costs>
             </entryLink>
             <entryLink id="vlrd-zdra-mnt0-0001" name="Zombie Dragon" hidden="false" collective="false" import="true" targetId="1a86-7ed1-3c74-8d15" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="vlrd-zdra-cat0-0001" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-                <categoryLink id="vlrd-zdra-cat0-0002" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="300.0"/>
               </costs>
