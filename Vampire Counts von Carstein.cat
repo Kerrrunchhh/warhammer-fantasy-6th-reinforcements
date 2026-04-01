@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c9d0-e1f2-a3b4-5678" name="Vampire Counts von Carstein" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c9d0-e1f2-a3b4-5678" name="Vampire Counts von Carstein" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 </readme>
@@ -4713,6 +4713,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </costs>
         </selectionEntry>
         <selectionEntry id="fab4-598d-5f5b-6518" name="Banner of Doom" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="vonc-bnr-doom-il01" name="Banner of Doom" hidden="false" targetId="vamc-bnr-doom-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -4720,6 +4723,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </costs>
         </selectionEntry>
         <selectionEntry id="f59a-61ae-1b77-ef33" name="Banner of the Barrows " hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="vonc-bnr-barr-il01" name="Banner of the Barrows" hidden="false" targetId="vamc-bnr-barr-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -4727,6 +4733,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </costs>
         </selectionEntry>
         <selectionEntry id="ff38-e329-9831-aae8" name="Screaming Banner" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="vonc-bnr-scrm-il01" name="Screaming Banner" hidden="false" targetId="vamc-bnr-scrm-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -4734,6 +4743,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           </costs>
         </selectionEntry>
         <selectionEntry id="b693-41a5-9e5e-3950" name="Banner of the Dead Legion " hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="vonc-bnr-dead-il01" name="Banner of the Dead Legion" hidden="false" targetId="vamc-bnr-dead-0001" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0" />
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -6120,6 +6132,18 @@ At the beginning of the Close Combat phase, before hits are struck, the Familiar
     </rule>
     <rule id="vamc-lahm-bldl-0001" name="Lahmian" hidden="false">
       <description>+2 to their initiative. All models in base contact with one or more Lahmian vampires suffer -1 to their leadership. Cannot choose any mundane weapons and armour. -1 to their weapon skill.</description>
+    </rule>
+    <rule id="vamc-bnr-doom-0001" name="Banner of Doom" hidden="false">
+      <description>The Undead warriors carrying this ancient icon of death are invigorated by its power and can rise again to rejoin the ranks after having been shot down by the enemy. The unit has a 5+ Ward save against normal and magical missiles.</description>
+    </rule>
+    <rule id="vamc-bnr-barr-0001" name="Banner of the Barrows" hidden="false">
+      <description>Woven from the wind and cold, the chill of this banner touches the hearts of those who stand against its bearers. All Wights (Grave Guard, Black Knights and Wight Lords) in the unit carrying the Banner will hit the enemy on a 3+, regardless of relative Weapon Skills or any other modifier.</description>
+    </rule>
+    <rule id="vamc-bnr-dead-0001" name="Banner of the Dead Legion" hidden="false">
+      <description>This banner makes the enemies see the Undead they are fighting as a numberless, unstoppable horde. Treat the unit carrying the Banner as if it had 1D6 higher Unit Strength than it actually does. Roll each time you need to calculate the Unit Strength. The result applies only for that phase (Movement, Magic, etc) and you will have to roll again in other phases when needed.</description>
+    </rule>
+    <rule id="vamc-bnr-scrm-0001" name="Screaming Banner" hidden="false">
+      <description>Even the bravest warriors tremble at the thought of fighting the unit carrying this terrifying banner. Enemy units taking a Fear test caused by the unit carrying this Banner must roll one extra dice for their test and discard the one with the lowest result.</description>
     </rule>
 
   </sharedRules>
