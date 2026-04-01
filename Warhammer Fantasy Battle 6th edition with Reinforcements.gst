@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="9" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="11" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="315e-e3c4-08af-fd51" name="BRB"/>
   </publications>
@@ -1789,6 +1789,18 @@ Note that a spell cast with a Power Stone can never be cast with Irresistible Fo
       <description>A General can be accompanied by a special Standard Bearer carrying either his personal banner or the Battle Standard of the army itself. This Battle Standard does not have to move along with the General but it is most useful when he is close by.
 
 The Battle Standard Bearer cannot be the army&apos;s General (unless specified in the character&apos;s army list entry), even if he has the highest Leadership in the army. Unlike ordinary standards the Battle Standard cannot be passed on if its bearer is slain. Should the bearer be slain then the Battle Standard can be captured in the same way as a unit banner.</description>
+    </rule>
+    <rule id="vamc-bnr-doom-0001" name="Banner of Doom" hidden="false">
+      <description>The Undead warriors carrying this ancient icon of death are invigorated by its power and can rise again to rejoin the ranks after having been shot down by the enemy. The unit has a 5+ Ward save against normal and magical missiles.</description>
+    </rule>
+    <rule id="vamc-bnr-barr-0001" name="Banner of the Barrows" hidden="false">
+      <description>Woven from the wind and cold, the chill of this banner touches the hearts of those who stand against its bearers. All Wights (Grave Guard, Black Knights and Wight Lords) in the unit carrying the Banner will hit the enemy on a 3+, regardless of relative Weapon Skills or any other modifier.</description>
+    </rule>
+    <rule id="vamc-bnr-scrm-0001" name="Screaming Banner" hidden="false">
+      <description>Even the bravest warriors tremble at the thought of fighting the unit carrying this terrifying banner. Enemy units taking a Fear test caused by the unit carrying this Banner must roll one extra dice for their test and discard the one with the lowest result.</description>
+    </rule>
+    <rule id="vamc-bnr-dead-0001" name="Banner of the Dead Legion" hidden="false">
+      <description>This banner makes the enemies see the Undead they are fighting as a numberless, unstoppable horde. Treat the unit carrying the Banner as if it had 1D6 higher Unit Strength than it actually does. Roll each time you need to calculate the Unit Strength. The result applies only for that phase (Movement, Magic, etc) and you will have to roll again in other phases when needed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
