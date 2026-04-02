@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="Warhammer Fantasy Battle 6th edition with Reinforcements" indexUrl="https://github.com/Kerrrunchhh/warhammer-fantasy-6th-reinforcements/releases/latest/download/warhammer-fantasy-6th-reinforcements.latest.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Warhammer.Fantasy.Battle.6th.edition.with.Reinforcements.gstz" dataType="gamesystem" dataId="6d8e-38d9-3c69-feba" dataName="Warhammer Fantasy Battle 6th edition with Reinforcements" dataBattleScribeVersion="2.03" dataRevision="11"/>
+    <dataIndexEntry filePath="Warhammer.Fantasy.Battle.6th.edition.with.Reinforcements.gstz" dataType="gamesystem" dataId="6d8e-38d9-3c69-feba" dataName="Warhammer Fantasy Battle 6th edition with Reinforcements" dataBattleScribeVersion="2.03" dataRevision="12"/>
     <dataIndexEntry filePath="Bretonnia.catz" dataType="catalogue" dataId="31c3-8e29-6a12-45bc" dataName="Bretonnia" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="8820-6110-ff77-4173" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="12"/>
     <dataIndexEntry filePath="Dark.Elves.catz" dataType="catalogue" dataId="359b-8eee-bde0-4fe6" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="6"/>
@@ -25,7 +25,7 @@
     <dataIndexEntry filePath="Orcs.and.Goblins.Night.Goblin.Horde.catz" dataType="catalogue" dataId="e8f9-a0b1-c2d3-4567" dataName="Orcs and Goblins Night Goblin Horde" dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="Orcs.and.Goblins.Mountain.or.Troll.Country.Waaagh.catz" dataType="catalogue" dataId="b1c2-d3e4-f5a6-7890" dataName="Orcs and Goblins Mountain or Troll Country Waaagh!" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Orcs.and.Goblins.Snotling.Horde.catz" dataType="catalogue" dataId="c2d3-e4f5-a6b7-8901" dataName="Orcs and Goblins Snotling Horde" dataBattleScribeVersion="2.03" dataRevision="1"/>
-<dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="ef4e-a0d0-6423-46b3" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="6"/>
+<dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="ef4e-a0d0-6423-46b3" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Skaven.Clan.Eshin.catz" dataType="catalogue" dataId="c3e5-1a2b-9f4d-7e8c" dataName="Skaven Clan Eshin" dataBattleScribeVersion="2.03" dataRevision="3"/>
     <dataIndexEntry filePath="Skaven.Clan.Moulder.catz" dataType="catalogue" dataId="b3c4-d5e6-f7a8-9012" dataName="Skaven Clan Moulder" dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="Skaven.Clan.Pestilens.catz" dataType="catalogue" dataId="c7d8-e9f0-a1b2-3456" dataName="Skaven Clan Pestilens" dataBattleScribeVersion="2.03" dataRevision="2"/>

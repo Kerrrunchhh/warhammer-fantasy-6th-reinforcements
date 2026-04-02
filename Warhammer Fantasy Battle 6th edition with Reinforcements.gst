@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="11" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="12" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="315e-e3c4-08af-fd51" name="BRB"/>
   </publications>
@@ -1431,6 +1431,11 @@ The results of combat, panic, etc are worked out after creatures have regenerate
     <rule id="gst0-rege-5p00-0001" name="Regeneration (5+)" hidden="false">
       <description>A creature with this ability may try to regenerate any wound on a 1d6 roll of 5+. Only one attempt may be made on each wound to regenerate it.
 When attacked in close combat, shot at, or the target of spells, calculate the number of wounds suffered as normal. Once all attacks for the phase have been made, the creature may try to regenerate. Roll a D6 for each wound suffered during that phase. If a 5 or more is rolled, that wound has regenerated. You may only try to regenerate any single wound once. Any regenerated wounds are reinstated, and models removed as casualties are replaced if enough wounds are regenerated.
+The results of combat, panic, etc are worked out after creatures have regenerated (the number of wounds inflicted does not include any that are regenerated).</description>
+    </rule>
+    <rule id="gst0-rege-6p00-0001" name="Regeneration (6+)" hidden="false">
+      <description>A creature with this ability may try to regenerate any wound on a 1d6 roll of 6+. Only one attempt may be made on each wound to regenerate it.
+When attacked in close combat, shot at, or the target of spells, calculate the number of wounds suffered as normal. Once all attacks for the phase have been made, the creature may try to regenerate. Roll a D6 for each wound suffered during that phase. If a 6 is rolled, that wound has regenerated. You may only try to regenerate any single wound once. Any regenerated wounds are reinstated, and models removed as casualties are replaced if enough wounds are regenerated.
 The results of combat, panic, etc are worked out after creatures have regenerated (the number of wounds inflicted does not include any that are regenerated).</description>
     </rule>
     <rule id="8ae3-9724-980f-7308" name="Unbreakable" hidden="false">
