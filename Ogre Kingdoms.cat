@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="1" battleScribeVersion="2.03" authorName="Markus Döbele, Jakub Kindl" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="2" battleScribeVersion="2.03" authorName="Markus Döbele, Jakub Kindl" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>I dedicate this list to Sam Terris, Ogre general 
 Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise leave it alone. 
 </readme>
@@ -7,12 +7,12 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
     <publication id="49a5-e8f7-aa09-ad96" name="Ogre Kingdoms" publicationDate="2004"/>
   </publications>
   <categoryEntries>
-    <categoryEntry id="a1bc-3ae3-2a5e-fdb3" name="Dogs of War" hidden="false"/>
-    <categoryEntry id="735e-2da1-6356-2fdb" name="Bully Bully" hidden="false"/>
-    <categoryEntry id="b327-fb83-a933-3e2d" name="Giantbreaker" hidden="false"/>
-    <categoryEntry id="49aa-8f44-981b-bb87" name="Grayback pelt" hidden="false"/>
-    <categoryEntry id="dd12-e469-588f-6b5b" name="Gnoblaroo" hidden="false"/>
-    <categoryEntry id="b67c-07cd-6579-6e87" name="rhnox double rare" hidden="false"/>
+    <categoryEntry id="a1bc-3ae3-2a5e-fdb3" name="Dogs of War" hidden="true"/>
+    <categoryEntry id="735e-2da1-6356-2fdb" name="Bully Bully" hidden="true"/>
+    <categoryEntry id="b327-fb83-a933-3e2d" name="Giantbreaker" hidden="true"/>
+    <categoryEntry id="49aa-8f44-981b-bb87" name="Grayback pelt" hidden="true"/>
+    <categoryEntry id="dd12-e469-588f-6b5b" name="Gnoblaroo" hidden="true"/>
+    <categoryEntry id="b67c-07cd-6579-6e87" name="rhnox double rare" hidden="true"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="7754-8b3d-df99-d2d5" name="Bulls" hidden="false" collective="false" import="true" type="unit">
@@ -28,9 +28,6 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
           </conditions>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8469-51b4-75c9-4402" type="min"/>
-      </constraints>
       <infoLinks>
         <infoLink id="92fa-17b0-33bf-854a" name="Ogre Bull" hidden="false" targetId="0827-0dad-f5b2-fea5" type="profile"/>
         <infoLink id="cb5a-c6f2-4e4e-ff1c" name="Bull Charge" hidden="false" targetId="8953-90f3-edab-81fe" type="rule"/>
