@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele, Jakub Kindl" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele, Jakub Kindl" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>I dedicate this list to Sam Terris, Ogre general 
 Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise leave it alone. 
 </readme>
@@ -1928,16 +1928,7 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1697-55ab-4cf3-062e" name="Mawseeker" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd7d-f70c-f8e2-e8a1" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-      </costs>
-    </selectionEntry>
+
     <selectionEntry id="53e4-9008-0364-d4f7" name="Thundermace" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7437-6000-a538-eb33" type="max"/>
@@ -2392,7 +2383,7 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
         <entryLink id="c2d9-9245-2962-bcbf" name="Giantbreaker" hidden="false" collective="false" import="true" targetId="386c-3a21-e009-6589" type="selectionEntry"/>
         <entryLink id="d1ce-bc8c-1ecc-e67e" name="DeathCheater" hidden="false" collective="false" import="true" targetId="8f7a-0f35-f6e9-f989" type="selectionEntry"/>
         <entryLink id="206d-e241-2f8a-f027" name="Beastkiller" hidden="false" collective="false" import="true" targetId="c7b4-ba76-b76a-048e" type="selectionEntry"/>
-        <entryLink id="2864-57fe-5e34-6e7d" name="Mawseeker" hidden="false" collective="false" import="true" targetId="1697-55ab-4cf3-062e" type="selectionEntry"/>
+
         <entryLink id="6256-a750-b3ce-c4fe" name="Wallcrusher" hidden="false" collective="false" import="true" targetId="54ba-f80e-6e83-19ea" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
@@ -2406,7 +2397,7 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
         <entryLink id="2e26-82ee-a637-5abf" name="LongStrider" hidden="false" collective="false" import="true" targetId="48c4-4599-42da-17b6" type="selectionEntry"/>
         <entryLink id="b723-5dbd-3b07-4bcd" name="Giantbreaker" hidden="false" collective="false" import="true" targetId="386c-3a21-e009-6589" type="selectionEntry"/>
         <entryLink id="05c3-7936-5217-cc10" name="DeathCheater" hidden="false" collective="false" import="true" targetId="8f7a-0f35-f6e9-f989" type="selectionEntry"/>
-        <entryLink id="751c-65eb-dab1-8b0c" name="Mawseeker" hidden="false" collective="false" import="true" targetId="1697-55ab-4cf3-062e" type="selectionEntry"/>
+
         <entryLink id="c198-aeb3-65a9-8c8e" name="Wallcrusher" hidden="false" collective="false" import="true" targetId="54ba-f80e-6e83-19ea" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
@@ -2599,9 +2590,7 @@ Immune to psycology. When wounding a Large target each wound counts as double un
     <rule id="a6a7-a26f-4d84-d64a" name="Wallcrusher" hidden="false">
       <description>+1 Damage on bull charge. Defenders behind wall recieve no defence benefit.</description>
     </rule>
-    <rule id="47cb-10c2-3dc0-49e3" name="Mawseeker" hidden="false">
-      <description>Mawseekers have +1 T. Also suffer Stupidity</description>
-    </rule>
+
     <rule id="9cc7-a4fa-7c58-a5d5" name="Thundermace" hidden="false">
       <description>The thundermace is a two handed weapon that operates as a great weapon. Instead of normal attacks the Thundermace may be used once, place the small template touching but not overlaping the Tyrants Base. Any models under it are as if hit by a rock lobber attack. Friendly units uneffected. In challenge St8 hits D6 wounds No A/S.
 </description>
