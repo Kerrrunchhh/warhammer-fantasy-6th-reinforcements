@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ddd-ff5a-8838-45fc" name="High Elf" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ddd-ff5a-8838-45fc" name="High Elf" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Any errors or suggestions post in the Warhammer Fantasy 6th edition facebook group. Else mail me.</readme>
   <publications>
     <publication id="a40f-696a-94e8-ecfb" name="High Elf Army book" shortName="HE-AB"/>
@@ -2216,20 +2216,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4dc-9040-d98e-7bc1" name="Who Is the general? Nobody knows, roll the dice to see what it shows." hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3130-9fac-fd29-f213" type="min"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d748-d47c-8922-74e3" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="69af-a9a3-e579-e7d9" name="General" hidden="false" targetId="a37e-7207-de6d-acb0" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2.0"/>
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
-      </costs>
-    </selectionEntry>
+
     <selectionEntry id="merw-yrm0-0001-0001" name="Merwyrm" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="merw-terr-or00-0001" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
