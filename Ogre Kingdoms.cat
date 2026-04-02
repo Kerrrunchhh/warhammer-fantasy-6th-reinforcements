@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele, Jakub Kindl" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele, Jakub Kindl" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>I dedicate this list to Sam Terris, Ogre general 
 Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise leave it alone. 
 </readme>
@@ -2605,7 +2605,7 @@ Immune to psycology. When wounding a Large target each wound counts as double un
       <description>The Tenderiser is a two handed weapon that follows the rules for great weapons. Any model wounded by the tenderiser takes not 1 but D3 wounds.</description>
     </rule>
     <rule id="200e-15e6-a46a-92f6" name="Siegebreaker" hidden="false">
-      <description>The Tenderiser is a two handed weapon that follows the rules for great weapons, but adds +3 Str instead of +2. When rolling to hit compare the Ogres WS to the opponents Iniative. Targets without Iniative are automatically hit and take D6 wounds instead of 1.</description>
+      <description>The Siegebreaker is a two handed weapon that follows the rules for great weapons, but adds +3 Str instead of +2. When rolling to hit compare the Ogres WS to the opponents Iniative. Targets without Iniative are automatically hit and take D6 wounds instead of 1.</description>
     </rule>
     <rule id="8468-11d2-59c8-380e" name="Skullplucker" hidden="false">
       <description>Ogre has killing blow with this weapon.</description>
