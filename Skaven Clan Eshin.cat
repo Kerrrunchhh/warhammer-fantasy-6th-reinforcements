@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c3e5-1a2b-9f4d-7e8c" name="Skaven Clan Eshin" revision="3" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c3e5-1a2b-9f4d-7e8c" name="Skaven Clan Eshin" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="ce11-eshn-pub0-0001" name="Clan Eshin Supplement" />
   </publications>
@@ -1781,7 +1781,7 @@
       <infoLinks>
         <infoLink id="1a4e-5e41-4a07-645f" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="37b7-c8bf-5dd9-8d3c" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
-        <infoLink id="ed25-49d7-884c-7cbb" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule" />
+        <infoLink id="ed25-49d7-884c-7cbb" name="Regeneration (6+)" hidden="false" targetId="gst0-rege-6p00-0001" type="rule" />
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a6c7-1c78-6f8d-59b0" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />

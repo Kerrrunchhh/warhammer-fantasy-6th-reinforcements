@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b3c4-d5e6-f7a8-9012" name="Skaven Clan Moulder" revision="2" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b3c4-d5e6-f7a8-9012" name="Skaven Clan Moulder" revision="3" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="4e3c-93ca-4127-a544" name="Skaven army Book 2002" />
   </publications>
@@ -1781,7 +1781,7 @@
       <infoLinks>
         <infoLink id="hpab-omin-terr-0001" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="hpab-omin-ltgt-0001" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
-        <infoLink id="hpab-omin-rege-0001" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule" />
+        <infoLink id="hpab-omin-rege-0001" name="Regeneration (6+)" hidden="false" targetId="gst0-rege-6p00-0001" type="rule" />
       </infoLinks>
       <categoryLinks>
         <categoryLink id="hpab-omin-cat0-0001" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
