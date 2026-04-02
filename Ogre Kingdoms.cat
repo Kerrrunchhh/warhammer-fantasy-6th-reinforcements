@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele, Jakub Kindl" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90a1-0c6c-fe67-4296" name="Ogre Kingdoms" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele, Jakub Kindl" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>I dedicate this list to Sam Terris, Ogre general 
 Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise leave it alone. 
 </readme>
@@ -626,14 +626,14 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a1bc-3ae3-2a5e-fdb3" type="lessThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="c70d-c292-36ee-21b5" value="-1.0">
+        <modifier type="set" field="c70d-c292-36ee-21b5" value="0.0">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2679-58f4-1771-662d" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c70d-c292-36ee-21b5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c70d-c292-36ee-21b5" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="14d2-a123-d267-8103" name="Slaughtermaster" hidden="false" targetId="0d5b-03a6-06f2-a4df" type="profile"/>
