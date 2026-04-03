@@ -94,6 +94,11 @@ PYEOF
 cp "$SRC/install.sh"  "$OUTDIR/"
 cp "$SRC/install.ps1" "$OUTDIR/"
 
+echo "Building .bsr bundle..."
+BSR_FILE="/tmp/bs-release/$BSI_NAME.bsr"
+zip -j "$BSR_FILE" "$OUTDIR"/*.gstz "$OUTDIR"/*.catz "$OUTDIR"/*.bsi -q
+echo "  Written $BSI_NAME.bsr"
+
 echo "Publishing GitHub release..."
 cd "$SRC"
 gh release delete latest --yes 2>/dev/null || true

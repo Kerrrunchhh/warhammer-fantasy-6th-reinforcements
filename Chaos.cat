@@ -5282,7 +5282,7 @@
         <infoLink id="0f35-a9e0-22c0-69eb" name="Plague Bearer" hidden="false" targetId="0031-7ac7-0984-1f9f" type="profile"/>
         <infoLink id="d8c8-503b-9a9a-155d" name="Daemonic attacks" hidden="false" targetId="ab04-c24e-f729-0987" type="rule"/>
         <infoLink id="674c-183f-d2ae-24eb" name="Cloud of Flies" hidden="false" targetId="f51e-1c83-d46b-e233" type="rule"/>
-        <infoLink id="732d-9ec1-b584-5a04" name="Stream of Corruption" hidden="false" targetId="1b94-376e-059e-cfaf" type="rule"/>
+        <infoLink id="732d-9ec1-b584-5a04" name="Stream of Corruption" hidden="false" targetId="pb-stream-corruption-cc01" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="43d6-6434-e82c-4650" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -10766,6 +10766,9 @@ The Daemonic Aura becomes a normal ward save so can be used against magical atta
     </rule>
     <rule id="1b94-376e-059e-cfaf" name="Stream of Corruption" hidden="false">
       <description>In the Chaos shooting phase , if the daemon is not in combat it may unleash a stream of corruption. This is a breath weapon attack Str3 with a -2 Armour Save modifier.</description>
+    </rule>
+    <rule id="pb-stream-corruption-cc01" name="Stream of Corruption (Plaguebearers)" hidden="false">
+      <description>Plaguebearers may choose to vomit forth a grotesque spew of entrails, maggots and filth. This is resolved differently to the Daemonic Gift of the same name. It is used in close combat instead of making normal attacks and allows the Plaguebearers to hit their opponents automatically. Attacks are resolved at Strength 3. All models in the unit must use the same kind of attack in a single combat round, although they may change their attack from round to round.</description>
     </rule>
     <rule id="8002-c1cc-4ba6-c0bd" name="Plague Flail" hidden="false">
       <description>The Daemon weilds a ball and chain which counts as poisoned attacks. This gift cannot be combined with the Blade of Ether.</description>
