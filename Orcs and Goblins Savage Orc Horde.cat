@@ -6480,7 +6480,7 @@
       <infoLinks>
         <infoLink id="34ed-1f6d-5232-337b" name="Animosity" hidden="false" targetId="953f-2fc0-24b5-8d8d" type="rule" />
         <infoLink id="1899-fae8-4aa0-ca9c" name="Fear Elves" hidden="false" targetId="b4c1-3f2e-94da-830c" type="rule" />
-        <infoLink id="4f8f-eb45-7a5a-2bca" name="Poisoned Attacks (spider only)" hidden="false" targetId="83f2-f836-b595-3369" type="rule" />
+        <infoLink id="4f8f-eb45-7a5a-2bca" name="Poisoned Attacks" hidden="false" targetId="83f2-f836-b595-3369" type="rule" />
         <infoLink id="1ff6-39dd-3788-1368" name="Cross" hidden="false" targetId="67c5-026a-7b0c-f109" type="rule" />
       </infoLinks>
       <categoryLinks>
@@ -8120,7 +8120,7 @@ The Gaze of Mork is a magic missile with a range of up to 24". If successfully c
     <rule id="fe82-1f6d-c2f4-466b" name="Impact Hits (1D3)" hidden="false">
       <description>When the Colossal Squig charges, it causes 1D3 Impact Hits at its Strength value.</description>
     </rule>
-    <rule id="83f2-f836-b595-3369" name="Poisoned Attacks (Spider only)" hidden="false">
+    <rule id="83f2-f836-b595-3369" name="Poisoned Attacks" hidden="false">
       <description>Only the attacks of the Giant Spider are Poisoned. The rider's attacks are not affected.</description>
     </rule>
     <rule id="67c5-026a-7b0c-f109" name="Cross" hidden="false">

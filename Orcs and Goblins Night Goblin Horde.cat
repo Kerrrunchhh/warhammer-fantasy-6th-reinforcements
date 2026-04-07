@@ -1268,7 +1268,7 @@
                 <infoLink id="9229-5774-a016-5957" name="Mounted" hidden="false" targetId="0502-c420-2ab2-4f88" type="rule" />
                 <infoLink id="df06-45ea-9028-dc7d" name="Arachnarok Spider" hidden="false" targetId="bc8a-c77b-17f9-e83a" type="profile" />
                 <infoLink id="ngh-arch-crew-il01" name="8x Night Goblin" hidden="false" targetId="d954-4364-26a4-62cb" type="profile" />
-                <infoLink id="ngh-arch-pois-il01" name="Poisoned Attacks (Spider only)" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
+                <infoLink id="ngh-arch-pois-il01" name="Poisoned Attacks" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
                 <infoLink id="ngh-arch-bite-il01" name="Bite Attack" hidden="false" targetId="4685-b347-3fd2-91e6" type="rule" />
               </infoLinks>
               <costs>
@@ -1495,7 +1495,7 @@
                 <infoLink id="615a-72b7-13ae-0746" name="Mounted" hidden="false" targetId="0502-c420-2ab2-4f88" type="rule" />
                 <infoLink id="a125-d022-616e-ff89" name="Arachnarok Spider" hidden="false" targetId="bc8a-c77b-17f9-e83a" type="profile" />
                 <infoLink id="ngh-arch-crew-il02" name="8x Night Goblin" hidden="false" targetId="d954-4364-26a4-62cb" type="profile" />
-                <infoLink id="ngh-arch-pois-il02" name="Poisoned Attacks (Spider only)" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
+                <infoLink id="ngh-arch-pois-il02" name="Poisoned Attacks" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
                 <infoLink id="ngh-arch-bite-il02" name="Bite Attack" hidden="false" targetId="4685-b347-3fd2-91e6" type="rule" />
               </infoLinks>
               <costs>
@@ -2689,7 +2689,7 @@
                 <infoLink id="9b55-0867-6697-938d" name="Mounted" hidden="false" targetId="0502-c420-2ab2-4f88" type="rule" />
                 <infoLink id="4996-536c-c450-6fb3" name="Arachnarok Spider" hidden="false" targetId="bc8a-c77b-17f9-e83a" type="profile" />
                 <infoLink id="ngh-arch-crew-il03" name="8x Night Goblin" hidden="false" targetId="d954-4364-26a4-62cb" type="profile" />
-                <infoLink id="ngh-arch-pois-il03" name="Poisoned Attacks (Spider only)" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
+                <infoLink id="ngh-arch-pois-il03" name="Poisoned Attacks" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
                 <infoLink id="ngh-arch-bite-il03" name="Bite Attack" hidden="false" targetId="4685-b347-3fd2-91e6" type="rule" />
               </infoLinks>
               <costs>
@@ -2951,7 +2951,7 @@
                 <infoLink id="df36-df02-941c-95c8" name="Mounted" hidden="false" targetId="0502-c420-2ab2-4f88" type="rule" />
                 <infoLink id="8c1e-4067-1af1-c4d2" name="Arachnarok Spider" hidden="false" targetId="bc8a-c77b-17f9-e83a" type="profile" />
                 <infoLink id="ngh-arch-crew-il04" name="8x Night Goblin" hidden="false" targetId="d954-4364-26a4-62cb" type="profile" />
-                <infoLink id="ngh-arch-pois-il04" name="Poisoned Attacks (Spider only)" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
+                <infoLink id="ngh-arch-pois-il04" name="Poisoned Attacks" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
                 <infoLink id="ngh-arch-bite-il04" name="Bite Attack" hidden="false" targetId="4685-b347-3fd2-91e6" type="rule" />
               </infoLinks>
               <costs>
@@ -6300,7 +6300,7 @@
       <infoLinks>
         <infoLink id="4b31-c516-c322-9e48" name="Animosity" hidden="false" targetId="3ccf-c3ba-759c-a503" type="rule" />
         <infoLink id="1ea8-064f-6b01-8b36" name="Fear Elves" hidden="false" targetId="449d-6988-4457-a038" type="rule" />
-        <infoLink id="b6c7-c7b0-ed46-1e38" name="Poisoned Attacks (spider only)" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
+        <infoLink id="b6c7-c7b0-ed46-1e38" name="Poisoned Attacks" hidden="false" targetId="5d1e-d7f7-dab3-4794" type="rule" />
         <infoLink id="2294-6495-c4e6-e832" name="Cross" hidden="false" targetId="b43a-37d5-426e-af76" type="rule" />
       </infoLinks>
       <categoryLinks>
@@ -7961,7 +7961,7 @@ The Gaze of Mork is a magic missile with a range of up to 24". If successfully c
     <rule id="808b-f732-2e43-d895" name="Impact Hits (1D3)" hidden="false">
       <description>When the Colossal Squig charges, it causes 1D3 Impact Hits at its Strength value.</description>
     </rule>
-    <rule id="5d1e-d7f7-dab3-4794" name="Poisoned Attacks (Spider only)" hidden="false">
+    <rule id="5d1e-d7f7-dab3-4794" name="Poisoned Attacks" hidden="false">
       <description>Only the attacks of the Giant Spider are Poisoned. The rider's attacks are not affected.</description>
     </rule>
     <rule id="b43a-37d5-426e-af76" name="Cross" hidden="false">
