@@ -7927,7 +7927,7 @@ Pigstikka gives the wielder +1 Strength on the turn he charges.  In addition, on
 </description>
     </rule>
     <rule id="ee41-072a-d596-462f" name="Armour of Gork" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
-      <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. The wearer may re-roll failed armour sates.</description>
+      <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. The wearer may re-roll failed armour saves.</description>
     </rule>
     <rule id="62dc-3131-6685-d64c" name="Armour of Mork" publicationId="7dda-637b-31ad-951c" page="31" hidden="false">
       <description>Counts as wearing armour (5+ armour save) which can be combined with other equipment normally. Also gives the wearer and the unit he is with Magic Resistance (2).</description>
