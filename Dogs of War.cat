@@ -2570,7 +2570,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="dce6-c915-025f-3ee8" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
-        <infoLink id="343e-bd9d-3f35-5caf" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="343e-bd9d-3f35-5caf" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
         <infoLink id="38bc-a7ad-02d7-b752" name="Stubborn" hidden="false" targetId="410a-0d06-9044-665e" type="rule"/>
         <infoLink id="9b24-9fe8-d2cb-8d1b" name="Bull charge" hidden="false" targetId="e5c7-54b6-1f86-f668" type="rule"/>
       </infoLinks>
@@ -3275,7 +3275,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="89a6-a81f-2785-f6e9" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="89a6-a81f-2785-f6e9" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4ad8-64b2-9306-2586" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
@@ -4117,7 +4117,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="833e-515d-9311-11f9" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="833e-515d-9311-11f9" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f220-d288-6cec-6c67" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
@@ -4405,7 +4405,7 @@
   <sharedRules>
     <rule id="1a04-0365-0c7b-8ae2" name="Pikes" publicationId="24dc-55f2-f387-3bc6" page="69" hidden="false">
       <description>Pikes fight in four ranks; require two hands (see page 89 of the warhammer rulebook). Always strikes first in the initial round of close combat, even striking before enemies that have charged. Note that enemies that are entitled to strike first because of a special ability or magic, will strike before pike-armed models.
-Models armed with pikes recieve a +1 Strength bonus in the Close Combar phase on turn they are charged by cavalry units, chariots or monsters. Note that this bonus only applies to attacks directed against the above charging units, not against other units. 
+Models armed with pikes receive a +1 Strength bonus in the Close Combat phase on turn they are charged by cavalry units, chariots or monsters. Note that this bonus only applies to attacks directed against the above charging units, not against other units. 
 All these special rules cannot be used against enemy fighting the pikemen&apos;s flank or rear.</description>
     </rule>
     <rule id="503c-8418-4fe3-ab2d" name="Paymaster" publicationId="24dc-55f2-f387-3bc6" hidden="false">

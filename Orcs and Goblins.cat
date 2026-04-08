@@ -2321,7 +2321,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e4cf-8043-5127-dd26" name="Orc  Shaman" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e4cf-8043-5127-dd26" name="Orc Shaman" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b43e-635b-1725-e02b" name="Orc Shaman" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -2455,7 +2455,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3648-1f5c-5e1d-0711" name="Savage Orc  Shaman" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3648-1f5c-5e1d-0711" name="Savage Orc Shaman" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7796,7 +7796,7 @@
       <description>Orcs expect the smaller greenskins to run awayy and it doesn&apos;t really surprise them when they do. The sight of fleeing Goblins and Snotlings simply reminds the bigger and bolder Orcs why they are best. Consequently when a Goblin unit. Snotling Swarm or Snotling Pump Wagon is destroyed, breaks or flees pat. Orc units do not need to test for panic. See the Viarhammer rulebook. pages 80-81</description>
     </rule>
     <rule id="47bc-b420-0136-87a8" name="Ignore Greenskin Panic" publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
-      <description>Black Orcs and Giants expect normal Orcs and Goblins to run away and would be disappointed if they didn&apos;t . Consequendy, when an Orc or Goblin unit (any type), a Snotling Swarm or Snotling Pump Wagon is destroyed. breaks or flees past. Black Orc units and Giants do not need to test for panic. See the Wuhammer rulebook for the complete Panic rules, pages 80-81</description>
+      <description>Black Orcs and Giants expect normal Orcs and Goblins to run away and would be disappointed if they didn&apos;t . Consequently, when an Orc or Goblin unit (any type), a Snotling Swarm or Snotling Pump Wagon is destroyed. breaks or flees past. Black Orc units and Giants do not need to test for panic. See the Warhammer rulebook for the complete Panic rules, pages 80-81</description>
     </rule>
     <rule id="ab83-3475-b1c7-aafa" name="Choppa" publicationId="7dda-637b-31ad-951c" page="6" hidden="false">
       <description>Choppa: The average Orcish cleaver or dub is a big, crude affair much like the Ore on the blunt end of it. This is the standard armament for Orc foot troops and characters, and is carried instead of a normal hand weapon. Orcs refer to such weapons as &apos;choppas. Such a chunk of metal would he difficult for a human to wield in one hand but Ors are muscle-bound beasts with fists as big as a man&apos;s head (and only marginally more dexterous).

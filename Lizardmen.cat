@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="d21b-c434-a940-4035" name="Lizardmen" revision="7" battleScribeVersion="2.03" authorName="Thomas Saxon and Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen  2003"/>
+    <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen 2003"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="5c12-eebd-de21-0b3d" name="Slann" hidden="false"/>
@@ -391,7 +391,7 @@
           <selectionEntries>
             <selectionEntry id="af47-b447-6251-ecd9" name="Blessed Mark of the Old Ones" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="2264-e205-7404-d0bd" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
+                <infoLink id="2264-e205-7404-d0bd" name="Blessed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
@@ -401,7 +401,7 @@
             </selectionEntry>
             <selectionEntry id="e8d1-0a90-6456-6be9" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="000c-72e5-5d71-0e0c" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+                <infoLink id="000c-72e5-5d71-0e0c" name="Blessed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -608,7 +608,7 @@
           <selectionEntries>
             <selectionEntry id="5a58-12b7-000e-e2d1" name="Blessed Mark of the Old Ones" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="1bc9-03b5-6fcc-74d9" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
+                <infoLink id="1bc9-03b5-6fcc-74d9" name="Blessed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
@@ -618,7 +618,7 @@
             </selectionEntry>
             <selectionEntry id="5817-3009-2a93-1918" name="Blessed Spawning of Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="c7fb-ce3d-1fe8-6f32" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+                <infoLink id="c7fb-ce3d-1fe8-6f32" name="Blessed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -1272,7 +1272,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7823-649b-117f-3231" name="Chamelon Skinks" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7823-649b-117f-3231" name="Chameleon Skinks" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a51-ec4c-57f4-2d3d" type="max"/>
       </constraints>
@@ -1665,15 +1665,15 @@ If there is a building or wall section directly underneath the place where this 
 If Kroq-Gar is wounded in close combat and does not pass his Ward save, then whoever struck the blow immediately suffers an automatic Strength 5 hit.</description>
             </rule>
             <rule id="e364-66e8-d214-e022" name="Army of Kroq-Gar" hidden="false">
-              <description>Kroq-Gar will always be the army General, even if there is a model with higher Leadership in the army. Any army led by Kroq-Gar may take Saurus Cavalry as Core unit chocies, and the army must include at least one unit of Saurus Cavalry. In addition, Saurus Warrior count as Special Unit chocies. If they have Blessed Spawning, then they become a rare unit. They cannot have two Blessed Spawnings.</description>
+              <description>Kroq-Gar will always be the army General, even if there is a model with higher Leadership in the army. Any army led by Kroq-Gar may take Saurus Cavalry as Core unit choices, and the army must include at least one unit of Saurus Cavalry. In addition, Saurus Warrior count as Special Unit choices. If they have Blessed Spawning, then they become a rare unit. They cannot have two Blessed Spawnings.</description>
             </rule>
             <rule id="8fe4-ac91-ab1a-70d5" name="Attuned to the Beast" publicationId="3a49-dd2e-fcaa-cdb1" page="69" hidden="false">
-              <description>Kroq-Gar&apos;s Carnosaur steed does not suffer from Blood-Frenzy due to Kroq-Gar&apos;s strong control (note however, that Grymloq has an higher Attack value than other Carnosaurs). If the Carnosaur is slain, Kroq-Gar becomes frenzied. If Kroq-Gar is slain then the Carnosaus is assumed to automatically pass its Monster Reaction test, and it becomes immediately frenzied. In addition, Grymloq will never lose his frenzy.</description>
+              <description>Kroq-Gar&apos;s Carnosaur steed does not suffer from Blood-Frenzy due to Kroq-Gar&apos;s strong control (note however, that Grymloq has a higher Attack value than other Carnosaurs). If the Carnosaur is slain, Kroq-Gar becomes frenzied. If Kroq-Gar is slain then the Carnosaur is assumed to automatically pass its Monster Reaction test, and it becomes immediately frenzied. In addition, Grymloq will never lose his frenzy.</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="b2cb-68c0-3389-f83a" name="Blesssed Spawning of Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
-            <infoLink id="a8cf-7f23-1f46-d923" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+            <infoLink id="b2cb-68c0-3389-f83a" name="Blessed Spawning of Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+            <infoLink id="a8cf-7f23-1f46-d923" name="Blessed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
             <infoLink id="f1b3-4af8-cf12-3731" name="Scaly Skin 4+" hidden="false" targetId="d9b3-2f25-faa4-a7fb" type="rule"/>
             <infoLink id="fe7c-9c3e-1ff4-8644" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
           </infoLinks>
@@ -1886,7 +1886,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e575-7d9b-dbb9-953e" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="92d0-e3d9-77dc-bdd0" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
+            <infoLink id="92d0-e3d9-77dc-bdd0" name="Blessed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
@@ -1899,7 +1899,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21a9-dab3-6168-a1a5" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3bf9-7788-fb66-0d86" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
+            <infoLink id="3bf9-7788-fb66-0d86" name="Blessed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
@@ -1912,7 +1912,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="687c-b6ad-5846-461b" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d86a-4cfb-2c00-3370" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
+            <infoLink id="d86a-4cfb-2c00-3370" name="Blessed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -1925,7 +1925,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ee-851b-7ca8-4c6e" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="e24c-6089-1b3b-b353" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+            <infoLink id="e24c-6089-1b3b-b353" name="Blessed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="698b-3618-42d9-61a2" name="Oldblood mount" hidden="false" collective="false" import="true">
@@ -1993,7 +1993,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2af7-f475-7778-6efc" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="c2e6-a031-00bb-3566" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
+            <infoLink id="c2e6-a031-00bb-3566" name="Blessed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
@@ -2006,7 +2006,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f69-4f67-7485-fe4c" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="e008-5b18-28e7-4b96" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+            <infoLink id="e008-5b18-28e7-4b96" name="Blessed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
@@ -2019,7 +2019,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cac-4999-46ba-0c9a" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="ae9f-e233-88d1-d13a" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+            <infoLink id="ae9f-e233-88d1-d13a" name="Blessed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2032,7 +2032,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a10-7e21-6f3e-b280" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f8d0-32d6-ea3a-a8ca" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
+            <infoLink id="f8d0-32d6-ea3a-a8ca" name="Blessed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2045,7 +2045,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcd1-0cb1-b22d-3281" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="1622-d85d-994d-4ad7" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
+            <infoLink id="1622-d85d-994d-4ad7" name="Blessed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2070,7 +2070,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4750-ac65-f010-871d" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="2198-b5db-ff23-96b8" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
+            <infoLink id="2198-b5db-ff23-96b8" name="Blessed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
@@ -2083,7 +2083,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c57d-e57b-b28b-9a75" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f3ae-a43a-0a6d-7174" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
+            <infoLink id="f3ae-a43a-0a6d-7174" name="Blessed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
@@ -2096,7 +2096,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5143-98ba-5e9b-2d9f" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="1ea3-ca0c-2b12-1b76" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
+            <infoLink id="1ea3-ca0c-2b12-1b76" name="Blessed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2109,7 +2109,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1874-34cf-781e-7b1d" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="22e1-57e5-aa25-6135" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+            <infoLink id="22e1-57e5-aa25-6135" name="Blessed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="9ed1-d913-7258-010c" name="Scar Veteran mount" hidden="false" collective="false" import="true">
@@ -2156,7 +2156,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0297-591a-3d68-5be0" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="95bd-de46-37b5-6c81" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
+            <infoLink id="95bd-de46-37b5-6c81" name="Blessed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
@@ -2169,7 +2169,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d3-7e04-2429-8952" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="4fba-0f68-6e09-ea59" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+            <infoLink id="4fba-0f68-6e09-ea59" name="Blessed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0"/>
@@ -2182,7 +2182,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f786-60bb-e6a2-1f29" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="5266-a2d1-cd62-8d89" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+            <infoLink id="5266-a2d1-cd62-8d89" name="Blessed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2195,7 +2195,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a99-2913-7d8d-ae25" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="5e2a-3c73-6cd0-d0c8" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
+            <infoLink id="5e2a-3c73-6cd0-d0c8" name="Blessed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2208,7 +2208,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b6f-a248-d439-b971" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="514d-9e8e-d7d1-1d03" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
+            <infoLink id="514d-9e8e-d7d1-1d03" name="Blessed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2255,7 +2255,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f075-b5c8-2c14-cc64" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="c51d-7b2f-a891-12bd" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
+            <infoLink id="c51d-7b2f-a891-12bd" name="Blessed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2268,7 +2268,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0ee-bceb-3b18-d110" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="e03d-6dd2-98e3-a333" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
+            <infoLink id="e03d-6dd2-98e3-a333" name="Blessed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -2281,7 +2281,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bac-784d-70c7-991e" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="edc4-9f9d-4b58-49ea" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
+            <infoLink id="edc4-9f9d-4b58-49ea" name="Blessed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
@@ -2294,7 +2294,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad7-5675-a6c4-01e6" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="9bda-aebf-f830-d8fe" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+            <infoLink id="9bda-aebf-f830-d8fe" name="Blessed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
@@ -2307,7 +2307,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c50-8611-c9e3-8c66" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="eaaf-34f6-0a73-5f30" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+            <infoLink id="eaaf-34f6-0a73-5f30" name="Blessed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
@@ -2320,7 +2320,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52ae-877f-c2fd-ac3e" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="4795-b049-2781-d1ae" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
+            <infoLink id="4795-b049-2781-d1ae" name="Blessed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
@@ -2333,7 +2333,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3454-66e2-c5f9-29f9" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="b910-c520-32b4-60a6" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
+            <infoLink id="b910-c520-32b4-60a6" name="Blessed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2361,7 +2361,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a7-2912-6a62-0164" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="ff88-8139-fb9b-83da" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
+            <infoLink id="ff88-8139-fb9b-83da" name="Blessed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2374,7 +2374,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e47-478b-d895-267b" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="5d65-9382-2f40-c54c" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
+            <infoLink id="5d65-9382-2f40-c54c" name="Blessed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -2387,7 +2387,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0ba-1ed7-282f-9a7f" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="1fad-9eed-c167-9588" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
+            <infoLink id="1fad-9eed-c167-9588" name="Blessed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
@@ -2400,7 +2400,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4e4-558b-3a74-4967" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="deb9-9d36-7313-92d8" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+            <infoLink id="deb9-9d36-7313-92d8" name="Blessed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
@@ -2413,7 +2413,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1002-4d96-068b-7ead" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="6389-402e-20b3-16f0" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+            <infoLink id="6389-402e-20b3-16f0" name="Blessed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
@@ -2426,7 +2426,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37cc-127f-12b0-af34" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f85f-43f5-3389-6f02" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
+            <infoLink id="f85f-43f5-3389-6f02" name="Blessed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0"/>
@@ -2439,7 +2439,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f4a-b95d-ecfa-0d5b" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f80e-e893-9887-9331" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
+            <infoLink id="f80e-e893-9887-9331" name="Blessed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2459,7 +2459,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="927e-e947-d698-d953" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="5407-c905-52e4-2294" name="Blesssed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
+        <infoLink id="5407-c905-52e4-2294" name="Blessed Mark of the Old Ones" hidden="false" targetId="4cc1-35fc-92c0-dd94" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2472,7 +2472,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb6-639e-ece0-aa5d" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="1aeb-3a03-2812-25d3" name="Blesssed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
+        <infoLink id="1aeb-3a03-2812-25d3" name="Blessed Spawning of Chotec" hidden="false" targetId="9b0f-2665-1cc0-cb7a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2485,7 +2485,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2819-7bd2-31d8-86e4" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="d514-f04e-53ac-e8f7" name="Blesssed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
+        <infoLink id="d514-f04e-53ac-e8f7" name="Blessed Spawning of Huanchi" hidden="false" targetId="e1fd-08c6-2aa0-fd20" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2498,7 +2498,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9207-28a7-63ca-fbb5" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="4b20-44d8-f73d-f99e" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+        <infoLink id="4b20-44d8-f73d-f99e" name="Blessed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cc81-eba5-ffef-a3dc" name="Oldblood mount" hidden="false" collective="false" import="true">
@@ -2563,7 +2563,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd88-34f6-3d3d-c06f" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="c347-38fe-4073-6feb" name="Blesssed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
+        <infoLink id="c347-38fe-4073-6feb" name="Blessed Spawning Quetzl" hidden="false" targetId="1c8b-3c91-c79e-853e" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2576,7 +2576,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa2-75a6-8026-683f" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="7c0f-728c-c2a1-a7ea" name="Blesssed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
+        <infoLink id="7c0f-728c-c2a1-a7ea" name="Blessed Spawning Sotek" hidden="false" targetId="d93f-c967-c856-d295" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2589,7 +2589,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a0e-bb39-c743-c8e5" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="d2d2-4505-d259-19da" name="Blesssed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
+        <infoLink id="d2d2-4505-d259-19da" name="Blessed Spawning Tepok" hidden="false" targetId="4fda-2623-4a50-2dee" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2602,7 +2602,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b730-4cce-ee17-d812" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="9539-0c49-fd0c-007d" name="Blesssed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
+        <infoLink id="9539-0c49-fd0c-007d" name="Blessed Spawning Tlazcotl" hidden="false" targetId="4995-80be-43e2-c907" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2615,7 +2615,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b358-73cb-b86b-c623" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="57bd-8311-5440-c839" name="Blesssed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
+        <infoLink id="57bd-8311-5440-c839" name="Blessed Spawning of Tzunki" hidden="false" targetId="49d9-40fc-b608-87a2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2684,7 +2684,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b28-4845-ebf0-cbcf" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3512-92a1-a8a4-1624" name="Blesssed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
+        <infoLink id="3512-92a1-a8a4-1624" name="Blessed Spawning of Itzl" hidden="false" targetId="28f1-98c9-61a1-ff34" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="4214-8d0d-fc1e-5cd3" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
@@ -3504,32 +3504,32 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
     <rule id="d1be-78da-561d-0934" name="Aquatic" publicationId="3a49-dd2e-fcaa-cdb1" page="26" hidden="false">
       <description>Skinks can move over marsh, rivers, lakes, or any other water features without penalty, and will benefit from soft cover while in such terrain.</description>
     </rule>
-    <rule id="4cc1-35fc-92c0-dd94" name="Blesssed Mark of the Old Ones" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="4cc1-35fc-92c0-dd94" name="Blessed Mark of the Old Ones" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>The character may reroll a total of D3 (roll at the start of the game) single D6&apos;s per game. Each reroll entitles the player to take a single D6 of his own that directly affects the character (including one of the dice rolled as part of a 2D6 etc) and roll it again.
 This can potentially cause Irresistible Force or avoid a Miscast. Remember that you cannot reroll a reroll.</description>
     </rule>
-    <rule id="9b0f-2665-1cc0-cb7a" name="Blesssed Spawning of Chotec" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="9b0f-2665-1cc0-cb7a" name="Blessed Spawning of Chotec" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>Roll an extra dice when pursuing and choose the highest two (three if mounted).</description>
     </rule>
-    <rule id="e1fd-08c6-2aa0-fd20" name="Blesssed Spawning of Huanchi" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="e1fd-08c6-2aa0-fd20" name="Blessed Spawning of Huanchi" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>The unit may move through jungles, woods, and forest as if they were open ground, suffering no penalties for movement.</description>
     </rule>
-    <rule id="28f1-98c9-61a1-ff34" name="Blesssed Spawning of Itzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
-      <description>Characters must take the Blesssed Spawning of Itzl if they wish to ride a Carnosaur or a Cold One.</description>
+    <rule id="28f1-98c9-61a1-ff34" name="Blessed Spawning of Itzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+      <description>Characters must take the Blessed Spawning of Itzl if they wish to ride a Carnosaur or a Cold One.</description>
     </rule>
-    <rule id="49d9-40fc-b608-87a2" name="Blesssed Spawning of Tzunki" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="49d9-40fc-b608-87a2" name="Blessed Spawning of Tzunki" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>Aquatic, +1 Initiative</description>
     </rule>
-    <rule id="1c8b-3c91-c79e-853e" name="Blesssed Spawning of Quetzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="1c8b-3c91-c79e-853e" name="Blessed Spawning of Quetzl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>Scaly Skin save increased +1.</description>
     </rule>
-    <rule id="d93f-c967-c856-d295" name="Blesssed Spawning of Sotek" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="d93f-c967-c856-d295" name="Blessed Spawning of Sotek" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>When the unit/character charges, they get +1 Attack for that round of combat.</description>
     </rule>
-    <rule id="4fda-2623-4a50-2dee" name="Blesssed Spawning of Tepok" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="4fda-2623-4a50-2dee" name="Blessed Spawning of Tepok" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>The presence of the unit or the character on the battlefield adds one dice to the player&apos;s dispel dice pool</description>
     </rule>
-    <rule id="4995-80be-43e2-c907" name="Blesssed Spawning of Tlazcotl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
+    <rule id="4995-80be-43e2-c907" name="Blessed Spawning of Tlazcotl" publicationId="3a49-dd2e-fcaa-cdb1" page="51" hidden="false">
       <description>Immune to Psychology (Carnosaur will still be subject to Blood-Frenzy, Cold One will still be subject to Stupidity).</description>
     </rule>
     <rule id="2d3d-6ad5-90d3-3b84" name="Blood-frenzy" publicationId="3a49-dd2e-fcaa-cdb1" page="32" hidden="false">
@@ -3542,7 +3542,7 @@ Strength 3
 2 x Multiple Shots</description>
     </rule>
     <rule id="942f-bcf6-d9a6-97d0" name="Chameleons" publicationId="3a49-dd2e-fcaa-cdb1" page="27" hidden="false">
-      <description>Enemies suffer an additional +1 to hit when shooting at Chamelon Skinks.
+      <description>Enemies suffer an additional +1 to hit when shooting at Chameleon Skinks.
 
 In addition, Chameleon Skinks are deployed at the same time as Scouts, and can be placed in one of two ways.
 Either place them exactly as Scouts, but with no minimum between them and the enemy, or place in sight of the enemy (even in the open) but more than 12&quot; away from them.</description>
@@ -3559,7 +3559,7 @@ Slann may never take magic weapons or magic armour when choosing magic items.</d
 If all Skink Handlers are slain, then the Salamanders must take a leadership test. If they fail this test, they must roll on the Monster Reaction table (pg 105 Warhammer Rulebook).</description>
     </rule>
     <rule id="8b55-7616-fd0b-f1a4" name="Expert Hunters" publicationId="3a49-dd2e-fcaa-cdb1" page="27" hidden="false">
-      <description>Chamelon Skinks work best when stalking their prey alone. Characters can never join units of Chameleon Skinks</description>
+      <description>Chameleon Skinks work best when stalking their prey alone. Characters can never join units of Chameleon Skinks</description>
     </rule>
     <rule id="27fd-b1a1-acd5-cbd5" name="Fear" publicationId="3a49-dd2e-fcaa-cdb1" page="25" hidden="false">
       <description>Page 81 of the Warhammer Rulebook</description>

@@ -3157,7 +3157,7 @@ The wielder of this weapon adds +1 to his Attack characteristic.
 </description>
     </rule>
     <rule id="589c-bd1a-4535-f052" name="RUNE OF CLEAVING" publicationId="6265-1d51-76e2-4fe2" page="20" hidden="false">
-      <description>Originally forged upon tbe axes of miners, enabling  them to break through the hardest rock.
+      <description>Originally forged upon the axes of miners, enabling them to break through the hardest rock.
 The wielder of this weapon adds + 1 to his Strength.
 </description>
     </rule>
@@ -3208,13 +3208,13 @@ The character has a 2+ Ward save against missile attacks only (including magic m
 </description>
     </rule>
     <rule id="da4f-e954-34b3-af1a" name="RUNE OF RESISTANCE" hidden="false">
-      <description>First used on the armour of the Thane of Karak Azgal by Gorgi Storngbeard, this rune is thought to
+      <description>First used on the armour of the Thane of Karak Azgal by Gorgi Strongbeard, this rune is thought to
 have been lost amongst the ruined stronghold. Fortunately the Runesmith survived to replicate it.
 This rune allows the character to re-roll any failed armour saving throws. As you're only ever allowed one re-roll multiples of this rune would have no effect
 </description>
     </rule>
     <rule id="fba9-eae7-4896-a712" name="RUNE OF IRON" hidden="false">
-      <description>When Iron is saturated with magic it Is known as  lodestone. This rune focuses the magnetic properties of lodestone to create magical armour.
+      <description>When Iron is saturated with magic it is known as lodestone. This rune focuses the magnetic properties of lodestone to create magical armour.
 This rune confers a 6+ ward save. Two of these runes confer a 5+ Ward save, but three cannot be taken, because only the Master Rune of Spite can bind such huge power.
 </description>
     </rule>
@@ -3229,7 +3229,7 @@ The handguns of Dwarf Thunderers, called dragon belchers by the more superstitio
 </description>
     </rule>
     <rule id="26d5-bbde-9f6a-c4ca" name="Gromril Armour" hidden="false">
-      <description>Armour made from the metal known us gromril is the toughest and most sturdy in the known world. Known variously as meteoric iron, silverstone and hammernought armour, Gromril armour is limited to wealthy Dwarfs and the elite Ironbreakers.
+      <description>Armour made from the metal known as gromril is the toughest and most sturdy in the known world. Known variously as meteoric iron, silverstone and hammernought armour, Gromril armour is limited to wealthy Dwarfs and the elite Ironbreakers.
 Rules: Gromril armour gives a 4+ armour save.
 </description>
     </rule>
@@ -3320,7 +3320,7 @@ May only he put on a Stone Thrower. The Dwarf player may re-roll the Scatter dic
 </description>
     </rule>
     <rule id="3d72-1a72-f48f-14d4" name="RUNE OF FORTUNE" hidden="false">
-      <description>Discovered by Magnus Ilammerson, wbo broke Runesmith tradition by selling it to Engineers Guild.
+      <description>Discovered by Magnus Ilammerson, who broke Runesmith tradition by selling it to Engineers Guild.
 If a machine has the Rune of Fortune the player may re-roll a dice rolled on the machine's Misfire chart. For example. you can re-roll a result on the Cannon Misfire chart, or the Misfire chart for Stone Throwers. However, you must accept the result of the second dice roll. Multiples have no effect.
 </description>
     </rule>

@@ -5,7 +5,7 @@
     <publication id="eb40-b103-2fce-fcb9" name="Empire Army Book 2000" />
   </publications>
   <categoryEntries>
-    <categoryEntry id="7432-0725-6e54-20de" name="Knight  of Inner Circle" hidden="false">
+    <categoryEntry id="7432-0725-6e54-20de" name="Knight of Inner Circle" hidden="false">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d415-1c92-19f4-272a" type="max" />
       </constraints>
@@ -1064,7 +1064,7 @@
             <infoLink id="0d67-1ffc-d692-d8c6" name="Knight of the Inner Circle" hidden="false" targetId="2c38-879d-e5d7-b68f" type="rule" />
           </infoLinks>
           <categoryLinks>
-            <categoryLink id="ed4a-ced0-8ddb-021a" name="Knight  of Inner Circle" hidden="false" targetId="7432-0725-6e54-20de" primary="false" />
+            <categoryLink id="ed4a-ced0-8ddb-021a" name="Knight of Inner Circle" hidden="false" targetId="7432-0725-6e54-20de" primary="false" />
           </categoryLinks>
         </entryLink>
       </entryLinks>
@@ -3338,7 +3338,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="3f29-9398-30a2-fb4a" name="Banner  Of Duty" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3f29-9398-30a2-fb4a" name="Banner Of Duty" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be24-51cb-02d6-cdc9" type="max" />
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7dd-c992-5c3b-bf22" type="max" />
@@ -4480,7 +4480,7 @@
       </constraints>
       <entryLinks>
         <entryLink id="88ab-2d1a-ee81-660f" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry" />
-        <entryLink id="c823-2ada-6456-27a2" name="Banner  Of Duty" hidden="false" collective="false" import="true" targetId="3f29-9398-30a2-fb4a" type="selectionEntry" />
+        <entryLink id="c823-2ada-6456-27a2" name="Banner Of Duty" hidden="false" collective="false" import="true" targetId="3f29-9398-30a2-fb4a" type="selectionEntry" />
         <entryLink id="3f60-409b-2f34-9642" name="Griffon Standard" hidden="false" collective="false" import="true" targetId="181e-3a35-622e-6dbe" type="selectionEntry" />
         <entryLink id="f2b6-b259-e99e-8e9c" name="Banner Of Valour" hidden="false" collective="false" import="true" targetId="5761-48e6-364b-79e6" type="selectionEntry" />
         <entryLink id="3288-a11f-fd1f-5660" name="Standard Of Arcane Warding" hidden="false" collective="false" import="true" targetId="3076-abff-0cc4-cc28" type="selectionEntry" />

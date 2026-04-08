@@ -5886,7 +5886,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="de26-b63c-debe-1f48" name="Frostblade" hidden="false">
-      <description>FROSTBLADE 100 points this blade of blue ice'-steel is bound with such deadly spells that its touch will suck the soul out of its victims body and freeze their heart (amour saving throw) are not allowed against the Frostblade. Ward saves can be taken as normal. For every unsaved wound caused by this sword, the victim must take Toughness test to resist its magic. If they fail, they are killed outright (remember that a 6 is always a failure). If the victim passes, the test then he suffers damage from the blow as normal. </description>
+      <description>FROSTBLADE 100 points this blade of blue ice'-steel is bound with such deadly spells that its touch will suck the soul out of its victims body and freeze their heart (armour saving throw) are not allowed against the Frostblade. Ward saves can be taken as normal. For every unsaved wound caused by this sword, the victim must take Toughness test to resist its magic. If they fail, they are killed outright (remember that a 6 is always a failure). If the victim passes, the test then he suffers damage from the blow as normal. </description>
     </rule>
     <rule id="1395-b83d-ce33-3f06" name="Blood Drinker" hidden="false">
       <description>Vampires only. Every time the bearer of this heinous sword kills a living victim' the blood splattered out the blade is absorbed and the life force of the victim is used to revitalise his Undead bearer. For even model killed In close combat the wearer immediately regenerates one lost Wound. This cannot take the character's Wounds characteristic above Its initial value. </description>
@@ -5920,7 +5920,7 @@ Range 24”. The bearer can pick any target It can see (including a character: C
       <description>Ghouls fight in undisciplined groups and are so treated as skirmishers see p113-116 of main rulebook.</description>
     </rule>
     <rule id="318a-0dc9-f319-cc8f" name="Swarm" hidden="false">
-      <description>Swarms are modeled in multiples on a single 40x40nm base. This base is treated as if it were a single model with several Wounds and Attacks. A Bat Swarm base fights at lull Oro until it has taken 5 wounds then it is removed. Like all Swarms, Bat Swarms are Unbreakable and cannot he joined by characters.</description>
+      <description>Swarms are modeled in multiples on a single 40x40mm base. This base is treated as if it were a single model with several Wounds and Attacks. A Bat Swarm base fights at full strength until it has taken 5 wounds then it is removed. Like all Swarms, Bat Swarms are Unbreakable and cannot be joined by characters.</description>
     </rule>
     <rule id="7c37-25f3-94dd-deea" name="Flying Unit" hidden="false">
       <description>Bat Swarms are a unit of flyers and follow all the rules on page 106 of the Warhammer rulebook, (eg. they are skirmishers and have a Unit Strength of 1 per base) with the exception that their fly move is reduced to 10" instead of the usual 20".</description>
@@ -5939,10 +5939,10 @@ Because they are insubstantial, they can't he harmed in combat except by attacks
 </description>
     </rule>
     <rule id="839a-1c4f-d6f2-0173" name="Single model" hidden="false">
-      <description>A Banshee is treated as a character on foot tot movement and when targeted by missiles. A Banshee has a Unit Strength of 1 and cannot join other units or characters.</description>
+      <description>A Banshee is treated as a character on foot for movement and when targeted by missiles. A Banshee has a Unit Strength of 1 and cannot join other units or characters.</description>
     </rule>
     <rule id="8404-f653-2db4-139d" name="Ghostly Howl" hidden="false">
-      <description>A Banshee is capable of emitting an eerie howl that brings death to mortals. Even the distant shriek of a Banshee is enough to strike horror into the hearts of the bravest men, and anyone hearing the constant wail of a Banshee will die of sheer fright. The Ghostly Howl of a Banshee is used in the Shooting phase. A Banshee may use it even in the Rim she has declared a charge or marched and even when engaged in close combat, but in this case she can Howl only against one of the units she is fighting (the Howl will affect only the target unit, even in a multiple fight). The attack has a range of 8". The Banshee can target any one unit within this range (even characters on their own that could not normally be targeted by shooting, but not characters inside units) and does not need a line of sight to the target Roll 206+2 and deduct the Leadership value of the unit from the wore. For each point by which the roll heats the target's Leadership, the target suffers 1 wound, distributed exactly like missile fire amongst the unit. So if you roll a 9, thereby obtaining a total of 11, and the target unit's Leadership is 8. the unit suffers 3 wounds. No armour saving throw is allowed against wounds caused by a Banshee's Howl, but units can use the superior Leadership of the character who is leading them or even the General's, if he is within 12". Units which are Immune to Psychology are not affected by the Howl. In the case of ridden chariots/monsters. war machines and similar units, use the highest Leadership value of the models involved to determine the number of wounds caused and then randomise each wound as for shooting hits (discard wounds hitting war machines).</description>
+      <description>A Banshee is capable of emitting an eerie howl that brings death to mortals. Even the distant shriek of a Banshee is enough to strike horror into the hearts of the bravest men, and anyone hearing the constant wail of a Banshee will die of sheer fright. The Ghostly Howl of a Banshee is used in the Shooting phase. A Banshee may use it even in the turn she has declared a charge or marched and even when engaged in close combat, but in this case she can Howl only against one of the units she is fighting (the Howl will affect only the target unit, even in a multiple fight). The attack has a range of 8". The Banshee can target any one unit within this range (even characters on their own that could not normally be targeted by shooting, but not characters inside units) and does not need a line of sight to the target Roll 2D6+2 and deduct the Leadership value of the unit from the score. For each point by which the roll beats the target's Leadership, the target suffers 1 wound, distributed exactly like missile fire amongst the unit. So if you roll a 9, thereby obtaining a total of 11, and the target unit's Leadership is 8. the unit suffers 3 wounds. No armour saving throw is allowed against wounds caused by a Banshee's Howl, but units can use the superior Leadership of the character who is leading them or even the General's, if he is within 12". Units which are Immune to Psychology are not affected by the Howl. In the case of ridden chariots/monsters. war machines and similar units, use the highest Leadership value of the models involved to determine the number of wounds caused and then randomise each wound as for shooting hits (discard wounds hitting war machines).</description>
     </rule>
     <rule id="c739-28fc-b964-34d1" name="Impale" hidden="false">
       <description>Nightmares can use bony spines and tusks on the charge to impale victims. +1S on charge</description>
@@ -6075,7 +6075,7 @@ The Vampire can re-roll all failed To hit rolls.
 </description>
     </rule>
     <rule id="23cb-5671-7692-aed9" name="Summon Ghouls" hidden="false">
-      <description>The Vampire bellows a guttural cry which can be beard by his flesh eating minions. These creatures are slaves to the authority of the Ghoul Kings.
+      <description>The Vampire bellows a guttural cry which can be heard by his flesh eating minions. These creatures are slaves to the authority of the Ghoul Kings.
 Once per game, the Vampire can use this power at
 the start of one of his turns to summon D3+1
 Ghouls. Immediately calculate the Victory points
@@ -6139,7 +6139,7 @@ This cloak provides Mannfred with a 3+ Ward save
 </description>
     </rule>
     <rule id="b672-5593-3022-5748" name="Black Periapt" publicationId="8e66-3042-1d6b-fa6b" page="51" hidden="false">
-      <description>The Periapt allows the bearer to saw one unused Power dice or Dispel chn- at the end of any Magic phase and more it, to add It to his side's dice pool in the next Magic phase.</description>
+      <description>The Periapt allows the bearer to save one unused Power dice or Dispel dice at the end of any Magic phase and move it, to add it to his side's dice pool in the next Magic phase.</description>
     </rule>
     <rule id="3474-cafa-3972-516c" name="Spell Familiar" publicationId="8e66-3042-1d6b-fa6b" page="51" hidden="false">
       <description>the Familiar's owner knows one mine spell than he Is normally allowed. This does not increase his magic level</description>

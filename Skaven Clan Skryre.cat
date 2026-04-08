@@ -2844,7 +2844,7 @@
       <description>All models In the Skaven army add +1 to the total rolled to determine the distance they flee.</description>
     </rule>
     <rule id="a2c4-2b96-aebf-82f7" name="STRENGTH IN NUMBERS" publicationId="dac3-b1cf-c897-b66e" page="10" hidden="false">
-      <description>AlI units in the Skaven army always add their current rank bonus to their Leadership value for any Leadership based test.
+      <description>All units in the Skaven army always add their current rank bonus to their Leadership value for any Leadership based test.
 First work out the Leadership of the unit as normal (character in the unit, General within 12”, magic bonuses/penalties, etc) and then add the rank bonus of the unit to this value. The maximum bonus you can get is obviously +3, for a maximum total Leadership of 10. For example, a unit of Clanrats (Ld 5) with a rank bonus of +2 will have a Leadership of 7 on its own, a Leadership of 8 if led by a Chieftain (Ld 6) or of 9 if within 12" of a Warlord who is the Skaven General (LD 7). Note that the General confers his basic Leadership and then the units modify it with their own rank bonus - do not modify the Leadership of the General with the ranks of his own unit and then pass this modified Leadership on to every unit within 12"!
 When Skaven lose their rank bonus from a charge
 in the -flank or rear. they cannot use this
@@ -2882,13 +2882,13 @@ AlI normal restrictions still apply on top of this.
 All Skaven units automatically pass Panic tests caused by Rat Swarms.</description>
     </rule>
     <rule id="90e3-af59-b3cf-445a" name="Swarm" publicationId="dac3-b1cf-c897-b66e" page="11" hidden="false">
-      <description>Swarms represent many creatures on a single 40mm x 40mm base. This base is treated as a single model with several Wounds and Attacks. A Rat Swann base fights at full effect until it has taken 5 Wounds then it is removed. Rat Swarms are Unbreakable and cannot be joined by characters.</description>
+      <description>Swarms represent many creatures on a single 40mm x 40mm base. This base is treated as a single model with several Wounds and Attacks. A Rat Swarm base fights at full effect until it has taken 5 Wounds then it is removed. Rat Swarms are Unbreakable and cannot be joined by characters.</description>
     </rule>
     <rule id="a977-f1bb-bbe7-8955" name="Small" publicationId="dac3-b1cf-c897-b66e" page="11" hidden="false">
       <description>Rat Swarms don't block line  sight of other units. Note that this does not allow  other skirmishers to pass through them.</description>
     </rule>
     <rule id="50b7-1798-4fa8-8680" name="Plague Censer" publicationId="dac3-b1cf-c897-b66e" page="32" hidden="false">
-      <description>A censer consecrated to the Horned Rat and filled with lethal burning warpstone is used as a weapon by its crazed bearers (it counts as a flail). In addition when the censer is swung around violently it creates a deadly cloud of warpstone vapours. If the bearer is in base contact with an enemy at the beginning of the Close Combat phase (both the Skaven player's and the enemy's), all models in base contact with one or more models armed with a censer must take a Toughness test, as should the bearer himself. If the test Is failed, the victim suffers 1 wound with no armour save. All Clan Pestilens Skaven and models with the Mark of Nurgle fail the test only on a roll of 6. The wounds caused by the gas are resolved before impact hits but after Assassins are revealed and 
+      <description>A censer consecrated to the Horned Rat and filled with lethal burning warpstone is used as a weapon by its crazed bearers (it counts as a flail). In addition when the censer is swung around violently it creates a deadly cloud of warpstone vapours. If the bearer is in base contact with an enemy at the beginning of the Close Combat phase (both the Skaven player's and the enemy's), all models in base contact with one or more models armed with a censer must take a Toughness test, as should the bearer himself. If the test is failed, the victim suffers 1 wound with no armour save. All Clan Pestilens Skaven and models with the Mark of Nurgle fail the test only on a roll of 6. The wounds caused by the gas are resolved before impact hits but after Assassins are revealed and 
 challenged models are moved. Wounds caused by the gas count for combat resolution. Models killed by the gas are close combat casualties and therefore don't get to fight back.
 
 
@@ -2930,7 +2930,7 @@ The model can throw as many Warpstone Stars in a single Shooting phase as it has
       <description>The wielder's Weapon Skill is raised to 10.</description>
     </rule>
     <rule id="e01b-86e1-b042-1129" name="Headsplitter" publicationId="dac3-b1cf-c897-b66e" page="36" hidden="false">
-      <description>This is treated as a normal-sling, but against models with Toughness 5 or more it always wounds on a 2+ with no armour saves allowed.</description>
+      <description>This is treated as a normal sling, but against models with Toughness 5 or more it always wounds on a 2+ with no armour saves allowed.</description>
     </rule>
     <rule id="6599-f63c-c678-7e80" name="Desolate Blade" publicationId="dac3-b1cf-c897-b66e" page="36" hidden="false">
       <description>The sword confers +2 Strength to all close combat attacks made by the wielder.</description>
@@ -2943,7 +2943,7 @@ The model can throw as many Warpstone Stars in a single Shooting phase as it has
 Once an enemy has suffered an unsaved wound from this weapon, he must roll a dice at the beginning of each of his turns. On a roll of 1-3 he will suffer one wound, with no armour save allowed.</description>
     </rule>
     <rule id="aef1-4f9b-ded2-778f" name="Languishers Sword" publicationId="dac3-b1cf-c897-b66e" page="37" hidden="false">
-      <description>The wielder of the sword always strikes first in close combat, even before enemies that have charged. If the wielder is fighting another enemy who is also entitled to strike first (because of spells, special abilities, etc). then resolve attacks in Initiative order. If both combatants' Initiative values are equal, mill a dice to determine whom Strikes first.</description>
+      <description>The wielder of the sword always strikes first in close combat, even before enemies that have charged. If the wielder is fighting another enemy who is also entitled to strike first (because of spells, special abilities, etc). then resolve attacks in Initiative order. If both combatants' Initiative values are equal, roll a dice to determine whom Strikes first.</description>
     </rule>
     <rule id="55b0-a578-d415-5b00" name="Death Globes" publicationId="dac3-b1cf-c897-b66e" page="37" hidden="false">
       <description>Clan Skryre only 
@@ -3053,7 +3053,7 @@ The banner can be activated at the beginning of any player's turn. No flying mov
 </description>
     </rule>
     <rule id="0554-8755-4ffe-ca37" name="Banner of the Four Black Winds" publicationId="dac3-b1cf-c897-b66e" page="39" hidden="false">
-      <description>Flying models wishing to charget the  unit carrying the banner must use their ground movement value and cannot use their flying movement to charge </description>
+      <description>Flying models wishing to charge the  unit carrying the banner must use their ground movement value and cannot use their flying movement to charge </description>
     </rule>
     <rule id="80f5-6ac3-748f-c589" name="Banner of Burning Hatred" publicationId="dac3-b1cf-c897-b66e" page="39" hidden="false">
       <description>The unit hates all enemie, even if the unit is normally immune to psychology.because of frenzy.
@@ -3067,7 +3067,7 @@ Roll a D6 at the beginningof each of the units Movement phases if the unit is no
       <description>Honestly there are too many rules see page 30-31 for the full rules or dont use this item.</description>
     </rule>
     <rule id="1feb-28cf-6859-4e95" name="Beastmaster" publicationId="dac3-b1cf-c897-b66e" page="22" hidden="false">
-      <description>All Clan Moulder units within 6" of a Master Moulder can re-roll any failed psycology test.</description>
+      <description>All Clan Moulder units within 6" of a Master Moulder can re-roll any failed psychology test.</description>
     </rule>
     <rule id="98df-c2c4-5c62-e729" name="Warp-Blades" publicationId="dac3-b1cf-c897-b66e" page="32" hidden="false">
       <description>The Warp blades give the bearer +1 Str and allow them to cast the Warp lightning Spell through them. The player must still use Power dice to cast the spell throught the warp blades.</description>
@@ -3133,13 +3133,13 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
       <description>Giant Rats and packmasters fight in mixed units. In these packmasters and any character that joins the unit may be placed anywhere within the unit (normally tends to be the back). Missile hits and impact hits are randomized 1-5 Giant rats, 6 Packmasters. The rats use the Packmasters leadership.</description>
     </rule>
     <rule id="8624-59ce-d626-99d8" name="Loss of Packmaster Rats" publicationId="dac3-b1cf-c897-b66e" page="23" hidden="false">
-      <description>Of all packmasters are killed and there are no characters inthe unit the Rats must charge the nearest enemy unit. If no Enemy is within range they must move towards the nearest enemy in the compulsory Movememnt phase.</description>
+      <description>Of all packmasters are killed and there are no characters in the unit the Rats must charge the nearest enemy unit. If no Enemy is within range they must move towards the nearest enemy in the compulsory Movement phase.</description>
     </rule>
     <rule id="e219-c42f-6d2b-edfb" name="Loss of Packmaster Ogres" hidden="false">
       <description>If all Packmasters are killed and there are no characters in the unit the Rat ogres suffer from Stupidity.</description>
     </rule>
     <rule id="76f1-bbcb-ce36-3b5f" name="Disciples" hidden="false">
-      <description>Each unit of Censer bearers must be deployed within 3" on the plague Monk unit they were bought with. They must try to remain within 3" of the parent unit until they decalre their first charge, after which they are free to move independantly.</description>
+      <description>Each unit of Censer bearers must be deployed within 3" on the plague Monk unit they were bought with. They must try to remain within 3" of the parent unit until they declare their first charge, after which they are free to move independently.</description>
     </rule>
     <rule id="74b3-66db-3495-1705" name="Warp Lightning Cannon" publicationId="dac3-b1cf-c897-b66e" page="28" hidden="false">
       <description>page 28-29</description>

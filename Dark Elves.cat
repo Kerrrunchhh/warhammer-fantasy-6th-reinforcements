@@ -3093,13 +3093,13 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e0c-0121-37bb-2c0b" name="The Cloak of  Dark Souls" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3e0c-0121-37bb-2c0b" name="The Cloak of Dark Souls" publicationId="2c52-52ec-0e8b-2843" page="86" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="424b-b6a7-a907-f35b" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="75ed-6fb3-ecc6-c2c5" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="58f0-c432-a965-3560" name="The Cloak of  Dark Souls" hidden="false" targetId="0bcb-274a-0ea2-1aff" type="rule"/>
+        <infoLink id="58f0-c432-a965-3560" name="The Cloak of Dark Souls" hidden="false" targetId="0bcb-274a-0ea2-1aff" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -3232,7 +3232,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e230-b15d-ef4f-d1ec" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="62a7-ebea-7306-17a8" name="The Cloak of  Dark Souls" hidden="false" targetId="0bcb-274a-0ea2-1aff" type="rule"/>
+        <infoLink id="62a7-ebea-7306-17a8" name="The Cloak of Dark Souls" hidden="false" targetId="0bcb-274a-0ea2-1aff" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="aa06-cfc7-adbd-02c2" name="Rubicon of Dark dimensions" hidden="false" collective="false" import="true" type="upgrade">
@@ -3516,13 +3516,13 @@ Spell still fails</characteristic>
       <description>Reroll missed hits on first round of combat.</description>
     </rule>
     <rule id="4ba2-77c6-3294-03e2" name="Thick Skinned" publicationId="20b9-0ee7-8f6f-8d28" page="8" hidden="false">
-      <description>A cold one has scaly skin which acts like armour giving the rider a +2 Armour save for being mounted insread of normal +1</description>
+      <description>A cold one has scaly skin which acts like armour giving the rider a +2 Armour save for being mounted instead of normal +1</description>
     </rule>
     <rule id="df5a-2c5e-ce3f-b998" name="Impale" publicationId="20b9-0ee7-8f6f-8d28" page="14" hidden="false">
       <description>A dark Pegasus uses its horn when charging giving a +1S on charge.</description>
     </rule>
     <rule id="089e-87c5-0050-1be8" name="Noxious Breath" hidden="false">
-      <description>Breath Weapon, any units taking casualties from this ttack must pass a leadership next turn in order to charge. Does not effect undead or daemons although damage as normal.
+      <description>Breath Weapon, any units taking casualties from this attack must pass a leadership next turn in order to charge. Does not affect undead or daemons although damage as normal.
 </description>
     </rule>
     <rule id="dcd7-72d5-27bb-be52" name="Sect Enmity" hidden="false">
@@ -3538,7 +3538,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
     <rule id="424c-5a4b-c71b-a156" name="Beasts" hidden="false"/>
     <rule id="a90d-3347-4238-7f37" name="Repeater Bolt Thrower" hidden="false"/>
     <rule id="9f4a-1d09-0066-9941" name="Hatred" publicationId="20b9-0ee7-8f6f-8d28" page="6" hidden="false">
-      <description>Hatred: Black Guard arc vicious killers and bate everybody and everything (see page 84-85 of the Warhammer rulebook for the rules for hatred). </description>
+      <description>Hatred: Black Guard are vicious killers and hate everybody and everything (see page 84-85 of the Warhammer rulebook for the rules for hatred). </description>
     </rule>
     <rule id="2acb-a140-9eb3-ad95" name="Stubborn" hidden="false">
       <description>Raised from birth to protect the Witch King himself, Black Guard would rather die than give ground. Black Guard are stubborn (see page 85 of the Warhammer rulebook). 
@@ -3551,7 +3551,7 @@ Monster mounts of beastmaster will fight as normal, no reaction test.</descripti
       <description>When rolling to wound and for armour saves, the bearer counts as having a Strength double that of the targets toughness. Two Handed Weapon. Always Strikes Last except in the turn it charges.</description>
     </rule>
     <rule id="00da-5907-2245-a98e" name="Venom Sword" publicationId="20b9-0ee7-8f6f-8d28" page="18" hidden="false">
-      <description>Any model which suffers a wound to the Venom sword must roll equal to or under their toughtness on 2d6 or be slain.</description>
+      <description>Any model which suffers a wound to the Venom sword must roll equal to or under their toughness on 2d6 or be slain.</description>
     </rule>
     <rule id="0970-2e37-5ce5-ce43" name="Blade of Ruin" publicationId="20b9-0ee7-8f6f-8d28" page="18" hidden="false">
       <description>No armour save may be taken for wounds from this blade. Ward saves are taken as normal.</description>
@@ -3622,7 +3622,7 @@ Attacks in CC require a 6 to hit the bearer regardless of WS or modifiers. Remai
       <description>Bound Spell Power Level 4
 Once per magic phase, the bearer may cast the spell Doombolt. Each time the wand is used roll a d6, on a 1 the wand is exhaunsted and can no longer be used.</description>
     </rule>
-    <rule id="0bcb-274a-0ea2-1aff" name="The Cloak of  Dark Souls" hidden="false">
+    <rule id="0bcb-274a-0ea2-1aff" name="The Cloak of Dark Souls" hidden="false">
       <description>Character may &quot;Scout&quot; if on foot.</description>
     </rule>
     <rule id="8ed9-02e8-428a-c1f6" name="Soul Shadows Standard" hidden="false">

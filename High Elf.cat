@@ -3629,7 +3629,7 @@ Treat the Bow of the Seafarer as a normal longbow with the following exception. 
 </description>
     </rule>
     <rule id="52b1-681b-272e-d958" name="Sword of Hoeth" hidden="false">
-      <description>Normally this fine blade lies wrapped in silk in the armoury of the White Tower, but in time of war is is given to a great hero to wield in the name of the Loremasters.
+      <description>Normally this fine blade lies wrapped in silk in the armoury of the White Tower, but in time of war is given to a great hero to wield in the name of the Loremasters.
 All hits wound automatically. Armour saves are modified by the Strength of the bearer
 </description>
     </rule>

@@ -654,7 +654,7 @@
         <infoLink id="b7a1-84d7-4c70-f3e0" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
         <infoLink id="a224-c548-96e0-7a03" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
         <infoLink id="546a-f7de-4afb-19e6" name="Scaly Skin 4+" hidden="false" targetId="ac0c-1a00-3030-9706" type="rule"/>
-        <infoLink id="9aca-3e66-7f45-3643" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="9aca-3e66-7f45-3643" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
         <infoLink id="3c7a-afdb-1b56-a094" name="Unit Strength" hidden="false" targetId="d096-8ca3-94ed-0c40" type="rule"/>
         <infoLink id="2478-d234-5ca5-ec5d" name="Storm Rage Shaggoth" hidden="false" targetId="2bc0-51ef-94ff-08a3" type="rule"/>
         <infoLink id="febe-c647-c10b-e510" name="Shaggoth Champions" hidden="false" targetId="9045-7422-5774-167a" type="rule"/>
@@ -7817,7 +7817,7 @@
         <infoLink id="b031-cc25-a785-1a2e" name="Daemonic Aura" hidden="false" targetId="3c43-59c1-6cb0-968d" type="rule"/>
         <infoLink id="b0b7-31af-0be0-282e" name="Daemonic attacks" hidden="false" targetId="ab04-c24e-f729-0987" type="rule"/>
         <infoLink id="daaf-82ab-823d-c888" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
-        <infoLink id="298c-e0c1-fb4f-c695" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="298c-e0c1-fb4f-c695" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
         <infoLink id="34dc-90e6-197d-e38c" name="Daemonic Mount" hidden="false" targetId="cd35-ebef-197b-e333" type="rule"/>
       </infoLinks>
       <costs>
@@ -7835,7 +7835,7 @@
         <infoLink id="fd14-3fb3-4be9-6c6c" name="Daemonic Aura" hidden="false" targetId="3c43-59c1-6cb0-968d" type="rule"/>
         <infoLink id="0341-8fe7-b41e-713a" name="Daemonic attacks" hidden="false" targetId="ab04-c24e-f729-0987" type="rule"/>
         <infoLink id="3116-c4bd-e226-49dc" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
-        <infoLink id="edb5-3c55-7fbe-0f7a" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="edb5-3c55-7fbe-0f7a" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -9026,7 +9026,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34ef-50c4-3742-6cf7" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="00ca-bbb4-d716-48e2" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="00ca-bbb4-d716-48e2" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="26ae-222e-2383-5fe9" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
@@ -10176,7 +10176,7 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="94df-5354-54cd-c16e" name="Raiders" publicationId="7f4a-e6ae-d049-ee56" page="18" hidden="false">
-      <description>Units with the Raiders special rule fight in a disorganised mass rather than ordered ranks and files. They arc treated just like skirmishers, with the following exceptions:
+      <description>Units with the Raiders special rule fight in a disorganised mass rather than ordered ranks and files. They are treated just like skirmishers, with the following exceptions:
 •	They may only make a charge move if at least one quarter of the models in the unit are within normal charge range of the enemy unit.
 •	They gain rank bonus for combat resolution Just like normal units, up to a maximum of +2.
 •	When charging or charged, if the unit would normally form up less than four models wide, then it forms up four models wide (space permitting).
@@ -10210,12 +10210,12 @@ defensively, in which ease it grants +2 to the wielder&apos;s Armour save, but d
       <description>A charging Tuskgor receives a Strength bonus of +2, giving it a strength value of 5  on the first turn it charges. This bonus applies to the tuskgor itself not the chariot nor the riders within.</description>
     </rule>
     <rule id="b942-f72e-84c3-7dcf" name="Bloodgreed" hidden="false">
-      <description>Minotaurs are known for their craving of flesh and even in the heat of battle will stop to devour the fallen rather than continue the fight. Minotaurs never &apos;Overun&apos; even if normally forced to do by pyscology or some other  effect.  However Minotaurs pursue on 3D6 instead of the normal 2D6.</description>
+      <description>Minotaurs are known for their craving of flesh and even in the heat of battle will stop to devour the fallen rather than continue the fight. Minotaurs never &apos;Overun&apos; even if normally forced to do by psychology or some other  effect.  However Minotaurs pursue on 3D6 instead of the normal 2D6.</description>
     </rule>
     <rule id="d015-a10f-b209-416b" name="Centigors" publicationId="7f4a-e6ae-d049-ee56" page="24" hidden="false">
       <description>Centigors are mounted on a cavalry base and are treated as cavalry in all respects except for the following;
 
-They do not recieve a +1 Armour Save
+They do not receive a +1 Armour Save
 They may benefit from using two hand weapons or sword and shield as if on foot.
 They use cavalry rules for spears.</description>
     </rule>
@@ -10333,7 +10333,7 @@ D6 Result
 </description>
     </rule>
     <rule id="4af2-1a92-dd54-df32" name="Ignore Little &apos;un Panic: " publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
-      <description>Giants expect smaller weedier folk to run away and would be disappointed if they didn&apos;t . Consequendy, when a cavalry sized base unit, or smaller,  is destroyed. breaks or flees past Giants do not need to test for panic. See the Wuhammer rulebook for the complete Panic rules, pages 80-81</description>
+      <description>Giants expect smaller weedier folk to run away and would be disappointed if they didn&apos;t . Consequently, when a cavalry sized base unit, or smaller,  is destroyed. breaks or flees past Giants do not need to test for panic. See the Warhammer rulebook for the complete Panic rules, pages 80-81</description>
     </rule>
     <rule id="e2e8-18fb-44ed-901c" name="Mutant Monstrosity" publicationId="7f4a-e6ae-d049-ee56" page="29" hidden="false">
       <description>The giant has a 5+ armour sdave from scaly skin. After the giant has rolled attacks roll another d6. If theresult is the same as the attack roll the giant leaps ontop of the enemy. This is treated like a falling over but the player controls in which direction the giant falls.</description>
@@ -10545,7 +10545,7 @@ Chaos armour gives a 4+ armour save. It can be combined with other equipment as 
       <description>Daemonic: Daemonic Mounts follow the Daemon rules detailed on page 29, with the exception of Instability . While their rider still lives. the will of their master binds them to the world and they do not suffer from instability. However, if their rider Is killed. they hecome subject to the Daemonic Instability rules exactly as detailed.</description>
     </rule>
     <rule id="5a5d-3141-8606-6b21" name="Daemonic Gifts Khorne" publicationId="d750-ac7f-7465-d6d1" page="32" hidden="false">
-      <description>A Bloodthirster has the Armour of Khornc. Axe of Khorne and Might of Khornc Daemonic Gifts (see page 49).</description>
+      <description>A Bloodthirster has the Armour of Khorne. Axe of Khorne and Might of Khorne Daemonic Gifts (see page 49).</description>
     </rule>
     <rule id="542e-0bbf-1067-3bac" name="Chaos Daemon Sword " publicationId="d750-ac7f-7465-d6d1" page="62" hidden="false">
       <description>A character with a Daemon Sword has the same WS, S, I and A as the Greater Daemon of their patron god (eg. a Champion of Khorne would have Weapon Skill 10. Strength 7. Initiative 10 and Attacks 7). However, every roll of a 1 to hit in close combat means that the attack is resolved against the character instead of the enemy. Funhermorc. the character can never re•roll an unmodified 1 to hit in close combat. regardless Of the source of the re-roll.</description>
@@ -10774,13 +10774,13 @@ The Daemonic Aura becomes a normal ward save so can be used against magical atta
       <description>The Daemon weilds a ball and chain which counts as poisoned attacks. This gift cannot be combined with the Blade of Ether.</description>
     </rule>
     <rule id="3100-3d84-f7ef-1c05" name="Aura of Slaanesh" hidden="false">
-      <description>Any model in base to base conract with one or more models with the aura reduce their leadership by 1 to a minimium of 2</description>
+      <description>Any model in base to base conract with one or more models with the aura reduce their leadership by 1 to a minimum of 2</description>
     </rule>
     <rule id="a9d7-19e4-a4e1-6a28" name="Sporofic Musk" hidden="false">
       <description>Any model in base contact with one or more models with sporofic musk halve their  WS and I (rounding up)</description>
     </rule>
     <rule id="64fb-2969-b3e0-5555" name="Gaze of Acquiescence" hidden="false">
-      <description>At teh beginning of the close combat phase select one model in base contact, this model must pass a leadership test or cannot make any attacks that close combat phase. Models immune to pyscology are unaffected</description>
+      <description>At teh beginning of the close combat phase select one model in base contact, this model must pass a leadership test or cannot make any attacks that close combat phase. Models immune to psychology are unaffected</description>
     </rule>
     <rule id="06cd-6cc0-bab2-2b30" name="Daemon Prince of Nurgle" hidden="false">
       <description>The Daemon Prince has +1 Wound</description>
@@ -10853,7 +10853,7 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors 
       <description>+1 Wound</description>
     </rule>
     <rule id="d63d-9043-54ca-3d2e" name="Tongue Attack" hidden="false">
-      <description>Attacks from the mount count as poisoned attacks. In addition the mount always strikes first in combat. If both combatitent have this ability then Iniative order. These rules are for the mount only, not the rider.</description>
+      <description>Attacks from the mount count as poisoned attacks. In addition the mount always strikes first in combat. If both combatants have this ability then Initiative order. These rules are for the mount only, not the rider.</description>
     </rule>
     <rule id="cygo-rock-hurl-0001" name="Rock Hurling" hidden="false">
       <description>The Cygor can hurl massive rocks. Resolve this ranged attack as if it were a catapult attack, but with no minimum range and with the ability to move and shoot (however, it may not march and shoot).

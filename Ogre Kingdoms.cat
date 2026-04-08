@@ -1106,7 +1106,7 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
         <infoLink id="8ee6-461d-1db1-ce37" name="Bull Charge" hidden="false" targetId="8953-90f3-edab-81fe" type="rule"/>
         <infoLink id="e3f9-a4bc-58dc-899b" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule"/>
         <infoLink id="f145-b8a0-e1f5-ed34" name="Maneaters" hidden="false" targetId="e220-e7cf-c695-52aa" type="profile"/>
-        <infoLink id="a08a-6c76-747b-fb86" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="a08a-6c76-747b-fb86" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
         <infoLink id="9d3e-461c-20b7-6688" name="Stubborn" hidden="false" targetId="410a-0d06-9044-665e" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2522,17 +2522,17 @@ Select the Dogs of War category if you are using Ogres as Dogs of War. Otherwise
       <description>An Ogre with a luck gnoblar may reroll any single armour save or ward save, once per battle</description>
     </rule>
     <rule id="4b9b-0a7c-54e1-c0a2" name="Sword Gnoblars " publicationId="49a5-e8f7-aa09-ad96" page="23" hidden="false">
-      <description>An Ogre with Sword-Gnoblars benefits from one extra Strength 2 attack per combat round per Sword-Gnoblar in his possession. at the Weapon Skill of the owning model (the opponent&apos;s attention is elsewhere!). These attacks are made at the same time as the owning character&apos;s attacks and must be directed at models the Ogre character has directed attacks coward.
+      <description>An Ogre with Sword-Gnoblars benefits from one extra Strength 2 attack per combat round per Sword-Gnoblar in his possession. at the Weapon Skill of the owning model (the opponent&apos;s attention is elsewhere!). These attacks are made at the same time as the owning character&apos;s attacks and must be directed at models the Ogre character has directed attacks toward.
 Note: Sword•Gnoblars are represented on the character model the) accompany: they do not occupy their own bases or have their own characteristics like &apos;normal&apos; Gnoblars.
 </description>
     </rule>
     <rule id="7d3f-f9b5-cb8f-c098" name="Tooth-Gnoblars" publicationId="49a5-e8f7-aa09-ad96" page="25" hidden="false">
-      <description>Before attempting to cast a Gut Magic spell, an Ogre Butcher with Tooth-Gnoblars may choose to sacrifice one to get +1 to the total casting value of that Shamanic Victual. Each Thoth-Gnoblar can only be sacrificed once per battle, but a Butcher with two Thoth-Gnoblars may choose to sacrifice both at once for +2 to his casting value if he so wishes.
-Note: Thoth-Gnoblars are represented on the character model they accompany; they do not occupy their own bases or have their own characteristics like &apos;normal&apos; Gnoblars.
+      <description>Before attempting to cast a Gut Magic spell, an Ogre Butcher with Tooth-Gnoblars may choose to sacrifice one to get +1 to the total casting value of that Shamanic Victual. Each Tooth-Gnoblar can only be sacrificed once per battle, but a Butcher with two Tooth-Gnoblars may choose to sacrifice both at once for +2 to his casting value if he so wishes.
+Note: Tooth-Gnoblars are represented on the character model they accompany; they do not occupy their own bases or have their own characteristics like &apos;normal&apos; Gnoblars.
 </description>
     </rule>
     <rule id="581c-88a8-06c9-95a4" name="Ogre Club" hidden="false">
-      <description>A Hand weapon that mangles armour. An additional -1 to the armour save unless used with an additioanl weapon or ironfist.</description>
+      <description>A Hand weapon that mangles armour. An additional -1 to the armour save unless used with an additional weapon or ironfist.</description>
     </rule>
     <rule id="cea6-5f14-80ce-5f86" name="Iron Fist" publicationId="49a5-e8f7-aa09-ad96" page="29" hidden="false">
       <description>At the begin of each Close combat, Ogres may use the Iron fist as an extra handweapon or as a shield. When used as a shield gain Sword+Board.</description>
@@ -2545,7 +2545,7 @@ Note: Thoth-Gnoblars are represented on the character model they accompany; they
 Ogres in the unit are immune to Ice Magic</description>
     </rule>
     <rule id="0cef-4b9a-c700-bd8f" name="Ragbanner" publicationId="49a5-e8f7-aa09-ad96" page="65" hidden="false">
-      <description>Before the unit takes a Panic test roll 3D6 and discard 1 dice for the leradership test.</description>
+      <description>Before the unit takes a Panic test roll 3D6 and discard 1 dice for the leadership test.</description>
     </rule>
     <rule id="8e0d-a9ae-0b60-e20e" name="Cannibal Totem" publicationId="49a5-e8f7-aa09-ad96" page="65" hidden="false">
       <description>When fighting unit with same base size, can reroll failed to hit and wound rolls in first round of combat but may not Overrun but must pursue if they do.</description>
@@ -2572,7 +2572,7 @@ Ogres in the unit are immune to Ice Magic</description>
       <description>+1 Mv</description>
     </rule>
     <rule id="9ec8-587a-a635-6d34" name="Giantbreaker" hidden="false">
-      <description>+1 Str, Both the ogre and his unit may never flee as a charge reaction. Must alwasy accept  challenge. Must include a slavegiant.</description>
+      <description>+1 Str, Both the ogre and his unit may never flee as a charge reaction. Must always accept  challenge. Must include a slavegiant.</description>
     </rule>
     <rule id="125c-3663-6351-ce1d" name="Ignore little &apos;Un Panic" hidden="false">
       <description>Slave giants expect weedier thing to run away and do not test for panic when they flee.</description>
@@ -2588,7 +2588,7 @@ Ogres in the unit are immune to Ice Magic</description>
 Immune to psycology. When wounding a Large target each wound counts as double unless using a magic weapon.</description>
     </rule>
     <rule id="a6a7-a26f-4d84-d64a" name="Wallcrusher" hidden="false">
-      <description>+1 Damage on bull charge. Defenders behind wall recieve no defence benefit.</description>
+      <description>+1 Damage on bull charge. Defenders behind wall receive no defence benefit.</description>
     </rule>
 
     <rule id="9cc7-a4fa-7c58-a5d5" name="Thundermace" hidden="false">

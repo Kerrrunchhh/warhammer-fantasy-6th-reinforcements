@@ -2230,7 +2230,7 @@
       <description>Undead can only react to charges by holding. </description>
     </rule>
     <rule id="4f8a-75db-a98e-0953" name="The Curse" publicationId="04f9-cede-fdb3-1e6c" hidden="false">
-      <description>The model responsible for killing a Tomb King or Tomb Prince must immediately take a leadership test. If it fails the test, it must immediately take D6 wounds that cannot be saved. If it was a unit, randomize as shooting. If it was more than one unit, in a multiple combat, all units must take the the test as above. </description>
+      <description>The model responsible for killing a Tomb King or Tomb Prince must immediately take a leadership test. If it fails the test, it must immediately take D6 wounds that cannot be saved. If it was a unit, randomize as shooting. If it was more than one unit, in a multiple combat, all units must take the test as above. </description>
     </rule>
     <rule id="dfa2-8554-c88c-0884" name="Light Chariots" publicationId="04f9-cede-fdb3-1e6c" hidden="false">
       <description>Follow all the rules for chariots with the following exceptions:
@@ -2335,7 +2335,7 @@ Any of her attacks that count as poisoned do D3 wounds.
 Always strikes first, if the opponent does as well, in initiative order. </description>
     </rule>
     <rule id="6447-bd7b-193f-1802" name="The Queen&apos;s Command" publicationId="04f9-cede-fdb3-1e6c" hidden="false">
-      <description>May cast Horekhah;s Incantation of Righteous Smiting once per magic phase, cannot be dispelled. </description>
+      <description>May cast Horekhah's Incantation of Righteous Smiting once per magic phase, cannot be dispelled. </description>
     </rule>
     <rule id="c2c4-34f7-ef97-a011" name="Army of the Queen" publicationId="04f9-cede-fdb3-1e6c" hidden="false">
       <description>Army must include one unit of skeleton warriors armed with bows </description>

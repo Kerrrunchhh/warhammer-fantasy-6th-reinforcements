@@ -1446,7 +1446,7 @@ extreme bravery, or because the creatures fighting are not truly alive.
 These troops never break in close combat, and they are also immune to panic, terror and fear or any other Psychology rules. If defeated in close combat (even by fear-causing creatures that outnumber them) unbreakable troops continue to fight on regardless of results. They may never, however. declare that they are fleeing as a charge reaction, as they will literally die fighting under any circumstances.
 </description>
     </rule>
-    <rule id="ff2b-8db6-64fa-e9ca" name="Immune to Psycology " publicationId="315e-e3c4-08af-fd51" page="112" hidden="false">
+    <rule id="ff2b-8db6-64fa-e9ca" name="Immune to Psychology " publicationId="315e-e3c4-08af-fd51" page="112" hidden="false">
       <description>Some warriors and creatures in the Warhammer world are almost completely fearless, or such grizzled veterans that scenes which would make lesser troops panic have no effect on them.
 Troops that are immune to psychology are never affected by fear terror, frenzy or any other Psychology rules. Troops immune to Psychology may never flee as a charge reaction - they are far too proud and brave to do this! These troops still have to take Break tests as normal.
 </description>
@@ -1473,7 +1473,7 @@ Troops that are immune to psychology are never affected by fear terror, frenzy o
       <description>A flammable creature hit by a flaming weapon or fiery spell will take double wounds, so every wound suffered by a flammable creature will be doubled to 2 wounds. Take any saves before multiplying the wounds.</description>
     </rule>
     <rule id="bc68-6c48-02d1-3ce4" name="Sword of Striking" hidden="false">
-      <description>+1 To Hit. A Sword of Striking is possessed of a keen intellgence that guides its blade to the target. The sword confers a dice bonus of +1 to the character wielding it. For example, where 3 is normally required to score a hit, the character will hit on a 2. However, a dice roll of 1 is always a miss regardless of bonuses - the minimum successful roll to hit is therefore 2.</description>
+      <description>+1 To Hit. A Sword of Striking is possessed of a keen intelligence that guides its blade to the target. The sword confers a dice bonus of +1 to the character wielding it. For example, where 3 is normally required to score a hit, the character will hit on a 2. However, a dice roll of 1 is always a miss regardless of bonuses - the minimum successful roll to hit is therefore 2.</description>
     </rule>
     <rule id="2b48-77b8-4869-a2e0" name="Rule of Burning Iron" hidden="false">
       <description>Cast on 3+
@@ -1746,7 +1746,7 @@ The spell cannot affect Undead targets, Chaos Daemons
  units. Units, immune to psychology are not affected either.</description>
     </rule>
     <rule id="90ad-6aa4-2d97-164e" name="Enchanted Shield" hidden="false">
-      <description>5+ Armour Save. The Enchanted Shield protects its user with powerful magic. The shield confers an armour save of 5+ rather than a mundane shield&apos;s annour save of 6+. This can be combined with other magical or mundane armour - for example, light armour + Enchanted Shield = armour save 4+, heavy armour + Enchanted Shield + mounted = armour save 2+.</description>
+      <description>5+ Armour Save. The Enchanted Shield protects its user with powerful magic. The shield confers an armour save of 5+ rather than a mundane shield&apos;s armour save of 6+. This can be combined with other magical or mundane armour - for example, light armour + Enchanted Shield = armour save 4+, heavy armour + Enchanted Shield + mounted = armour save 2+.</description>
     </rule>
     <rule id="c9bc-2907-97ae-5e43" name="Dispel Scroll(Arcane Item)" hidden="false">
       <description>A Dispel Scroll is inscribed with a powerful anti-magical invocation. When it is read out by a Wizard, the effect is to drain away magical power and weaken a spell that has been cast. As soon as a spell has been cast, any Wizard who has a Dispel Scroll can read it. This automatically dispels the cast spell, no dice roll is required.
@@ -1779,7 +1779,7 @@ Note that a spell cast with a Power Stone can never be cast with Irresistible Fo
       <description>+1 Strength. A Sword of Might is wrought with enchantments that bind within its fabric a great and magical strength. The blade confers +1 Strength upon the character who fights with it.</description>
     </rule>
     <rule id="50b3-c58a-065d-aec0" name="Biting Blade(Magic Weapon)" hidden="false">
-      <description>-1 Armour Save. The Biting Blade is forged with bitter curses that work against the armour of its foes. The blade confers an additiona -1 armour save modifier on any blows stuck. This is in addition to any normal armour save modifier for Strength, so a blow struck at Strengrh 3 or less will have a -1 armour save. a Strength 4 hit has a -2 armour save, Strength 5 has a -3 armour save and so on.</description>
+      <description>-1 Armour Save. The Biting Blade is forged with bitter curses that work against the armour of its foes. The blade confers an additional -1 armour save modifier on any blows struck. This is in addition to any normal armour save modifier for Strength, so a blow struck at Strength 3 or less will have a -1 armour save. a Strength 4 hit has a -2 armour save, Strength 5 has a -3 armour save and so on.</description>
     </rule>
     <rule id="a019-e943-9fcd-d687" name="Talisman of Protection(Talisman)" hidden="false">
       <description>6+ Ward Save. The Talisman of Protection is a protective charm. This confers upon its wearer a Ward save of 6+.</description>

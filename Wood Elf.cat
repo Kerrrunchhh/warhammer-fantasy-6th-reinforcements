@@ -322,7 +322,7 @@
         <infoLink id="9ce3-f975-fb66-7fa0" name="Wardancer" hidden="false" targetId="ea92-0f47-63a3-fe3e" type="profile"/>
         <infoLink id="f21e-9501-e9ed-ba0d" name="Skirmishers" hidden="false" targetId="1945-ac89-9cc4-3537" type="rule"/>
         <infoLink id="38c5-a0c5-b008-d161" name="Shadow Dances of Loec" hidden="false" targetId="f5ff-a94e-1810-5656" type="rule"/>
-        <infoLink id="14d1-f3d0-0aa7-2e7b" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="14d1-f3d0-0aa7-2e7b" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
         <infoLink id="29c8-e853-ea89-ada6" name="Talismanic Tattoos" hidden="false" targetId="22b0-0b35-9c5d-d737" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2158,7 +2158,7 @@
         <infoLink id="350a-abe5-c4a2-1931" name="Wardancer Weapons" hidden="false" targetId="92e2-be44-6da3-dc20" type="rule"/>
         <infoLink id="cf57-c82e-f3e1-6a8b" name="Shadow Dances of Loec" hidden="false" targetId="f5ff-a94e-1810-5656" type="rule"/>
         <infoLink id="009b-7d8a-e0cb-29be" name="Talismanic Tattoos" hidden="false" targetId="22b0-0b35-9c5d-d737" type="rule"/>
-        <infoLink id="b534-1bac-d839-b031" name="Immune to Psycology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="b534-1bac-d839-b031" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2771,7 +2771,7 @@ The Mischiefs are treated like a Magic Missile spell that hasa range of 18&quot;
       <description>The model gains +D6 attacks in close combat.These areworked out at the bearer&apos;s WS, and have an Initiative of4 and a Strength of 2. In addition, these attacks count as magical, and are Poisoned Attacks.</description>
     </rule>
     <rule id="0a2c-9486-9331-5849" name="A Muster of Malevolents" hidden="false">
-      <description>A Muster counts as a ranged weapon that may be used inaddition to any ranged weapon that the model carries. It has a range of 6&quot;, and unleashes D6 Strength 2 shots.The model counts as being a single unit strength 1model on foot for line of sight for this attack, and it maytarget a different unit than any other ranged attack madeby the character. These shots always hit on a 4+ andcount as magical and Poisoned Attacks. A model with Malevolents may stand and shoot with them (in additionto any other ranged weapon the model may have), evenif the charging unit is outside the model&apos;s line of sight,orit would not normally be allowed to stand and shootbecause the enemy is within half its charge range.So long as the model has a chance to be contacted by the enemy unit, the character may still stand and shoot.</description>
+      <description>A Muster counts as a ranged weapon that may be used in addition to any ranged weapon that the model carries. It has a range of 6&quot;, and unleashes D6 Strength 2 shots.The model counts as being a single unit strength 1model on foot for line of sight for this attack, and it may target a different unit than any other ranged attack madeby the character. These shots always hit on a 4+ andcount as magical and Poisoned Attacks. A model with Malevolents may stand and shoot with them (in additionto any other ranged weapon the model may have), evenif the charging unit is outside the model&apos;s line of sight,orit would not normally be allowed to stand and shootbecause the enemy is within half its charge range.So long as the model has a chance to be contacted by the enemy unit, the character may still stand and shoot.</description>
     </rule>
     <rule id="a5d3-2f54-a931-a835" name="An Annoyance of Netlings" hidden="false">
       <description>In a challenge, any enemy attempting to strike a character with an Annoyance of Netlings will only hit on 6s.</description>
