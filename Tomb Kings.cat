@@ -1566,6 +1566,142 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="skel-arch-unit-0001" name="Skeleton Archers" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="skel-arch-ilpf-0001" name="Skeleton Archers" hidden="false" targetId="skel-arch-prof-0001" type="profile"/>
+        <infoLink id="skel-arch-ilud-0001" name="Undead" hidden="false" targetId="97a4-d2a9-5b16-f0c3" type="rule"/>
+        <infoLink id="skel-arch-ilco-0001" name="Construct" hidden="false" targetId="149b-a988-a985-bb71" type="rule"/>
+        <infoLink id="skel-arch-ilas-0001" name="Arrows of the Asp" hidden="false" targetId="34a0-6072-dc3f-e6d1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="skel-arch-catl-0001" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="skel-arch-modl-0001" name="Skeleton Archers" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-cmin-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-cmax-0001" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="8.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="skel-arch-musc-0001" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-cmuc-0001" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="skel-arch-stdr-0001" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-csdc-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="skel-arch-tkmb-0001" name="Tomb Kings Unit (Magical banner)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-cmbc-0001" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="skel-arch-catk-0001" name="Tomb Kings Unit" hidden="false" targetId="6cd3-1a34-f6db-034d" primary="false"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="skel-arch-elmb-0001" name="Magic Banners" hidden="false" collective="false" import="true" targetId="d2d2-c5fc-be18-d9a6" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-cbpc-0001" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="skel-arch-chup-0001" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-ccpc-0001" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="skel-arch-ilch-0001" name="Skeleton Archers Champion" hidden="false" targetId="skel-arch-chmp-0001" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="skel-arch-elhw-0001" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-hwmn-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-hwmx-0001" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="skel-arch-elbw-0001" name="Bow" hidden="false" collective="false" import="true" targetId="9efb-2b02-f245-62f5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-bwmn-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skel-arch-bwmx-0001" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="skel-arch-ella-0001" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="usha-arch-unit-0001" name="Ushabti Archers" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="usha-arch-ilpf-0001" name="Ushabti Archers" hidden="false" targetId="usha-arch-prof-0001" type="profile"/>
+        <infoLink id="usha-arch-ilud-0001" name="Undead" hidden="false" targetId="97a4-d2a9-5b16-f0c3" type="rule"/>
+        <infoLink id="usha-arch-ilco-0001" name="Construct" hidden="false" targetId="149b-a988-a985-bb71" type="rule"/>
+        <infoLink id="usha-arch-ilas-0001" name="Arrows of the Asp" hidden="false" targetId="34a0-6072-dc3f-e6d1" type="rule"/>
+        <infoLink id="usha-arch-ilcb-0001" name="Composite Bow" hidden="false" targetId="usha-arch-comp-0001" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="usha-arch-catl-0001" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="usha-arch-modl-0001" name="Ushabti Archers" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="usha-arch-cmin-0001" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="70.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="6d56-4256-16c0-5f89" name="Destroyer of Eternities" publicationId="04f9-cede-fdb3-1e6c" page="36" hidden="false" collective="false" import="true" type="upgrade">
@@ -2483,6 +2619,9 @@ The Crown of Kings enables the Tomb King to roll two D6 for his &quot;My Will Be
     <rule id="necr-deca-stri-0001" name="Decapitating Strike" hidden="false">
       <description>One of the Necrosphinx&apos;s attacks must be rolled with a different coloured die. This attack is resolved at Strength 10 and has Killing Blow against any unit type (including Monsters, not just Infantry). The attack remains subject to both Killing Blow and Multiple Wounds (1D3).</description>
     </rule>
+    <rule id="usha-arch-comp-0001" name="Composite Bow" hidden="false">
+      <description>This is treated as a longbow with a range of 30". However, its hits are resolved at Strength 5 and have the Multiple Wounds (1D3) special rule.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="8a60-0398-a620-ca9e" name="Tomb King" publicationId="04f9-cede-fdb3-1e6c" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -2964,6 +3103,45 @@ The Crown of Kings enables the Tomb King to roll two D6 for his &quot;My Will Be
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="skel-arch-prof-0001" name="Skeleton Archers" publicationId="04f9-cede-fdb3-1e6c" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="skel-arch-chmp-0001" name="Skeleton Archers Champion" publicationId="04f9-cede-fdb3-1e6c" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="usha-arch-prof-0001" name="Ushabti Archers" publicationId="04f9-cede-fdb3-1e6c" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
