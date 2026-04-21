@@ -6427,29 +6427,32 @@
       <profiles>
         <profile id="8780-adb6-04b7-5410" name="Troll Hag" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
-            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
-            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
-            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
             <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
-            <characteristic name="T" typeId="8712-f56f-5b22-a720">6</characteristic>
-            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">5</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
             <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
-            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
-            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="94b9-0c99-779c-1f35" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="fd2b-b4a0-a06b-224c" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
-        <infoLink id="3874-1f4f-ca8b-a54c" name="Stubborn" hidden="false" targetId="410a-0d06-9044-665e" type="rule" />
+        <infoLink id="soh-ipan-0001-0001" name="Immune to Panic" hidden="false" targetId="ab76-c582-4154-09fb" type="rule" />
         <infoLink id="506a-7f54-7c66-6c75" name="Regeneration (5+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule" />
-        <infoLink id="6d36-ae62-2e03-7775" name="Ignore Greenskin Panic" hidden="false" targetId="e6f2-46dc-b1dd-000f" type="rule" />
-        <infoLink id="ab00-6eae-5ae5-30a1" name="Mother" hidden="false" targetId="b8c7-a68f-481d-84d4" type="rule" />
+        <infoLink id="soh-stup-0001-0001" name="Stupidity" hidden="false" targetId="5d6f-7b4d-6093-4922" type="rule" />
+        <infoLink id="soh-amph-0001-0001" name="Amphibian" hidden="false" targetId="soh-trol-amph-0001" type="rule" />
+        <infoLink id="soh-slim-0001-0001" name="Slimy" hidden="false" targetId="soh-trol-slim-0001" type="rule" />
+        <infoLink id="soh-armo-0001-0001" name="Armour Save 4+" hidden="false" targetId="soh-trol-armo-0001" type="rule" />
+        <infoLink id="ab00-6eae-5ae5-30a1" name="Mother of Trolls" hidden="false" targetId="b8c7-a68f-481d-84d4" type="rule" />
+        <infoLink id="soh-acid-0001-0001" name="Acid Bile (5+)" hidden="false" targetId="soh-trol-acid-0001" type="rule" />
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="da5c-514d-eb5c-fca6" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
-        <categoryLink id="25e3-2f3f-6bd1-b0a4" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false" />
+        <categoryLink id="da5c-514d-eb5c-fca6" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true" />
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="46d8-7b01-975b-83f3" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
@@ -6457,8 +6460,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2da2-c1af-13a2-8647" type="max" />
           </constraints>
           <entryLinks>
-            <entryLink id="6247-70f5-d01a-8f7c" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="28d4-127b-9869-b974" type="selectionEntryGroup" />
-            <entryLink id="4085-1583-f409-5cb8" name="Big Waaagh" hidden="false" collective="false" import="true" targetId="4b09-df6b-53bc-1419" type="selectionEntryGroup" />
+            <entryLink id="soh-deat-link-0001" name="Lore of Death" hidden="false" collective="false" import="true" targetId="0a76-fdab-0afb-3612" type="selectionEntryGroup" />
           </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
@@ -6468,28 +6470,18 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e692-388b-221b-84b5" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="trol-lvl1-0001-0001">
+        <selectionEntryGroup id="e692-388b-221b-84b5" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="soh-lvl2-0001-0001">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45c9-0e6d-a091-6b36" type="min" />
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54a5-72b2-3f52-7865" type="max" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cb7a-d61c-8568-e80f" name="Level 1 Wizard (Little Waaagh)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="soh-lvl2-0001-0001" name="Level 2 Wizard (Lore of Death)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83b7-30c7-c281-3be9" type="max" />
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="soh-lvl2-max0-0001" type="max" />
               </constraints>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="1.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1b0a-cd2d-6119-07cc" name="Level 2 Wizard (+35, Little &amp; Big Waaagh)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c80-8dc3-2046-9f7c" type="max" />
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0" />
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2.0" />
                 <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0" />
               </costs>
@@ -6498,7 +6490,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="290.0" />
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="350.0" />
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
@@ -7932,14 +7924,30 @@ The Gaze of Mork is a magic missile with a range of up to 24". If successfully c
     <rule id="67c5-026a-7b0c-f109" name="Cross" hidden="false">
       <description>Spider Riders can move over all terrain (even impassable terrain, but not water fields or rivers) as if it were open ground.</description>
     </rule>
-    <rule id="b8c7-a68f-481d-84d4" name="Mother" hidden="false">
-      <description>All Troll units within 8" of the Troll Hag may use her Leadership rating for Stupidity tests.</description>
+    <rule id="b8c7-a68f-481d-84d4" name="Mother of Trolls" hidden="false">
+      <description>Trolls are a Special choice when the Troll Hag is included in the army. All Troll units within 12&quot; of the Troll Hag may use her Leadership rating for Stupidity tests.</description>
     </rule>
   <rule id="30cb-780d-781d-975e" name="Unbreakable" hidden="false" page="" publicationId=""><description>The unit is unbreakable and will never flee due to failed morale tests. It will fight on regardless of casualties or the results of combat.</description></rule><rule id="5f9f-db4a-68b1-5c1b" name="Base Size: 40x40mm" hidden="false" page="" publicationId=""><description>Spider Swarms are mounted on 40x40mm bases.</description></rule>
     <rule id="soh-trol-vomi-0001" name="Troll Vomit" hidden="false">
       <description>A Troll&apos;s digestive fluid is the most corrosive thing known to science... and about the most revolting too. Trolls are able to vomit their stomach contents upon their enemies if they wish. A unit of Trolls can make Vomit Attacks instead of ordinary attacks during close combat.
 
 Instead of attacking normally the whole unit may elect to vomit on the enemy. As each Troll can make only 1 Vomit Attack at a time, as opposed to 3 ordinary Attacks, this means the unit gets fewer Attacks, although these always hit. Each model inflicts one automatic Strength 5 hit with no Armour saves allowed.</description>
+    </rule>
+    <rule id="soh-trol-amph-0001" name="Amphibian" hidden="false">
+      <description>The Troll Hag can move through rivers, swamps and other water terrain without any movement penalty and is never slowed by such terrain.</description>
+    </rule>
+    <rule id="soh-trol-slim-0001" name="Slimy" hidden="false">
+      <description>The Troll Hag&apos;s body is covered in a thick, slippery slime. All attacks against the Troll Hag suffer a -1 to hit penalty.</description>
+    </rule>
+    <rule id="soh-trol-armo-0001" name="Armour Save 4+" hidden="false">
+      <description>The Troll Hag&apos;s tough, leathery hide grants her a 4+ Armour Save.</description>
+    </rule>
+    <rule id="soh-trol-acid-0001" name="Acid Bile (5+)" hidden="false">
+      <description>Casting Value: 5+. Target: An enemy unit within 18&quot;, not engaged in close combat. Requires line of sight.
+
+Place the small template centred on the target unit and scatter it using the Artillery and Scatter dice. If a &quot;Misfire&quot; is rolled it does not scatter. All models fully or partially under the template suffer one Strength 3 hit with -2 to their Armour Save.
+
+Duration: Instantaneous.</description>
     </rule>
 </sharedRules>
   <sharedProfiles>
