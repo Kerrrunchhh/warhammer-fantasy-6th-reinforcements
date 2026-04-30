@@ -6299,7 +6299,8 @@
         <infoLink id="colo-terr-0001-0001" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="colo-larg-0001-0001" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
         <infoLink id="colo-immu-psyc-0001" name="Immune to Psychology" hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule" />
-        <infoLink id="colo-impa-hits-0001" name="Impact Hits (1D3)" hidden="false" targetId="ong-colo-impa-0001" type="rule" />
+        <infoLink id="colo-impa-hits-0001" name="Impact Hits (1D3+1)" hidden="false" targetId="ong-colo-impa-0001" type="rule" />
+        <infoLink id="sno1-colo-expl-info" name="Exploding Flesh" hidden="false" targetId="sno1-colo-expl-0001" type="rule" />
       </infoLinks>
       <categoryLinks>
         <categoryLink id="colo-cate-rare-0001" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
@@ -7956,8 +7957,11 @@ The Gaze of Mork is a magic missile with a range of up to 24". If successfully c
     <rule id="ong-mang-madc-0001" name="Mad Frenzy" hidden="false">
       <description>After the first Splat! against an enemy unit, the Mangler Squigs lose control. From that moment on, their movement becomes completely random. Determine the direction of their movement with a scatter die at the start of each Compulsory Moves phase. Additionally, once they are out of control, each movement roll must include a die of a different colour. If that die rolls a 1, the Mangler Squigs are removed as casualties.</description>
     </rule>
-    <rule id="ong-colo-impa-0001" name="Impact Hits (1D3)" hidden="false">
-      <description>When the Colossal Squig charges, it causes 1D3 Impact Hits at its Strength value.</description>
+    <rule id="ong-colo-impa-0001" name="Impact Hits (1D3+1)" hidden="false">
+      <description>When the Colossal Squig charges, it causes 1D3+1 Impact Hits at its Strength value.</description>
+    </rule>
+    <rule id="sno1-colo-expl-0001" name="Exploding Flesh" hidden="false">
+      <description>When the Colossal Squig is removed as a casualty, all units in base contact receive 1D3 Impact Hits at its Strength value.</description>
     </rule>
     <rule id="ong-spid-pois-0001" name="Poisoned Attacks" hidden="false">
       <description>Only the attacks of the Giant Spider are Poisoned. The rider's attacks are not affected.</description>
