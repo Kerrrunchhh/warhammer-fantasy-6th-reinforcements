@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a1b2-c3d4-e5f6-7abc" name="Dark Elves Raiders of Naggaroth" revision="1" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a1b2-c3d4-e5f6-7abc" name="Dark Elves Raiders of Naggaroth" revision="2" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="d82e-5e6d-5df0-8ddd" name="Dark Elves AB 2001" />
     <publication id="bcda-b53d-2fbc-be67" name="Storm of Chaos" />
@@ -2424,6 +2424,9 @@
       </selectionEntries>
     </selectionEntry>
     <selectionEntry id="7d41-0d2f-c8f9-9e6f" name="Doomfire Warlocks" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="rngr-doom-ros1-0001" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="b33e-8cf0-f89f-be4f" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
         <infoLink id="89a9-f877-4547-2d09" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule" />
