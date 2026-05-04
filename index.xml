@@ -2,8 +2,8 @@
 <dataIndex battleScribeVersion="2.03" name="Warhammer Fantasy Battle 6th edition with Reinforcements" indexUrl="https://github.com/Kerrrunchhh/warhammer-fantasy-6th-reinforcements/releases/latest/download/warhammer-fantasy-6th-reinforcements.latest.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
     <dataIndexEntry filePath="Warhammer.Fantasy.Battle.6th.edition.with.Reinforcements.gstz" dataType="gamesystem" dataId="6d8e-38d9-3c69-feba" dataName="Warhammer Fantasy Battle 6th edition with Reinforcements" dataBattleScribeVersion="2.03" dataRevision="12"/>
-    <dataIndexEntry filePath="Bretonnia.catz" dataType="catalogue" dataId="31c3-8e29-6a12-45bc" dataName="Bretonnia" dataBattleScribeVersion="2.03" dataRevision="7"/>
-    <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="8820-6110-ff77-4173" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="12"/>
+    <dataIndexEntry filePath="Bretonnia.catz" dataType="catalogue" dataId="31c3-8e29-6a12-45bc" dataName="Bretonnia" dataBattleScribeVersion="2.03" dataRevision="8"/>
+    <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="8820-6110-ff77-4173" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="13"/>
     <dataIndexEntry filePath="Dark.Elves.catz" dataType="catalogue" dataId="359b-8eee-bde0-4fe6" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="6"/>
     <dataIndexEntry filePath="Dark.Elves.Raiders.of.Naggaroth.catz" dataType="catalogue" dataId="a1b2-c3d4-e5f6-7abc" dataName="Dark Elves Raiders of Naggaroth" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Dogs.of.War.catz" dataType="catalogue" dataId="6c35-2c41-ec5b-4854" dataName="Dogs of War" dataBattleScribeVersion="2.03" dataRevision="4"/>
@@ -15,35 +15,35 @@
     <dataIndexEntry filePath="Dwarfs.Undgrin.Ankor.Force.catz" dataType="catalogue" dataId="6c79-9c75-de75-06b3" dataName="Dwarfs Undgrin Ankor Force" dataBattleScribeVersion="2.03" dataRevision="4"/>
     <dataIndexEntry filePath="Dwarfs.War.of.Vengeance.catz" dataType="catalogue" dataId="9a35-f65b-8750-4b55" dataName="Dwarfs War of Vengeance" dataBattleScribeVersion="2.03" dataRevision="4"/>
     <dataIndexEntry filePath="Empire.catz" dataType="catalogue" dataId="1c02-7fbd-0a61-4887" dataName="Empire" dataBattleScribeVersion="2.03" dataRevision="10"/>
-    <dataIndexEntry filePath="High.Elf.catz" dataType="catalogue" dataId="7ddd-ff5a-8838-45fc" dataName="High Elf" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="High.Elf.catz" dataType="catalogue" dataId="7ddd-ff5a-8838-45fc" dataName="High Elf" dataBattleScribeVersion="2.03" dataRevision="6"/>
     <dataIndexEntry filePath="Lizardmen.catz" dataType="catalogue" dataId="d21b-c434-a940-4035" dataName="Lizardmen" dataBattleScribeVersion="2.03" dataRevision="8"/>
     <dataIndexEntry filePath="Lizardmen.of.the.Southlands.catz" dataType="catalogue" dataId="d7e8-f9a0-b1c2-3456" dataName="Lizardmen of the Southlands" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Ogre.Kingdoms.catz" dataType="catalogue" dataId="90a1-0c6c-fe67-4296" dataName="Ogre Kingdoms" dataBattleScribeVersion="2.03" dataRevision="7"/>
-    <dataIndexEntry filePath="Orcs.and.Goblins.catz" dataType="catalogue" dataId="78a7-5b1c-5d75-4e97" dataName="Orcs and Goblins" dataBattleScribeVersion="2.03" dataRevision="14"/>
-    <dataIndexEntry filePath="Orcs.and.Goblins.Common.Goblin.Horde.catz" dataType="catalogue" dataId="f9a0-b1c2-d3e4-5678" dataName="Orcs and Goblins Common Goblin Horde" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Orcs.and.Goblins.catz" dataType="catalogue" dataId="78a7-5b1c-5d75-4e97" dataName="Orcs and Goblins" dataBattleScribeVersion="2.03" dataRevision="15"/>
+    <dataIndexEntry filePath="Orcs.and.Goblins.Common.Goblin.Horde.catz" dataType="catalogue" dataId="f9a0-b1c2-d3e4-5678" dataName="Orcs and Goblins Common Goblin Horde" dataBattleScribeVersion="2.03" dataRevision="4"/>
     <dataIndexEntry filePath="Orcs.and.Goblins.Savage.Orc.Horde.catz" dataType="catalogue" dataId="a0b1-c2d3-e4f5-6789" dataName="Orcs and Goblins Savage Orc Horde" dataBattleScribeVersion="2.03" dataRevision="2"/>
-    <dataIndexEntry filePath="Orcs.and.Goblins.Night.Goblin.Horde.catz" dataType="catalogue" dataId="e8f9-a0b1-c2d3-4567" dataName="Orcs and Goblins Night Goblin Horde" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Orcs.and.Goblins.Night.Goblin.Horde.catz" dataType="catalogue" dataId="e8f9-a0b1-c2d3-4567" dataName="Orcs and Goblins Night Goblin Horde" dataBattleScribeVersion="2.03" dataRevision="4"/>
     <dataIndexEntry filePath="Orcs.and.Goblins.Mountain.or.Troll.Country.Waaagh.catz" dataType="catalogue" dataId="b1c2-d3e4-f5a6-7890" dataName="Orcs and Goblins Mountain or Troll Country Waaagh!" dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="Orcs.and.Goblins.Snotling.Horde.catz" dataType="catalogue" dataId="c2d3-e4f5-a6b7-8901" dataName="Orcs and Goblins Snotling Horde" dataBattleScribeVersion="2.03" dataRevision="2"/>
-<dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="ef4e-a0d0-6423-46b3" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="7"/>
-    <dataIndexEntry filePath="Skaven.Clan.Eshin.catz" dataType="catalogue" dataId="c3e5-1a2b-9f4d-7e8c" dataName="Skaven Clan Eshin" dataBattleScribeVersion="2.03" dataRevision="4"/>
-    <dataIndexEntry filePath="Skaven.Clan.Moulder.catz" dataType="catalogue" dataId="b3c4-d5e6-f7a8-9012" dataName="Skaven Clan Moulder" dataBattleScribeVersion="2.03" dataRevision="3"/>
-    <dataIndexEntry filePath="Skaven.Clan.Pestilens.catz" dataType="catalogue" dataId="c7d8-e9f0-a1b2-3456" dataName="Skaven Clan Pestilens" dataBattleScribeVersion="2.03" dataRevision="3"/>
-    <dataIndexEntry filePath="Skaven.Clan.Skryre.catz" dataType="catalogue" dataId="d5e6-f7a8-b9c0-1234" dataName="Skaven Clan Skryre" dataBattleScribeVersion="2.03" dataRevision="3"/>
+<dataIndexEntry filePath="Skaven.catz" dataType="catalogue" dataId="ef4e-a0d0-6423-46b3" dataName="Skaven" dataBattleScribeVersion="2.03" dataRevision="8"/>
+    <dataIndexEntry filePath="Skaven.Clan.Eshin.catz" dataType="catalogue" dataId="c3e5-1a2b-9f4d-7e8c" dataName="Skaven Clan Eshin" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="Skaven.Clan.Moulder.catz" dataType="catalogue" dataId="b3c4-d5e6-f7a8-9012" dataName="Skaven Clan Moulder" dataBattleScribeVersion="2.03" dataRevision="4"/>
+    <dataIndexEntry filePath="Skaven.Clan.Pestilens.catz" dataType="catalogue" dataId="c7d8-e9f0-a1b2-3456" dataName="Skaven Clan Pestilens" dataBattleScribeVersion="2.03" dataRevision="4"/>
+    <dataIndexEntry filePath="Skaven.Clan.Skryre.catz" dataType="catalogue" dataId="d5e6-f7a8-b9c0-1234" dataName="Skaven Clan Skryre" dataBattleScribeVersion="2.03" dataRevision="4"/>
     <dataIndexEntry filePath="Tomb.Kings.catz" dataType="catalogue" dataId="84d2-86cf-1048-402b" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="6"/>
-    <dataIndexEntry filePath="Vampire.Counts.catz" dataType="catalogue" dataId="a10f-a81e-cf13-4692" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="17"/>
-    <dataIndexEntry filePath="Wood.Elf.catz" dataType="catalogue" dataId="1d30-bbdf-823d-416a" dataName="Wood Elf" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Vampire.Counts.catz" dataType="catalogue" dataId="a10f-a81e-cf13-4692" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="18"/>
+    <dataIndexEntry filePath="Wood.Elf.catz" dataType="catalogue" dataId="1d30-bbdf-823d-416a" dataName="Wood Elf" dataBattleScribeVersion="2.03" dataRevision="4"/>
     <dataIndexEntry filePath="Empire.The.Emperors.Guard.catz" dataType="catalogue" dataId="c3d4-e5f6-a7b8-9012" dataName="Empire The Emperor's Guard" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.The.Artillery.Train.of.Nuln.catz" dataType="catalogue" dataId="d4e5-f6a7-b8c9-0123" dataName="Empire The Artillery Train of Nuln" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.Sigmarite.Army.catz" dataType="catalogue" dataId="e5f6-a7b8-c9d0-1234" dataName="Empire Sigmarite Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.Marienburg.Mercenary.Army.catz" dataType="catalogue" dataId="f6a7-b8c9-d0e1-2345" dataName="Empire Marienburg Mercenary Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.Cult.of.Ulric.catz" dataType="catalogue" dataId="a7b8-c9d0-e1f2-3456" dataName="Empire Cult of Ulric" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.Crusader.Army.catz" dataType="catalogue" dataId="b8c9-d0e1-f2a3-4567" dataName="Empire Crusader Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Vampire.Counts.von.Carstein.catz" dataType="catalogue" dataId="c9d0-e1f2-a3b4-5678" dataName="Vampire Counts von Carstein" dataBattleScribeVersion="2.03" dataRevision="9"/>
-    <dataIndexEntry filePath="Vampire.Counts.Necrarchs.catz" dataType="catalogue" dataId="1aa0-400b-d1dd-623d" dataName="Vampire Counts Necrarchs" dataBattleScribeVersion="2.03" dataRevision="9"/>
-    <dataIndexEntry filePath="Vampire.Counts.Necromancers.Army.catz" dataType="catalogue" dataId="c90f-528f-f604-eeb2" dataName="Vampire Counts Necromancer's Army" dataBattleScribeVersion="2.03" dataRevision="9"/>
+    <dataIndexEntry filePath="Vampire.Counts.von.Carstein.catz" dataType="catalogue" dataId="c9d0-e1f2-a3b4-5678" dataName="Vampire Counts von Carstein" dataBattleScribeVersion="2.03" dataRevision="10"/>
+    <dataIndexEntry filePath="Vampire.Counts.Necrarchs.catz" dataType="catalogue" dataId="1aa0-400b-d1dd-623d" dataName="Vampire Counts Necrarchs" dataBattleScribeVersion="2.03" dataRevision="10"/>
+    <dataIndexEntry filePath="Vampire.Counts.Necromancers.Army.catz" dataType="catalogue" dataId="c90f-528f-f604-eeb2" dataName="Vampire Counts Necromancer's Army" dataBattleScribeVersion="2.03" dataRevision="10"/>
     <dataIndexEntry filePath="Vampire.Counts.Lahmians.catz" dataType="catalogue" dataId="c889-15fb-6b0d-2e7f" dataName="Vampire Counts Lahmians" dataBattleScribeVersion="2.03" dataRevision="9"/>
-    <dataIndexEntry filePath="Vampire.Counts.Blood.Dragons.catz" dataType="catalogue" dataId="f39d-6371-795d-8050" dataName="Vampire Counts Blood Dragons" dataBattleScribeVersion="2.03" dataRevision="9"/>
+    <dataIndexEntry filePath="Vampire.Counts.Blood.Dragons.catz" dataType="catalogue" dataId="f39d-6371-795d-8050" dataName="Vampire Counts Blood Dragons" dataBattleScribeVersion="2.03" dataRevision="10"/>
     <dataIndexEntry filePath="Vampire.Counts.Strigoi.catz" dataType="catalogue" dataId="8b02-5c73-d3d7-b72c" dataName="Vampire Counts Strigoi" dataBattleScribeVersion="2.03" dataRevision="9"/>
   </dataIndexEntries>
 </dataIndex>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="31c3-8e29-6a12-45bc" name="Bretonnia" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="31c3-8e29-6a12-45bc" name="Bretonnia" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="143d-ca87-8001-00a0" name="Bretonnia Army Book 2005"/>
   </publications>
@@ -1128,6 +1128,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cbow-unit-0001-0001" name="Crossbowmen" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbow-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="cbow-prof-0001-0001" name="Crossbowman" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>

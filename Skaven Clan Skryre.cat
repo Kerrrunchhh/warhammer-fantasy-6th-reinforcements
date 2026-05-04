@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d5e6-f7a8-b9c0-1234" name="Skaven Clan Skryre" revision="3" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d5e6-f7a8-b9c0-1234" name="Skaven Clan Skryre" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="dac3-b1cf-c897-b66e" name="Skaven army Book 2002" />
   </publications>
@@ -1665,6 +1665,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="verm-lord-0001-0001" name="Vermin Lord" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skrv-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="verm-lord-prof-0001" name="Vermin Lord" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -1732,6 +1735,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="broo-dhor-r000-0001" name="Brood Horror" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skrb-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="broo-dhor-prof-0001" name="Brood Horror" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -1763,6 +1769,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="hpab-omin-0001-0001" name="Hell Pit Abomination" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skrh-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="hpab-omin-prof-0001" name="Hell Pit Abomination" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>

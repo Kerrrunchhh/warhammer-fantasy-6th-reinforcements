@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a10f-a81e-cf13-4692" name="Vampire Counts" revision="17" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a10f-a81e-cf13-4692" name="Vampire Counts" revision="18" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 </readme>
@@ -3862,6 +3862,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </costs>
     </selectionEntry>
     <selectionEntry id="crpt-horr-r000-0001" name="Crypt Horror" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="crpt-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="crpt-horr-prof-0001" name="Crypt Horror" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -4053,6 +4056,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </costs>
     </selectionEntry>
     <selectionEntry id="hexw-rths-0001-0001" name="Hex Wraiths" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="hexw-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="hexw-rths-prof-0001" name="Hex Wraith" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -4108,6 +4114,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       </costs>
     </selectionEntry>
     <selectionEntry id="vrgh-ist0-0001-0001" name="Vargheist" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vrgh-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="vrgh-ist0-prof-0001" name="Vargheist" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1d30-bbdf-823d-416a" name="Wood Elf" revision="3" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1d30-bbdf-823d-416a" name="Wood Elf" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
@@ -1408,6 +1408,73 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="sist-thor-n000-0001" name="Sisters of Thorns" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sist-thor-max1-0001" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="sist-il00-prof-0001" name="Sister of Thorns" hidden="false" targetId="sist-thor-prof-0001" type="profile"/>
+        <infoLink id="sist-il00-stee-0001" name="Elven Steed" hidden="false" targetId="sist-stee-d000-0001" type="profile"/>
+        <infoLink id="sist-il00-fstd-0001" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
+        <infoLink id="sist-il00-fspy-0001" name="Forest Spirit" hidden="false" targetId="7322-402a-5d78-360e" type="rule"/>
+        <infoLink id="sist-il00-fstr-0001" name="Forest Strider" hidden="false" targetId="sist-fore-str0-0001" type="rule"/>
+        <infoLink id="sist-il00-fury-0001" name="Magical unit (Fury of the Forests)" hidden="false" targetId="sist-fury-fore-0001" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="sist-cate-spec-0001" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="sist-mode-l000-0001" name="Sister of Thorns" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sist-mode-min0-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sist-mode-max0-0001" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="31.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="sist-musi-c000-0001" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sist-musi-max0-0001" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="sist-stan-d000-0001" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sist-stan-max0-0001" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="sist-cham-p000-0001" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sist-cham-max0-0001" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="sist-cham-il00-0001" name="Champion" hidden="false" targetId="sist-cham-prof-0001" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="4bef-a28f-d72e-fe2a" name="The Spirit Sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -2803,6 +2870,12 @@ Wardancers cannot take armour or be given magical weapons that are not classed a
     <rule id="welf-char-fstr-0001" name="Forest Strider" hidden="false">
       <description>The negative effects and penalties typically applied to Chariots when moving through Forests (such as Dangerous Terrain tests) do not apply to Wood Elf Chariots.</description>
     </rule>
+    <rule id="sist-fore-str0-0001" name="Forest Strider" hidden="false">
+      <description>The Sisters of Thorns treat forests as open terrain for movement purposes. They do not suffer any movement penalties for moving through forests.</description>
+    </rule>
+    <rule id="sist-fury-fore-0001" name="Magical unit (Fury of the Forests)" hidden="false">
+      <description>The Sisters of Thorns are a Magical unit. Once per Magic Phase, they may attempt to cast Fury of the Forests as a Bound Spell (Power Level 3). Fury of the Forests is a magic missile with a range of 24". The target unit suffers D6 Strength 3 hits. If the target is within or partially within a Forest, the number of hits is increased to 2D6.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="da94-2d91-8e3b-f505" name="Highborn" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -3167,6 +3240,45 @@ Wardancers cannot take armour or be given magical weapons that are not classed a
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="sist-thor-prof-0001" name="Sister of Thorns" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="sist-cham-prof-0001" name="Champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">5</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="sist-stee-d000-0001" name="Elven Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
     <profile id="6547-d129-9f78-062b" name="Elven Steed" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">

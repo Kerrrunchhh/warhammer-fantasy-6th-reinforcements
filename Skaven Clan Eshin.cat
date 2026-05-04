@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c3e5-1a2b-9f4d-7e8c" name="Skaven Clan Eshin" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c3e5-1a2b-9f4d-7e8c" name="Skaven Clan Eshin" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="ce11-eshn-pub0-0001" name="Clan Eshin Supplement" />
   </publications>
@@ -1665,6 +1665,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7f2c-401c-b58a-7152" name="Vermin Lord" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="esvl-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="9742-c5fc-5117-7c4c" name="Vermin Lord" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -1732,6 +1735,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2c08-74ca-52c0-4186" name="Brood Horror" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="esbh-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="828e-e55f-80e0-7fe1" name="Brood Horror" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -1763,6 +1769,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ef50-3ae4-fbdc-558f" name="Hell Pit Abomination" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eshp-ros1-max0-0001" type="max"/>
+      </constraints>
       <profiles>
         <profile id="1cb2-afb7-4782-f0f4" name="Hell Pit Abomination" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
