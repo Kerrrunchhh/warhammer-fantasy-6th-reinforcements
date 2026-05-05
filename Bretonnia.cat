@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="31c3-8e29-6a12-45bc" name="Bretonnia" revision="9" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="31c3-8e29-6a12-45bc" name="Bretonnia" revision="10" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="143d-ca87-8001-00a0" name="Bretonnia Army Book 2005"/>
   </publications>
@@ -1935,7 +1935,11 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="6678-5b8e-f051-b300" name="Field Trebuchet" hidden="false"/>
+        <rule id="6678-5b8e-f051-b300" name="Field Trebuchet" hidden="false">
+          <description>The Field Trebuchet follows all the rules for Stone Throwers, with the following exceptions:
+
+The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10). In addition, it can never be moved during the game, though may be pivoted on the spot.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="a0ea-59d3-6164-6ea3" name="Peasants Duty" hidden="false" targetId="b02d-465f-ade3-13e4" type="rule"/>
