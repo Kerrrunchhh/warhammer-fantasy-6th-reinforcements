@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="13" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="14" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -721,16 +721,6 @@
     </selectionEntry>
     <selectionEntry id="46d7-63d8-cda7-acef" name="Beast Herd" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="5598-7499-baf8-519f" name="Gor" hidden="false" targetId="7177-5943-acb2-26ec" type="profile"/>
@@ -741,7 +731,8 @@
         <infoLink id="de1a-4d5c-4861-3a5b" name="UNRULY" hidden="false" targetId="b6a2-1771-6736-aa0f" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0000-9236-01b2-e003" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="332a-ba6c-c148-4ef8" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="0000-9236-01b2-e003" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8998-dfaa-81a4-ce43" name="Gors" hidden="false" collective="false" import="true" type="model">
@@ -1759,16 +1750,6 @@
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="46d7-63d8-cda7-acef" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4dd7-19f9-5255-d3e1" type="max"/>
@@ -1778,7 +1759,8 @@
         <infoLink id="16e4-3b9b-0fdf-574e" name="Gouge Horn" hidden="false" targetId="99e0-837b-5da8-8668" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8eeb-ea20-3176-0763" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="5567-14db-cb61-4b6b" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="8eeb-ea20-3176-0763" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0162-4d7c-12ae-94fd" name="Bestigor" hidden="false" collective="false" import="true" type="model">
@@ -1861,16 +1843,6 @@
     </selectionEntry>
     <selectionEntry id="fb0a-4325-528d-0461" name="Tuskgor Chariot" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="b699-eef7-4e53-d906" name="Tuskgor Chariot" hidden="false" targetId="7afd-2c81-0a8a-074f" type="profile"/>
@@ -1880,7 +1852,8 @@
         <infoLink id="fb04-5bfe-1def-4194" name="Tuskgor Charge" hidden="false" targetId="5dde-c27b-c0ef-7bc9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c6dd-58da-ed14-16f7" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="bbab-8e49-b299-465f" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="c6dd-58da-ed14-16f7" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7ba5-3e92-6596-cd9d" name="Tuskgor beasts" hidden="false" collective="false" import="true" type="upgrade">
@@ -1960,33 +1933,14 @@
     </selectionEntry>
     <selectionEntry id="e941-8cf0-bd4b-4624" name="Warhounds of Chaos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a878-7899-6700-e5fb" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a878-7899-6700-e5fb" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="93e0-99b6-0014-7c7a" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="16a0-2b4e-1863-fc48" name="Beastmen Ambush" hidden="false" targetId="171a-a558-c27b-9cc9" type="rule"/>
         <infoLink id="e0b3-3479-d7d1-9668" name="Warhound" hidden="false" targetId="22f5-f64d-ed46-53cb" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="07c0-f546-2825-746f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="520f-2519-ae11-4990" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="07c0-f546-2825-746f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4843-4c38-b8bd-7a79" name="Warhound" hidden="false" collective="false" import="true" type="model">
@@ -2127,9 +2081,15 @@
       <modifiers>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e3b7-c736-6e52-00d9" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f729-92d4-c135-4004" type="greaterThan"/>
           </conditions>
         </modifier>
+        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f729-92d4-c135-4004" type="greaterThan"/>
+          </conditions>
+        </modifier>
+
       </modifiers>
       <infoLinks>
         <infoLink id="070d-b6e4-e098-d7c3" name="Minotaur" hidden="false" targetId="3c0a-27bf-9272-2e6f" type="profile"/>
@@ -2138,6 +2098,7 @@
         <infoLink id="0972-c685-9c0d-44dd" name="Bloodgreed" hidden="false" targetId="b942-f72e-84c3-7dcf" type="rule"/>
       </infoLinks>
       <categoryLinks>
+        <categoryLink id="9a24-1cf3-57a3-4d1e" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="ddc7-a63f-a3f5-de84" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
