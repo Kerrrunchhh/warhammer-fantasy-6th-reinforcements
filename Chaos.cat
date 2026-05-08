@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="16" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="17" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -732,7 +732,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="332a-ba6c-c148-4ef8" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
-        <categoryLink id="0000-9236-01b2-e003" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8998-dfaa-81a4-ce43" name="Gors" hidden="false" collective="false" import="true" type="model">
@@ -1760,7 +1759,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5567-14db-cb61-4b6b" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
-        <categoryLink id="8eeb-ea20-3176-0763" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0162-4d7c-12ae-94fd" name="Bestigor" hidden="false" collective="false" import="true" type="model">
@@ -1853,7 +1851,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bbab-8e49-b299-465f" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
-        <categoryLink id="c6dd-58da-ed14-16f7" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7ba5-3e92-6596-cd9d" name="Tuskgor beasts" hidden="false" collective="false" import="true" type="upgrade">
@@ -1940,7 +1937,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="520f-2519-ae11-4990" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
-        <categoryLink id="07c0-f546-2825-746f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4843-4c38-b8bd-7a79" name="Warhound" hidden="false" collective="false" import="true" type="model">
