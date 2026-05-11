@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="14" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="15" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="315e-e3c4-08af-fd51" name="BRB"/>
   </publications>
@@ -1461,10 +1461,10 @@ Troops that are immune to psychology are never affected by fear terror, frenzy o
       <description>Thrown weapons do not suffer penalties for long range, nor for moving</description>
     </rule>
     <rule id="df8d-7c05-c47b-9cd6" name="Magic Resistance (2)" hidden="false">
-      <description>Generates two dispel dice when spells cast at the unit</description>
+      <description>Add 2 dispel dice to attempts against any spell targeting or affecting this unit.</description>
     </rule>
     <rule id="da12-a0e8-30ec-6c32" name="Magic Resistance (1)" hidden="false">
-      <description>Generates 1 dispel dice for spells cast at the unit.</description>
+      <description>Add 1 dispel die to attempts against any spell targeting or affecting this unit.</description>
     </rule>
     <rule id="ac96-22af-fac6-56f9" name="Scaly Skin 4+" hidden="false">
       <description>Armour save 4+</description>

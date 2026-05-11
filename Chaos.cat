@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="27" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="28" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -6603,7 +6603,7 @@
       <infoLinks>
         <infoLink id="bkho-daem-atk0-0001" name="Daemonic attacks" hidden="false" targetId="ab04-c24e-f729-0987" type="rule"/>
         <infoLink id="bkho-fcav-0001-0001" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
-        <infoLink id="bkho-magi-res2-info" name="Magic Resistance (2)" hidden="false" targetId="bkho-magi-res2-0001" type="rule"/>
+        <infoLink id="bkho-magi-res2-info" name="Magic Resistance (2)" hidden="false" targetId="df8d-7c05-c47b-9cd6" type="rule"/>
         <infoLink id="bkho-daem-aura-0001" name="Daemonic Aura" hidden="false" targetId="3c43-59c1-6cb0-968d" type="rule"/>
         <infoLink id="bkho-inst-abl0-0001" name="Instability" hidden="false" targetId="a0d2-6889-1ee2-4626" type="rule"/>
       </infoLinks>
@@ -11141,9 +11141,7 @@ It has no effect on war machines (though it does affect their crew), buildings (
     <rule id="cdrg-spit-veno-0001" name="Spit Venom" hidden="false">
       <description>Once per game, the Chaos Dragon may spit a stream of venom instead of making its normal attacks. The attack has a range of 12&quot; and causes D6 Strength 4 hits, which are Poisoned.</description>
     </rule>
-    <rule id="bkho-magi-res2-0001" name="Magic Resistance (2)" hidden="false">
-      <description>The unit has Magic Resistance 2. Add 2 dice to dispel attempts against any spell targeting or affecting this unit.</description>
-    </rule>
+
     <rule id="wshp-ward-save-0001" name="Ward Save (5+)" hidden="false">
       <description>The Chaos Warshrine and its crew have a 5+ Ward Save.</description>
     </rule>
