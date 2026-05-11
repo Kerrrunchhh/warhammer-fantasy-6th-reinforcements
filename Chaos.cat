@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="25" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="27" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -5258,17 +5258,13 @@
           </conditionGroups>
         </modifier>
       </modifiers>
-      <rules>
-        <rule id="8f48-5774-3994-18fe" name="Bloodletters Magical resistance(1)" hidden="false">
-          <description>Bloodletters generate 1 dice for spells directed at the unit.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="873c-3dca-688a-e97f" name="Bloodletter" hidden="false" targetId="71ff-ee64-3649-55d2" type="profile"/>
         <infoLink id="d6ba-183c-030c-7344" name="Daemonic attacks" hidden="false" targetId="ab04-c24e-f729-0987" type="rule"/>
         <infoLink id="blet-daem-aura-0001" name="Daemonic Aura" hidden="false" targetId="3c43-59c1-6cb0-968d" type="rule"/>
         <infoLink id="blet-inst-abl0-0001" name="Instability and Break Tests" hidden="false" targetId="a0d2-6889-1ee2-4626" type="rule"/>
         <infoLink id="0735-6781-48bd-affb" name="Frenzy" hidden="false" targetId="ab5d-dda1-bffc-a027" type="rule"/>
+        <infoLink id="blet-magr-res1-0001" name="Magic Resistance (1)" hidden="false" targetId="da12-a0e8-30ec-6c32" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ed2e-7f0f-f607-421f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -6681,7 +6677,7 @@
         <infoLink id="jugg-daem-aura-0001" name="Daemonic Aura" hidden="false" targetId="3c43-59c1-6cb0-968d" type="rule"/>
         <infoLink id="jugg-inst-abl0-0001" name="Instability" hidden="false" targetId="a0d2-6889-1ee2-4626" type="rule"/>
         <infoLink id="jugg-armj-0001-0001" name="Armoured Juggernaut" hidden="false" targetId="7590-e126-4849-fd8c" type="rule"/>
-        <infoLink id="jugg-magr-unit-0001" name="Magical Resistance (1)" hidden="false" targetId="da12-a0e8-30ec-6c32" type="rule"/>
+        <infoLink id="jugg-magr-unit-0001" name="Magic Resistance (1)" hidden="false" targetId="da12-a0e8-30ec-6c32" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="jugg-cate-spec-0001" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
@@ -9185,7 +9181,7 @@
         <infoLink id="b5a0-0247-09ff-fcc1" name="Juggernaut of Khorne" hidden="false" targetId="2374-92c7-0518-fa36" type="profile"/>
         <infoLink id="3031-69e7-941e-23bd" name="Daemonic attacks" hidden="false" targetId="ab04-c24e-f729-0987" type="rule"/>
         <infoLink id="896c-13d6-013c-7174" name="Armoured Juggernaut" hidden="false" targetId="7590-e126-4849-fd8c" type="rule"/>
-        <infoLink id="jugg-magr-res1-0001" name="Magical Resistance (1)" hidden="false" targetId="da12-a0e8-30ec-6c32" type="rule"/>
+        <infoLink id="jugg-magr-res1-0001" name="Magic Resistance (1)" hidden="false" targetId="da12-a0e8-30ec-6c32" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3f13-b937-856c-2222" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
