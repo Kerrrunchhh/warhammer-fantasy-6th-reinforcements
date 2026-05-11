@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="17" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="18" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -2094,7 +2094,6 @@
         <infoLink id="0972-c685-9c0d-44dd" name="Bloodgreed" hidden="false" targetId="b942-f72e-84c3-7dcf" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9a24-1cf3-57a3-4d1e" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="ddc7-a63f-a3f5-de84" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -2338,7 +2337,6 @@
         <infoLink id="3713-dd89-c32e-ff84" name="Flying Unit" hidden="false" targetId="600b-7f24-9b90-6bcb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7284-b49a-c188-4c3f" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="607f-5556-4cd5-5ba4" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -2673,7 +2671,6 @@
         <infoLink id="f040-0856-713f-05ae" name="Warrior" hidden="false" targetId="d091-568c-de35-80af" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3568-22f5-d78b-417c" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="a37b-279c-5097-aa75" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -4696,7 +4693,6 @@
         <infoLink id="cb7c-6470-df0a-be77" name="Marauder" hidden="false" targetId="c5cb-47f2-78e3-78d9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e691-e9f8-fcee-493b" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="caec-345b-fb56-0f6f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -4836,7 +4832,6 @@
         <infoLink id="d59c-5d42-df09-ed52" name="Marauder" hidden="false" targetId="c5cb-47f2-78e3-78d9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3ba9-6550-a6ed-454c" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="61dc-f163-6e5e-48ec" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -4995,7 +4990,6 @@
         <infoLink id="cf9f-3514-0883-0bf8" name="Knight" hidden="false" targetId="9bae-a61e-8098-343d" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e682-b036-b0bd-43ab" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="ffc5-1a9c-e658-db6f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -5182,7 +5176,6 @@
         <infoLink id="9f40-9711-56fb-c5cd" name="Warrior C" hidden="false" targetId="3063-d549-0ef6-74c3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="25bc-b28c-6abc-4c58" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="394e-d37e-e3f8-7067" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -5276,7 +5269,6 @@
         <infoLink id="0735-6781-48bd-affb" name="Frenzy" hidden="false" targetId="ab5d-dda1-bffc-a027" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="69b1-8f2a-581e-42c4" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="ed2e-7f0f-f607-421f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="3080-c586-ed19-057d" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
       </categoryLinks>
@@ -5383,7 +5375,6 @@
         <infoLink id="6b84-8c68-5dee-76c1" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e6f8-13e7-c451-4f67" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="122d-4070-b080-8fd0" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="4256-7a9e-2f10-32a4" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
       </categoryLinks>
@@ -5443,7 +5434,6 @@
         <infoLink id="732d-9ec1-b584-5a04" name="Stream of Corruption" hidden="false" targetId="pb-stream-corruption-cc01" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="28c3-0c10-1d0d-4028" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="43d6-6434-e82c-4650" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="8302-28b7-8cb2-e621" name="Nurgle" hidden="false" targetId="de30-bd00-67a7-5a25" primary="false"/>
       </categoryLinks>
@@ -5505,7 +5495,6 @@
         <infoLink id="e49c-fed5-21e7-c12f" name="Cloud of Flies" hidden="false" targetId="f51e-1c83-d46b-e233" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bafa-f8bc-1919-4e59" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="1570-c4b5-5959-f257" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="9dce-51eb-5473-502f" name="Nurgle" hidden="false" targetId="de30-bd00-67a7-5a25" primary="false"/>
       </categoryLinks>
@@ -5565,7 +5554,6 @@
         <infoLink id="f356-bfe9-e66e-a0a7" name="Aura of Slaanesh" hidden="false" targetId="3100-3d84-f7ef-1c05" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d5e4-9461-507b-4612" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="c9b3-7a82-4772-36a7" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="38f1-f30b-8e99-0abc" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
       </categoryLinks>
@@ -5624,7 +5612,6 @@
         <infoLink id="f349-687a-91f8-c383" name="Spellcasters" hidden="false" targetId="8b4e-29f4-5205-5baf" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e03c-1b0b-f71d-477b" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="e8a8-cfee-269f-4d67" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="4b98-b796-6373-daa4" name="Tzeentch" hidden="false" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
       </categoryLinks>
@@ -5712,7 +5699,6 @@
         <infoLink id="2622-3e9f-66c0-3a5e" name="Slashing Attack" hidden="false" targetId="ab99-d79b-0b02-1df5" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5613-fbf3-6a51-44e5" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="3b5f-c19d-cb82-9d3c" name="Tzeentch" hidden="false" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
         <categoryLink id="150e-1747-c856-7484" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
@@ -5775,7 +5761,6 @@
         <infoLink id="84e3-cc31-45e9-102c" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1cbc-5576-efc7-424e" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="false"/>
         <categoryLink id="ba35-a496-3877-c0e0" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="d5bd-dd06-0f2a-3c2a" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
       </categoryLinks>
