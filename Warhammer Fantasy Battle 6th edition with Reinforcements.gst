@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="12" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6d8e-38d9-3c69-feba" name="Warhammer Fantasy Battle 6th edition with Reinforcements" revision="13" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="315e-e3c4-08af-fd51" name="BRB"/>
   </publications>
@@ -1460,7 +1460,7 @@ Troops that are immune to psychology are never affected by fear terror, frenzy o
     <rule id="eecc-4ed0-db8a-f6dc" name="Thrown Weapons" hidden="false">
       <description>Thrown weapons do not suffer penalties for long range, nor for moving</description>
     </rule>
-    <rule id="df8d-7c05-c47b-9cd6" name="Magical Resistance (2)" hidden="false">
+    <rule id="df8d-7c05-c47b-9cd6" name="Magic Resistance (2)" hidden="false">
       <description>Generates two dispel dice when spells cast at the unit</description>
     </rule>
     <rule id="da12-a0e8-30ec-6c32" name="Magical Resistance (1)" hidden="false">

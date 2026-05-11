@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="24" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="25" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -3267,7 +3267,7 @@
     </selectionEntry>
     <selectionEntry id="969e-8a19-b6d8-e23d" name="Bloodthirster" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="0489-e142-2738-7de6" name="Magical Resistance 2" hidden="false">
+        <rule id="0489-e142-2738-7de6" name="Magic Resistance (2)" hidden="false">
           <description>Add 2 dispel dice when dispelling spells targetted at this unit.</description>
         </rule>
       </rules>
@@ -5814,7 +5814,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="58c8-4380-3b28-4040" name="Magical Resistance (2)" hidden="false" targetId="df8d-7c05-c47b-9cd6" type="rule"/>
+        <infoLink id="58c8-4380-3b28-4040" name="Magic Resistance (2)" hidden="false" targetId="df8d-7c05-c47b-9cd6" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c592-942b-c88f-167e" name="New CategoryLink" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
@@ -5904,7 +5904,7 @@
         <infoLink id="cygo-info-prof-0001" name="Cygor" hidden="false" targetId="cygo-r000-prof-0001" type="profile"/>
         <infoLink id="cygo-info-lrgt-0002" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
         <infoLink id="cygo-info-terr-0003" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
-        <infoLink id="cygo-info-mres-0004" name="Magical Resistance (2)" hidden="false" targetId="df8d-7c05-c47b-9cd6" type="rule"/>
+        <infoLink id="cygo-info-mres-0004" name="Magic Resistance (2)" hidden="false" targetId="df8d-7c05-c47b-9cd6" type="rule"/>
         <infoLink id="cygo-info-rock-0005" name="Rock Hurling" hidden="false" targetId="cygo-rock-hurl-0001" type="rule"/>
         <infoLink id="cygo-info-gaze-0006" name="Gaze into the Beyond" hidden="false" targetId="cygo-gaze-beyo-0001" type="rule"/>
         <infoLink id="cygo-info-soul-0007" name="Soul-Eater" hidden="false" targetId="cygo-soul-eatr-0001" type="rule"/>

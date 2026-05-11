@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c2d3-e4f5-a6b7-8901" name="Orcs and Goblins Snotling Horde" revision="1" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c2d3-e4f5-a6b7-8901" name="Orcs and Goblins Snotling Horde" revision="2" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="fe83-6f84-3718-78f4" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000" />
   </publications>
@@ -7718,7 +7718,7 @@ D6 Result
       <description>River Trolls live in rivers, swamps, and other dank places. They are slimy, scaly and even more smelly than your average Troll, which is saying something. Enemies attempting to attack a River Troll in close combat suffer a -1 penalty on their dice rolls to hit due to the stench and slime. This penalty cannot make a Troll impossible to hit - a roll of 6 will always score a hit regardless of how slimy he is.</description>
     </rule>
     <rule id="8ea8-2916-42e6-f14a" name="Stone Troll" hidden="false">
-      <description>These live in mountainous regions and eat Far too many rocks. As a result their bodies tend to be stony and rather solid. Stone Trolls are all but immune to the effects of magical spells and consequently have Magical Resistance (2). See page 114 of the Warhammer rulebook for details.</description>
+      <description>These live in mountainous regions and eat Far too many rocks. As a result their bodies tend to be stony and rather solid. Stone Trolls are all but immune to the effects of magical spells and consequently have Magic Resistance (2). See page 114 of the Warhammer rulebook for details.</description>
     </rule>
     <rule id="156b-0d82-70f6-e586" name="Scaly Skin 4+" hidden="false">
       <description>Yough plates and scales give the creature a 4+ Armour Save</description>
@@ -8139,7 +8139,7 @@ Duration: Instantaneous.</description>
     <profile id="9089-d30a-4f80-f75c" name="Armour of Mork " hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
       <characteristics>
         <characteristic name="Saving Throw Modifier" typeId="b600-e1ed-0765-27c1">5+</characteristic>
-        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Magical Resistance 2</characteristic>
+        <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e">Magic Resistance (2)</characteristic>
       </characteristics>
     </profile>
     <profile id="c69f-4091-58d9-faed" name="Ironskin Shield " hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
