@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="18" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="19" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -9178,6 +9178,7 @@
         <infoLink id="b5a0-0247-09ff-fcc1" name="Juggernaut of Khorne" hidden="false" targetId="2374-92c7-0518-fa36" type="profile"/>
         <infoLink id="3031-69e7-941e-23bd" name="Daemonic attacks" hidden="false" targetId="ab04-c24e-f729-0987" type="rule"/>
         <infoLink id="896c-13d6-013c-7174" name="Armoured Juggernaut" hidden="false" targetId="7590-e126-4849-fd8c" type="rule"/>
+        <infoLink id="jugg-magr-res1-0001" name="Magical Resistance (1)" hidden="false" targetId="da12-a0e8-30ec-6c32" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3f13-b937-856c-2222" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
