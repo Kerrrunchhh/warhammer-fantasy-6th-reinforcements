@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d5e6-f7a8-b9c0-1234" name="Skaven Clan Skryre" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d5e6-f7a8-b9c0-1234" name="Skaven Clan Skryre" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="dac3-b1cf-c897-b66e" name="Skaven army Book 2002" />
   </publications>
@@ -240,6 +240,11 @@
             <entryLink id="547c-c8da-49f7-e6eb" name="Warpfire Thrower" hidden="false" collective="false" import="true" targetId="3aac-33c9-90d5-992a" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0" />
+              </costs>
+            </entryLink>
+            <entryLink id="skry-dflay-lnk1-0001" name="Doom Flayer" hidden="false" collective="false" import="true" targetId="skry-dflay-upgr-0001" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -776,6 +781,11 @@
             <entryLink id="d9f3-4a9d-ec9b-2443" name="Warpfire Thrower" hidden="false" collective="false" import="true" targetId="3aac-33c9-90d5-992a" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0" />
+              </costs>
+            </entryLink>
+            <entryLink id="skry-dflay-lnk2-0001" name="Doom Flayer" hidden="false" collective="false" import="true" targetId="skry-dflay-upgr-0001" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3208,6 +3218,15 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
     </rule>
     <rule id="skav-doom-armr-0001" name="Armour Save (5+)" hidden="false">
       <description>The Doomwheel has an Armour Save of 5+. Base size: 50x100 mm. Unit Strength: 4.</description>
+    </rule>
+    <rule id="skry-dflay-rule-0001" name="Doom Flayer" hidden="false">
+      <description>The Doom Flayer is a Weapon Team that may be selected by a unit of Clanrats. It may be deployed within the unit and can charge together with the unit. The crew wear Light Armour (improving their Armour Save to 6+). In addition, the Doom Flayer itself grants an extra +2 bonus to Armour Saves against attacks coming from the front (close combat, shooting, or magic — but only from the front; not against catapults or effects such as lightning bolts from the Lore of Heavens, for example).</description>
+    </rule>
+    <rule id="skry-dflay-atk0-0001" name="Shredder Attack" hidden="false">
+      <description>In close combat, the Doom Flayer does not make its normal attacks. Instead, it inflicts 1D6 hits at Strength 4 with Armour Piercing against a single enemy unit in its front arc. If a 1 is rolled when determining the number of hits, the Doom Flayer suffers a result on the Malfunctions table instead.</description>
+    </rule>
+    <rule id="skry-dflay-malf-0001" name="Malfunctions" hidden="false">
+      <description>1&ndash;2: &quot;Blablam!&quot; Place the small round template over the Doom Flayer&apos;s position and resolve Strength 4 hits with a &ndash;2 Armour Save modifier against all models affected. The Doom Flayer is destroyed.&#10;3&ndash;5: &quot;Zzzzap!&quot; The Doom Flayer itself and all models in base contact with it each suffer a Strength 4 hit with a &ndash;2 Armour Save modifier.&#10;6: Power Failure. The Doom Flayer does not function this turn and causes 0 hits.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

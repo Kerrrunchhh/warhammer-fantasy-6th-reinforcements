@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ef4e-a0d0-6423-46b3" name="Skaven" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ef4e-a0d0-6423-46b3" name="Skaven" revision="10" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f804-741f-2593-2dec" name="Skaven army Book 2002"/>
   </publications>
@@ -240,6 +240,11 @@
             <entryLink id="4246-5187-fa81-f39d" name="Warpfire Thrower" hidden="false" collective="false" import="true" targetId="d945-3e5e-d5fd-458a" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="doom-flay-link-0001" name="Doom Flayer" hidden="false" collective="false" import="true" targetId="doom-flay-upgr-0001" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2555,6 +2560,22 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="doom-flay-upgr-0001" name="Doom Flayer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="doom-flay-con0-0001" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="doom-flay-prof-il01" name="Doom Flayer Weapon Team" hidden="false" targetId="doom-flay-prof-0001" type="profile"/>
+        <infoLink id="doom-flay-rule-il01" name="Doom Flayer" hidden="false" targetId="doom-flay-rule-0001" type="rule"/>
+        <infoLink id="doom-flay-atk0-il01" name="Shredder Attack" hidden="false" targetId="doom-flay-atk0-0001" type="rule"/>
+        <infoLink id="doom-flay-malf-il01" name="Malfunctions" hidden="false" targetId="doom-flay-malf-0001" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ab4d-6e55-06e6-6e8e" name="Warlock Engineer Arcane Items" hidden="false" collective="false" import="true">
@@ -3206,6 +3227,15 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
     <rule id="skav-doom-armr-0001" name="Armour Save (5+)" hidden="false">
       <description>The Doomwheel has an Armour Save of 5+. Base size: 50x100 mm. Unit Strength: 4.</description>
     </rule>
+    <rule id="doom-flay-rule-0001" name="Doom Flayer" hidden="false">
+      <description>The Doom Flayer is a Weapon Team that may be selected by a unit of Clanrats. It may be deployed within the unit and can charge together with the unit. The crew wear Light Armour (improving their Armour Save to 6+). In addition, the Doom Flayer itself grants an extra +2 bonus to Armour Saves against attacks coming from the front (close combat, shooting, or magic — but only from the front; not against catapults or effects such as lightning bolts from the Lore of Heavens, for example).</description>
+    </rule>
+    <rule id="doom-flay-atk0-0001" name="Shredder Attack" hidden="false">
+      <description>In close combat, the Doom Flayer does not make its normal attacks. Instead, it inflicts 1D6 hits at Strength 4 with Armour Piercing against a single enemy unit in its front arc. If a 1 is rolled when determining the number of hits, the Doom Flayer suffers a result on the Malfunctions table instead.</description>
+    </rule>
+    <rule id="doom-flay-malf-0001" name="Malfunctions" hidden="false">
+      <description>1–2: &quot;Blablam!&quot; Place the small round template over the Doom Flayer&apos;s position and resolve Strength 4 hits with a –2 Armour Save modifier against all models affected. The Doom Flayer is destroyed.&#10;3–5: &quot;Zzzzap!&quot; The Doom Flayer itself and all models in base contact with it each suffer a Strength 4 hit with a –2 Armour Save modifier.&#10;6: Power Failure. The Doom Flayer does not function this turn and causes 0 hits.</description>
+    </rule>
 
   </sharedRules>
   <sharedProfiles>
@@ -3651,6 +3681,19 @@ Move or Fire</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="doom-flay-prof-0001" name="Doom Flayer Weapon Team" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
