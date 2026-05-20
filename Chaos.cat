@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="28" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="29" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -11133,7 +11133,7 @@ It has no effect on war machines (though it does affect their crew), buildings (
       <description>The Jabberslythe possesses a barbed tongue that is treated in all respects as a ranged weapon (including spells that make shooting more difficult, modifiers to hit, line of sight, items, and abilities that work against shooting). This attack has a range of 20&quot; and is resolved at Strength 5.</description>
     </rule>
     <rule id="jabb-aura-madn-0001" name="Aura of Madness" hidden="false">
-      <description>At the start of the Chaos player&apos;s Magic phase, every enemy unit within 7&quot; of one or more Jabberslythes must take a Leadership test. If the test is failed, the unit suffers a number of Wounds equal to the amount by which the test was failed (e.g., a unit with Leadership 8 that rolls an 11 suffers 3 Wounds). These Wounds ignore armour saves. Units that are Immune to Psychology are unaffected and suffer no Wounds.</description>
+      <description>At the start of the Chaos player&apos;s Magic phase, every enemy unit within 8&quot; of one or more Jabberslythes must take a Leadership test. If the test is failed, the unit suffers a number of Wounds equal to the amount by which the test was failed (e.g., a unit with Leadership 8 that rolls an 11 suffers 3 Wounds). These Wounds ignore armour saves. Units that are Immune to Psychology are unaffected and suffer no Wounds.</description>
     </rule>
     <rule id="cdrg-brea-fire-0001" name="Breathe Fire" hidden="false">
       <description>The Chaos Dragon may use its Breath Weapon once per turn instead of making its normal attacks. The breath weapon has a range of 18&quot; and is Strength 4, Flaming.</description>
