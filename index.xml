@@ -7,13 +7,13 @@
     <dataIndexEntry filePath="Dark.Elves.catz" dataType="catalogue" dataId="359b-8eee-bde0-4fe6" dataName="Dark Elves" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Dark.Elves.Raiders.of.Naggaroth.catz" dataType="catalogue" dataId="a1b2-c3d4-e5f6-7abc" dataName="Dark Elves Raiders of Naggaroth" dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="Dogs.of.War.catz" dataType="catalogue" dataId="6c35-2c41-ec5b-4854" dataName="Dogs of War" dataBattleScribeVersion="2.03" dataRevision="4"/>
-    <dataIndexEntry filePath="Dwarfs.catz" dataType="catalogue" dataId="a7f1-dab9-5345-4db2" dataName="Dwarfs" dataBattleScribeVersion="2.03" dataRevision="5"/>
-    <dataIndexEntry filePath="Dwarfs.Guild.Expedition.catz" dataType="catalogue" dataId="0d3e-b1c2-4d39-9714" dataName="Dwarfs Guild Expedition" dataBattleScribeVersion="2.03" dataRevision="4"/>
-    <dataIndexEntry filePath="Dwarfs.Overground.Defence.catz" dataType="catalogue" dataId="7180-09e3-394e-28b0" dataName="Dwarfs Overground Defence" dataBattleScribeVersion="2.03" dataRevision="4"/>
-    <dataIndexEntry filePath="Dwarfs.Royal.Clan.catz" dataType="catalogue" dataId="7891-393f-c51b-0738" dataName="Dwarfs Royal Clan" dataBattleScribeVersion="2.03" dataRevision="4"/>
-    <dataIndexEntry filePath="Dwarfs.Throng.of.Karak.Kadrin.catz" dataType="catalogue" dataId="8516-ad4a-b555-adc7" dataName="Dwarfs Throng of Karak Kadrin" dataBattleScribeVersion="2.03" dataRevision="4"/>
-    <dataIndexEntry filePath="Dwarfs.Undgrin.Ankor.Force.catz" dataType="catalogue" dataId="6c79-9c75-de75-06b3" dataName="Dwarfs Undgrin Ankor Force" dataBattleScribeVersion="2.03" dataRevision="4"/>
-    <dataIndexEntry filePath="Dwarfs.War.of.Vengeance.catz" dataType="catalogue" dataId="9a35-f65b-8750-4b55" dataName="Dwarfs War of Vengeance" dataBattleScribeVersion="2.03" dataRevision="4"/>
+    <dataIndexEntry filePath="Dwarfs.catz" dataType="catalogue" dataId="a7f1-dab9-5345-4db2" dataName="Dwarfs" dataBattleScribeVersion="2.03" dataRevision="6"/>
+    <dataIndexEntry filePath="Dwarfs.Guild.Expedition.catz" dataType="catalogue" dataId="0d3e-b1c2-4d39-9714" dataName="Dwarfs Guild Expedition" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="Dwarfs.Overground.Defence.catz" dataType="catalogue" dataId="7180-09e3-394e-28b0" dataName="Dwarfs Overground Defence" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="Dwarfs.Royal.Clan.catz" dataType="catalogue" dataId="7891-393f-c51b-0738" dataName="Dwarfs Royal Clan" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="Dwarfs.Throng.of.Karak.Kadrin.catz" dataType="catalogue" dataId="8516-ad4a-b555-adc7" dataName="Dwarfs Throng of Karak Kadrin" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="Dwarfs.Undgrin.Ankor.Force.catz" dataType="catalogue" dataId="6c79-9c75-de75-06b3" dataName="Dwarfs Undgrin Ankor Force" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="Dwarfs.War.of.Vengeance.catz" dataType="catalogue" dataId="9a35-f65b-8750-4b55" dataName="Dwarfs War of Vengeance" dataBattleScribeVersion="2.03" dataRevision="5"/>
     <dataIndexEntry filePath="Empire.catz" dataType="catalogue" dataId="1c02-7fbd-0a61-4887" dataName="Empire" dataBattleScribeVersion="2.03" dataRevision="10"/>
     <dataIndexEntry filePath="High.Elf.catz" dataType="catalogue" dataId="7ddd-ff5a-8838-45fc" dataName="High Elf" dataBattleScribeVersion="2.03" dataRevision="7"/>
     <dataIndexEntry filePath="Lizardmen.catz" dataType="catalogue" dataId="d21b-c434-a940-4035" dataName="Lizardmen" dataBattleScribeVersion="2.03" dataRevision="8"/>
