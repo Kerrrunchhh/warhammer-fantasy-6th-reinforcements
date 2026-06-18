@@ -2268,6 +2268,13 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="knof-stan-cons-0001" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="knof-mban-link-0001" name="Magic Banners" hidden="false" collective="false" import="true" targetId="aa8a-1030-2887-5840" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="knof-mban-cons-0001" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
             <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
