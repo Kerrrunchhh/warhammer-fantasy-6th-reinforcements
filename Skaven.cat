@@ -3186,16 +3186,16 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
       <description>The Plague Furnace grants the unit pushing it a 5+ Ward Save.</description>
     </rule>
     <rule id="skav-pfur-push-0001" name="Pushed" hidden="false">
-      <description>The Plague Furnace is pushed by Plague Monks. It must be attached to a unit of at least 5 Plague Monks and uses the unit's Movement value. If fewer than 5 Plague Monks remain the Plague Furnace is removed.</description>
+      <description>The Plague Furnace must be pushed by a unit of Plague Monks. It is placed in the front rank as if it were a character mounted on a monster. The unit must consist of at least 10 models (excluding the Furnace) to move it at full speed. Fewer than 10 models: −2&quot; Movement per missing model. 5 or fewer models: The unit can no longer push the Furnace.</description>
     </rule>
     <rule id="skav-pfur-fume-0001" name="Pestilent Fumes" hidden="false">
-      <description>At the start of each Close Combat phase all models in base contact with the Plague Furnace suffer a Strength 2 hit with no armour saves allowed.</description>
+      <description>Whenever the Plague Furnace is engaged in close combat, at the beginning of each Close Combat phase (before any attacks are made, including impact hits): All units in base contact with the Furnace (including the pushing unit) must take 1D6 Toughness tests. Models with the Pestilens rule only fail these tests on a roll of 6. Each model takes only a single test. For characters mounted on monsters or chariots, both the rider and the mount must test. Each failed test causes one unmodifiable wound: No armour saves allowed, No regeneration allowed, Counts as a magical attack, Casualties count toward combat resolution.</description>
     </rule>
     <rule id="skav-pfur-bles-0001" name="Pestilent Blessing" hidden="false">
-      <description>All Plague Monks in the same unit as the Plague Furnace gain the Poisoned Attacks special rule.</description>
+      <description>The Plague Monks pushing the Furnace never lose their Frenzy.</description>
     </rule>
     <rule id="skav-pfur-wrka-0001" name="Wrecking Assault" hidden="false">
-      <description>The Plague Furnace makes D6+1 Strength 5 attacks in close combat in addition to any attacks from the pushing unit.</description>
+      <description>In each Close Combat phase (after all other attacks): Roll the Artillery die. The result indicates the number of Strength 5 hits inflicted. These hits are distributed (as for shooting) against the unit in base contact with the front of the Furnace. If a Misfire is rolled, the pushing unit suffers the hits instead.</description>
     </rule>
     <rule id="verm-mstr-lead-0001" name="Monstrous Leader" hidden="false">
       <description>The Vermin Lord must always be the army General. No other character may be chosen as General while the Vermin Lord is present.</description>
