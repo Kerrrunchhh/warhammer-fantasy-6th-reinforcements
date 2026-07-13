@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d21b-c434-a940-4035" name="Lizardmen" revision="7" battleScribeVersion="2.03" authorName="Thomas Saxon and Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d21b-c434-a940-4035" name="Lizardmen" revision="10" battleScribeVersion="2.03" authorName="Thomas Saxon and Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen 2003"/>
   </publications>
@@ -652,6 +652,14 @@
               </categoryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="235.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ancs-steg-moun-link-0001" name="Ancient Stegadon" hidden="false" collective="false" import="true" targetId="ancs-steg-moun-0001" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="ancs-steg-cat0-link-0001" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="280.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1424,6 +1432,36 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ancs-teg0-0001-0001" name="Ancient Stegadon" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ancs-info-tpro-0001" name="Ancient Stegadon" hidden="false" targetId="ancs-teg0-prof-0001" type="profile"/>
+        <infoLink id="ancs-info-spro-0002" name="Skink (x5)" hidden="false" targetId="ancs-skin-prof-0001" type="profile"/>
+        <infoLink id="ancs-info-cold-0003" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
+        <infoLink id="ancs-info-terr-0004" name="Terror" hidden="false" targetId="756a-1071-031a-2158" type="rule"/>
+        <infoLink id="ancs-info-ltgt-0005" name="Large Target" hidden="false" targetId="25b1-e384-bfcb-beed" type="rule"/>
+        <infoLink id="ancs-info-imph-0006" name="Impact Hits" hidden="false" targetId="f0c4-f861-6880-7aa0" type="rule"/>
+        <infoLink id="ancs-info-stub-0007" name="Stubborn" hidden="false" targetId="6254-3ee5-7fab-6595" type="rule"/>
+        <infoLink id="ancs-info-ipan-0008" name="Immune to Panic" hidden="false" targetId="ab76-c582-4154-09fb" type="rule"/>
+        <infoLink id="ancs-info-pois-0009" name="Poisoned Attacks" hidden="false" targetId="c42e-9dc4-8229-5abe" type="rule"/>
+        <infoLink id="ancs-info-scal-0010" name="Scaly Skin 3+" hidden="false" targetId="494d-d57a-c1fa-b48e" type="rule"/>
+        <infoLink id="ancs-info-jave-0011" name="Javelin Skinks" hidden="false" targetId="ancs-jave-skin-0001" type="rule"/>
+        <infoLink id="ancs-info-gblo-0012" name="Giant Blowpipes" hidden="false" targetId="ancs-gian-blow-0001" type="rule"/>
+        <infoLink id="ancs-info-engi-0013" name="Engine of the Gods" hidden="false" targetId="ancs-engi-gods-0001" type="rule"/>
+        <infoLink id="ancs-info-shot-0014" name="Shooting at the Stegadon" hidden="false" targetId="ancs-shot-steg-0001" type="rule"/>
+        <infoLink id="ancs-info-dsk0-0015" name="Death of the Skinks" hidden="false" targetId="ancs-deat-skin-0001" type="rule"/>
+        <infoLink id="ancs-info-dst0-0016" name="Death of the Stegadon" hidden="false" targetId="ancs-deat-steg-0001" type="rule"/>
+        <infoLink id="ancs-info-vpts-0017" name="Victory Points" hidden="false" targetId="ancs-vict-pts0-0001" type="rule"/>
+        <infoLink id="ancs-info-mchz-0018" name="Mounted Character" hidden="false" targetId="ancs-moun-char-0001" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ancs-cate-rare-0001" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="280.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="4f57-02c2-7c48-f1e8" name="Salamander Hunting Packs" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3aed-489e-20f0-00c7" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
@@ -1839,6 +1877,50 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ripp-unit-0001-0001" name="Ripperdactyl Riders" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ripp-info-cold-0001" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
+        <infoLink id="ripp-info-kill-0002" name="Killing Blow" hidden="false" targetId="e08e-1c7b-a667-f05b" type="rule"/>
+        <infoLink id="ripp-info-fly0-0003" name="Flying Units" hidden="false" targetId="d015-9b7e-c667-b553" type="rule"/>
+        <infoLink id="ripp-info-comb-0004" name="Combined Attack" hidden="false" targetId="ripp-comb-att0-0001" type="rule"/>
+        <infoLink id="ripp-info-amph-0005" name="Amphibian Fury" hidden="false" targetId="ripp-amph-fury-0001" type="rule"/>
+        <infoLink id="ripp-info-prof-0006" name="Ripperdactyl &amp; Skink Rider" hidden="false" targetId="ripp-rider-prof-0001" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ripp-cate-spec-0001" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ripp-chmp-upgr-0001" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ripp-chmp-max0-0001" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ripp-chmp-prof-il01" name="Ripperdactyl &amp; Skink Champion" hidden="false" targetId="ripp-champ-prof-0001" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ripp-mode-l000-0001" name="Ripperdactyl &amp; Skink Rider" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ripp-mode-min0-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ripp-mode-max0-0001" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="c043-73dd-db25-ece0" name="Cold One" hidden="false" collective="false" import="true" type="upgrade">
@@ -1869,6 +1951,33 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <infoLink id="1e64-adff-051b-c1bf" name="Stubborn" hidden="false" targetId="6254-3ee5-7fab-6595" type="rule"/>
         <infoLink id="234d-7549-c3e6-0e2c" name="Immune to Panic" hidden="false" targetId="ab76-c582-4154-09fb" type="rule"/>
         <infoLink id="a44b-ce07-5814-8732" name="Poisoned Attacks" hidden="false" targetId="c42e-9dc4-8229-5abe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ancs-steg-moun-0001" name="Ancient Stegadon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ancs-moun-tpro-0001" name="Ancient Stegadon" hidden="false" targetId="ancs-teg0-prof-0001" type="profile"/>
+        <infoLink id="ancs-moun-spro-0001" name="Skink (x5)" hidden="false" targetId="ancs-skin-prof-0001" type="profile"/>
+        <infoLink id="ancs-moun-cold-0001" name="Cold Blooded" hidden="false" targetId="da71-1c1e-ded6-959a" type="rule"/>
+        <infoLink id="ancs-moun-terr-0001" name="Terror" hidden="false" targetId="756a-1071-031a-2158" type="rule"/>
+        <infoLink id="ancs-moun-ltgt-0001" name="Large Target" hidden="false" targetId="25b1-e384-bfcb-beed" type="rule"/>
+        <infoLink id="ancs-moun-imph-0001" name="Impact Hits" hidden="false" targetId="f0c4-f861-6880-7aa0" type="rule"/>
+        <infoLink id="ancs-moun-stub-0001" name="Stubborn" hidden="false" targetId="6254-3ee5-7fab-6595" type="rule"/>
+        <infoLink id="ancs-moun-ipan-0001" name="Immune to Panic" hidden="false" targetId="ab76-c582-4154-09fb" type="rule"/>
+        <infoLink id="ancs-moun-pois-0001" name="Poisoned Attacks" hidden="false" targetId="c42e-9dc4-8229-5abe" type="rule"/>
+        <infoLink id="ancs-moun-scal-0001" name="Scaly Skin 3+" hidden="false" targetId="494d-d57a-c1fa-b48e" type="rule"/>
+        <infoLink id="ancs-moun-jave-0001" name="Javelin Skinks" hidden="false" targetId="ancs-jave-skin-0001" type="rule"/>
+        <infoLink id="ancs-moun-gblo-0001" name="Giant Blowpipes" hidden="false" targetId="ancs-gian-blow-0001" type="rule"/>
+        <infoLink id="ancs-moun-engi-0001" name="Engine of the Gods" hidden="false" targetId="ancs-engi-gods-0001" type="rule"/>
+        <infoLink id="ancs-moun-shot-0001" name="Shooting at the Stegadon" hidden="false" targetId="ancs-shot-steg-0001" type="rule"/>
+        <infoLink id="ancs-moun-dsk0-0001" name="Death of the Skinks" hidden="false" targetId="ancs-deat-skin-0001" type="rule"/>
+        <infoLink id="ancs-moun-dst0-0001" name="Death of the Stegadon" hidden="false" targetId="ancs-deat-steg-0001" type="rule"/>
+        <infoLink id="ancs-moun-vpts-0001" name="Victory Points" hidden="false" targetId="ancs-vict-pts0-0001" type="rule"/>
+        <infoLink id="ancs-moun-mchz-0001" name="Mounted Character" hidden="false" targetId="ancs-moun-char-0001" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -3802,6 +3911,36 @@ The spell lasts until the start of the caster&apos;s next Magic phase.</descript
     <rule id="lzrd-bane-head-0001" name="Bane Head" hidden="false">
       <description>Nominate an enemy character at the start of the battle. All unsaved wounds caused by the bearer on the nominated target are doubled.</description>
     </rule>
+    <rule id="ancs-jave-skin-0001" name="Javelin Skinks" hidden="false">
+      <description>The Skinks are armed with javelins (with Poisoned Attacks). Since the Skinks can move freely around the howdah, they are considered able to throw their javelins in a 360° arc.</description>
+    </rule>
+    <rule id="ancs-gian-blow-0001" name="Giant Blowpipes" hidden="false">
+      <description>The Ancient Stegadon carries two Giant Blowpipes. Each Giant Blowpipe makes 2D6 shots with a range of 12&quot;. Resolve the hits at Strength 3 with the Poisoned Attacks special rule. As the Stegadon is a Large Target, it can see and shoot over models that are not Large Targets. Use the Stegadon&apos;s front arc to determine where the Giant Blowpipes may fire. Each Giant Blowpipe requires one Skink to operate.</description>
+    </rule>
+    <rule id="ancs-engi-gods-0001" name="Engine of the Gods" hidden="false">
+      <description>If the Stegadon is ridden by a Skink Shaman, it is equipped with an Engine of the Gods instead of the two Giant Blowpipes. If the Shaman is alive and the unit is not fleeing, at the start of each of your Magic phases he may activate the Star Gate (and may still cast spells normally). Choose one of the following effects, which lasts until the start of your next Magic phase:&#10;1. The Skink Shaman gains +1 to cast spells.&#10;2. Friendly units within 6&quot; gain a 6+ Ward Save. This Ward Save cannot be used against close combat attacks.&#10;3. At the start of both your and your opponent&apos;s Magic phases, every enemy unit engaged in combat with the Stegadon suffers D6 Strength 3 hits. These are Magical Attacks.&#10;These effects are not spells and therefore cannot be dispelled.</description>
+    </rule>
+    <rule id="ancs-shot-steg-0001" name="Shooting at the Stegadon" hidden="false">
+      <description>Shots made against the Stegadon are randomly distributed between the Stegadon and the Skinks, in the same way as a monster ridden by a character. Any other rule that refers to characters mounted on monsters works in the same way for the Stegadon. This includes templates such as catapults (a single impact is allocated between the Stegadon and the Skinks).</description>
+    </rule>
+    <rule id="ancs-deat-skin-0001" name="Death of the Skinks" hidden="false">
+      <description>If the Skinks are killed but the Stegadon survives, make a roll on the Monster Reaction table.</description>
+    </rule>
+    <rule id="ancs-deat-steg-0001" name="Death of the Stegadon" hidden="false">
+      <description>If the Stegadon dies but the Skinks survive, the Skinks form up as if they were a unit of Skirmishers (retaining Cold-blooded and Skirmishers, but losing all other Monster rules) and are equipped with javelins and shields.</description>
+    </rule>
+    <rule id="ancs-vict-pts0-0001" name="Victory Points" hidden="false">
+      <description>The opponent only gains Victory Points if they destroy the Stegadon (the Skinks do not matter).</description>
+    </rule>
+    <rule id="ancs-moun-char-0001" name="Mounted Character" hidden="false">
+      <description>A character riding a Stegadon is treated the same as any character riding a Monstrous Mount, except that the Stegadon grants the character a 2+ Armour Save that cannot be improved. A character mounted on a Stegadon is also Stubborn (while mounted on the Stegadon).</description>
+    </rule>
+    <rule id="ripp-comb-att0-0001" name="Combined Attack" hidden="false">
+      <description>The Skink and the Ripperdactyl share a single profile, unlike most cavalry miniatures. Treat them as a single model using that profile.</description>
+    </rule>
+    <rule id="ripp-amph-fury-0001" name="Amphibian Fury" hidden="false">
+      <description>After deployment, place one Plump Toad marker on any enemy unit for each unit of Ripperdactyls. Ripperdactyls may re-roll hit rolls against any unit with a Plump Toad marker.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5943-700c-955c-d22d" name="Slann Mage Priest" publicationId="3a49-dd2e-fcaa-cdb1" page="23-24" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -4244,6 +4383,58 @@ The spell lasts until the start of the caster&apos;s next Magic phase.</descript
         <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
         <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
         <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ancs-teg0-prof-0001" name="Ancient Stegadon" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">6</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">5</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ancs-skin-prof-0001" name="Skink (x5)" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">2</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ripp-rider-prof-0001" name="Ripperdactyl &amp; Skink Rider" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ripp-champ-prof-0001" name="Ripperdactyl &amp; Skink Champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">5</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
         <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
       </characteristics>
     </profile>
