@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d5e6-f7a8-b9c0-1234" name="Skaven Clan Skryre" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d5e6-f7a8-b9c0-1234" name="Skaven Clan Skryre" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="dac3-b1cf-c897-b66e" name="Skaven army Book 2002" />
   </publications>
@@ -3226,7 +3226,7 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
       <description>In close combat, the Doom Flayer does not make its normal attacks. Instead, it inflicts 1D6 hits at Strength 4 with Armour Piercing against a single enemy unit in its front arc. If a 1 is rolled when determining the number of hits, the Doom Flayer suffers a result on the Malfunctions table instead.</description>
     </rule>
     <rule id="skry-dflay-malf-0001" name="Malfunctions" hidden="false">
-      <description>1&ndash;2: &quot;Blablam!&quot; Place the small round template over the Doom Flayer&apos;s position and resolve Strength 4 hits with a &ndash;2 Armour Save modifier against all models affected. The Doom Flayer is destroyed.&#10;3&ndash;5: &quot;Zzzzap!&quot; The Doom Flayer itself and all models in base contact with it each suffer a Strength 4 hit with a &ndash;2 Armour Save modifier.&#10;6: Power Failure. The Doom Flayer does not function this turn and causes 0 hits.</description>
+      <description>1–2: &quot;Blablam!&quot; Place the small round template over the Doom Flayer&apos;s position and resolve Strength 4 hits with a –2 Armour Save modifier against all models affected. The Doom Flayer is destroyed.&#10;3–5: &quot;Zzzzap!&quot; The Doom Flayer itself and all models in base contact with it each suffer a Strength 4 hit with a –2 Armour Save modifier.&#10;6: Power Failure. The Doom Flayer does not function this turn and causes 0 hits.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
