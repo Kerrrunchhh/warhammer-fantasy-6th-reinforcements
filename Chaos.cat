@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="30" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="33" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -45,7 +45,7 @@
     <categoryEntry id="f5ca-face-05d2-3fc6" name="Slaanesh General" hidden="false"/>
     <categoryEntry id="4648-b919-37ed-cf92" name="Tzeentch General" hidden="false"/>
     <categoryEntry id="086d-94c6-a2ad-a973" name="Makemegeneral" hidden="false"/>
-    <categoryEntry id="daem-char-cate-0001" name="Daemon Character" hidden="false"/>
+    <categoryEntry id="daem-char-cate-0001" name="Daemon Character" hidden="true"/>
     <categoryEntry id="09ab-e549-76d1-1890" name="Bestigor banner" hidden="false">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="84da-2e08-4ad3-220e" type="max"/>
@@ -2076,6 +2076,11 @@
     </selectionEntry>
     <selectionEntry id="3e37-7655-4845-1f06" name="Minotaurs" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
+        <modifier type="remove" field="category" value="64bf-efb4-9978-26df">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f729-92d4-c135-4004" type="greaterThan"/>
+          </conditions>
+        </modifier>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f729-92d4-c135-4004" type="greaterThan"/>
@@ -2301,15 +2306,15 @@
     </selectionEntry>
     <selectionEntry id="3c70-1b4d-3636-d723" name="Chaos Furies" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5b-c7e4-909e-7c70" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="969e-8a19-b6d8-e23d" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5252-98c3-f35f-1a92" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d39b-3793-b7a0-d2be" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d1-f7cd-d942-9232" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d774-53cf-6ff3-7da7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -2320,7 +2325,7 @@
         <infoLink id="3713-dd89-c32e-ff84" name="Flying Unit" hidden="false" targetId="600b-7f24-9b90-6bcb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="607f-5556-4cd5-5ba4" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="607f-5556-4cd5-5ba4" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5652-49c9-e56c-a2a4" name="Chaos Furies" hidden="false" collective="false" import="true" type="model">
@@ -2623,6 +2628,19 @@
     </selectionEntry>
     <selectionEntry id="e637-be84-b4ee-d47c" name="Warriors of Chaos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
+        <modifier type="remove" field="category" value="64bf-efb4-9978-26df">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e48d-fa90-46c8-0189" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fc3-ff1b-eb9b-0ae7" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caeb-32d6-b0ea-9160" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="edd1-a9db-4d73-4e6c" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4fa-8cfb-828f-4013" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
           <conditionGroups>
             <conditionGroup type="or">
@@ -4651,6 +4669,19 @@
     </selectionEntry>
     <selectionEntry id="f001-9e3c-2102-8b7d" name="Marauders Of Chaos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
+        <modifier type="remove" field="category" value="64bf-efb4-9978-26df">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e48d-fa90-46c8-0189" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fc3-ff1b-eb9b-0ae7" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caeb-32d6-b0ea-9160" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="edd1-a9db-4d73-4e6c" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4fa-8cfb-828f-4013" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
           <conditionGroups>
             <conditionGroup type="or">
@@ -4790,6 +4821,19 @@
     </selectionEntry>
     <selectionEntry id="80b1-256f-69d8-d4b2" name="Marauder Horsemen" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
+        <modifier type="remove" field="category" value="64bf-efb4-9978-26df">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e48d-fa90-46c8-0189" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fc3-ff1b-eb9b-0ae7" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caeb-32d6-b0ea-9160" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="edd1-a9db-4d73-4e6c" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4fa-8cfb-828f-4013" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
           <conditionGroups>
             <conditionGroup type="or">
@@ -4948,6 +4992,19 @@
     </selectionEntry>
     <selectionEntry id="87c2-0003-c5ec-d9d5" name="Knights of Chaos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
+        <modifier type="remove" field="category" value="64bf-efb4-9978-26df">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e48d-fa90-46c8-0189" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fc3-ff1b-eb9b-0ae7" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caeb-32d6-b0ea-9160" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="edd1-a9db-4d73-4e6c" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4fa-8cfb-828f-4013" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
           <conditionGroups>
             <conditionGroup type="or">
@@ -5132,6 +5189,19 @@
     </selectionEntry>
     <selectionEntry id="021c-b604-5538-ea7b" name="Chariot of Chaos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
+        <modifier type="remove" field="category" value="64bf-efb4-9978-26df">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e48d-fa90-46c8-0189" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fc3-ff1b-eb9b-0ae7" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="caeb-32d6-b0ea-9160" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="edd1-a9db-4d73-4e6c" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4fa-8cfb-828f-4013" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
           <conditionGroups>
             <conditionGroup type="or">
@@ -5218,15 +5288,15 @@
     </selectionEntry>
     <selectionEntry id="7dc4-fb32-003b-c289" name="Bloodletters" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5b-c7e4-909e-7c70" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="969e-8a19-b6d8-e23d" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5252-98c3-f35f-1a92" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d39b-3793-b7a0-d2be" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d1-f7cd-d942-9232" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d774-53cf-6ff3-7da7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -5238,7 +5308,7 @@
         <infoLink id="blet-magr-res1-0001" name="Magic Resistance (1)" hidden="false" targetId="da12-a0e8-30ec-6c32" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ed2e-7f0f-f607-421f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="ed2e-7f0f-f607-421f" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="3080-c586-ed19-057d" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5308,15 +5378,15 @@
     </selectionEntry>
     <selectionEntry id="eaf6-a701-f67e-7c26" name="Flesh Hounds of Khorne" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5b-c7e4-909e-7c70" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="969e-8a19-b6d8-e23d" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5252-98c3-f35f-1a92" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d39b-3793-b7a0-d2be" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d1-f7cd-d942-9232" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d774-53cf-6ff3-7da7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -5326,7 +5396,7 @@
         <infoLink id="6b84-8c68-5dee-76c1" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="122d-4070-b080-8fd0" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="122d-4070-b080-8fd0" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="4256-7a9e-2f10-32a4" name="Khorne" hidden="false" targetId="1e5a-e1dc-3591-46bc" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5349,15 +5419,15 @@
     </selectionEntry>
     <selectionEntry id="c417-3a98-07c2-08dd" name="Plague Bearers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5b-c7e4-909e-7c70" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="969e-8a19-b6d8-e23d" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5252-98c3-f35f-1a92" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d39b-3793-b7a0-d2be" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d1-f7cd-d942-9232" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d774-53cf-6ff3-7da7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -5367,7 +5437,7 @@
         <infoLink id="732d-9ec1-b584-5a04" name="Stream of Corruption" hidden="false" targetId="pb-stream-corruption-cc01" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="43d6-6434-e82c-4650" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="43d6-6434-e82c-4650" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="8302-28b7-8cb2-e621" name="Nurgle" hidden="false" targetId="de30-bd00-67a7-5a25" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5390,15 +5460,15 @@
     </selectionEntry>
     <selectionEntry id="65a1-b008-9ddc-1e1c" name="Nurglings" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5b-c7e4-909e-7c70" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="969e-8a19-b6d8-e23d" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5252-98c3-f35f-1a92" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d39b-3793-b7a0-d2be" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d1-f7cd-d942-9232" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d774-53cf-6ff3-7da7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -5410,7 +5480,7 @@
         <infoLink id="e49c-fed5-21e7-c12f" name="Cloud of Flies" hidden="false" targetId="f51e-1c83-d46b-e233" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1570-c4b5-5959-f257" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="1570-c4b5-5959-f257" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="9dce-51eb-5473-502f" name="Nurgle" hidden="false" targetId="de30-bd00-67a7-5a25" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5434,15 +5504,15 @@
     </selectionEntry>
     <selectionEntry id="3fd7-9be0-aaef-e2d1" name="Daemonettes" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5b-c7e4-909e-7c70" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="969e-8a19-b6d8-e23d" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5252-98c3-f35f-1a92" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d39b-3793-b7a0-d2be" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d1-f7cd-d942-9232" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d774-53cf-6ff3-7da7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -5451,7 +5521,7 @@
         <infoLink id="f356-bfe9-e66e-a0a7" name="Aura of Slaanesh" hidden="false" targetId="3100-3d84-f7ef-1c05" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c9b3-7a82-4772-36a7" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="c9b3-7a82-4772-36a7" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="38f1-f30b-8e99-0abc" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5474,15 +5544,15 @@
     </selectionEntry>
     <selectionEntry id="c539-4c54-33b5-47c3" name="Horrors" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5b-c7e4-909e-7c70" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="969e-8a19-b6d8-e23d" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5252-98c3-f35f-1a92" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d39b-3793-b7a0-d2be" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d1-f7cd-d942-9232" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d774-53cf-6ff3-7da7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -5491,7 +5561,7 @@
         <infoLink id="f349-687a-91f8-c383" name="Spellcasters" hidden="false" targetId="8b4e-29f4-5205-5baf" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e8a8-cfee-269f-4d67" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="e8a8-cfee-269f-4d67" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="4b98-b796-6373-daa4" name="Tzeentch" hidden="false" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5539,15 +5609,15 @@
     </selectionEntry>
     <selectionEntry id="96c1-5655-edfe-4cb8" name="Screamers of Tzeentch" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5b-c7e4-909e-7c70" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="969e-8a19-b6d8-e23d" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5252-98c3-f35f-1a92" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d39b-3793-b7a0-d2be" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d1-f7cd-d942-9232" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d774-53cf-6ff3-7da7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -5561,7 +5631,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3b5f-c19d-cb82-9d3c" name="Tzeentch" hidden="false" targetId="9f21-dc73-dcc0-cb19" primary="false"/>
-        <categoryLink id="150e-1747-c856-7484" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="150e-1747-c856-7484" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ab2a-3ab5-5eac-2f3e" name="Screamers of Tzeentch" hidden="false" collective="false" import="true" type="model">
@@ -5584,15 +5654,15 @@
     </selectionEntry>
     <selectionEntry id="bb10-bad2-e650-87ca" name="Mounted Daemonettes" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="64bf-efb4-9978-26df">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="43cc-fc3f-35a7-8d03">
-          <conditions>
-              <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daem-char-cate-0001" type="greaterThan"/>
-            </conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f5b-c7e4-909e-7c70" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="969e-8a19-b6d8-e23d" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5252-98c3-f35f-1a92" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d39b-3793-b7a0-d2be" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d1-f7cd-d942-9232" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d774-53cf-6ff3-7da7" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -5604,7 +5674,7 @@
         <infoLink id="84e3-cc31-45e9-102c" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ba35-a496-3877-c0e0" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="ba35-a496-3877-c0e0" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="d5bd-dd06-0f2a-3c2a" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
       </categoryLinks>
       <selectionEntries>
