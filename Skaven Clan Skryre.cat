@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d5e6-f7a8-b9c0-1234" name="Skaven Clan Skryre" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d5e6-f7a8-b9c0-1234" name="Skaven Clan Skryre" revision="9" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="dac3-b1cf-c897-b66e" name="Skaven army Book 2002" />
   </publications>
@@ -3537,7 +3537,7 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
       <characteristics>
         <characteristic name="Range" typeId="3107-4d1e-9a51-6564">15"</characteristic>
         <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
-        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">-2 Sv
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Armour Piercing
 Move or Fire</characteristic>
       </characteristics>
     </profile>

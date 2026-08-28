@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c3e5-1a2b-9f4d-7e8c" name="Skaven Clan Eshin" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c3e5-1a2b-9f4d-7e8c" name="Skaven Clan Eshin" revision="9" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="ce11-eshn-pub0-0001" name="Clan Eshin Supplement" />
   </publications>
@@ -3576,7 +3576,7 @@ Double 5 or double 6: BAM! The weapon builds up excessive pressure and the relea
       <characteristics>
         <characteristic name="Range" typeId="3107-4d1e-9a51-6564">15"</characteristic>
         <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
-        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">-2 Sv
+        <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Armour Piercing
 Move or Fire</characteristic>
       </characteristics>
     </profile>
