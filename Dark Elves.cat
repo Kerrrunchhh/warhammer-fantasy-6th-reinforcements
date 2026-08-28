@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="359b-8eee-bde0-4fe6" name="Dark Elves" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="359b-8eee-bde0-4fe6" name="Dark Elves" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="20b9-0ee7-8f6f-8d28" name="Dark Elves AB 2001"/>
     <publication id="2c52-52ec-0e8b-2843" name="Storm of Chaos"/>
@@ -2569,6 +2569,7 @@
         <infoLink id="khar-info-hate-0001" name="Hatred (High Elves)" hidden="false" targetId="cc26-8206-5d40-1626" type="rule"/>
         <infoLink id="khar-info-terr-0002" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
         <infoLink id="khar-info-aqua-0003" name="Aquatic" hidden="false" targetId="khar-aqua-tic0-0001" type="rule"/>
+        <infoLink id="b70f-6f7d-e6d7-e357" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
         <infoLink id="khar-info-pois-0004" name="Poisoned Attacks (Kharibdys)" hidden="false" targetId="2738-27d5-f4af-4722" type="rule"/>
         <infoLink id="khar-info-hand-0005" name="Handler" hidden="false" targetId="khar-hand-ler0-0001" type="rule"/>
         <infoLink id="khar-info-maw0-0006" name="Ravenous Maw" hidden="false" targetId="khar-rave-maw0-0001" type="rule"/>

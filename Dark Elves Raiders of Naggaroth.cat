@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a1b2-c3d4-e5f6-7abc" name="Dark Elves Raiders of Naggaroth" revision="2" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a1b2-c3d4-e5f6-7abc" name="Dark Elves Raiders of Naggaroth" revision="3" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="d82e-5e6d-5df0-8ddd" name="Dark Elves AB 2001" />
     <publication id="bcda-b53d-2fbc-be67" name="Storm of Chaos" />
@@ -2573,6 +2573,7 @@
         <infoLink id="a8cc-2475-6955-d097" name="Hatred (High Elves)" hidden="false" targetId="dc1d-558b-8bdf-d49e" type="rule" />
         <infoLink id="5608-c2a7-a8e3-6367" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="d776-1259-0fc0-cabb" name="Aquatic" hidden="false" targetId="e38c-8b50-0154-c993" type="rule" />
+        <infoLink id="3bf8-9c92-938b-1078" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
         <infoLink id="ce59-912b-6b42-87f4" name="Poisoned Attacks (Kharibdys)" hidden="false" targetId="2738-27d5-f4af-4722" type="rule" />
         <infoLink id="d8c7-9db8-f720-5bbb" name="Handler" hidden="false" targetId="6a18-9fb6-3404-d4e0" type="rule" />
         <infoLink id="4aa7-ad47-5139-2b4e" name="Ravenous Maw" hidden="false" targetId="1943-65b4-6861-6c59" type="rule" />
