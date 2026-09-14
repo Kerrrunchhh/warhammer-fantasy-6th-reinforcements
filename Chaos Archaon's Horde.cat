@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="524a-dab2-05dd-74bb" name="Chaos Archaon's Horde" revision="13" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="524a-dab2-05dd-74bb" name="Chaos Archaon's Horde" revision="14" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2023-82bc-3515-f343" name="Beasts of Chaos"/>
     <publication id="b684-4fa9-e64a-a53c" name="Hordes Of Chaos (2002)"/>
@@ -2430,7 +2430,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="hlca-lnk0-daem-0001" name="Daemonic" hidden="false" collective="false" import="true" targetId="3703-d833-6c2d-3724" type="selectionEntry"/>
+        <entryLink id="hlca-lnk0-daem-0001" name="Daemonic" hidden="false" collective="false" import="true" targetId="3703-d833-6c2d-3724" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="hlca-cons-daem-0001" type="min"/>
+          </constraints>
+        </entryLink>
         <entryLink id="hlca-lnk2-harm-0001" name="Heavy Armour (Crew)" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry"/>
       </entryLinks>
       <costs>
