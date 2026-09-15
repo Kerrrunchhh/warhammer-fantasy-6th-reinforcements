@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="524a-dab2-05dd-74bb" name="Chaos Archaon's Horde" revision="14" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="524a-dab2-05dd-74bb" name="Chaos Storm of Chaos Archaon's Horde" revision="15" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2023-82bc-3515-f343" name="Beasts of Chaos"/>
     <publication id="b684-4fa9-e64a-a53c" name="Hordes Of Chaos (2002)"/>
