@@ -1,137 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="8516-ad4a-b555-adc7" name="Dwarfs Throng of Karak Kadrin" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1fdd-7426-d516-0d75" name="Dwarfs Storm of Chaos Slayer Army of Karak Kadrin" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+  <readme>Slayer Army of Karak Kadrin Special Rules:&#10;- "Look Snorri, Trolls!": After deployment, before the first player's turn, the Slayer army surges forward. Each unit and character move directly ahead 2D6" (this ignores terrain modifiers except impassable terrain, and may only be a single move made if necessary to avoid terrain or another unit). In addition, the Slayer player may roll an additional D6 when determining who gets the first turn, discarding the lowest roll.&#10;- A Glorious Death: Keep a note of the number of models slain in close combat by enemies with a Strength and/or Toughness of 5 or more (before modifications). Each Slayer killed by such a worthy foe adds 10 Victory Points to the Slayer army's total. This includes impact hits from chariots or monsters but not the crew or riders of chariots or monsters unless they themselves are Strength or Toughness 5 or more.&#10;- Dispel Dice: A Slayer army generates four Dispel dice in the opponent's Magic phase (instead of the normal two), plus an extra Dispel die for each 1,000 points being played (+1 dice at 1,000 points, +2 dice at 2,000 points, and so on).&#10;- First Amongst Slayers: One character in the army must be nominated as the general, though Slayer characters cannot be a general in a normal Dwarf army. This must be a Daemon Slayer if the army has one.&#10;- No more than half of your Core choices may be Slayer Doomseekers.&#10;- A Slayer Hero (Dragon Slayer) may be given one Slayer Skill; a Slayer Lord (Daemon Slayer) may be given up to two Slayer Skills. Wards of Grimnir may additionally be bought for any Slayer character for +30 points; for simplicity this is modelled here as a separate purchase rather than being deducted from the character's Rune points allowance.</readme>
   <publications>
     <publication id="5d31-5485-aad4-121e" name="Dwarf Army Book 2000" />
     <publication id="c174-396f-f04b-f510" name="Storm of Chaos" />
   </publications>
   <selectionEntries>
-    <selectionEntry id="96d5-86e9-dc57-5a8b" name="Warriors" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="f51a-3459-5298-c412" name="Dwarf Warrior" hidden="false" targetId="9ebb-685a-b415-b94b" type="profile" />
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="5816-8734-5281-c748" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="799a-5dc1-8217-fa7f" name="Dwarf Warrior" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a318-8f92-8e36-fe0b" type="min" />
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f39-668a-6879-681f" type="max" />
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="7.0" />
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="43eb-4cf2-b94d-8171" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e6e-e849-8b1c-bbe9">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a5b-d4d3-35da-1784" type="max" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb0f-3174-53ec-af2d" type="min" />
-          </constraints>
-          <entryLinks>
-            <entryLink id="aa92-9fcf-b2a6-2d89" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry" />
-            <entryLink id="81e2-55ed-5c7d-25ff" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
-                  </repeats>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="f97b-8af5-5791-5e40" name="Command" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="636a-6de3-2704-11b6" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65a6-268e-b5af-8223" type="max" />
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cf94-db1c-6fa8-da17" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2669-28a2-0796-88c8" type="max" />
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c620-f061-fbef-b76e" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb54-cce9-5d6f-4706" type="max" />
-              </constraints>
-              <profiles>
-                <profile id="054f-8e4b-87a7-77e2" name="Veteran" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-                  <characteristics>
-                    <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
-                    <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
-                    <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
-                    <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
-                    <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
-                    <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
-                    <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
-                    <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
-                    <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="c35d-4692-dd7d-b18e" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c34d-c5f9-131e-5787" type="max" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6797-de71-7f54-a987" type="min" />
-          </constraints>
-        </entryLink>
-        <entryLink id="905d-a3ff-85a1-ea2b" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="2.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c7b-cfa0-3e73-f9e2" type="max" />
-          </constraints>
-        </entryLink>
-        <entryLink id="2ae3-7691-8cb7-73d9" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a75-6e4b-c684-be22" type="max" />
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-      </costs>
-    </selectionEntry>
     <selectionEntry id="87d7-72b3-a6fe-2f0a" name="Dwarf Lord" hidden="true" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="5019-3723-deec-5ebc" name="Dwarf Lord" hidden="false" targetId="a20f-111e-53c1-b5fa" type="profile" />
@@ -385,6 +259,12 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c89-65df-02de-c592" type="max" />
           </constraints>
         </entryLink>
+        <entryLink id="5372-c1d6-4225-42bf" name="Slayer Skills" hidden="false" collective="false" import="true" targetId="3cd8-28e2-1d15-e8d2" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1688-3af9-93df-3698" type="max" />
+          </constraints>
+        </entryLink>
+        <entryLink id="94cc-eef4-d8e2-8049" name="Wards of Grimnir" hidden="false" collective="false" import="true" targetId="b45a-bf69-bc6a-c1cf" type="selectionEntry" />
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="130.0" />
@@ -742,239 +622,15 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bd6-78a5-fd97-900a" type="max" />
           </constraints>
         </entryLink>
+        <entryLink id="7111-4e52-5c0a-41cd" name="Slayer Skills" hidden="false" collective="false" import="true" targetId="3cd8-28e2-1d15-e8d2" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16fb-1a7e-8f3a-8df2" type="max" />
+          </constraints>
+        </entryLink>
+        <entryLink id="1fd1-0746-8ae2-2dca" name="Wards of Grimnir" hidden="false" collective="false" import="true" targetId="b45a-bf69-bc6a-c1cf" type="selectionEntry" />
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0" />
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9bc6-e7c7-1e01-0c50" name="Crossbowmen" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="2078-7d24-1894-bc8d" name="Crossbowmen" hidden="false" targetId="9ebb-685a-b415-b94b" type="profile" />
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="6455-443f-8696-1af7" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7515-d880-9b18-d17a" name="Dwarf Crossbowmen" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e3-4bd0-355e-36c3" type="min" />
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="816b-170a-b33d-924a" type="max" />
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="eed7-de7a-16c9-a2f1" name="Command" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="32e3-e6a7-7f87-e072" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d2-7211-14a5-4c2c" type="max" />
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4852-a9b6-a5b1-3158" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e471-178e-7cdf-0ce8" type="max" />
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8c97-6fea-ab85-7b41" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6da0-c1cf-1747-2c91" type="max" />
-              </constraints>
-              <profiles>
-                <profile id="c828-7f9a-f2be-9698" name="Veteran" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-                  <characteristics>
-                    <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
-                    <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
-                    <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
-                    <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
-                    <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
-                    <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
-                    <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
-                    <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
-                    <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="319a-26bb-c285-84f6" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c232-9e40-c97c-80c7" type="max" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a9f-c02a-1c8c-247c" type="min" />
-          </constraints>
-        </entryLink>
-        <entryLink id="2cd6-9739-6d4e-9d60" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15c8-25e7-2a62-6892" type="max" />
-          </constraints>
-        </entryLink>
-        <entryLink id="cf40-4701-c486-b21f" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0592-15e9-c46b-2496" type="max" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0112-b569-0df6-c0b6" type="min" />
-          </constraints>
-        </entryLink>
-        <entryLink id="afd3-2201-8f01-4f0f" name="Crossbow" hidden="false" collective="false" import="true" targetId="4c50-49fe-7ac2-4b3b" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e35-674c-52e0-6bb7" type="min" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0db9-1cb0-7695-1f28" type="max" />
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5ad5-f10d-3e31-5c1e" name="Thunderers" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="f017-7d49-f0f8-bb0a" name="Dwarf Warrior" hidden="false" targetId="9ebb-685a-b415-b94b" type="profile" />
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="57bd-d2b9-deed-f5fe" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5e6b-a321-3158-953b" name="Thunderer" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d44d-a8bb-cc0b-064b" type="min" />
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de78-7268-8b63-bdc8" type="max" />
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0" />
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="6cda-8bc2-e513-0794" name="Command" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="ae8d-b5bd-d1b4-46b7" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d66-72bb-1562-5fb6" type="max" />
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="5.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2729-e433-2afe-96da" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2a-7a06-2dec-e638" type="max" />
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1e44-03fd-614b-b6fa" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d95a-5c8d-e987-d489" type="max" />
-              </constraints>
-              <profiles>
-                <profile id="de53-c175-d238-eb59" name="Veteran" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-                  <characteristics>
-                    <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
-                    <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
-                    <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
-                    <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
-                    <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
-                    <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
-                    <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
-                    <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
-                    <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntries>
-                <selectionEntry id="68f1-988b-d536-5d50" name="Brace of Pistols" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a75-f5ed-9aa4-c087" type="max" />
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
-                    <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                    <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="aa75-aa1f-a547-3b46" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6638-16da-0b87-2111" type="max" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb78-d5c3-1b16-c8ed" type="min" />
-          </constraints>
-        </entryLink>
-        <entryLink id="f609-b9a1-0ce4-44ae" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15c0-cd56-2ef9-97b6" type="max" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0779-4619-8905-b50d" type="min" />
-          </constraints>
-        </entryLink>
-        <entryLink id="5813-8e44-1af2-24da" name="Dwarf Handgun" hidden="false" collective="false" import="true" targetId="90bf-9a00-40f9-8eb2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ecb-cc1a-b245-e95e" type="min" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a99-9422-1df2-158e" type="max" />
-          </constraints>
-        </entryLink>
-        <entryLink id="1de2-8c11-8cf4-153c" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f98-3b0d-b099-cdf5" type="max" />
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
@@ -1201,127 +857,6 @@
               </repeats>
             </modifier>
           </modifiers>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a91f-7860-9783-c587" name="Hammerers" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ea-bb85-2ad0-370e" type="max" />
-        <constraint type="max" value="1" scope="roster" shared="true" id="kadr-hamm-max1-0001" field="selections" />
-      </constraints>
-      <infoLinks>
-        <infoLink id="ac71-b18b-ba6a-8274" name="Dwarf Elite" hidden="false" targetId="2472-3527-6926-30c5" type="profile" />
-        <infoLink id="10e8-a9fb-653e-8311" name="Bodyguard" hidden="false" targetId="e90e-5ce2-8eae-e216" type="rule" />
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="a577-c775-d818-4423" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0bc4-95d8-901a-9128" name="Hammereres" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e67-2f00-70da-3d55" type="min" />
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e620-a485-8f86-c4bd" type="max" />
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0" />
-            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="2838-3567-3bbf-3e20" name="Command" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="42dd-5a7a-ceca-a457" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e096-8b80-abe4-04a0" type="max" />
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fa38-b825-cedf-586e" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c578-472d-cec0-f006" type="max" />
-              </constraints>
-              <entryLinks>
-                <entryLink id="7500-38ab-2ef2-20a0" name="Banner Runes" hidden="false" collective="false" import="true" targetId="bc17-609d-f779-5a1f" type="selectionEntryGroup">
-                  <constraints>
-                    <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6510-72b0-b447-5a41" type="max" />
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="99f4-f9a2-4b45-0067" name="Gate Keeper" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1477-cd81-c507-dbd2" type="max" />
-              </constraints>
-              <profiles>
-                <profile id="7bd6-a37c-639c-f799" name="Gate Keeper" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-                  <characteristics>
-                    <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
-                    <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
-                    <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
-                    <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
-                    <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
-                    <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
-                    <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
-                    <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
-                    <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="410e-eee9-7344-ef4b" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b79f-ddef-a628-62a5" type="max" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8974-257b-c1ca-1134" type="min" />
-          </constraints>
-        </entryLink>
-        <entryLink id="c660-24ac-8ae1-43e8" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="ecfa-8486-4f6c-c249" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false" />
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b25-a35c-8a65-b491" type="max" />
-          </constraints>
-        </entryLink>
-        <entryLink id="ced5-c426-b948-689f" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="601b-1713-13d1-6703" type="max" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4876-9ebf-3566-be11" type="min" />
-          </constraints>
-        </entryLink>
-        <entryLink id="46b5-47fd-002d-d8a0" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b341-33b3-c188-6e0d" type="max" />
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0274-74d2-6ae7-fc71" type="min" />
-          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2073,113 +1608,46 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
-    <selectionEntry id="kadr-slyr-king-0001" name="Slayer King" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="kadr-slyr-king-0002" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true" />
-        <categoryLink id="kadr-slyr-king-0003" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false" />
-      </categoryLinks>
+    <selectionEntry id="c889-bb88-def8-b680" name="Slayer Doomseekers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8681-b868-4fdc-5789" name="Doomseeker" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">1</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">Special</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="kadr-slyr-king-0010" name="Daemon Slayer" hidden="false" targetId="e86a-bc21-a661-0f74" type="profile" />
-        <infoLink id="kadr-slyr-king-0011" name="Slayer" hidden="false" targetId="3a40-7192-4195-a1d8" type="rule" />
-        <infoLink id="kadr-slyr-king-0012" name="Loner" hidden="false" targetId="6a65-7dbc-d17d-ee7d" type="rule" />
-        <infoLink id="kadr-slyr-king-0013" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule" />
-        <infoLink id="kadr-slyr-king-0014" name="Slayer King" hidden="false" targetId="kadr-skg-rule-0001" type="rule" />
+        <infoLink id="db7a-4a2a-e708-0e4b" name="Single Model" hidden="false" targetId="f6ae-9567-f1df-c435" type="rule" />
+        <infoLink id="06a1-c3da-8016-7bcc" name="Hate Greenskins" hidden="false" targetId="6fbe-6b65-70a4-287e" type="rule" />
+        <infoLink id="a49c-4383-a05e-9f18" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule" />
+        <infoLink id="c280-4534-88ac-387d" name="Whirlwind of Death" hidden="false" targetId="97a8-a63f-0b0b-dfc0" type="rule" />
       </infoLinks>
-      <constraints>
-        <constraint type="max" value="1" scope="roster" shared="true" id="kadr-slyr-king-0004" field="selections" />
-      </constraints>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="kadr-slyr-king-0020" name="Weapons" hidden="false" collective="false" import="true">
+      <categoryLinks>
+        <categoryLink id="6b36-ca4a-f56d-f3fb" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a13f-b918-8564-7db1" name="Doomseeker" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="kadr-slyr-king-0021" field="selections" />
-          </constraints>
-          <entryLinks>
-            <entryLink id="kadr-slyr-king-0022" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0" />
-              </costs>
-            </entryLink>
-            <entryLink id="kadr-slyr-king-0023" name="Pistol" hidden="false" collective="false" import="true" targetId="44f9-f44d-d693-84f8" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0" />
-              </costs>
-            </entryLink>
-            <entryLink id="kadr-slyr-king-0024" name="Two Hand Weapons" hidden="false" collective="false" import="true" targetId="36a8-7bbb-d204-0314" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0" />
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="kadr-slyr-king-0030" name="Missile Weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="kadr-slyr-king-0031" field="selections" />
-          </constraints>
-          <entryLinks>
-            <entryLink id="kadr-slyr-king-0032" name="Crossbow" hidden="false" collective="false" import="true" targetId="4c50-49fe-7ac2-4b3b" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="15.0" />
-              </costs>
-            </entryLink>
-            <entryLink id="kadr-slyr-king-0033" name="Dwarf Handgun" hidden="false" collective="false" import="true" targetId="90bf-9a00-40f9-8eb2" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="21.0" />
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="kadr-slyr-king-0040" name="Armour" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="kadr-slyr-king-0041" field="selections" />
-          </constraints>
-          <entryLinks>
-            <entryLink id="kadr-slyr-king-0042" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0" />
-              </costs>
-            </entryLink>
-            <entryLink id="kadr-slyr-king-0043" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0" />
-              </costs>
-            </entryLink>
-            <entryLink id="kadr-slyr-king-0044" name="Gromril Armour" hidden="false" collective="false" import="true" targetId="3463-f0dc-dc41-f4d4" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="kadr-slyr-king-0050" name="Runes" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="125" scope="parent" shared="true" id="kadr-slyr-king-0051" field="ecfa-8486-4f6c-c249" />
-          </constraints>
-          <entryLinks>
-            <entryLink id="kadr-slyr-king-0052" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="d5b5-7a91-4767-de3d" type="selectionEntryGroup" />
-            <entryLink id="kadr-slyr-king-0053" name="Armour Runes" hidden="false" collective="false" import="true" targetId="8e8c-ace5-25b8-e4ce" type="selectionEntryGroup" />
-            <entryLink id="kadr-slyr-king-0054" name="Runic Talismans" hidden="false" collective="false" import="true" targetId="05c8-2f2e-d2ce-65f2" type="selectionEntryGroup" />
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="kadr-slyr-king-0060" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
-          <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="kadr-slyr-king-0061" field="selections" />
-            <constraint type="min" value="1" scope="parent" shared="true" id="kadr-slyr-king-0062" field="selections" />
-          </constraints>
-        </entryLink>
-        <entryLink id="kadr-slyr-king-0063" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
-          <constraints>
-            <constraint type="max" value="1" scope="parent" shared="true" id="kadr-slyr-king-0064" field="selections" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f61-2a2e-6a63-c6bf" type="min" />
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f76-4a4a-b6d9-4c34" type="max" />
           </constraints>
           <costs>
-            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="3.0" />
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
           </costs>
-        </entryLink>
-        <entryLink id="kadr-slyr-king-0065" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry" />
-      </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="220.0" />
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
@@ -2218,8 +1686,369 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
+    <selectionEntry id="42ac-c38c-a459-e92f" name="Garagrim Ironfist" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4adb-076f-6911-4b2d" name="Garagrim Ironfist" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ccf0-2891-4843-4730" name="Vampireslayer" hidden="false" targetId="7dcc-beec-4402-b597" type="rule" />
+        <infoLink id="e6da-676e-40aa-e12f" name="Beastslayer" hidden="false" targetId="0bfe-0b92-2c1a-5962" type="rule" />
+        <infoLink id="e87a-75df-4019-7b5e" name="Deathblow" hidden="false" targetId="b063-df75-935a-1956" type="rule" />
+        <infoLink id="aa41-7f72-ecbe-89df" name="Axes of Kadrin" hidden="false" targetId="5f1f-44ab-07ae-d4d4" type="rule" />
+        <infoLink id="ed2f-bd7b-d724-a0ca" name="The War-mourner" hidden="false" targetId="01ec-d487-874c-f110" type="rule" />
+        <infoLink id="6bef-1ce5-014b-f586" name="Slayer" hidden="false" targetId="3a40-7192-4195-a1d8" type="rule" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7e76-c196-c1aa-84bc" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true" />
+        <categoryLink id="68f0-0ec4-64b1-7f24" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="305.0" />
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10d8-4f4a-7e63-d447" name="Malakai Makaisson's Goblin-Hewer" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c62f-15a4-84c7-8f2b" type="max" />
+      </constraints>
+      <profiles>
+        <profile id="5348-a614-946d-e9ab" name="Malakai" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">5</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="aa84-9718-f01c-7c09" name="Crewman" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="102c-0853-8748-66c8" name="Goblin-hewer" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3107-4d1e-9a51-6564">48"</characteristic>
+            <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
+            <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Save modifier -2. See the Goblin-hewer special rule for its unique method of resolving hits.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de7d-263a-c58e-7f6b" name="Repeating Dwarf Handgun" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3107-4d1e-9a51-6564">24"</characteristic>
+            <characteristic name="Strength" typeId="6fe4-1ebb-cb04-1378">4</characteristic>
+            <characteristic name="Special Rules" typeId="a21a-cdc0-4b13-b236">Multiple Shots (3). Armour piercing (so -2 save). Dwarf Hanguns get a +1 to hit at short range.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7d6a-1c1c-9f6a-be1c" name="War machines" hidden="false" targetId="f9f4-4ab2-8b24-8433" type="profile" />
+        <infoLink id="73ed-fe79-0c03-8677" name="Great Weapon" hidden="false" targetId="97d4-ed3b-5f76-5a23" type="profile" />
+        <infoLink id="9803-cac6-7d57-56c6" name="Slayer" hidden="false" targetId="3a40-7192-4195-a1d8" type="rule" />
+        <infoLink id="0444-4518-49aa-c9ec" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule" />
+        <infoLink id="9d09-abd9-cc0d-0c68" name="Slayers (Goblin-hewer)" hidden="false" targetId="0c61-9286-b2cf-0f19" type="rule" />
+        <infoLink id="7233-bcef-839f-1a6f" name="Engineer" hidden="false" targetId="d7be-0a43-eec9-e99e" type="rule" />
+        <infoLink id="a68e-e859-5cd5-8a80" name="Goblin-hewer" hidden="false" targetId="0acb-7837-d358-bb04" type="rule" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9f02-8241-e839-efe4" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8f1d-49b3-26c9-dff1" name="Malakai" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d4c-1a2e-9d3f-6b71" type="min" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e5d-2b3f-0e40-7c82" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c7d4-9b49-b744-7d79" name="Slayer Crew" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f6e-3c40-1f51-8d93" type="min" />
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a7f-4d51-2062-9ea4" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="009d-a086-45a1-e5f8" name="Goblin-hewer" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b80-5e62-3173-a0b5" type="min" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c91-6f73-4284-b1c6" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="130.0" />
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19d1-f448-45b6-3895" name="Brotherhood of Grimnir" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9694-8702-7564-227c" name="Brother of Grimnir" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a233-589e-83fe-353a" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule" />
+        <infoLink id="d0f1-2c3e-4a5b-6d7f" name="Slayer" hidden="false" targetId="3a40-7192-4195-a1d8" type="rule" />
+        <infoLink id="9bfa-6f6c-c98f-68b1" name="Wards of Grimnir" hidden="false" targetId="69ef-47f3-0160-6ff2" type="rule" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b251-db6c-fb1f-eb22" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e1a2-b3c4-d5e6-f708" name="Command" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="bcd5-fd45-fd70-4c39" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1a2-b3c4-d5e6-f809" type="max" />
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="6.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="728d-dcff-39cc-45a3" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b3-c4d5-e6f7-0910" type="max" />
+              </constraints>
+              <entryLinks>
+                <entryLink id="b3c4-d5e6-f708-1a2b" name="Banner Runes" hidden="false" collective="false" import="true" targetId="bc17-609d-f779-5a1f" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4d5-e6f7-0819-2b3c" type="max" />
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d5e6-f708-1a2b-3c4d" name="Brotherhood unit" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6f7-0819-2b3c-4d5e" type="max" />
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f708-1920-3c4d-5e6f" type="min" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5c6a-8274-c9eb-bf8b" name="Brother of Grimnir" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="14.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3d6f-3757-162e-84d4" name="Giant Slayer" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0819-2a3b-4c5d-6e7f" name="Giant Slayer" hidden="false" targetId="3e52-cb3c-7db8-0801" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="13.0" />
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a7a-7863-8c2c-8e7c" name="Long Drong's Slayer Pirates" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a3b-5c7d-9e0f-2a4b" type="max" />
+      </constraints>
+      <profiles>
+        <profile id="0916-2126-3467-f31c" name="Drong" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c689-0bfa-c87e-65de" name="Slayer Pirate" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ba88-d9f5-4a04-8918" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule" />
+        <infoLink id="8115-3602-4be6-0bfc" name="Slayer" hidden="false" targetId="3a40-7192-4195-a1d8" type="rule" />
+        <infoLink id="24d5-39ad-ddf9-4998" name="Festooned with Pistols" hidden="false" targetId="fb6f-90b3-47b5-f63a" type="rule" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6acb-9e46-b21b-b22f" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true" />
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3caa-7c60-d355-b450" name="Drong" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b4c-6d8e-0f1a-3b5c" type="min" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c5d-7e9f-1a2b-4c6d" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7a3a-3b62-fafd-7648" name="Slayer Pirate" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d6e-8f0a-2b3c-5d7e" type="min" />
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e7f-9a1b-3c4d-6e8f" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3d88-7150-1dd3-b137" name="Additional Slayer Pirate" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f8a-0b2c-4d5e-7f9a" type="max" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="195.0" />
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <rules>
+    <rule id="fb6f-90b3-47b5-f63a" name="Festooned with Pistols" hidden="false">
+      <description>All the Pirates, including Long Drong, gain an additional Attack because they are fighting with a pistol in each hand. Since they are festooned with pistols that they shoot off in a hurricane of destruction, all of their attacks are considered to be Strength 4, with Armour Piercing. The Pirates carry so many pistols that they never need to reload and therefore always count the pistol bonuses in every round of combat.</description>
+    </rule>
+    <rule id="f94a-39cd-999b-0ff0" name="Dragonslayer" publicationId="c174-396f-f04b-f510" page="64" hidden="false">
+      <description>Slayer Skill. The number of Attacks the Slayer has is multiplied by the number of enemy models in base contact, up to a maximum of 10 (this may not be further increased with an additional hand weapon, Runes, etc). There is no effect if the Slayer is involved in a challenge.</description>
+    </rule>
+    <rule id="4ba2-7c4d-33e3-f4bf" name="Daemonslayer" publicationId="c174-396f-f04b-f510" page="64" hidden="false">
+      <description>Slayer Skill. The number of Attacks the Slayer has is multiplied by the number of enemy models in base contact, up to a maximum of 10 (this may not be further increased with an additional hand weapon, Runes, etc). There is no effect if the Slayer is involved in a challenge.</description>
+    </rule>
+    <rule id="74f3-dd0e-89cf-cc0c" name="MASTER RUNE OF GRIMNIR" publicationId="c174-396f-f04b-f510" page="64" hidden="false">
+      <description>Runic Standard. Forged only by the Runesmiths of Karak Kadrin, the Rune of Grimnir projects an aura of Dwarfishness that is so strong it can deflect arrows and even cannonballs! Any friendly unit within 12" of the standard gains a 5+ Ward save against any ranged attack.</description>
+    </rule>
+    <rule id="69ef-47f3-0160-6ff2" name="Wards of Grimnir" hidden="false">
+      <description>Some Slayers are covered in protective tattoos that ward away enemy magic. They have Magic Resistance (1), which can also be used on any spell cast by a wizard within 6" or targetted within 6" of the model.</description>
+    </rule>
+    <rule id="0c61-9286-b2cf-0f19" name="Slayers (Goblin-hewer)" hidden="false">
+      <description>Malakai and his companions are Slayers and follow all the normal rules for Slayers. Note that in a Slayer army, the Goblin-hewer ignores the "Look Snorri, Trolls!" rule.</description>
+    </rule>
+    <rule id="d7be-0a43-eec9-e99e" name="Engineer" hidden="false">
+      <description>Although seriously deranged and sworn to the Slayer oath, Malakai is still a formidable expert in black powder, mechanics and construction. He follows all of the rules for a normal Dwarf Engineer. However, he is part of the crew and must stay with the Goblin-hewer just like any other war machine crew member.</description>
+    </rule>
+    <rule id="0acb-7837-d358-bb04" name="Goblin-hewer" hidden="false">
+      <description>This is a war machine for all purposes. When it fires, nominate a target unit within range and Line of Sight and roll to hit as normal (using Malakai's BS if he is still alive and not firing his repeating handgun). The spinning axe blades inflict a variable number of hits depending on the number of ranks in the target unit. Roll a D3 for every rank the target has, this is the total number of rolls to Wound you should make. If the Goblin-hewer is in the flank arc of a unit, then the number of models in the widest rank is counted as the number of 'ranks' for this purpose. For example, a unit four ranks deep that is hit by the Goblin-hewer takes 4D3 hits. If it were six models wide and hit in the flank, it would suffer 6D3 hits. Casualties are allocated just like normal shooting hits. If firing at a single model or skirmishers, or other target that does not use ranks, it inflicts D3 hits.
+
+The Goblin-hewer is affected by loss of crew in the same way as a Bolt Thrower.</description>
+    </rule>
+    <rule id="f6ae-9567-f1df-c435" name="Single Model" publicationId="c174-396f-f04b-f510" page="64" hidden="false">
+      <description>Slayer Doomseekers are independent models, which move as single characters on foot and can only be targeted using the Shooting at Characters rules. Note that they are not characters in any other sense.</description>
+    </rule>
+    <rule id="6fbe-6b65-70a4-287e" name="Hate Greenskins" publicationId="c174-396f-f04b-f510" page="64" hidden="false">
+      <description>Like all Dwarfs, Doomseekers hate Orcs and Goblins, despite normally being Unbreakable and therefore Immune to Psychology.</description>
+    </rule>
+    <rule id="97a8-a63f-0b0b-dfc0" name="Whirlwind of Death" publicationId="c174-396f-f04b-f510" page="64" hidden="false">
+      <description>Doomseekers plough recklessly into the enemy, whirling their weapons madly around their heads. They do not attack normally in close combat. Instead, before any attacks are made (even if the enemy charged, and including chariot impact hits and other special attacks that always go first) every enemy model in base contact with one or more Doomseekers takes an automatic hit. Other enemy touching one or more models in base contact with a Doomseeker each take a hit on a roll of a 4+. Resolve rolls to wound and so on as usual. Survivors may attack the Doomseeker as normal, except that his whirling blades always mean the enemy are at -1 to hit.
+
+Against units consisting of only a single model (including mounted monsters and chariots) the Doomseeker inflicts D3 automatic hits on each such unit in contact.</description>
+    </rule>
+    <rule id="7dcc-beec-4402-b597" name="Vampireslayer" publicationId="c174-396f-f04b-f510" page="63" hidden="false">
+      <description>Slayer Skill. Against enemies with Toughness 5 or higher, any unsaved wound inflicted by the Slayer becomes D6 wounds.</description>
+    </rule>
+    <rule id="0bfe-0b92-2c1a-5962" name="Beastslayer" publicationId="c174-396f-f04b-f510" page="63" hidden="false">
+      <description>Slayer Skill. Each wound inflicted by the Slayer counts double towards that round's Combat Resolution (excluding Wounds from Overkill in a challenge).</description>
+    </rule>
+    <rule id="b063-df75-935a-1956" name="Deathblow" publicationId="c174-396f-f04b-f510" page="63" hidden="false">
+      <description>Slayer Skill. If the slayer is killed in close combat, he immediately makes all his attacks before being removed as a casualty (even if he has already attacked that round).</description>
+    </rule>
+    <rule id="5f1f-44ab-07ae-d4d4" name="Axes of Kadrin" publicationId="c174-396f-f04b-f510" page="63" hidden="false">
+      <description>Chained to Garagrim's wrists so he will never lose them, these twin axes were given to him by his father on his coming-of-age. Each is inscribed with a Grudge Rune and the Master Rune of Skalf Blackhammer.
+
+If you wish, when Garagrim makes a charge he may attack like a Doomseeker rather than normally (including the effects of the axes' runes and his Slayer skills).
+
+In subsequent rounds he can only attack normally, though he gains one extra attack for carrying the paired axes, as noted in his profile. He makes his normal attacks for the purposes of Deathblow.</description>
+    </rule>
+    <rule id="01ec-d487-874c-f110" name="The War-mourner" publicationId="c174-396f-f04b-f510" page="63" hidden="false">
+      <description>As War-mourner, it is Garagrim's duty to tend the Shrine of Grimnir, allowing him to open up the temple's store of ancient rune axes left as tribute by Slayers making a pilgrimage to Karak Kadrin.
+
+Giant Slayers in an army led by Garagrim may be given a single weapon rune worth no more than 25 points. The Rule of Pride still applies to these weapons.
+
+Remember that a model with a rune axe loses the normal benefits of a great weapon or additional hand weapon.</description>
+    </rule>
     <rule id="9f89-743a-7907-73c7" name="Axe of Dargo" publicationId="5d31-5485-aad4-121e" hidden="false">
       <description>Magic Weapon. This is inscribed with the Master Rune of Smiting. Any enemy wounded by the Axe of Dargo (after saves, etc), loses not one wound but D6 wounds. In addition, it bears a Rune of Parrying which means that one model in base contact (chosen by the Dwarf player) loses 1 Attack in close combat. This has no effect against special attacks, such as a Night Goblin Fanatic, or a Treeman's Tree Whack.</description>
     </rule>
@@ -2243,6 +2072,19 @@
     </rule>
   </rules>
   <sharedSelectionEntries>
+    <selectionEntry id="b45a-bf69-bc6a-c1cf" name="Wards of Grimnir" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d436-b6eb-5108-574f" type="max" />
+      </constraints>
+      <infoLinks>
+        <infoLink id="3ca8-e611-1606-b2e4" name="Wards of Grimnir" hidden="false" targetId="69ef-47f3-0160-6ff2" type="rule" />
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="30.0" />
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+      </costs>
+    </selectionEntry>
     <selectionEntry id="0537-99c2-811f-3dd4" name="RUNE OF FIRE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ef-f732-4408-f550" type="max" />
@@ -2852,6 +2694,20 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
+    <selectionEntry id="26c8-11fa-a942-d7b2" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfef-bd83-14ba-c996" type="max" />
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2d7-d664-ed32-2851" type="max" />
+      </constraints>
+      <infoLinks>
+        <infoLink id="785d-5d84-43ed-639a" name="MASTER RUNE OF GRIMNIR" hidden="false" targetId="74f3-dd0e-89cf-cc0c" type="rule" />
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0" />
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+      </costs>
+    </selectionEntry>
     <selectionEntry id="9fd8-44de-9b66-22cc" name="MASTER RUNE OF KINGSHIP " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9269-9562-4b3a-a704" type="max" />
@@ -3043,6 +2899,88 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3cd8-28e2-1d15-e8d2" name="Slayer Skills" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="f17a-0a5b-cb42-b7e8" name="Deathblow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f6-b7fe-1aa3-5861" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="8907-9ac4-ccdc-62d3" name="Deathblow" hidden="false" targetId="b063-df75-935a-1956" type="rule" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0b7b-0853-9171-4434" name="Killing Blow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20f8-fe50-f34e-1e29" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="90ec-b80e-edbf-a48f" name="Killing Blow" hidden="false" targetId="e08e-1c7b-a667-f05b" type="rule" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fd41-6e92-c6c3-8bfb" name="Beastslayer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92a6-3275-d72c-a7c8" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="59f0-f57b-f8fd-3c00" name="Beastslayer" hidden="false" targetId="0bfe-0b92-2c1a-5962" type="rule" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3a69-de97-11d2-664b" name="Vampireslayer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fcd-feb5-b914-be77" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="45aa-ee85-8fe5-2c69" name="Vampireslayer" hidden="false" targetId="7dcc-beec-4402-b597" type="rule" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3d43-414a-5d60-bdae" name="Dragonslayer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f471-d16e-0a8f-afc0" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="e64f-1e6a-4032-eb35" name="Dragonslayer" hidden="false" targetId="f94a-39cd-999b-0ff0" type="rule" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34b2-2e72-49c2-ab18" name="Daemonslayer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a13e-24f0-fade-630b" type="max" />
+          </constraints>
+          <infoLinks>
+            <infoLink id="eb3f-7af8-906a-8b0d" name="Daemonslayer" hidden="false" targetId="4ba2-7c4d-33e3-f4bf" type="rule" />
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="80.0" />
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
     <selectionEntryGroup id="d5b5-7a91-4767-de3d" name="Weapon Runes" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8113-7e0f-a9c0-2932" type="max" />
@@ -3119,6 +3057,7 @@
             <entryLink id="5677-f624-8632-8337" name="MASTER RUNE OF VALAYA " hidden="false" collective="false" import="true" targetId="1f68-1826-e850-5bbc" type="selectionEntry" />
             <entryLink id="0dc4-3287-7b1d-2040" name="MASTER RUNEOF STIROMNI REDBEARD" hidden="false" collective="false" import="true" targetId="b4fd-cca1-513c-a874" type="selectionEntry" />
             <entryLink id="4587-8ed8-376d-e096" name="MASTER RUNEOF GROTH ONE-EYE" hidden="false" collective="false" import="true" targetId="ad6a-5ae1-61c4-f36f" type="selectionEntry" />
+            <entryLink id="ad53-4ce1-4b02-deac" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="71de-7d22-276d-e85a" name="Minor Rune" hidden="false" collective="false" import="true">

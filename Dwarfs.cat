@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a7f1-dab9-5345-4db2" name="Dwarfs" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a7f1-dab9-5345-4db2" name="Dwarfs" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="6265-1d51-76e2-4fe2" name="Dwarf Army Book 2000" />
+    <publication id="9208-1c76-af8c-c05c" name="Storm of Chaos" />
   </publications>
   <selectionEntries>
     <selectionEntry id="854e-2332-3c9f-5eda" name="Warriors" hidden="false" collective="false" import="true" type="unit">
@@ -2068,8 +2069,54 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
+    <selectionEntry id="d6bb-7aac-8a03-30fc" name="Ungrim Ironfist" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2144-9709-fef1-6fdb" name="Ungrim Ironfist" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">7</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="781e-e686-d906-7773" name="Axe of Dargo" hidden="false" targetId="37cb-2c18-f20a-be14" type="rule" />
+        <infoLink id="8d33-621b-f57a-c7ff" name="The Slayer Crown" hidden="false" targetId="a2ee-1d9c-c8b5-a9da" type="rule" />
+        <infoLink id="5534-15cf-958f-8255" name="Dragon Cloak" hidden="false" targetId="59b3-fec7-929a-9065" type="rule" />
+        <infoLink id="3ef3-d14c-3646-9d68" name="Slayer King" hidden="false" targetId="056f-ecf5-468a-6f22" type="rule" />
+        <infoLink id="59ea-222d-3543-2918" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7bcf-2e27-fc05-6d34" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true" />
+        <categoryLink id="3080-53c7-b856-9952" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false" />
+        <categoryLink id="6bf3-9cea-ccda-aa24" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="465.0" />
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <rules>
+    <rule id="37cb-2c18-f20a-be14" name="Axe of Dargo" publicationId="6265-1d51-76e2-4fe2" hidden="false">
+      <description>Magic Weapon. This is inscribed with the Master Rune of Smiting. Any enemy wounded by the Axe of Dargo (after saves, etc), loses not one wound but D6 wounds. In addition, it bears a Rune of Parrying which means that one model in base contact (chosen by the Dwarf player) loses 1 Attack in close combat. This has no effect against special attacks, such as a Night Goblin Fanatic, or a Treeman's Tree Whack.</description>
+    </rule>
+    <rule id="a2ee-1d9c-c8b5-a9da" name="The Slayer Crown" publicationId="6265-1d51-76e2-4fe2" hidden="false">
+      <description>Magic Armour. This bears a Rune of Fortitude (+1 Wound) and a Rune of Stone (increasing his Armour save to 3+).</description>
+    </rule>
+    <rule id="59b3-fec7-929a-9065" name="Dragon Cloak" publicationId="6265-1d51-76e2-4fe2" hidden="false">
+      <description>Talisman. The Dragon Cloak bears the Master Rune of Spite (4+ Ward save), a Rune of the Furnace (immune to fire attacks) and a Rune of Luck (one re-roll per battle).</description>
+    </rule>
+    <rule id="056f-ecf5-468a-6f22" name="Slayer King" publicationId="9208-1c76-af8c-c05c" page="62" hidden="false">
+      <description>As Slayer King, Ungrim is bound by the Slayer Oath. He benefits from the Slayer special rule Hates Greenskins and is Unbreakable. The other Slayer rules do not apply.</description>
+    </rule>
     <rule id="ea43-a0b7-193c-7837" name="Ancestral Grudge" publicationId="6265-1d51-76e2-4fe2" page="6" hidden="false">
       <description>Dwarfs hold grudges for a long time. Possibly forever They have never forgiven the fall of their strongholds at the hands of the Orcish enemy. Dwarfs hate all types of Orcs, Goblins and Snotlings. including Night Goblins, Black Orcs, hobgoblins.. in fact all greenskins of any description!</description>
     </rule>
