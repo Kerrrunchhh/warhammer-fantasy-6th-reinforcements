@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78a7-5b1c-5d75-4e97" name="Orcs and Goblins" revision="14" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78a7-5b1c-5d75-4e97" name="Orcs and Goblins" revision="16" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7dda-637b-31ad-951c" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000"/>
   </publications>
@@ -3977,6 +3977,193 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ed1b-bb4a-2f06-c611" name="Grimgor Ironhide" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="eda1-20f8-35cb-af89" name="Grimgor Ironhide" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">8</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">2</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="86d7-f3e5-b745-91ef" name="Gitsnik" hidden="false" targetId="9d08-1b5d-1d33-dc11" type="rule"/>
+        <infoLink id="6553-a043-7eff-dfe3" name="Blood-forged Armour" hidden="false" targetId="c72d-3dd7-d17a-06fb" type="rule"/>
+        <infoLink id="276b-adbb-36b2-ec04" name="Mork's All-seeing Eye" hidden="false" targetId="1f13-3c22-2a99-ea20" type="rule"/>
+        <infoLink id="1bca-3f31-b491-41fc" name="Ignore Greenskin Panic" hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
+        <infoLink id="06ec-e547-a1d7-2933" name="Quell Animosity" hidden="false" targetId="0f2a-c100-8eb9-7490" type="rule"/>
+        <infoLink id="7f35-2b7b-409c-103e" name="Hatred" hidden="false" targetId="1e6c-d634-a65c-78eb" type="rule"/>
+        <infoLink id="80ff-fbf3-9404-6391" name="He's da Boss" hidden="false" targetId="c6f8-dd2d-163f-cb36" type="rule"/>
+        <infoLink id="48bd-da1f-1910-e825" name="Awesome Fighter" hidden="false" targetId="f839-6ebe-7136-facf" type="rule"/>
+        <infoLink id="5d7a-9f35-52ee-09cf" name="Bodyguard (Orcs &amp; Goblins)" hidden="false" targetId="bc05-275e-c16e-1ceb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ce95-e2e9-30fb-b4db" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink id="0a2c-f320-0fa4-c0a1" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="2316-3fdf-68c9-8261" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3ac8-6a52-9f5c-0ab9" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e35-f32a-7f95-99f4" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="400.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="934b-b6a6-b12f-7441" name="Grimgor's Bodyguard" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f120-7dee-0a75-c62a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="183f-4b72-f4de-01fc" name="Black Orcs" hidden="false" targetId="c41b-0ab6-06d7-4975" type="profile"/>
+        <infoLink id="1276-a471-07fc-cea0" name="Choppa" hidden="false" targetId="578c-5190-79c8-ea5c" type="profile"/>
+        <infoLink id="c724-85eb-473b-52a9" name="Additional Hand weapon" hidden="false" targetId="72aa-da68-2dae-4ab6" type="profile"/>
+        <infoLink id="8e9e-1d42-01c9-ba57" name="Heavy Armour" hidden="false" targetId="3dd5-f228-98a7-453a" type="profile"/>
+        <infoLink id="e785-ccda-f5e6-c46f" name="Ignore Greenskin Panic" hidden="false" targetId="47bc-b420-0136-87a8" type="rule"/>
+        <infoLink id="8065-f0ec-abde-8234" name="Quell Animosity" hidden="false" targetId="0f2a-c100-8eb9-7490" type="rule"/>
+        <infoLink id="9dc9-9b4d-e139-ce12" name="Hatred" hidden="false" targetId="1e6c-d634-a65c-78eb" type="rule"/>
+        <infoLink id="c5c2-0f97-cba0-a0c6" name="Bodyguard (Orcs &amp; Goblins)" hidden="false" targetId="bc05-275e-c16e-1ceb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6f89-0e43-1953-f27f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ec72-2682-5198-0761" name="Black Orc" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d2-f207-af59-2267" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ad-bca8-242b-59bc" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2d10-a41a-14f6-5c56" name="Additional Black Orc" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7215-4522-92b6-80ba" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="13.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="67f5-f3c3-f3fc-2d9d" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9400-cd89-5e1b-260b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ea-d0d5-6cf8-1862" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="048c-9c8c-6469-1cda" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60fc-fa52-71aa-8aa8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="347f-0e0f-7647-3124" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="087b-e9b5-8292-a00a" name="Blasted Banner" hidden="false" targetId="e331-3c94-9d35-c1a7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="200.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02f6-c7be-8da1-8f20" name="Wurrzag" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="df44-a9c2-bc9d-01da" name="Wurrzag" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f8ea-6278-40ec-a6b3" name="Spleenrippa" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">7</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0df8-58a4-3f7f-9042" name="Baleful Mask" hidden="false" targetId="ac48-43ce-01b2-ab25" type="rule"/>
+        <infoLink id="cdc0-640e-9eeb-1637" name="Wizzbang the Power Squig" hidden="false" targetId="22dc-b271-06af-13c1" type="rule"/>
+        <infoLink id="f639-33d4-c1f8-d1e9" name="Bonewood Staff" hidden="false" targetId="35d1-ccab-ea50-d92c" type="rule"/>
+        <infoLink id="0eb6-fb0f-3460-7825" name="Frenzy" hidden="false" targetId="ab5d-dda1-bffc-a027" type="rule"/>
+        <infoLink id="a598-c40d-b9e6-41d5" name="Mork's Favourite" hidden="false" targetId="6735-95f7-0550-cc94" type="rule"/>
+        <infoLink id="cebd-563f-adf6-cc89" name="Warpaint" hidden="false" targetId="e8d6-cd4a-7353-54a7" type="rule"/>
+        <infoLink id="5a71-d6a8-d2a8-aeec" name="Tastes Bad" hidden="false" targetId="a8f7-f42d-c69b-dc88" type="rule"/>
+        <infoLink id="5a29-2f5d-ecce-052b" name="Bring out the Git" hidden="false" targetId="32d1-af26-094d-ec88" type="rule"/>
+        <infoLink id="d46d-f7db-2751-0a78" name="Tusker Charge" hidden="false" targetId="40e3-6e99-0185-5d0d" type="rule"/>
+        <infoLink id="7439-e8a0-e106-96fe" name="Thick-skinned" hidden="false" targetId="aaec-0fbd-25d4-17ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f683-225d-0fb0-2948" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink id="d672-2608-a5e8-3cb1" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="34c3-8f6f-9830-c76c" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6143-b302-0f1d-1665" name="Show Spells" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2c0-4c73-7290-3823" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ef86-6c81-13f5-0ac9" name="LittleWaaagh" hidden="false" collective="false" import="true" targetId="b7e2-ab17-22cd-10b6" type="selectionEntryGroup"/>
+            <entryLink id="e843-cd2f-e91a-83a4" name="Big Waaagh" hidden="false" collective="false" import="true" targetId="6566-3982-6715-5d45" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4baa-5df7-cd0b-578a" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="500.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="faf0-2158-5450-f8ef" name="Orc Boar Boyz" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -7735,6 +7922,51 @@ Choose up to one unit allowed in the army to upgrade to Beatins and pay the appr
     </rule>
     <rule id="0f2a-c100-8eb9-7490" name="Quell Animosity" hidden="false">
       <description>Quell Animosity: Black Orcs do not test for Animosity. Furthermore, the stem scowls and menacing sneers of the Black Orcs are so threatening that a unit which fails an Animosity test when led by a Black Orc character, or within 6&quot; of a Black Orc character or unit, will ignore the roll and must immediately roll again. If this second roll is also failed then even the menacing presence of the Black Ores can&apos;t keep the greenskins in order, and a roll on the Animosity table is taken as usual. If the Black Orcs are fleeing then they cannot quell Animosity in other units nearby.</description>
+    </rule>
+    <rule id="9d08-1b5d-1d33-dc11" name="Gitsnik" publicationId="7dda-637b-31ad-951c" hidden="false">
+      <description>Magic Weapon.&#10;&#10;This large and blood spattered axe, whose name simply means "foe killer", has many charms and pouches chained to its haft. These contain powerful sorceries woven by mighty Orc Shamans that enable Grimgor to wield Gitsnik with blurring speed.&#10;&#10;The axe Gitsnik gives Grimgor +2 Strength. In addition, Grimgor always strikes first.</description>
+    </rule>
+    <rule id="c72d-3dd7-d17a-06fb" name="Blood-forged Armour" publicationId="7dda-637b-31ad-951c" hidden="false">
+      <description>Magic Armour.&#10;&#10;Battered, scarred and twisted, just like its wearer, the Blood-forged Armour has served Grimgor well in many battles.&#10;&#10;Gives Grimgor a 1+ Armour save and a 5+ Ward save.</description>
+    </rule>
+    <rule id="1f13-3c22-2a99-ea20" name="Mork's All-seeing Eye" publicationId="7dda-637b-31ad-951c" hidden="false">
+      <description>Talisman.&#10;&#10;This small but potent artefact hangs from Grimgor's armour, the spoils from a victorious head-butting contest with Mork himself (Grimgor claims). Through this talisman Mork watches over Grimgor and protects him from enemy spells.&#10;&#10;The Eye gives Magic Resistance (1) to Grimgor and his Bodyguard.</description>
+    </rule>
+    <rule id="c6f8-dd2d-163f-cb36" name="He's da Boss" publicationId="7dda-637b-31ad-951c" page="67" hidden="false">
+      <description>This model must be your General, regardless of the Leadership value of any other characters in your army.</description>
+    </rule>
+    <rule id="f839-6ebe-7136-facf" name="Awesome Fighter" publicationId="7dda-637b-31ad-951c" page="67" hidden="false">
+      <description>Grimgor fights with a bloodthirsty and merciless efficiency that is all but unstoppable. Consequently, if Grimgor is still alive at the end of a close combat round in which he fought, add +2 to the combat resolution of his unit in addition to all normal bonuses. However, if this bonus applies then such is his foes' rush to put as much distance as possible between themselves and the rampaging monster, that enemy units which do break and flee will move 3D6&quot; regardless of their normal Movement rate. If they fail to rally, subsequent flee moves will be at their normal rate.</description>
+    </rule>
+    <rule id="bc05-275e-c16e-1ceb" name="Bodyguard (Orcs &amp; Goblins)" publicationId="7dda-637b-31ad-951c" page="67" hidden="false">
+      <description>Grimgor is always accompanied by a Bodyguard of equally scarred and grizzled Black Orc veterans from his days in the wastes. He may not leave this unit. The following rules apply.&#10;&#10;The Bodyguard must be at least 9 models strong, not counting Grimgor. The points for the first 9 models are included in the cost above. Up to 10 more Black Orcs may be added to the Bodyguard at a cost of +13 points per additional model.&#10;&#10;The Bodyguard is equipped with choppas, additional hand weapons and heavy armour.&#10;&#10;The Bodyguard has a Musician.&#10;&#10;The Bodyguard has a Standard Bearer who carries the magical Blasted Banner. The unit carried this all the way from the Blasted Wastes and they're not going to lose it now! The Bodyguard (and Grimgor) is Stubborn whilst they retain the banner.&#10;&#10;The Bodyguard is in addition to the one unit of Black Orcs you are normally allowed in your army. This means that an army led by Grimgor may have up to two units of Black Orcs in total.&#10;&#10;No characters, except Grimgor, may join his Bodyguard. Grimgor may not leave it.&#10;&#10;When setting up a game, Grimgor and his Bodyguard deploy at the same time as other characters.</description>
+    </rule>
+    <rule id="e331-3c94-9d35-c1a7" name="Blasted Banner" publicationId="7dda-637b-31ad-951c" page="67" hidden="false">
+      <description>Magic Standard.&#10;&#10;This banner accompanied Grimgor's Bodyguard all the way from the Blasted Wastes and they're not going to lose it now.&#10;&#10;While the Bodyguard retains the Blasted Banner, the Bodyguard (and Grimgor, if he is with them) are Stubborn.</description>
+    </rule>
+    <rule id="ac48-43ce-01b2-ab25" name="Baleful Mask" publicationId="7dda-637b-31ad-951c" hidden="false">
+      <description>Talisman.&#10;&#10;Through the Baleful Mask Wurrzag can see things as they will be in the future, or possibly as they were in the past. But it is a glorious age, whenever it is, and this is the promise that The Once And Future Git brings - a return to this great time when Orcs rule the world and there is always a good fight in the offing. The mask also has the useful ability to launch lethal green bolts of energy at people who annoy him.&#10;&#10;Bound Spell. Power Level 3. The Mask contains a Gaze of Mork spell which works exactly as described in the Waaagh! Magic section. This may be cast once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the Mask itself.</description>
+    </rule>
+    <rule id="22dc-b271-06af-13c1" name="Wizzbang the Power Squig" publicationId="7dda-637b-31ad-951c" hidden="false">
+      <description>Arcane Item.&#10;&#10;A Squig sits on the top of the Bonewood Staff, glaring hatefully at everyone. It is small and furry with long hair that stands on end when it's full of Waaagh! energy, which is most of the time.&#10;&#10;At the end of either player's Magic phase, Wurrzag may store up to two unused dice from his pool in the Power Squig. In the next Magic phase these are released and added to the pool in addition to those he would normally have.</description>
+    </rule>
+    <rule id="35d1-ccab-ea50-d92c" name="Bonewood Staff" publicationId="7dda-637b-31ad-951c" hidden="false">
+      <description>Enchanted Item.&#10;&#10;This was carved many centuries ago from rare and precious bonewood. It is a potent focus for Waaagh! energy and is often used for Orc magic items.&#10;&#10;Bound Spell. Power Level 4. The staff contains a spell which turns Wurrzag's foes into Squigs. This may be cast once per Magic phase like an ordinary spell. The spell requires no Power dice to cast, all the power required is provided by the Staff itself.&#10;&#10;A whirling green mist surrounds one enemy model who is in base contact (obviously this means Wurrzag can use it on models in close combat). The victim, his mount (unless a monster) and all his equipment are immediately turned into Squigs. Replace the enemy model with a loose Squig and immediately bounce him away as per the normal rules. If the enemy model was mounted on a steed that only has 1 Wound then replace it with two Squigs and bounce them off separately. As usual, the Squigs don't attack units when they start bouncing, just where they land.&#10;&#10;Wurrzag spent far too much time alone in the jungle to be very tolerant of others, especially other Shamans. Before the armies are deployed, roll 1D6 for each Shaman in the army apart from Wurrzag. On the roll of a 2-6 they are fine and take part as normal. On the roll of a 1 that Shaman has annoyed Wurrzag and been turned into a Squig. The Shaman is lost along with any magic items he was carrying. However, if you have a Night Goblin Squig Herd in your army you may add +1 extra free Cave Squig to the unit for each Shaman that gets on the wrong end of Wurrzag's temper.</description>
+    </rule>
+    <rule id="6735-95f7-0550-cc94" name="Mork's Favourite" publicationId="7dda-637b-31ad-951c" page="69" hidden="false">
+      <description>Wurrzag is a Level 4 Wizard and may generate his spells from either or both the Little Waaagh! and the Big Waaagh!, just like any other Level 4 Shaman. Being Mork's current favourite, Wurrzag adds +1 to the casting total of each spell he attempts. Also he cannot Miscast. If he rolls a double 1 the spell fails and he loses any dice stored in his Squig, but is otherwise unharmed.</description>
+    </rule>
+    <rule id="a8f7-f42d-c69b-dc88" name="Tastes Bad" publicationId="7dda-637b-31ad-951c" page="69" hidden="false">
+      <description>Creatures that would normally attack Orcs on sight usually give Wurrzag a wide berth.&#10;&#10;An enemy mount or monster may only make half its normal number of Attacks (rounded down) when in base contact with Wurrzag - even if its Attacks are not directed at him.</description>
+    </rule>
+    <rule id="32d1-af26-094d-ec88" name="Bring out the Git" publicationId="7dda-637b-31ad-951c" page="69" hidden="false">
+      <description>Some say that the Git's asleep under the hills, but Wurrzag's still looking anyway. Because of this he won't act as General for your army unless he is the only character. How can he judge their qualities of leadership if he doesn't let them lead?</description>
+    </rule>
+    <rule id="40e3-6e99-0185-5d0d" name="Tusker Charge" publicationId="7dda-637b-31ad-951c" page="12" hidden="false">
+      <description>A charging boar is a bad-tempered mount of bloody-minded muscle and bone with pointy tusks, sharp teeth and appalling breath. The impact of this slavering beast is just as impressive as a fully armoured knight with a lance. A charging Boar therefore receives a Strength bonus, of +2, giving it a Strength value of 5 during the turn in which it charges. Obviously this bonus applies to the Boar and not to its rider.</description>
+    </rule>
+    <rule id="aaec-0fbd-25d4-17ba" name="Thick-skinned" publicationId="7dda-637b-31ad-951c" page="12" hidden="false">
+      <description>Models with this special have thick scaly skin or hide, which acts like armour and makes them difficult to injure. A model riding a creature with this special rules counts +2 to his Armour save instead of the normal +1 for being mounted.</description>
     </rule>
     <rule id="9d06-d305-182a-2eb9" name="Hate Dwarfs" hidden="false">
       <description>Night goblins hate their subterrenan rivals dwarfs. When fighting dwarfs they may reroll any miss to hit in cc.</description>
