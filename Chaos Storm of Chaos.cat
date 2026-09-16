@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb0a-ac83-dda4-3a7f" name="Chaos Storm of Chaos" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb0a-ac83-dda4-3a7f" name="Chaos Storm of Chaos" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f9ef-d7a7-691e-342d" name="Beasts of Chaos"/>
     <publication id="1ac9-f049-e5bc-60f0" name="Hordes Of Chaos (2002)"/>
@@ -2623,6 +2623,93 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="210.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b66-7396-659b-be94" name="Archaon Lord of the End of Times" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="495e-9a45-4b18-c995" name="Archaon Lord of the End of Times" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">9</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">5</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">7</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">5</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e0d8-ee25-1ba9-acc0" name="Dorghar" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d0f6-4cf8-89c4-b326" name="Magic Resistance (2)" hidden="false" targetId="df8d-7c05-c47b-9cd6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="49f5-465e-2e97-14ab" name="New CategoryLink" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink id="84fa-8885-9a78-cca6" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="48b3-69b2-0cdd-1d6e" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="d955-45b5-3ea8-8fac" name="Chaos Undivided" hidden="false" targetId="2d89-fe8e-1938-2b45" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d65a-22cc-ee69-6f02" name="Level 2 Sorcer of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d654-724b-5ad3-5015" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a5-eca1-9033-02e5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="2.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="1.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="54b2-7066-9a10-9a3a" name="Nurgles resistance to attacks" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec0-2877-f3a1-c8e1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d844-433f-f4d8-62f5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="fb13-7243-a978-233b" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <modifiers>
+            <modifier type="remove" field="category" value="d81a-4ac5-07ae-038d">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88e0-2361-0d21-10cf" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="4cb8-b960-7fe9-bc3d">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88e0-2361-0d21-10cf" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="c765-207f-62d1-2677" name="Mortal General" hidden="false" targetId="d81a-4ac5-07ae-038d" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="855.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
