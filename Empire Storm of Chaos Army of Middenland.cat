@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e911-dc85-88aa-940b" name="Empire Storm of Chaos Army of Middenland" revision="10" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e911-dc85-88aa-940b" name="Empire Storm of Chaos Army of Middenland" revision="11" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Huntsmen do not count towards the MINIMUM core choice.</readme>
   <publications>
     <publication id="aecb-710a-1314-8b8d" name="Empire Army Book 2000"/>
@@ -3901,139 +3901,8 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8627-1b9d-d59f-719d" name="Valten, Exalted of Sigmar" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="4215-ad05-514d-bcbd" name="Valten, Exalted of Sigmar" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-          <characteristics>
-            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
-            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">7</characteristic>
-            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">5</characteristic>
-            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
-            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
-            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
-            <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
-            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
-            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="b0ae-f9e8-3e1b-c79e" name="Althandin" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-          <characteristics>
-            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">9</characteristic>
-            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
-            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
-            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
-            <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
-            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
-            <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
-            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
-            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="152d-f611-416c-8d2e" name="Ghal Maraz" hidden="false" targetId="a463-45db-a705-3160" type="rule"/>
-        <infoLink id="9751-5678-dfc1-3aca" name="Armour of the Heldenhammer" hidden="false" targetId="9155-de55-efe3-43ab" type="rule"/>
-        <infoLink id="bf8b-8c57-f5c8-1de5" name="Against the Odds" hidden="false" targetId="5452-6651-981f-3819" type="rule"/>
-        <infoLink id="47b4-d34b-ca2d-2a33" name="Awesome Presence" hidden="false" targetId="89fb-0f2b-7c88-6613" type="rule"/>
-        <infoLink id="6aa7-ecb4-7d2a-21dd" name="Iron Resolve" hidden="false" targetId="9a38-9bb3-902b-1d3c" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="74d8-be26-0251-4d17" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
-        <categoryLink id="a015-129c-71b5-0b75" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
-        <categoryLink id="fbb1-ddc8-4459-7be9" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="548b-c0cd-2ec4-cb5c" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="560.0"/>
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e9ff-b26d-1a08-09df" name="Karl Franz" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="2b1d-c78c-fd20-cdff" name="Karl Franz" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-          <characteristics>
-            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
-            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
-            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">5</characteristic>
-            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
-            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
-            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
-            <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
-            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
-            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="5c70-b515-6a28-ec9f" name="Deathclaw" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-          <characteristics>
-            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
-            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
-            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
-            <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
-            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
-            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">4</characteristic>
-            <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
-            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
-            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="7ca0-ca3b-147f-660a" name="Full Plate Armour" hidden="false" targetId="4f66-d904-1a19-1887" type="rule"/>
-        <infoLink id="def6-1a52-a8ce-e2c2" name="The Silver Seal" hidden="false" targetId="e733-4302-5d91-c57a" type="rule"/>
-        <infoLink id="2dce-fbde-420f-1602" name="Leader of Men" hidden="false" targetId="043e-c382-84e9-dc71" type="rule"/>
-        <infoLink id="16ba-502b-d9e9-34c1" name="The Reiksguard" hidden="false" targetId="1719-5fb4-b8ff-8e22" type="rule"/>
-        <infoLink id="3514-f40a-2c36-379b" name="Deathclaw" hidden="false" targetId="12c3-afae-83af-a8cd" type="rule"/>
-        <infoLink id="67eb-bb22-e37d-803f" name="Fly" hidden="false" targetId="e930-0b71-2fef-3937" type="rule"/>
-        <infoLink id="0dfa-21ac-e444-5e0f" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
-        <infoLink id="03b2-e77e-87f5-025d" name="Cause Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="2d0c-9e91-30ce-94b9" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
-        <categoryLink id="159c-1dbe-3edb-5783" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
-        <categoryLink id="0e63-f07f-0b76-2e50" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="eac8-8a43-752f-3a90" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3b60-80e6-c2d9-6860">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c7a-2c77-8f70-fa8a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf1b-213c-b763-af11" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="3b60-80e6-c2d9-6860" name="Runefang" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="564b-5052-8905-30af" name="Runefang" hidden="false" targetId="4aca-5d0e-f171-2a63" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c39a-fc34-c1e4-2e80" name="Ghal Maraz" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="4841-30d1-966a-7908" name="Ghal Maraz" hidden="false" targetId="a463-45db-a705-3160" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
-                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6957-b3ec-6c0f-39d8" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="665.0"/>
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
-      </costs>
-    </selectionEntry>
+    
+    
     <selectionEntry id="5b5a-59c4-220f-9fae" name="Boris Todbringer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="96cf-a7f4-8932-ec84" name="Boris Todbringer" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -4070,46 +3939,7 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a3bb-0496-f923-92ff" name="Ar-Ulric Emil Valgeir" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="9e5d-7c09-c3e6-acb9" name="Ar-Ulric Emil Valgeir" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
-          <characteristics>
-            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
-            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
-            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
-            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
-            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
-            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
-            <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
-            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
-            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="be85-61e3-0c32-ea1d" name="Hammer-axe of Skoll" hidden="false" targetId="d882-8cc5-0c1d-c998" type="rule"/>
-        <infoLink id="4d6e-8131-5322-b099" name="Wolfplate Armour" hidden="false" targetId="89e4-08fc-b31a-091a" type="rule"/>
-        <infoLink id="96cd-6496-33e6-72d2" name="Ice Dagger" hidden="false" targetId="106e-7b0e-17e6-a9ec" type="rule"/>
-        <infoLink id="87bb-142e-c884-de3e" name="Fang of the Winter Wolf" hidden="false" targetId="f5ae-618f-da61-4c7b" type="rule"/>
-        <infoLink id="53fb-c322-a310-e66a" name="Blessing of Ulric" hidden="false" targetId="ca1d-a61e-9760-18d6" type="rule"/>
-        <infoLink id="9b74-599e-e95d-4535" name="Crush the Weak" hidden="false" targetId="6137-2dc8-79d7-41af" type="rule"/>
-        <infoLink id="30d7-90a2-db2a-158d" name="Prayers of Ulric" hidden="false" targetId="811f-8521-ca3d-d4c5" type="rule"/>
-        <infoLink id="5691-22f0-c42a-f89b" name="Favour of the Winter Wolf" hidden="false" targetId="eb5b-28ba-c16f-444c" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="f9d3-ef96-6f04-62f1" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
-        <categoryLink id="081d-35fb-09f1-6002" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
-        <categoryLink id="b0c8-8101-4a51-7813" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="2352-5ffe-d0dd-7533" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="325.0"/>
-        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
-        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="4.0"/>
-      </costs>
-    </selectionEntry>
+    
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="5108-36f5-070c-e277" name="Imperial Banner" hidden="false" collective="false" import="true" type="upgrade">
