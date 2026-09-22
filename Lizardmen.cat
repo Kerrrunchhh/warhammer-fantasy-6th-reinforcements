@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d21b-c434-a940-4035" name="Lizardmen" revision="10" battleScribeVersion="2.03" authorName="Thomas Saxon and Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d21b-c434-a940-4035" name="Lizardmen" revision="11" battleScribeVersion="2.03" authorName="Thomas Saxon and Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen 2003"/>
   </publications>
@@ -3855,7 +3855,7 @@ The spell lasts until the start of the caster&apos;s next Magic phase.</descript
       <description>All friendly units with the Cold-Blooded special rule within 6&quot; of one or more Solar Apparatuses gain +1 Initiative (maximum 10). Additionally, the Solar Apparatus may be activated as a Level 4 magical item during the Magic phase: it functions as a magical missile with a range of 24&quot;, dealing D6 hits, Strength 3+D3, with the Flaming Attacks special rule.</description>
     </rule>
     <rule id="bast-skin-driv-0001" name="Skink-Driven" hidden="false">
-      <description>The Bastiladon and its Skinks are treated as a single model with a shared profile, similar to a war chariot.</description>
+      <description>The Bastiladon is crewed by 3 Skinks. The Bastiladon and its Skinks are treated as a single model with a shared profile, similar to a war chariot.</description>
     </rule>
     <rule id="bast-impe-defe-0001" name="Impenetrable Defence" hidden="false">
       <description>In the Combat phase, the Bastiladon is treated as having no flanks or rear when calculating combat resolution modifiers. Enemy units attacking the Bastiladon in the flank or rear gain no bonus to the combat result.</description>
