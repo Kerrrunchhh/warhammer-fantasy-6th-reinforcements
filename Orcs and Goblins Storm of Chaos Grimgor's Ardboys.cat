@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b9ee-6e98-8803-a9cd" name="Orcs and Goblins Storm of Chaos Grimgor's Ardboys" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Grimgor's 'Ardboyz Special Rules:&#10;- The army may include Grimgor Ironhide as its General. It may also include Borgut Facebeater. If Grimgor is not present then Borgut will be the General. If neither are present then the General must be a Black Orc Warboss or Orc Warboss. If no Lord choices are allowed (because of the maximum points being played) then the General must be a Black Orc Big Boss or Orc Big Boss.&#10;- Black Orc Warbosses and Black Orc Big Bosses only count as a further Hero choice if they have a mount of any type.&#10;- There must be more Warbosses and Bigbosses in the army, including Grimgor and Borgut, than there are Great Shamans and Shamans.&#10;- Grimgor is only interested in getting the biggest, strongest, hurtiest Orcs in his army. Consequently, any number of units of Orc Boyz or Orc Boar Boyz can be upgraded to Big 'Uns.&#10;- Note: Grimgor's Bodyguard may be armed with additional hand weapons or with great weapons, as you wish.</readme>
+<catalogue id="b9ee-6e98-8803-a9cd" name="Orcs and Goblins Storm of Chaos Grimgor's Ardboys" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Grimgor's 'Ardboyz Special Rules:&#10;- The army may include Grimgor Ironhide as its General. It may also include Borgut Facebeater. If Grimgor is not present then Borgut will be the General. If neither are present then the General must be a Black Orc Warboss or Orc Warboss. If no Lord choices are allowed (because of the maximum points being played) then the General must be a Black Orc Big Boss or Orc Big Boss.&#10;- Black Orc Warbosses and Black Orc Big Bosses only count as a further Hero choice if they have a mount of any type.&#10;- There must be more Warbosses and Bigbosses in the army, including Grimgor and Borgut, than there are Great Shamans and Shamans.&#10;- Grimgor is only interested in getting the biggest, strongest, hurtiest Orcs in his army. Consequently, any number of units of Orc Boyz or Orc Boar Boyz can be upgraded to Big 'Uns, and any number of units of Orc Boar Boyz (including Big 'Uns) count as Core choices rather than Special.&#10;- Note: Grimgor's Bodyguard may be armed with additional hand weapons or with great weapons, as you wish.</readme>
   <publications>
     <publication id="e8ac-7f46-4a66-abc7" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000"/>
     <publication id="6a38-dd15-24b8-18db" name="Storm of Chaos"/>
@@ -1876,7 +1876,7 @@
         <infoLink id="49c0-b894-4bed-d810" name="Tuskar Charge" hidden="false" targetId="0767-fb78-daa9-9637" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0adb-2b53-9c59-6185" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="0adb-2b53-9c59-6185" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="b071-fd69-1911-6042" name="Boar Boyz" hidden="false" targetId="9187-6fae-f9cb-5d8b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2458,7 +2458,7 @@
         <infoLink id="87c7-33a1-530f-7f16" name="Tuskar Charge" hidden="false" targetId="0767-fb78-daa9-9637" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0234-0ca0-9eb5-a590" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="0234-0ca0-9eb5-a590" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f0ba-c9ea-ba54-9a62" name="Orc Boar Boyz" hidden="false" collective="false" import="true" type="model">
