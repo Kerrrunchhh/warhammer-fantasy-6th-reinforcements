@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e911-dc85-88aa-940b" name="Empire Storm of Chaos Army of Middenland" revision="11" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Huntsmen do not count towards the MINIMUM core choice.</readme>
+<catalogue id="e911-dc85-88aa-940b" name="Empire Storm of Chaos Army of Middenland" revision="13" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Huntsmen do not count towards the MINIMUM core choice.
+
+Tzarina Katarin, the Ice Queen (not mechanically enforced in BattleScribe - apply manually on the tabletop): Katarin counts as a single Lord choice and must be fielded exactly as described here. She must be the Allied Contingent's commander and may not purchase any additional equipment or magic items. If you field the Tzarina Katarin, you may not field Tzar Boris. Her Protectors of the Khan-queen rule (waiving the 0-1 restriction on Gryphon Legion units if she leads the Allied Contingent) has no effect in this catalogue, since Kislevite allied units are not modeled here.
+
+Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply manually on the tabletop): Boris counts as a single Lord choice and must be fielded exactly as described here. He must be the Allied Contingent's commander and may not purchase any additional equipment or magic items. If you field Boris Ursus, you may not field the Tzarina Katarin. His Kin of the Bear God rule (letting Kossar units be marked as Kin of the Bear God for +30pts/unit, gaining +1 Attack on the turn they charge) has no effect in this catalogue, since Kislevite allied units are not modeled here.</readme>
   <publications>
     <publication id="aecb-710a-1314-8b8d" name="Empire Army Book 2000"/>
     <publication id="432f-3b9d-ab7e-da50" name="Warhammer Chronicles 2004"/>
@@ -3939,7 +3943,106 @@
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
       </costs>
     </selectionEntry>
-    
+    <selectionEntry id="487e-11e3-f743-a38a" name="Tzarina Katarin, the Ice Queen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cdf1-7792-ed9f-b224" name="Tzarina Katarin, the Ice Queen" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="404f-1f7c-1396-430d" name="Warhorse" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">8</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">3</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">3</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">1</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="82a1-e87b-6782-de47" name="Ice Magic" hidden="false" targetId="e035-fe6c-eb3b-288c" type="rule"/>
+        <infoLink id="b77a-02fd-5c0d-f40c" name="Beloved of Kislev" hidden="false" targetId="4c98-72b7-6828-4ad4" type="rule"/>
+        <infoLink id="2319-69b1-2109-43d6" name="Fearfrost" hidden="false" targetId="1a5e-7be8-ed07-34fa" type="rule"/>
+        <infoLink id="8e5b-e2f2-96b4-c906" name="Crystal Cloak" hidden="false" targetId="ed65-40d6-e8a2-bbed" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="94b7-8079-2832-d1d0" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink id="9fc9-21a5-51b2-3ade" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="9d4e-04f4-d844-4726" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="90ea-4420-0d46-96cb" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="495.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="4.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5081-44ae-e88f-d594" name="Boris Ursus, the Red Tzar" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1337-6e04-4e44-56bd" name="Boris Ursus, the Red Tzar" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">4</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">3</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="61c4-7403-ca49-47e7" name="Urskin" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">6</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">5</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">3</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">4</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3637-6886-5d58-fa58" name="Armour of Ursus" hidden="false" targetId="b085-cb62-8625-f558" type="rule"/>
+        <infoLink id="7211-c643-b6e2-dc10" name="Shard Blade" hidden="false" targetId="b688-774f-cf22-efad" type="rule"/>
+        <infoLink id="fdf2-1ece-fc2c-00f1" name="Winter Coat" hidden="false" targetId="4510-9e24-edf4-d5bf" type="rule"/>
+        <infoLink id="5b19-172e-75e9-d1a4" name="Thunder of Ursun" hidden="false" targetId="d688-c8b6-a5c1-7da6" type="rule"/>
+        <infoLink id="2465-bdc4-9f43-a93c" name="Fury of Ursun" hidden="false" targetId="b202-66ed-f9bc-b624" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0408-8860-bbbc-70b1" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true"/>
+        <categoryLink id="a549-74fb-712d-d103" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false"/>
+        <categoryLink id="b4a8-92ba-00a5-46ae" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="17ca-3386-e2b4-0ff1" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="375.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="5108-36f5-070c-e277" name="Imperial Banner" hidden="false" collective="false" import="true" type="upgrade">
@@ -6059,6 +6162,33 @@ Misfire Table — 1: BOOM! The battery explodes, remove as a casualty. 2: Oops! 
     </rule>
     <rule id="eb5b-28ba-c16f-444c" name="Favour of the Winter Wolf" publicationId="daf6-2f5c-15ad-02b9" page="43" hidden="false">
       <description>Ar-Ulric's divinely granted powers are greater than any other priest of Ulric. He adds two Dispel dice to his army's dice pool rather than one. He may use two Prayers in each Magic phase, although he may only use each Prayer once successfully. Finally, his Remains in Play prayers are not ended when he attempts to use another prayer. Such prayers will remain in play until they are dispelled, he attempts the same prayer again, is slain, or ends it himself (which he may do at any time). This means that Ar-Ulric may maintain more than one Remains in Play prayer at a time.</description>
+    </rule>
+    <rule id="e035-fe6c-eb3b-288c" name="Ice Magic" hidden="false">
+      <description>Katarin is a Level 4 Wizard and may only use Ice Magic (see p.32).</description>
+    </rule>
+    <rule id="4c98-72b7-6828-4ad4" name="Beloved of Kislev" hidden="false">
+      <description>The people of Kislev are utterly devoted to the Tzarina and would gladly lay down their lives for her. Any Kislevite unit joined by the Tzarina becomes Stubborn, and all Kislevite units within 12&quot; of the Tzarina may re-roll failed Psychology tests.</description>
+    </rule>
+    <rule id="1a5e-7be8-ed07-34fa" name="Fearfrost" hidden="false">
+      <description>Forged by the ancient Khan-queen Miska of the Gospodars, this blade has passed from Tzarina to Tzarina through the ages. Only a Tzarina can wield the blade, and were a man to lift the blade, he would find himself frozen to death within a heartbeat. The blade is infused with Ice Magic and the intense cold can kill with a single scratch.&#10;Fearfrost grants the Tzarina the Killing Blow special skill. Models wounded, but not killed outright, by Fearfrost receive no saving throw, but may take Ward saves as normal.</description>
+    </rule>
+    <rule id="ed65-40d6-e8a2-bbed" name="Crystal Cloak" hidden="false">
+      <description>A swirling mist of dancing ice crystals surrounds the Tzarina, warding off the most serious of injuries and confounding her foes&apos; attempts to strike her.&#10;The Crystal Cloak grants the Tzarina a 4+ Ward save. In addition, all attacks directed against the Tzarina in close combat suffer a -1 to both the To Hit and To Wound dice.</description>
+    </rule>
+    <rule id="b085-cb62-8625-f558" name="Armour of Ursus" hidden="false">
+      <description>Forged on the Spring Equinox, one of the holiest days of the cult of Ursun, the powdered bones of a score of the mightiest bears were mixed with the steel of the armour before it was quenched in the finest mead. This suit of armour is imbued with the power and might of Ursun himself and those who wear it feel his power coursing through their veins.&#10;The Armour of Ursus counts as full plate (4+ Armour save). In addition, for each hit caused by his enemies in close combat, the Tzar may make an additional attack back after his enemies&apos; attacks have been resolved (assuming he&apos;s still alive)! He may make these bonus attacks even if he has already attacked that phase.</description>
+    </rule>
+    <rule id="b688-774f-cf22-efad" name="Shard Blade" hidden="false">
+      <description>Boris carries a mighty pole-arm with a blade crafted from ice hewn from the glaciers of Norsca, and magically bound by the ice wizards of Kislev to remain forever frozen. When using the Shard Blade, Boris strikes a foe, shards of ice water enter their veins and freeze their blood.&#10;When using the Shard Blade, Boris adds +2 to his Strength. In addition, any models who suffer a wound (after saving throws, etc) must take an immediate Toughness test. If this test is failed, they suffer an additional wound, with no Armour or Ward save possible. Remember, a roll of a 6 is always a failure, no matter the Toughness of the opponent.</description>
+    </rule>
+    <rule id="4510-9e24-edf4-d5bf" name="Winter Coat" hidden="false">
+      <description>Urskin is swathed in thick layers of winter fat and muscle, that protect him from the worst excesses of Kislev&apos;s harsh weather and the blows of his enemies. As a result he counts as having a 5+ Armour save.</description>
+    </rule>
+    <rule id="d688-c8b6-a5c1-7da6" name="Thunder of Ursun" hidden="false">
+      <description>Urskin the bear causes fear.</description>
+    </rule>
+    <rule id="b202-66ed-f9bc-b624" name="Fury of Ursun" hidden="false">
+      <description>The ferocity of Urskin is such that should a unit fighting him break, he must always pursue it regardless of the wishes of his rider.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
