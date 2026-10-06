@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="35" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="42" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -3950,7 +3950,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </entryLink>
-            <entryLink id="7ce1-11bd-c76d-5455" name="Hero of Slaanesh" hidden="false" collective="false" import="true" targetId="f0ee-970e-9ef8-d511" type="selectionEntry">
+            <entryLink id="7ce1-11bd-c76d-5455" name="Exalted Daemon of Slaanesh" hidden="false" collective="false" import="true" targetId="372c-9f25-bf52-53e3" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="65cc-32f2-faa7-dca2" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
               </categoryLinks>
@@ -5445,6 +5445,7 @@
         <infoLink id="e698-a8ac-4993-4d31" name="Mount of Slaanesh" hidden="false" targetId="57d5-34b6-94f5-2a03" type="profile"/>
         <infoLink id="8aea-0927-6615-eacd" name="Tongue Attack" hidden="false" targetId="d63d-9043-54ca-3d2e" type="rule"/>
         <infoLink id="84e3-cc31-45e9-102c" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
+        <infoLink id="c3a4-eac6-3cf5-9c55" name="Steeds Attack First" hidden="false" targetId="csla-stee-frst-0001" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ba35-a496-3877-c0e0" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
@@ -6918,6 +6919,7 @@
         <infoLink id="csla-daem-aura-0001" name="Daemonic Aura" hidden="false" targetId="3c43-59c1-6cb0-968d" type="rule"/>
         <infoLink id="csla-inst-abl0-0001" name="Instability" hidden="false" targetId="a0d2-6889-1ee2-4626" type="rule"/>
         <infoLink id="csla-stee-info-0001" name="Steeds attack first" hidden="false" targetId="csla-stee-frst-0001" type="rule"/>
+        <infoLink id="2d97-4324-936e-8090" name="Aura of Slaanesh" hidden="false" targetId="3100-3d84-f7ef-1c05" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="csla-cate-rare-0001" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
@@ -9002,10 +9004,22 @@
       </constraints>
       <infoLinks>
         <infoLink id="00ca-bbb4-d716-48e2" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="1f38-654e-e6c5-caf1" name="Aura of Slaanesh" hidden="false" targetId="3100-3d84-f7ef-1c05" type="rule"/>
+        <infoLink id="d43c-5d77-0643-b248" name="Tongue Attack" hidden="false" targetId="d63d-9043-54ca-3d2e" type="rule"/>
+        <infoLink id="c76a-6742-f831-81c1" name="Swift Steed" hidden="false" targetId="3ea2-f57d-f016-c081" type="rule"/>
+        <infoLink id="855c-63df-27ec-781d" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="26ae-222e-2383-5fe9" name="Slaanesh" hidden="false" targetId="9333-d169-d123-1353" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="2ce6-4f7b-16ce-0c93" name="Daemonic" hidden="false" collective="false" import="true" targetId="43bc-8eed-eda4-a622" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99d-20c2-206b-ab8c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="710d-78bb-6a55-42de" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -10822,13 +10836,13 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors 
       <description>The daemon is a Level 2 Sorcerer</description>
     </rule>
     <rule id="43a7-ce3c-d1a9-fd18" name="Exalted Daemon of Slaanesh" hidden="false">
-      <description>Always strikes first in combat. If opponent also has ASF then Iniative</description>
+      <description>The Exalted Daemon always strikes first in close combat. If its opponent also has the ability to always strike first then resolve their attacks in normal Initiative order.</description>
     </rule>
     <rule id="e494-e243-d722-44df" name="Exalted Daemon of Nurgle" hidden="false">
       <description>+1 Wound</description>
     </rule>
     <rule id="d63d-9043-54ca-3d2e" name="Tongue Attack" hidden="false">
-      <description>Attacks from the mount count as poisoned attacks. In addition the mount always strikes first in combat. If both combatants have this ability then Initiative order. These rules are for the mount only, not the rider.</description>
+      <description>The barbed tongue of the mount secretes an oily venom, a single drop of which can drive a man insane with delusions before killing him. Attacks from the mount count as Poisoned Attacks.</description>
     </rule>
     <rule id="cygo-rock-hurl-0001" name="Rock Hurling" hidden="false">
       <description>The Cygor can hurl massive rocks. Resolve this ranged attack as if it were a catapult attack, but with no minimum range and with the ability to move and shoot (however, it may not march and shoot).
@@ -10927,6 +10941,9 @@ It has no effect on war machines (though it does affect their crew), buildings (
     </rule>
     <rule id="a99e-34b4-b3a8-8e59" name="The Way of the Warrior" publicationId="1509-2c54-30d2-ba45" page="15" hidden="false">
       <description>The Conqueror is supremely skilled in many styles of fighting, be it with sword and axe, or sword and shield.&#10;&#10;With his sword and axe, Crom is a whirlwind of destruction, his attacks striking with such power that his opponents are torn apart by the storm of blows. If Crom fights with a sword and axe then he gains +1 Attack for an additional hand weapon as normal. In addition, if he fights with a sword and axe in a challenge, Crom may make an additional attack for each wounding hit he makes (before saving throws).&#10;&#10;Crom uses his shield expertly, forcing his opponent back and blocking any attempt to launch an attack. If Crom fights with sword and shield he gets the normal +1 to his Armour save for using a hand weapon and shield. In addition, if he fights with sword and shield in a challenge, any special rules applying to Crom&apos;s opponent&apos;s weapon are completely nullified; in other words his opponents always count as using a single hand weapon regardless of their actual equipment. This applies to both magical and mundane equipment.</description>
+    </rule>
+    <rule id="3ea2-f57d-f016-c081" name="Swift Steed" hidden="false">
+      <description>Mounted Daemonettes count as Fast Cavalry. In addition, because of its preternatural dexterity, the mount always strikes first in close combat even against a charging enemy. If an opponent has the same ability, resolve the strikes in Initiative order – if these are the same, roll a D6 to see who strikes first. Note that this ability applies only to the mount, not to the Daemonette rider.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

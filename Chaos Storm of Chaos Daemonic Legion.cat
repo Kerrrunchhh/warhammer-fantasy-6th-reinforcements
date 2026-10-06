@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8655-d57d-f63c-f32b" name="Chaos Storm of Chaos Daemonic Legion" revision="24" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8655-d57d-f63c-f32b" name="Chaos Storm of Chaos Daemonic Legion" revision="30" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ed82-f525-0c96-f762" name="Beasts of Chaos"/>
     <publication id="d92d-a390-6548-f302" name="Hordes Of Chaos (2002)"/>
@@ -749,7 +749,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </entryLink>
-            <entryLink id="a95b-e63a-be49-206a" name="Hero of Slaanesh" hidden="false" collective="false" import="true" targetId="3391-9bdb-7297-52a3" type="selectionEntry">
+            <entryLink id="a95b-e63a-be49-206a" name="Exalted Daemon of Slaanesh" hidden="false" collective="false" import="true" targetId="e6cd-33af-a027-afbc" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="c835-334b-bf7b-4bc5" name="Slaanesh" hidden="false" targetId="d8a3-992d-b69a-3331" primary="false"/>
               </categoryLinks>
@@ -2552,6 +2552,7 @@
         <infoLink id="b10e-01f8-cbe8-722f" name="Daemonic Aura" hidden="false" targetId="111e-b780-c059-f139" type="rule"/>
         <infoLink id="7303-a38b-7272-e240" name="Instability" hidden="false" targetId="eea9-3861-f447-da23" type="rule"/>
         <infoLink id="438a-152f-7b79-16ba" name="Steeds attack first" hidden="false" targetId="62fc-cfd0-e539-2fe0" type="rule"/>
+        <infoLink id="fbfd-0159-a81f-cad9" name="Aura of Slaanesh" hidden="false" targetId="eb5e-ec03-8e9b-2c07" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0584-0dfe-7979-583b" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
@@ -4585,10 +4586,22 @@
       </constraints>
       <infoLinks>
         <infoLink id="64ee-688f-1a7a-477f" name="Immune to Psychology " hidden="false" targetId="ff2b-8db6-64fa-e9ca" type="rule"/>
+        <infoLink id="cdfd-b6ca-044d-d157" name="Aura of Slaanesh" hidden="false" targetId="eb5e-ec03-8e9b-2c07" type="rule"/>
+        <infoLink id="9f83-eb07-6777-d79e" name="Tongue Attack" hidden="false" targetId="c430-c6fb-401d-3870" type="rule"/>
+        <infoLink id="82c4-3c32-d53f-a7f4" name="Swift Steed" hidden="false" targetId="1778-e4b7-dc30-cc96" type="rule"/>
+        <infoLink id="2232-7296-d693-32f8" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4076-c623-617e-e23c" name="Slaanesh" hidden="false" targetId="d8a3-992d-b69a-3331" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="5a52-cbbd-f15e-7359" name="Daemonic" hidden="false" collective="false" import="true" targetId="87af-8ecc-b046-3b4d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e4-4a12-c1ec-d6ce" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b304-06ef-c93e-b400" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -6434,13 +6447,13 @@ Each enemy slain by this spell is turned into a Horror and added to the Horrors 
       <description>The daemon is a Level 2 Sorcerer</description>
     </rule>
     <rule id="101d-1901-cfd2-7429" name="Exalted Daemon of Slaanesh" hidden="false">
-      <description>Always strikes first in combat. If opponent also has ASF then Iniative</description>
+      <description>The Exalted Daemon always strikes first in close combat. If its opponent also has the ability to always strike first then resolve their attacks in normal Initiative order.</description>
     </rule>
     <rule id="aa4e-787a-6f38-7541" name="Exalted Daemon of Nurgle" hidden="false">
       <description>+1 Wound</description>
     </rule>
     <rule id="c430-c6fb-401d-3870" name="Tongue Attack" hidden="false">
-      <description>Attacks from the mount count as poisoned attacks. In addition the mount always strikes first in combat. If both combatants have this ability then Initiative order. These rules are for the mount only, not the rider.</description>
+      <description>The barbed tongue of the mount secretes an oily venom, a single drop of which can drive a man insane with delusions before killing him. Attacks from the mount count as Poisoned Attacks.</description>
     </rule>
     <rule id="6a86-242a-d835-faef" name="Rock Hurling" hidden="false">
       <description>The Cygor can hurl massive rocks. Resolve this ranged attack as if it were a catapult attack, but with no minimum range and with the ability to move and shoot (however, it may not march and shoot).
@@ -6572,6 +6585,9 @@ It has no effect on war machines (though it does affect their crew), buildings (
     </rule>
     <rule id="0b6e-53f8-dc21-f0d4" name="Armour Save 3+" hidden="false">
       <description>Armour Save of 3+.</description>
+    </rule>
+    <rule id="1778-e4b7-dc30-cc96" name="Swift Steed" hidden="false">
+      <description>Mounted Daemonettes count as Fast Cavalry. In addition, because of its preternatural dexterity, the mount always strikes first in close combat even against a charging enemy. If an opponent has the same ability, resolve the strikes in Initiative order – if these are the same, roll a D6 to see who strikes first. Note that this ability applies only to the mount, not to the Daemonette rider.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
