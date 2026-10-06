@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="42" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="43" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -6920,6 +6920,7 @@
         <infoLink id="csla-inst-abl0-0001" name="Instability" hidden="false" targetId="a0d2-6889-1ee2-4626" type="rule"/>
         <infoLink id="csla-stee-info-0001" name="Steeds attack first" hidden="false" targetId="csla-stee-frst-0001" type="rule"/>
         <infoLink id="2d97-4324-936e-8090" name="Aura of Slaanesh" hidden="false" targetId="3100-3d84-f7ef-1c05" type="rule"/>
+        <infoLink id="d43c-f960-2851-102e" name="Tongue Attack" hidden="false" targetId="d63d-9043-54ca-3d2e" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="csla-cate-rare-0001" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>

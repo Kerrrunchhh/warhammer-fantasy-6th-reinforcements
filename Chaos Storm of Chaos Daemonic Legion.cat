@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8655-d57d-f63c-f32b" name="Chaos Storm of Chaos Daemonic Legion" revision="30" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8655-d57d-f63c-f32b" name="Chaos Storm of Chaos Daemonic Legion" revision="31" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ed82-f525-0c96-f762" name="Beasts of Chaos"/>
     <publication id="d92d-a390-6548-f302" name="Hordes Of Chaos (2002)"/>
@@ -2553,6 +2553,7 @@
         <infoLink id="7303-a38b-7272-e240" name="Instability" hidden="false" targetId="eea9-3861-f447-da23" type="rule"/>
         <infoLink id="438a-152f-7b79-16ba" name="Steeds attack first" hidden="false" targetId="62fc-cfd0-e539-2fe0" type="rule"/>
         <infoLink id="fbfd-0159-a81f-cad9" name="Aura of Slaanesh" hidden="false" targetId="eb5e-ec03-8e9b-2c07" type="rule"/>
+        <infoLink id="b0eb-8ee8-da44-330c" name="Tongue Attack" hidden="false" targetId="c430-c6fb-401d-3870" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0584-0dfe-7979-583b" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
