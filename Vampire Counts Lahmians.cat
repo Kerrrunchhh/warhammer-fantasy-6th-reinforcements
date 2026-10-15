@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c889-15fb-6b0d-2e7f" name="Vampire Counts Lahmians" revision="9" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c889-15fb-6b0d-2e7f" name="Vampire Counts Lahmians" revision="10" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 </readme>
@@ -4090,6 +4090,20 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <categoryLink id="hexw-rths-cat0-0001" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true" />
       </categoryLinks>
       <selectionEntries>
+        <selectionEntry id="db1d-781e-d288-3bc1" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d507-eb07-23e0-1819" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3b-5d4c-a0a7-8877" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8c89-2c9a-c4f3-022c" name="Great Weapon" hidden="false" targetId="97d4-ed3b-5f76-5a23" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
         <selectionEntry id="hexw-rths-mdl0-0001" name="Hex Wraith" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="hexw-rths-min0-0001" type="min" />
@@ -4592,7 +4606,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <infoLink id="fac7-e38d-931c-5605" name="Fly" hidden="false" targetId="e930-0b71-2fef-3937" type="rule" />
         <infoLink id="29ca-368d-4245-672d" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="382d-cd7b-7813-7a39" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
-        <infoLink id="4709-357b-f0a3-ff35" name="Pestiluent breath" hidden="false" targetId="1a63-3b7c-7beb-dce0" type="rule" />
+        <infoLink id="4709-357b-f0a3-ff35" name="Pestilential breath" hidden="false" targetId="1a63-3b7c-7beb-dce0" type="rule" />
         <infoLink id="ba8b-d7ea-023b-d8ad" name="Scaly skin 5+" hidden="false" targetId="0d10-ca10-6b05-87dc" type="rule" />
       </infoLinks>
       <costs>
@@ -5948,12 +5962,12 @@ Because they are insubstantial, they can't he harmed in combat except by attacks
       <description>Nightmares can use bony spines and tusks on the charge to impale victims. +1S on charge</description>
     </rule>
     <rule id="0d10-ca10-6b05-87dc" name="Scaly skin 5+" hidden="false">
-      <description>The dragons still have remains of scales giving 5+ Arour save</description>
+      <description>The dragons still have remains of scales giving 5+ Armour save</description>
     </rule>
     <rule id="4482-5e6c-35fc-f7cf" name="Cloud of Flies" hidden="false">
       <description>Enemies get -1 to hit when in base to base contact with model</description>
     </rule>
-    <rule id="1a63-3b7c-7beb-dce0" name="Pestiluent breath" hidden="false">
+    <rule id="1a63-3b7c-7beb-dce0" name="Pestilential breath" hidden="false">
       <description>Use flamer template, S2 hit with -3sv modifier</description>
     </rule>
     <rule id="736d-f0b0-ff2f-0202" name="Summon Bats" hidden="false">
