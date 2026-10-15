@@ -1,108 +1,110 @@
 #!/bin/bash
-# Builds all .catz files and publishes a new GitHub release.
-# Run this after committing changes to .cat files.
+# Builds all .catz/.gstz files and updates the "latest" GitHub release in place.
+# Run this after committing and pushing changes to .cat/.gst files.
+#
+# Needs a GitHub token with write access to the repo, taken from $GITHUB_TOKEN
+# or, failing that, from the credentials embedded in the origin remote URL.
+# Only needs bash, curl, python3 and git (no gh CLI).
 
-set -e
+set -euo pipefail
 
-SRC="/home/markusd/warhammer-fantasy-6th-reinforcements"
-NAME="Warhammer Fantasy Battle 6th edition with Reinforcements"
-OUTDIR="/tmp/bs-release"
-BSI_NAME="warhammer-fantasy-6th-reinforcements.latest"
-BASE_URL="https://github.com/Kerrrunchhh/warhammer-fantasy-6th-reinforcements/releases/latest/download/"
+SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO="Kerrrunchhh/warhammer-fantasy-6th-reinforcements"
+TAG="latest"
+API="https://api.github.com/repos/$REPO"
+UPLOAD="https://uploads.github.com/repos/$REPO"
+OUTDIR="$(mktemp -d)"
+trap 'rm -rf "$OUTDIR"' EXIT
 
-rm -rf "$OUTDIR" && mkdir -p "$OUTDIR"
+TOKEN="${GITHUB_TOKEN:-}"
+if [ -z "$TOKEN" ]; then
+    TOKEN="$(git -C "$SRC" remote get-url origin | sed -nE 's|https://[^:/]+:([^@]+)@.*|\1|p')"
+fi
+[ -n "$TOKEN" ] || { echo "No token: set GITHUB_TOKEN" >&2; exit 1; }
+AUTH=(-H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json")
 
-echo "Building GST..."
-zip -j "$OUTDIR/$NAME.gstz" "$SRC/$NAME.gst" -q
+if [ -n "$(git -C "$SRC" status --porcelain -- '*.cat' '*.gst' index.xml)" ]; then
+    echo "WARNING: uncommitted changes to data files - they will be released anyway."
+fi
 
-cp "$SRC/index.xml" "$OUTDIR/"
-
-echo "Building catalogues..."
-declare -A MAP=(
-    ["Bretonnia"]="Bretonnia"
-    ["Chaos"]="Chaos"
-    ["Dark Elves"]="Dark.Elves"
-    ["Dark Elves Raiders of Naggaroth"]="Dark.Elves.Raiders.of.Naggaroth"
-    ["Dogs of War"]="Dogs.of.War"
-    ["Dwarfs"]="Dwarfs"
-    ["Dwarfs Guild Expedition"]="Dwarfs.Guild.Expedition"
-    ["Dwarfs Overground Defence"]="Dwarfs.Overground.Defence"
-    ["Dwarfs Royal Clan"]="Dwarfs.Royal.Clan"
-    ["Dwarfs Throng of Karak Kadrin"]="Dwarfs.Throng.of.Karak.Kadrin"
-    ["Dwarfs Undgrin Ankor Force"]="Dwarfs.Undgrin.Ankor.Force"
-    ["Dwarfs War of Vengeance"]="Dwarfs.War.of.Vengeance"
-    ["Empire"]="Empire"
-    ["Empire Crusader Army"]="Empire.Crusader.Army"
-    ["Empire Cult of Ulric"]="Empire.Cult.of.Ulric"
-    ["Empire Marienburg Mercenary Army"]="Empire.Marienburg.Mercenary.Army"
-    ["Empire Sigmarite Army"]="Empire.Sigmarite.Army"
-    ["Empire The Artillery Train of Nuln"]="Empire.The.Artillery.Train.of.Nuln"
-    ["Empire The Emperor's Guard"]="Empire.The.Emperors.Guard"
-    ["High Elf"]="High.Elf"
-    ["Lizardmen"]="Lizardmen"
-    ["Lizardmen of the Southlands"]="Lizardmen.of.the.Southlands"
-    ["Ogre Kingdoms"]="Ogre.Kingdoms"
-    ["Orcs and Goblins"]="Orcs.and.Goblins"
-    ["Orcs and Goblins Common Goblin Horde"]="Orcs.and.Goblins.Common.Goblin.Horde"
-    ["Orcs and Goblins Mountain or Troll Country Waaagh!"]="Orcs.and.Goblins.Mountain.or.Troll.Country.Waaagh"
-    ["Orcs and Goblins Night Goblin Horde"]="Orcs.and.Goblins.Night.Goblin.Horde"
-    ["Orcs and Goblins Savage Orc Horde"]="Orcs.and.Goblins.Savage.Orc.Horde"
-    ["Orcs and Goblins Snotling Horde"]="Orcs.and.Goblins.Snotling.Horde"
-    ["Skaven"]="Skaven"
-    ["Skaven Clan Eshin"]="Skaven.Clan.Eshin"
-    ["Skaven Clan Moulder"]="Skaven.Clan.Moulder"
-    ["Skaven Clan Pestilens"]="Skaven.Clan.Pestilens"
-    ["Skaven Clan Skryre"]="Skaven.Clan.Skryre"
-    ["Tomb Kings"]="Tomb.Kings"
-    ["Vampire Counts"]="Vampire.Counts"
-    ["Vampire Counts von Carstein"]="Vampire.Counts.von.Carstein"
-    ["Vampire Counts Necrarchs"]="Vampire.Counts.Necrarchs"
-    ["Vampire Counts Necromancer's Army"]="Vampire.Counts.Necromancers.Army"
-    ["Vampire Counts Lahmians"]="Vampire.Counts.Lahmians"
-    ["Vampire Counts Blood Dragons"]="Vampire.Counts.Blood.Dragons"
-    ["Vampire Counts Strigoi"]="Vampire.Counts.Strigoi"
-    ["Wood Elf"]="Wood.Elf"
-)
-
-for catname in "${!MAP[@]}"; do
-    dotname="${MAP[$catname]}"
-    zip -j "$OUTDIR/$dotname.catz" "$SRC/$catname.cat" -q || echo "WARNING: missing $catname.cat"
-done
-
-echo "Building .bsi index..."
-python3 - << PYEOF
-import xml.etree.ElementTree as ET, zipfile, io
+echo "Building release files..."
+python3 -I - "$SRC" "$OUTDIR" << 'PYEOF'
+import sys, os, re, glob, zipfile, io
+import xml.etree.ElementTree as ET
+src, out = sys.argv[1], sys.argv[2]
 NS = "http://www.battlescribe.net/schema/dataIndexSchema"
 ET.register_namespace('', NS)
-SRC = "/home/markusd/warhammer-fantasy-6th-reinforcements"
-BASE_URL = "$BASE_URL"
-BSI_NAME = "$BSI_NAME"
-tree = ET.parse(f"{SRC}/index.xml")
-root = tree.getroot()
-def tag(t): return f"{{{NS}}}{t}"
-for entry in root.iter(tag("dataIndexEntry")):
-    fp = entry.get("filePath", "")
-    entry.set("filePath", BASE_URL + fp)
+BASE = "https://github.com/Kerrrunchhh/warhammer-fantasy-6th-reinforcements/releases/latest/download/"
+BSI_NAME = "warhammer-fantasy-6th-reinforcements.latest"
+
+tree = ET.parse(os.path.join(src, "index.xml"))
+entries = {e.get("dataId"): e for e in tree.getroot().iter(f"{{{NS}}}dataIndexEntry")}
+files = sorted(glob.glob(os.path.join(src, "*.cat")) + glob.glob(os.path.join(src, "*.gst")))
+
+# Each .cat/.gst is matched to its index entry by ID, so new catalogues only
+# need an index.xml entry - no name mapping to maintain here.
+errors, seen = [], set()
+for f in files:
+    head = open(f, encoding="utf-8").read(3000)
+    fid = re.search(r'<(?:catalogue|gameSystem)\b[^>]*?\bid="([^"]+)"', head).group(1)
+    rev = re.search(r'<(?:catalogue|gameSystem)\b[^>]*?\brevision="(\d+)"', head).group(1)
+    e = entries.get(fid)
+    if e is None:
+        errors.append(f"{os.path.basename(f)}: id {fid} missing from index.xml")
+        continue
+    if e.get("dataRevision") != rev:
+        errors.append(f"{os.path.basename(f)}: revision {rev}, index.xml says {e.get('dataRevision')}")
+    seen.add(fid)
+    with zipfile.ZipFile(os.path.join(out, e.get("filePath")), "w", zipfile.ZIP_DEFLATED) as z:
+        z.write(f, os.path.basename(f))
+for fid in set(entries) - seen:
+    errors.append(f"index.xml entry {entries[fid].get('dataName')} has no data file")
+if errors:
+    sys.exit("Aborting:\n  " + "\n  ".join(errors))
+
+with open(os.path.join(src, "index.xml"), "rb") as fi, open(os.path.join(out, "index.xml"), "wb") as fo:
+    fo.write(fi.read())
+
+for e in entries.values():
+    e.set("filePath", BASE + e.get("filePath"))
 ET.indent(tree, space="  ")
 buf = io.BytesIO()
 tree.write(buf, encoding="utf-8", xml_declaration=True)
-with zipfile.ZipFile(f"/tmp/bs-release/{BSI_NAME}.bsi", "w", zipfile.ZIP_DEFLATED) as zf:
-    zf.writestr(f"{BSI_NAME}.xml", buf.getvalue())
-print(f"  Written {BSI_NAME}.bsi")
+with zipfile.ZipFile(os.path.join(out, f"{BSI_NAME}.bsi"), "w", zipfile.ZIP_DEFLATED) as z:
+    z.writestr(f"{BSI_NAME}.xml", buf.getvalue())
+
+with zipfile.ZipFile(os.path.join(out, "warhammer-fantasy-6th-reinforcements.bsr"), "w", zipfile.ZIP_DEFLATED) as z:
+    for f in files + [os.path.join(src, "index.xml")]:
+        z.write(f, os.path.basename(f))
+print(f"  Built {len(files)} data files")
 PYEOF
 
-cp "$SRC/install.sh"  "$OUTDIR/"
-cp "$SRC/install.ps1" "$OUTDIR/"
+REL_ID="$(curl -sf "${AUTH[@]}" "$API/releases/tags/$TAG" | python3 -I -c 'import json,sys; print(json.load(sys.stdin)["id"])')"
+curl -sf "${AUTH[@]}" "$API/releases/$REL_ID/assets?per_page=100" \
+    | python3 -I -c 'import json,sys; [print(a["id"], a["name"]) for a in json.load(sys.stdin)]' > "$OUTDIR/.assets"
 
-echo "Building .bsr bundle..."
-BSR_FILE="/tmp/bs-release/$BSI_NAME.bsr"
-zip -j "$BSR_FILE" "$OUTDIR"/*.gstz "$OUTDIR"/*.catz "$OUTDIR"/*.bsi -q
-echo "  Written $BSI_NAME.bsr"
+# Data files first, index files last, so the index never announces revisions
+# whose files are not uploaded yet.
+echo "Uploading to release $TAG..."
+cd "$OUTDIR"
+for f in *.catz *.gstz index.xml warhammer-fantasy-6th-reinforcements.bsr warhammer-fantasy-6th-reinforcements.latest.bsi; do
+    old_id="$(awk -v n="$f" '$2==n {print $1}' .assets)"
+    if [ -n "$old_id" ]; then
+        curl -sf -o /dev/null -X DELETE "${AUTH[@]}" "$API/releases/assets/$old_id"
+    fi
+    curl -sf -o /dev/null --retry 3 -X POST "${AUTH[@]}" -H "Content-Type: application/octet-stream" \
+        --data-binary @"$f" "$UPLOAD/releases/$REL_ID/assets?name=$f" \
+        || { echo "FAILED to upload $f" >&2; exit 1; }
+done
 
-echo "Publishing GitHub release..."
-cd "$SRC"
-gh release delete latest --yes 2>/dev/null || true
-gh release create latest /tmp/bs-release/* --title "Latest" --notes "Auto-built release"
+# Point the tag at the released commit (must already be pushed).
+HEAD_SHA="$(git -C "$SRC" rev-parse HEAD)"
+if curl -sf -o /dev/null -X PATCH "${AUTH[@]}" "$API/git/refs/tags/$TAG" \
+        -d "{\"sha\":\"$HEAD_SHA\",\"force\":true}"; then
+    echo "  Tag $TAG -> ${HEAD_SHA:0:7}"
+else
+    echo "WARNING: could not move tag $TAG (is HEAD pushed?)"
+fi
 
 echo ""
-echo "Release published."
+echo "Release updated: https://github.com/$REPO/releases/tag/$TAG"

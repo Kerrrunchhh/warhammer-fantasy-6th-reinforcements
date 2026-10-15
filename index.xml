@@ -2,7 +2,7 @@
 <dataIndex battleScribeVersion="2.03" name="Warhammer Fantasy Battle 6th edition with Reinforcements" indexUrl="https://github.com/Kerrrunchhh/warhammer-fantasy-6th-reinforcements/releases/latest/download/warhammer-fantasy-6th-reinforcements.latest.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
     <dataIndexEntry filePath="Warhammer.Fantasy.Battle.6th.edition.with.Reinforcements.gstz" dataType="gamesystem" dataId="6d8e-38d9-3c69-feba" dataName="Warhammer Fantasy Battle 6th edition with Reinforcements" dataBattleScribeVersion="2.03" dataRevision="15"/>
-    <dataIndexEntry filePath="Bretonnia.catz" dataType="catalogue" dataId="31c3-8e29-6a12-45bc" dataName="Bretonnia" dataBattleScribeVersion="2.03" dataRevision="10"/>
+    <dataIndexEntry filePath="Bretonnia.catz" dataType="catalogue" dataId="31c3-8e29-6a12-45bc" dataName="Bretonnia" dataBattleScribeVersion="2.03" dataRevision="11"/>
     <dataIndexEntry filePath="Bretonnia.Storm.of.Chaos.Errantry.War.catz" dataType="catalogue" dataId="f628-a6d5-ecfa-5545" dataName="Bretonnia Storm of Chaos Errantry War" dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="Chaos.catz" dataType="catalogue" dataId="8820-6110-ff77-4173" dataName="Chaos" dataBattleScribeVersion="2.03" dataRevision="43"/>
     <dataIndexEntry filePath="Chaos.Storm.of.Chaos.catz" dataType="catalogue" dataId="cb0a-ac83-dda4-3a7f" dataName="Chaos Storm of Chaos" dataBattleScribeVersion="2.03" dataRevision="14"/>
@@ -44,10 +44,10 @@
     <dataIndexEntry filePath="Tomb.Kings.catz" dataType="catalogue" dataId="84d2-86cf-1048-402b" dataName="Tomb Kings" dataBattleScribeVersion="2.03" dataRevision="6"/>
     <dataIndexEntry filePath="Vampire.Counts.catz" dataType="catalogue" dataId="a10f-a81e-cf13-4692" dataName="Vampire Counts" dataBattleScribeVersion="2.03" dataRevision="19"/>
     <dataIndexEntry filePath="Wood.Elf.catz" dataType="catalogue" dataId="1d30-bbdf-823d-416a" dataName="Wood Elf" dataBattleScribeVersion="2.03" dataRevision="4"/>
-    <dataIndexEntry filePath="Empire.The.Emperors.Guard.catz" dataType="catalogue" dataId="c3d4-e5f6-a7b8-9012" dataName="Empire The Emperor's Guard" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Empire.The.Artillery.Train.of.Nuln.catz" dataType="catalogue" dataId="d4e5-f6a7-b8c9-0123" dataName="Empire The Artillery Train of Nuln" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Empire.Sigmarite.Army.catz" dataType="catalogue" dataId="e5f6-a7b8-c9d0-1234" dataName="Empire Sigmarite Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Empire.Marienburg.Mercenary.Army.catz" dataType="catalogue" dataId="f6a7-b8c9-d0e1-2345" dataName="Empire Marienburg Mercenary Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Empire.The.Emperors.Guard.catz" dataType="catalogue" dataId="c3d4-e5f6-a7b8-9012" dataName="Empire The Emperor's Guard" dataBattleScribeVersion="2.03" dataRevision="10"/>
+    <dataIndexEntry filePath="Empire.The.Artillery.Train.of.Nuln.catz" dataType="catalogue" dataId="d4e5-f6a7-b8c9-0123" dataName="Empire The Artillery Train of Nuln" dataBattleScribeVersion="2.03" dataRevision="10"/>
+    <dataIndexEntry filePath="Empire.Sigmarite.Army.catz" dataType="catalogue" dataId="e5f6-a7b8-c9d0-1234" dataName="Empire Sigmarite Army" dataBattleScribeVersion="2.03" dataRevision="10"/>
+    <dataIndexEntry filePath="Empire.Marienburg.Mercenary.Army.catz" dataType="catalogue" dataId="f6a7-b8c9-d0e1-2345" dataName="Empire Marienburg Mercenary Army" dataBattleScribeVersion="2.03" dataRevision="10"/>
     <dataIndexEntry filePath="Empire.Cult.of.Ulric.catz" dataType="catalogue" dataId="a7b8-c9d0-e1f2-3456" dataName="Empire Cult of Ulric" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Empire.Crusader.Army.catz" dataType="catalogue" dataId="b8c9-d0e1-f2a3-4567" dataName="Empire Crusader Army" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Vampire.Counts.von.Carstein.catz" dataType="catalogue" dataId="c9d0-e1f2-a3b4-5678" dataName="Vampire Counts von Carstein" dataBattleScribeVersion="2.03" dataRevision="11"/>
