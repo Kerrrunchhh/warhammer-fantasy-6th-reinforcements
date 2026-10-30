@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="524a-dab2-05dd-74bb" name="Chaos Storm of Chaos Archaon's Horde" revision="19" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="524a-dab2-05dd-74bb" name="Chaos Storm of Chaos Archaon's Horde" revision="20" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="2023-82bc-3515-f343" name="Beasts of Chaos"/>
     <publication id="b684-4fa9-e64a-a53c" name="Hordes Of Chaos (2002)"/>
@@ -2769,7 +2769,6 @@
       <infoLinks>
         <infoLink id="19d2-49af-b7ab-8ec5" name="Ward Save 5+" hidden="false" targetId="48fa-1b4a-e9a7-5358" type="rule"/>
         <infoLink id="b68a-31ea-9d9d-090c" name="Giver of Glory" hidden="false" targetId="6914-7253-88ff-5e11" type="rule"/>
-        <infoLink id="c729-1879-a295-24e1" name="Chaos Warshrine" hidden="false" targetId="wshp-main-rule-0001" type="rule"/>
         <infoLink id="c8b5-71fb-e266-62c5" name="Unit Strength 4" hidden="false" targetId="77e0-54e4-a44c-b078" type="rule"/>
         <infoLink id="e33c-bb1b-c13f-b500" name="Armour Save 4+" hidden="false" targetId="e992-4460-b3c1-c545" type="rule"/>
         <infoLink id="b652-9496-3fb4-5f9c" name="Character Mount" hidden="false" targetId="0929-81fb-a633-9752" type="rule"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c889-15fb-6b0d-2e7f" name="Vampire Counts Lahmians" revision="10" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c889-15fb-6b0d-2e7f" name="Vampire Counts Lahmians" revision="11" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 </readme>
@@ -227,7 +227,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <infoLink id="ad80-e525-d925-045a" name="Ghoul" hidden="false" targetId="33dd-5f88-abcb-fd74" type="profile" />
         <infoLink id="0ade-47a9-75ec-420d" name="Alive!" hidden="false" targetId="6174-784f-40eb-2aec" type="rule" />
         <infoLink id="c9e5-d8b2-5cfb-0b42" name="Scavengers" hidden="false" targetId="1a41-d3a6-fbba-7315" type="rule" />
-        <infoLink id="f375-ff04-677f-ff10" name="Fear" hidden="false" targetId="46b9-06c5-ab60-3cd7" type="rule" />
+        <infoLink id="f375-ff04-677f-ff10" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule" />
         <infoLink id="9f82-91bb-ec2f-fd42" name="Poisoned Attacks" hidden="false" targetId="2738-27d5-f4af-4722" type="rule" />
       </infoLinks>
       <categoryLinks>
@@ -305,7 +305,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <infoLink id="10cf-e26e-5b20-f576" name="Bat Swarm" hidden="false" targetId="2cc2-e83d-efed-d6ec" type="profile" />
         <infoLink id="5956-42a9-a149-5273" name="Alive!" hidden="false" targetId="6174-784f-40eb-2aec" type="rule" />
         <infoLink id="740e-a5e0-ef36-023c" name="Flying Unit" hidden="false" targetId="7c37-25f3-94dd-deea" type="rule" />
-        <infoLink id="d8e4-2aee-8a42-7023" name="Fear" hidden="false" targetId="46b9-06c5-ab60-3cd7" type="rule" />
+        <infoLink id="d8e4-2aee-8a42-7023" name="Fear" hidden="false" targetId="1524-2372-4aa0-6881" type="rule" />
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fefa-3877-1652-da52" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
@@ -332,7 +332,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     <selectionEntry id="b1ae-5ec5-929e-9ec2" name="Dire Wolves" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="63d5-9719-edfa-c8f2" name="Slavering Charge" hidden="false" targetId="51ec-424c-c00b-e1e6" type="rule" />
-        <infoLink id="10bd-9835-b072-d2f7" name="Fast Cavalry" hidden="false" targetId="4ed4-aa4b-c4f8-06df" type="rule" />
+        <infoLink id="10bd-9835-b072-d2f7" name="Fast Cavalry" hidden="false" targetId="6a56-df83-e623-2218" type="rule" />
         <infoLink id="5531-2e2e-af45-0062" name="Dire Wolf" hidden="false" targetId="4440-6106-0711-550b" type="profile" />
       </infoLinks>
       <categoryLinks>
@@ -1027,7 +1027,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="7412-b051-a1da-a4f2" name="Halberds" hidden="false" collective="false" import="true" targetId="8b1b-89dc-3741-0f9d" type="selectionEntry">
+            <entryLink id="7412-b051-a1da-a4f2" name="Halberds" hidden="false" collective="false" import="true" targetId="b3f3-a133-2869-0be8" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccbb-364b-66c7-eda7" type="max" />
               </constraints>
@@ -1042,7 +1042,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="982b-3584-d1e1-78d2" type="max" />
           </constraints>
           <entryLinks>
-            <entryLink id="84ec-8a44-90be-c555" name="Light Armour" hidden="false" collective="false" import="true" targetId="88cd-57dc-3cb6-ae56" type="selectionEntry">
+            <entryLink id="84ec-8a44-90be-c555" name="Light Armour" hidden="false" collective="false" import="true" targetId="055f-8e4e-f170-35d2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="441a-e356-a262-a730" type="max" />
               </constraints>
@@ -1050,7 +1050,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
               </costs>
             </entryLink>
-            <entryLink id="6811-3059-bc10-db8f" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="95a3-e2f5-61f6-5a5a" type="selectionEntry">
+            <entryLink id="6811-3059-bc10-db8f" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="dde4-0ba8-7b3c-57b7" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aa5-f9d6-4c71-d8bb" type="max" />
               </constraints>
@@ -1107,7 +1107,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
             </entryLink>
           </entryLinks>
         </entryLink>
-        <entryLink id="1547-02ff-e0f5-63cd" name="Shield" hidden="false" collective="false" import="true" targetId="1ac3-e614-0fa0-13ad" type="selectionEntry">
+        <entryLink id="1547-02ff-e0f5-63cd" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="2.0" />
           </costs>
@@ -1167,7 +1167,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7562-dcd9-288e-5f6f" name="Great Weapon" hidden="false" collective="false" import="true" targetId="7659-cfd8-00f5-01d6" type="selectionEntry">
+        <entryLink id="7562-dcd9-288e-5f6f" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="483d-1b82-b101-5a62" type="max" />
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b3-33cc-02e7-2903" type="min" />
@@ -3861,6 +3861,212 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0" />
       </costs>
     </selectionEntry>
+    <selectionEntry id="1eae-2828-7a3b-75c7" name="Bloodknights" hidden="true" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="04be-9bb0-6f31-0eb4" name="Bloodknight" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">2</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eeb7-69b2-634f-0d82" name="Nightmare" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">7</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">-</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">-</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">-</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2f68-0840-6c32-9843" name="Undead" hidden="false" targetId="vamc-unde-ad00-0001" type="rule"/>
+        <infoLink id="d538-505b-58bb-516e" name="Chivalric Honour" hidden="false" targetId="17e0-50ae-1e1d-1948" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3242-2dd5-dc2d-f966" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="64df-286f-c2f6-c1f3" name="Bloodknight" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0349-bae6-156f-24e6" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aae6-2460-8d2d-600f" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="39.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="001a-39d5-3cab-593b" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1af-bdf1-a06f-065d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb20-0da6-2d03-7418" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4c51-745a-a91b-6d84" name="Hand Weapon" hidden="false" targetId="5556-38ea-b278-4a8f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6ac2-cabf-729c-ef9c" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb15-72b1-fc7a-7bf2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e37-147d-208d-159b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f6f4-a679-b756-488f" name="Heavy Armour" hidden="false" targetId="3dd5-f228-98a7-453a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b746-8762-3e06-9f23" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5ad-b99c-93a1-905c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b289-5f87-9ab3-c120" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a0ad-19c1-33a4-1a1d" name="Shield" hidden="false" targetId="3d79-7984-991a-8b67" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e3b5-86e8-0570-9a9e" name="Barding" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="085e-797a-c64e-8378" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b6-e988-7668-4f31" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="04bf-d5ff-dde6-b857" name="Barding" hidden="false" targetId="25e4-8f3a-a1a8-a7b6" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+            <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+            <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e554-6ee3-2222-1cd7" name="Command" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d7d6-0165-385e-d4cc" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b435-3656-9157-1624" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="10.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b6b-2177-16ac-abac" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2913-98da-1709-392b" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1944-3002-0b98-2b4c" name="Magic Standards" hidden="false" collective="false" import="true" targetId="1bb9-b32c-e78e-14a1" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d9c-5f2c-0d7b-7f03" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0093-1604-46a3-8027" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a5a-1e38-7641-5343" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3d0c-bcce-05d2-5ed1" name="Champion" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+                  <characteristics>
+                    <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">-</characteristic>
+                    <characteristic name="WS" typeId="f95b-da01-0578-3bdc">5</characteristic>
+                    <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">3</characteristic>
+                    <characteristic name="S" typeId="b690-4bc0-bb73-267b">4</characteristic>
+                    <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+                    <characteristic name="W" typeId="253a-9b00-4fde-8ac2">1</characteristic>
+                    <characteristic name="I" typeId="dfff-363e-f72a-5a59">5</characteristic>
+                    <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">3</characteristic>
+                    <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
+                <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+                <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9282-485d-f57c-2db4" name="Terrorgheist" hidden="true" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1b1-4731-1387-54cc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2f4d-4c27-de0e-874d" name="Terrorgheist" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+          <characteristics>
+            <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">6</characteristic>
+            <characteristic name="WS" typeId="f95b-da01-0578-3bdc">2</characteristic>
+            <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">0</characteristic>
+            <characteristic name="S" typeId="b690-4bc0-bb73-267b">5</characteristic>
+            <characteristic name="T" typeId="8712-f56f-5b22-a720">6</characteristic>
+            <characteristic name="W" typeId="253a-9b00-4fde-8ac2">6</characteristic>
+            <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+            <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">4</characteristic>
+            <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="38e8-6f84-3af6-c76a" name="Undead" hidden="false" targetId="vamc-unde-ad00-0001" type="rule"/>
+        <infoLink id="4a5f-c218-e1d9-0ff9" name="Flying" hidden="false" targetId="e930-0b71-2fef-3937" type="rule"/>
+        <infoLink id="0bd8-d623-b542-3d21" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule"/>
+        <infoLink id="9e5c-d941-01e7-f1e7" name="Armour Save (5+)" hidden="false" targetId="acd1-4014-a7f2-24ef" type="rule"/>
+        <infoLink id="98a5-b632-5f6a-d295" name="Ward Save (6+)" hidden="false" targetId="0c97-7630-b87b-e1b0" type="rule"/>
+        <infoLink id="c59f-9ef7-85ac-66ae" name="Ghostly Howl (Terrorgheist)" hidden="false" targetId="858a-6196-cac9-c690" type="rule"/>
+        <infoLink id="4c08-5ac3-fd27-d8cb" name="Ghostly Howl" hidden="false" targetId="8404-f653-2db4-139d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8896-e90c-ac58-46fa" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="290.0"/>
+        <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
+        <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="crpt-horr-r000-0001" name="Crypt Horror" hidden="true" collective="false" import="true" type="unit">
       <profiles>
         <profile id="crpt-horr-prof-0001" name="Crypt Horror" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
@@ -4826,10 +5032,10 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="28be-14ba-3a2c-74f9" name="Biting Blade" hidden="false" collective="false" import="true" targetId="4247-d834-8b77-0e51" type="selectionEntry" />
-        <entryLink id="9394-6b6d-0655-4a80" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="2d17-ac32-623c-4d7a" type="selectionEntry" />
-        <entryLink id="ff76-8f14-8c84-47b5" name="Sword of Might" hidden="false" collective="false" import="true" targetId="4a03-27f5-3f92-803b" type="selectionEntry" />
-        <entryLink id="9715-3697-c552-17b9" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="f75a-e776-7e59-ce7d" type="selectionEntry" />
+        <entryLink id="28be-14ba-3a2c-74f9" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry" />
+        <entryLink id="9394-6b6d-0655-4a80" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry" />
+        <entryLink id="ff76-8f14-8c84-47b5" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry" />
+        <entryLink id="9715-3697-c552-17b9" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry" />
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1bb9-b32c-e78e-14a1" name="Magic Standards" hidden="false" collective="false" import="true">
@@ -4886,7 +5092,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7383-d1e7-e988-b8dd" name="War Banner" hidden="false" collective="false" import="true" targetId="59c2-be68-cccd-80de" type="selectionEntry" />
+        <entryLink id="7383-d1e7-e988-b8dd" name="War Banner" hidden="false" collective="false" import="true" targetId="f327-567f-ef99-0403" type="selectionEntry" />
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="659f-a603-f1fb-2c8e" name="Magic Armour" hidden="false" collective="false" import="true">
@@ -4946,7 +5152,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="55d7-cc68-33fd-7d6a" name="Enchanted Shield" hidden="false" collective="false" import="true" targetId="ba97-89dc-c646-b682" type="selectionEntry">
+        <entryLink id="55d7-cc68-33fd-7d6a" name="Enchanted Shield" hidden="false" collective="false" import="true" targetId="c5c1-60aa-745f-c9d3" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="655a-57cb-502f-b458" value="2.0" />
           </modifiers>
@@ -5025,7 +5231,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="850a-f3aa-10fb-8c13" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="ddf3-7980-29c7-db23" type="selectionEntry" />
+        <entryLink id="850a-f3aa-10fb-8c13" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry" />
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="ad73-5ec8-58ef-9214" name="Enchanted Items" hidden="false" collective="false" import="true">
@@ -5102,9 +5308,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d92-2b65-c2f0-7e2e" type="max" />
       </constraints>
       <entryLinks>
-        <entryLink id="2d93-4c6f-6d8d-a1b5" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="f251-af7e-8971-12d3" type="selectionEntry" />
-        <entryLink id="5059-734a-22e1-bbae" name="Power Stone" hidden="false" collective="false" import="true" targetId="46fa-2d32-960e-d3c7" type="selectionEntry" />
-        <entryLink id="6b9f-e7b5-ee9c-1343" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="7ffe-33ef-7f1d-2a56" type="selectionEntry" />
+        <entryLink id="2d93-4c6f-6d8d-a1b5" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry" />
+        <entryLink id="5059-734a-22e1-bbae" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry" />
+        <entryLink id="6b9f-e7b5-ee9c-1343" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry" />
         <entryLink id="e2ab-e249-2634-1154" name="Black Periapt" hidden="false" collective="false" import="true" targetId="23a1-832b-7a56-25bc" type="selectionEntry" />
         <entryLink id="dcf5-e34b-bdc9-af35" name="Skull Staff" hidden="false" collective="false" import="true" targetId="6646-cce8-938e-4632" type="selectionEntry" />
         <entryLink id="1c0e-2c99-3054-1caa" name="Book of Arkhan" hidden="false" collective="false" import="true" targetId="522e-1bd5-5169-13fc" type="selectionEntry" />
@@ -5197,7 +5403,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       <selectionEntries>
         <selectionEntry id="aa49-49ae-2fbe-8703" name="The Carstein Ring" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="7165-7847-677c-aa40" name="Regeneration" hidden="false" targetId="ee0f-e030-19e5-82d6" type="rule" />
+            <infoLink id="7165-7847-677c-aa40" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule" />
           </infoLinks>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="100.0" />
@@ -5257,7 +5463,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="5cfa-cfa8-7577-a939" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="ddf3-7980-29c7-db23" type="selectionEntry" />
+        <entryLink id="5cfa-cfa8-7577-a939" name="Talisman of Protection" hidden="false" collective="false" import="true" targetId="c7cc-76a3-c413-ddb8" type="selectionEntry" />
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c79f-7e2a-ff30-5d6e" name="Blood dragon traits" hidden="false" collective="false" import="true">
@@ -5655,10 +5861,10 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ccfa-430f-5989-9df4" name="Biting Blade" hidden="false" collective="false" import="true" targetId="4247-d834-8b77-0e51" type="selectionEntry" />
-        <entryLink id="398e-87a0-47bc-5a45" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="2d17-ac32-623c-4d7a" type="selectionEntry" />
-        <entryLink id="e217-1a46-e5fc-ab43" name="Sword of Might" hidden="false" collective="false" import="true" targetId="4a03-27f5-3f92-803b" type="selectionEntry" />
-        <entryLink id="196e-7f0e-631d-f361" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="f75a-e776-7e59-ce7d" type="selectionEntry" />
+        <entryLink id="ccfa-430f-5989-9df4" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry" />
+        <entryLink id="398e-87a0-47bc-5a45" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry" />
+        <entryLink id="e217-1a46-e5fc-ab43" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry" />
+        <entryLink id="196e-7f0e-631d-f361" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry" />
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="9ba8-687f-c654-aaa2" name="Magic Weapons Necerach" hidden="false" collective="false" import="true">
@@ -5709,10 +5915,10 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="58d9-1644-9e93-5e54" name="Biting Blade" hidden="false" collective="false" import="true" targetId="4247-d834-8b77-0e51" type="selectionEntry" />
-        <entryLink id="6772-6f0a-bf88-d3a6" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="2d17-ac32-623c-4d7a" type="selectionEntry" />
-        <entryLink id="ecf0-7af3-22a3-dbd8" name="Sword of Might" hidden="false" collective="false" import="true" targetId="4a03-27f5-3f92-803b" type="selectionEntry" />
-        <entryLink id="15c0-f256-3655-0820" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="f75a-e776-7e59-ce7d" type="selectionEntry" />
+        <entryLink id="58d9-1644-9e93-5e54" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry" />
+        <entryLink id="6772-6f0a-bf88-d3a6" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry" />
+        <entryLink id="ecf0-7af3-22a3-dbd8" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry" />
+        <entryLink id="15c0-f256-3655-0820" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry" />
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="80f4-7bee-c5b0-e492" name="Magic Armour L+N" hidden="false" collective="false" import="true">
@@ -5749,7 +5955,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="23e0-db4f-b538-2118" name="Enchanted Shield" hidden="false" collective="false" import="true" targetId="ba97-89dc-c646-b682" type="selectionEntry">
+        <entryLink id="23e0-db4f-b538-2118" name="Enchanted Shield" hidden="false" collective="false" import="true" targetId="c5c1-60aa-745f-c9d3" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="655a-57cb-502f-b458" value="2.0" />
           </modifiers>
@@ -5773,9 +5979,9 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aefe-c238-6296-8ef2" type="max" />
       </constraints>
       <entryLinks>
-        <entryLink id="6b39-2d4c-3c1d-5235" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="f251-af7e-8971-12d3" type="selectionEntry" />
-        <entryLink id="3f7d-5029-8c94-21fc" name="Power Stone" hidden="false" collective="false" import="true" targetId="46fa-2d32-960e-d3c7" type="selectionEntry" />
-        <entryLink id="351f-23f8-0a32-91e2" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="7ffe-33ef-7f1d-2a56" type="selectionEntry" />
+        <entryLink id="6b39-2d4c-3c1d-5235" name="Dispel Scroll" hidden="false" collective="false" import="true" targetId="b76c-6bad-4650-dbb0" type="selectionEntry" />
+        <entryLink id="3f7d-5029-8c94-21fc" name="Power Stone" hidden="false" collective="false" import="true" targetId="0ed5-eacf-d55a-5e9e" type="selectionEntry" />
+        <entryLink id="351f-23f8-0a32-91e2" name="Staff of Sorcery" hidden="false" collective="false" import="true" targetId="b22a-6be5-d4f9-7776" type="selectionEntry" />
         <entryLink id="0f48-1d15-8ffd-3a4e" name="Black Periapt" hidden="false" collective="false" import="true" targetId="23a1-832b-7a56-25bc" type="selectionEntry" />
         <entryLink id="2256-155a-0843-2ebd" name="Spell Familiar" hidden="false" collective="false" import="true" targetId="0d3f-e9e8-f11f-8d17" type="selectionEntry" />
         <entryLink id="f502-52c5-3362-bb9d" name="Power Familiar" hidden="false" collective="false" import="true" targetId="7ecc-981e-1326-d83f" type="selectionEntry" />
@@ -5830,10 +6036,10 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a715-bbd8-5e7a-3103" name="Biting Blade" hidden="false" collective="false" import="true" targetId="4247-d834-8b77-0e51" type="selectionEntry" />
-        <entryLink id="829a-c911-316f-7074" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="2d17-ac32-623c-4d7a" type="selectionEntry" />
-        <entryLink id="5fb6-273c-29d3-ef52" name="Sword of Might" hidden="false" collective="false" import="true" targetId="4a03-27f5-3f92-803b" type="selectionEntry" />
-        <entryLink id="ed8a-167b-fc45-a64a" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="f75a-e776-7e59-ce7d" type="selectionEntry" />
+        <entryLink id="a715-bbd8-5e7a-3103" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry" />
+        <entryLink id="829a-c911-316f-7074" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry" />
+        <entryLink id="5fb6-273c-29d3-ef52" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry" />
+        <entryLink id="ed8a-167b-fc45-a64a" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry" />
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8a2b-524f-7c5d-195b" name="Magic Weapons Lahmia" hidden="false" collective="false" import="true">
@@ -5891,10 +6097,10 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="4158-6324-54c9-26dd" name="Biting Blade" hidden="false" collective="false" import="true" targetId="4247-d834-8b77-0e51" type="selectionEntry" />
-        <entryLink id="221a-fe93-d841-6cf6" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="2d17-ac32-623c-4d7a" type="selectionEntry" />
-        <entryLink id="eda0-2bf9-e180-6756" name="Sword of Might" hidden="false" collective="false" import="true" targetId="4a03-27f5-3f92-803b" type="selectionEntry" />
-        <entryLink id="fcc9-b241-42f8-ef13" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="f75a-e776-7e59-ce7d" type="selectionEntry" />
+        <entryLink id="4158-6324-54c9-26dd" name="Biting Blade" hidden="false" collective="false" import="true" targetId="74fc-c90b-250e-6b87" type="selectionEntry" />
+        <entryLink id="221a-fe93-d841-6cf6" name="Sword of Battle" hidden="false" collective="false" import="true" targetId="6e5a-eeea-ec67-3632" type="selectionEntry" />
+        <entryLink id="eda0-2bf9-e180-6756" name="Sword of Might" hidden="false" collective="false" import="true" targetId="8c56-9be1-c4a9-5afe" type="selectionEntry" />
+        <entryLink id="fcc9-b241-42f8-ef13" name="Sword of Striking" hidden="false" collective="false" import="true" targetId="6b55-e847-311d-d6ca" type="selectionEntry" />
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -6239,6 +6445,18 @@ At the beginning of the Close Combat phase, before hits are struck, the Familiar
     <rule id="vamc-mort-char-0001" name="Chariot" hidden="false">
       <description>The Mortis Engine follows all rules for Chariots. It adds its Strength 5 attacks in close combat. Its movement is modified by the Ethereal special rule.</description>
     </rule>
+    <rule id="858a-6196-cac9-c690" name="Ghostly Howl (Terrorgheist)" hidden="false">
+      <description>Once per turn, the Terrorgheist may perform a Ghostly Howl attack, resolved exactly like a Banshee&apos;s Ghostly Howl.</description>
+    </rule>
+    <rule id="0c97-7630-b87b-e1b0" name="Ward Save (6+)" hidden="false">
+      <description>The Terrorgheist has a 6+ Ward Save against all wounds.</description>
+    </rule>
+    <rule id="acd1-4014-a7f2-24ef" name="Armour Save (5+)" hidden="false">
+      <description>The Terrorgheist has a 5+ Armour save.</description>
+    </rule>
+    <rule id="17e0-50ae-1e1d-1948" name="Chivalric Honour" hidden="false">
+      <description>The Champion must always issue and accept challenges. If there is neither a Champion nor character models, the remaining knights must always accept challenges when challenged (however, they are not allowed to issue challenges themselves).</description>
+    </rule>
     <rule id="vamc-mort-ward-0001" name="Ward Save (5+)" hidden="false">
       <description>The Mortis Engine has a 5+ Ward Save against all wounds.</description>
     </rule>
@@ -6266,6 +6484,21 @@ At the beginning of the Close Combat phase, before hits are struck, the Familiar
       <description>+2 to their initiative. All models in base contact with one or more Lahmian vampires suffer -1 to their leadership. Cannot choose any mundane weapons and armour. -1 to their weapon skill.</description>
     </rule>
 
+    <rule id="vamc-gem0-bloo-0001" name="The Gem of Blood" hidden="false">
+      <description>An ancient relic from Nehekhara, this cursed gem is extremely dangerous for the bearer&apos;s opponents, but it is said that it will eventually be the undoing of its master. One use only. When the wearer suffers its first wound in close combat, the gem is activated. Roll a D6. On a 2+, the wound is saved and rebounded on the model who caused it, with no armour saves allowed. On a 1, the wound is not saved and the bearer suffers 1 additional wound, with no armour saves allowed.</description>
+    </rule>
+    <rule id="vamc-wris-bgol-0001" name="Wristbands of Black Gold" hidden="false">
+      <description>These ancient ornaments are capable of deflecting arrows, darts and bullets directed against the bearer. 3+ Ward Save against missile fire of any kind (including hits from war machines, template attacks, magic missiles, etc).</description>
+    </rule>
+    <rule id="vamc-crow-damn-0001" name="Crown of the Damned" hidden="false">
+      <description>The bearer draws revitalising energies from the spirits imprisoned within the Crown, but at times their eternal wailing overpowers his mind. 4+ Ward Save. The wearer is subject to Stupidity (even if the model is normally Immune to Psychology).</description>
+    </rule>
+    <rule id="vamc-ring-nigh-0001" name="Ring of the Night" hidden="false">
+      <description>This magic jewel has the power to draw a cloud of concealing darkness around the bearer. 5+ Ward Save.</description>
+    </rule>
+    <rule id="vamc-obsi-amul-0001" name="Obsidian Amulet" hidden="false">
+      <description>The dark energies of this powerful item surround the wearer and deflect enemy spells and magic weapons. The bearer has a 4+ Ward Save against wounds caused by magic weapons, spells or indeed any form of magical attack. In addition, the amulet confers Magic Resistance (1).</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="192b-70bb-9e59-af3f" name="Frostblade" hidden="false" typeId="bec5-dc9b-f082-903e" typeName="Weapon">

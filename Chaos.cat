@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="43" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8820-6110-ff77-4173" name="Chaos" revision="44" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f4a-e6ae-d049-ee56" name="Beasts of Chaos"/>
     <publication id="d750-ac7f-7465-d6d1" name="Hordes Of Chaos (2002)"/>
@@ -6625,7 +6625,6 @@
       <infoLinks>
         <infoLink id="wshp-ward-info-0001" name="Ward Save 5+" hidden="false" targetId="wshp-ward-save-0001" type="rule"/>
         <infoLink id="wshp-give-info-0001" name="Giver of Glory" hidden="false" targetId="wshp-give-glor-0001" type="rule"/>
-        <infoLink id="wshp-main-info-0001" name="Chaos Warshrine" hidden="false" targetId="wshp-main-rule-0001" type="rule"/>
         <infoLink id="wshp-unit-str0-info" name="Unit Strength 4" hidden="false" targetId="wshp-unit-str0-0001" type="rule"/>
         <infoLink id="wshp-armo-save-info" name="Armour Save 4+" hidden="false" targetId="wshp-armo-save-0001" type="rule"/>
         <infoLink id="wshp-char-mnt0-info" name="Character Mount" hidden="false" targetId="wshp-char-mnt0-0001" type="rule"/>

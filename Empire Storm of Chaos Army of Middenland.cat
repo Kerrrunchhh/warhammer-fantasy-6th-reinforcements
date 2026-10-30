@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e911-dc85-88aa-940b" name="Empire Storm of Chaos Army of Middenland" revision="13" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e911-dc85-88aa-940b" name="Empire Storm of Chaos Army of Middenland" revision="14" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Huntsmen do not count towards the MINIMUM core choice.
 
 Tzarina Katarin, the Ice Queen (not mechanically enforced in BattleScribe - apply manually on the tabletop): Katarin counts as a single Lord choice and must be fielded exactly as described here. She must be the Allied Contingent's commander and may not purchase any additional equipment or magic items. If you field the Tzarina Katarin, you may not field Tzar Boris. Her Protectors of the Khan-queen rule (waiving the 0-1 restriction on Gryphon Legion units if she leads the Allied Contingent) has no effect in this catalogue, since Kislevite allied units are not modeled here.
@@ -3924,7 +3924,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="25c2-4f06-059a-fe63" name="Warhorse" hidden="false" targetId="d9a5-1258-6421-47b1" type="profile"/>
+        <infoLink id="25c2-4f06-059a-fe63" name="Warhorse" hidden="false" targetId="a701-97b1-e4ab-5b56" type="profile"/>
         <infoLink id="c8a5-10f5-5d27-8cde" name="Full Plate Armour" hidden="false" targetId="4f66-d904-1a19-1887" type="rule"/>
         <infoLink id="6b2d-a2cf-8a9c-37a3" name="Talisman of Ulric" hidden="false" targetId="f302-b558-db63-93c3" type="rule"/>
         <infoLink id="3824-908b-2bcc-fe9f" name="Elector Count of Middenland" hidden="false" targetId="34ca-9fd9-1fc0-85be" type="rule"/>

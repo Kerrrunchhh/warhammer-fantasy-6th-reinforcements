@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e8f9-a0b1-c2d3-4567" name="Orcs and Goblins Night Goblin Horde" revision="3" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e8f9-a0b1-c2d3-4567" name="Orcs and Goblins Night Goblin Horde" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="fca7-254d-0ffd-489a" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000" />
   </publications>
@@ -6481,7 +6481,7 @@
       <infoLinks>
         <infoLink id="5166-ea63-1fdd-e566" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="8eba-128d-e790-e1b5" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
-        <infoLink id="ngh-ipan-0001-0001" name="Immune to Panic" hidden="false" targetId="ab76-c582-4154-09fb" type="rule" />
+        <infoLink id="ngh-ipan-0001-0001" name="Immune to Panic" hidden="false" targetId="de14-45df-25a9-03c9" type="rule" />
         <infoLink id="a332-f685-2879-a7a8" name="Regeneration (5+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule" />
         <infoLink id="ngh-stup-0001-0001" name="Stupidity" hidden="false" targetId="5d6f-7b4d-6093-4922" type="rule" />
         <infoLink id="ngh-amph-0001-0001" name="Amphibian" hidden="false" targetId="ngh-trol-amph-0001" type="rule" />
@@ -7998,6 +7998,9 @@ Instead of attacking normally the whole unit may elect to vomit on the enemy. As
 Place the small template centred on the target unit and scatter it using the Artillery and Scatter dice. If a &quot;Misfire&quot; is rolled it does not scatter. All models fully or partially under the template suffer one Strength 3 hit with -2 to their Armour Save.
 
 Duration: Instantaneous.</description>
+    </rule>
+    <rule id="de14-45df-25a9-03c9" name="Immune to Panic" hidden="false">
+      <description>The Troll Hag is immune to panic.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

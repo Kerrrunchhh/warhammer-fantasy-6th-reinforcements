@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a0b1-c2d3-e4f5-6789" name="Orcs and Goblins Savage Orc Horde" revision="2" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a0b1-c2d3-e4f5-6789" name="Orcs and Goblins Savage Orc Horde" revision="3" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="b35b-9177-7565-1ab7" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000" />
   </publications>
@@ -6443,7 +6443,7 @@
       <infoLinks>
         <infoLink id="94b9-0c99-779c-1f35" name="Terror" hidden="false" targetId="96f0-c50f-e59e-85fa" type="rule" />
         <infoLink id="fd2b-b4a0-a06b-224c" name="Large Target" hidden="false" targetId="4463-1b38-aa4d-e03c" type="rule" />
-        <infoLink id="soh-ipan-0001-0001" name="Immune to Panic" hidden="false" targetId="ab76-c582-4154-09fb" type="rule" />
+        <infoLink id="soh-ipan-0001-0001" name="Immune to Panic" hidden="false" targetId="7933-1d4f-04b8-8bc5" type="rule" />
         <infoLink id="506a-7f54-7c66-6c75" name="Regeneration (5+)" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule" />
         <infoLink id="soh-stup-0001-0001" name="Stupidity" hidden="false" targetId="5d6f-7b4d-6093-4922" type="rule" />
         <infoLink id="soh-amph-0001-0001" name="Amphibian" hidden="false" targetId="soh-trol-amph-0001" type="rule" />
@@ -7953,7 +7953,10 @@ Place the small template centred on the target unit and scatter it using the Art
 
 Duration: Instantaneous.</description>
     </rule>
-</sharedRules>
+    <rule id="7933-1d4f-04b8-8bc5" name="Immune to Panic" hidden="false">
+      <description>The Troll Hag is immune to panic.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="6933-6a28-866a-69d9" name="Choppa" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
       <characteristics>

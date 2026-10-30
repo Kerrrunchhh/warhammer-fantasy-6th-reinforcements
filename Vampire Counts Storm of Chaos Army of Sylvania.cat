@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="aaa1-d3e7-73ed-3dcb" name="Vampire Counts Storm of Chaos Army of Sylvania" revision="9" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="aaa1-d3e7-73ed-3dcb" name="Vampire Counts Storm of Chaos Army of Sylvania" revision="10" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 
@@ -5568,6 +5568,21 @@ At the beginning of the Close Combat phase, before hits are struck, the Familiar
       <description>+2 to their initiative. All models in base contact with one or more Lahmian vampires suffer -1 to their leadership. Cannot choose any mundane weapons and armour. -1 to their weapon skill.</description>
     </rule>
 
+    <rule id="vamc-gem0-bloo-0001" name="The Gem of Blood" hidden="false">
+      <description>An ancient relic from Nehekhara, this cursed gem is extremely dangerous for the bearer&apos;s opponents, but it is said that it will eventually be the undoing of its master. One use only. When the wearer suffers its first wound in close combat, the gem is activated. Roll a D6. On a 2+, the wound is saved and rebounded on the model who caused it, with no armour saves allowed. On a 1, the wound is not saved and the bearer suffers 1 additional wound, with no armour saves allowed.</description>
+    </rule>
+    <rule id="vamc-wris-bgol-0001" name="Wristbands of Black Gold" hidden="false">
+      <description>These ancient ornaments are capable of deflecting arrows, darts and bullets directed against the bearer. 3+ Ward Save against missile fire of any kind (including hits from war machines, template attacks, magic missiles, etc).</description>
+    </rule>
+    <rule id="vamc-crow-damn-0001" name="Crown of the Damned" hidden="false">
+      <description>The bearer draws revitalising energies from the spirits imprisoned within the Crown, but at times their eternal wailing overpowers his mind. 4+ Ward Save. The wearer is subject to Stupidity (even if the model is normally Immune to Psychology).</description>
+    </rule>
+    <rule id="vamc-ring-nigh-0001" name="Ring of the Night" hidden="false">
+      <description>This magic jewel has the power to draw a cloud of concealing darkness around the bearer. 5+ Ward Save.</description>
+    </rule>
+    <rule id="vamc-obsi-amul-0001" name="Obsidian Amulet" hidden="false">
+      <description>The dark energies of this powerful item surround the wearer and deflect enemy spells and magic weapons. The bearer has a 4+ Ward Save against wounds caused by magic weapons, spells or indeed any form of magical attack. In addition, the amulet confers Magic Resistance (1).</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="d779-7b37-711c-a697" name="Frostblade" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
