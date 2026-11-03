@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1d30-bbdf-823d-416a" name="Wood Elf" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1d30-bbdf-823d-416a" name="Wood Elf" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
@@ -1510,6 +1510,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac90-9369-aabd-dcbd" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="909a-cd42-3da7-c6fe" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="d1b7-8b3a-e9f4-04b8" name="The Bow of Loren" hidden="false" targetId="719c-3c0a-ea6f-d08a" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="35.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -1843,6 +1846,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b6c-8b02-6c41-1cde" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="088a-89a9-1646-d540" name="Wardancer Weapons" hidden="false" targetId="92e2-be44-6da3-dc20" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
         <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
@@ -2092,6 +2098,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b428-fdd3-548f-f507" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b0a1-8def-7367-4c1e" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="8775-b862-a207-a50a" name="Aeth – the Banner of Springtide" hidden="false" targetId="c04b-8e9d-823e-cdf6" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2693,7 +2702,7 @@ Woven Mist — The sinuous movements of this dance distract and confuse the enem
       <description>A Treeman may cast the spell Tree Singing (see page 79) in the same manner as a Bound Spell with a power level of 3. A Treeman Ancient may cast Tree Singing twice in each of his Magic phases.</description>
     </rule>
     <rule id="92e2-be44-6da3-dc20" name="Wardancer Weapons" hidden="false">
-      <description>Wardancers use a mix of weapons in their units, including pairs of swords, glaives and double-handed swords. To represent this, all Wardancers gain + I Attack. In addition, they add +1 Strength to all attacks they make in the first round of combat when charging.</description>
+      <description>Wardancers use a mix of weapons in their units, including pairs of swords, glaives and double-handed swords. To represent this, all Wardancers gain +1 Attack. In addition, they add +1 Strength to all attacks they make in the first round of combat when charging.</description>
     </rule>
     <rule id="192b-fa50-9fc6-5226" name="The Spirit Sword" hidden="false">
       <description>Hits by the Spirit Sword wound automatically.Any enemy thatsuffers one or more unsaved wounds from the Spirit Swordmust roll a D6 and add their Leadership-the wielder does thesame.For each point the wielder wins by, his opponent loses anadditional wound, with no Armour Saves or Ward Savesallowed.For each point his opponent wins by, the wielder loses a wound, with no Armour Saves or Ward Saves allowed.</description>
@@ -2702,7 +2711,7 @@ Woven Mist — The sinuous movements of this dance distract and confuse the enem
       <description>The wielder of this weapon may re-roll any failed hits inclose combat. In addition, any foe wounded by this blademust re-rolls any successful Armour Saves.</description>
     </rule>
     <rule id="719c-3c0a-ea6f-d08a" name="The Bow of Loren" hidden="false">
-      <description>This longbow allows the bearer to shoot as many times asthey have Attacks on their profile. The bearer does notsuffer-1 for multiple shots.</description>
+      <description>This longbow allows the bearer to shoot as many times as they have Attacks on their profile. The bearer does not suffer -1 for multiple shots.</description>
     </rule>
     <rule id="fc09-e87b-f11f-b02d" name="Blades of Loec" hidden="false">
       <description>Wardancer Characters only
@@ -2834,7 +2843,7 @@ Once per game,the bearer of this item may re-roll one ofthe dice when casting a 
       <description>The distance at which enemy models are prevented from marching by this unit is increased from 8&quot; to 12&quot;.</description>
     </rule>
     <rule id="c04b-8e9d-823e-cdf6" name="Aeth – the Banner of Springtide" hidden="false">
-      <description>The unit may make a stand and shoot charge reaction even if theenemy charging them do so from within half their charge range.</description>
+      <description>The unit may make a stand and shoot charge reaction even if the enemy charging them do so from within half their charge range.</description>
     </rule>
     <rule id="69ba-ade6-9cb9-f56f" name="A Blight of Terrors" hidden="false">
       <description>A model with a Blight of Terrors causes terror.</description>
