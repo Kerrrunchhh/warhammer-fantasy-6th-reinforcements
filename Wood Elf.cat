@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1d30-bbdf-823d-416a" name="Wood Elf" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1d30-bbdf-823d-416a" name="Wood Elf" revision="5" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
@@ -1896,6 +1896,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b159-68b3-93d6-688f" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8177-ce6f-82d9-8ef0" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="9d07-3e1e-c506-6e05" name="The Horn of the Asrai" hidden="false" targetId="583f-3946-969e-f934" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -1963,6 +1966,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8321-d312-274b-a4a4" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="704a-62e2-2920-a427" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="d911-0319-0cf7-947d" name="Wand of Wych Elm" hidden="false" targetId="d0f8-9279-1ce0-d5e8" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="55.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -1974,6 +1980,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ecb-8095-08c3-ff4a" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3dbd-1f47-183e-a1de" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="219f-8fd4-f33c-1dde" name="Calaingor’s Stave" hidden="false" targetId="3ce8-afab-c513-5851" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0"/>
@@ -2778,8 +2787,8 @@ Magic arrow.When fired, the arrow splits into 3D6 magical Strength 4 arrows. Rol
       <description>Magic arrows. Any unit that suffers one or more casualtiesfrom Starfire Arrows must take a Panic test, regardless ofthe number of casualties caused.</description>
     </rule>
     <rule id="583f-3946-969e-f934" name="The Horn of the Asrai" hidden="false">
-      <description>one use only
-Can be used at the beginning of any enemy turn.When used,all enemies able to charge the bearer of this item must take aLeadership test. If they fail,they must charge the bearer(charge reactions,Psychology tests etc. are taken as normal).</description>
+      <description>One use only.
+Can be used at the beginning of any enemy turn. When used, all enemies able to charge the bearer of this item must take a Leadership test. If they fail, they must charge the bearer (charge reactions, Psychology tests etc. are taken as normal).</description>
     </rule>
     <rule id="ad8e-ef33-7941-38c5" name="Arcane Bodkins" hidden="false">
       <description>Magic arrows.No Armour Saves are allowed against ArcaneBodkins.</description>
@@ -2799,7 +2808,7 @@ At the start of any of the bearer&apos;s turns the horn may beblown.The bearer a
       <description>This staff allows any Dispel attempt to be re-rolled.</description>
     </rule>
     <rule id="3ce8-afab-c513-5851" name="Calaingor’s Stave" hidden="false">
-      <description>If the bearer has the spell Tree Singing,then they may add 1&quot; to the distance they may move a forest if they successfully cast the spell (so, if successfully cast, theymay move a forest D3+2&quot;). In addition, they may cast(and attempt to cast) the spell more than once per Magic phase.</description>
+      <description>If the bearer has the spell Tree Singing, then they may add 1&quot; to the distance they may move a forest if they successfully cast the spell (so, if successfully cast, they may move a forest D3+2&quot;). In addition, they may cast (and attempt to cast) the spell more than once per Magic phase.</description>
     </rule>
     <rule id="6676-507b-e048-08ca" name="Divination Orb" hidden="false">
       <description>If an opponent uses more than three dice when casting anyspell,the bearer of the Divination Orb may add an extrafree Dispel dice into the attempt to dispel that spell.</description>
