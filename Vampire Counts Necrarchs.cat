@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1aa0-400b-d1dd-623d" name="Vampire Counts Necrarchs" revision="12" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1aa0-400b-d1dd-623d" name="Vampire Counts Necrarchs" revision="13" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>For the moment I have put some options that would be excluded because of a bloodline choice outside the bloodline tree for the vampires. All vampires must be of the same bloodline. I will work something out to cause this alert later.
 The Necrach Thrall can only be general if you choose the noble blood trait.
 </readme>
@@ -3796,7 +3796,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db96-af06-cdc1-532e" type="max" />
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bd8-4db7-f36f-1aa2" type="min" />
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="febb-776b-1587-37e7" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="febb-776b-1587-37e7" type="max" />
           </constraints>
         </entryLink>
         <entryLink id="6eae-ce63-0c43-577b" name="Ebony Staff" hidden="false" collective="false" import="true" targetId="03de-f7c1-9af5-5882" type="selectionEntry">
@@ -4507,7 +4507,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     </selectionEntry>
     <selectionEntry id="ff50-e354-087b-b7fb" name="Armour of Bone" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8639-03d3-ff40-c35c" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8639-03d3-ff40-c35c" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="e99e-51ce-543e-d955" name="Armour of Bone" hidden="false" targetId="1ed3-0189-a443-d6ec" type="profile" />
@@ -4551,7 +4551,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     <selectionEntry id="ab42-05f2-d494-c8a9" name="Black Periapt" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f418-7bfb-640d-75dd" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="886d-4b38-3297-5c01" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="886d-4b38-3297-5c01" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="f090-d129-3950-1f96" name="Black Periapt" hidden="false" targetId="5b80-6d0a-511b-9039" type="rule" />
@@ -4565,7 +4565,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     <selectionEntry id="2844-052f-8e6d-6dd8" name="Spell Familiar" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85ac-0d3d-2005-352f" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69e9-5071-32e4-e751" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="69e9-5071-32e4-e751" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="bc5e-ce06-a639-6609" name="Power Familiar" hidden="false" targetId="dfca-7b98-224b-9bdc" type="rule" />
@@ -4578,7 +4578,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     </selectionEntry>
     <selectionEntry id="4a4a-b355-a865-cae4" name="Power Familiar" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cb6-23fb-2906-e197" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4cb6-23fb-2906-e197" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce49-81ce-06c0-40b0" type="max" />
       </constraints>
       <infoLinks>
@@ -4593,7 +4593,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     <selectionEntry id="3643-2e1b-8795-9040" name="Skull Staff" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7578-ef41-b20c-5121" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a44-2885-87d0-6a9b" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4a44-2885-87d0-6a9b" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="c644-32a0-9843-d4b6" name="Skull Staff" hidden="false" targetId="3bf5-5502-c898-dcdd" type="rule" />
@@ -4607,7 +4607,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     <selectionEntry id="bda1-905e-5fc0-1e43" name="Book of Arkhan" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30c5-830e-f29c-5dd6" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00c8-319c-8e10-9353" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="00c8-319c-8e10-9353" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="1029-b7a1-99e0-c02b" name="Book of Arkhan" hidden="false" targetId="55b7-e01e-8496-5d62" type="rule" />
@@ -4621,7 +4621,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     <selectionEntry id="280c-04eb-79de-8f8e" name="Staff of Damnation" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1222-46fe-0d8d-2f39" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4a3-19b7-a07c-805b" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c4a3-19b7-a07c-805b" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="4735-62cf-7f1f-595a" name="Staff of Damnation" hidden="false" targetId="a991-825c-7ac1-39c8" type="rule" />
@@ -4635,7 +4635,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
     <selectionEntry id="172b-ece4-c567-a107" name="Warrior Familiar" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a9-585b-d1ee-53f2" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09ea-e0a1-72e2-7a0f" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="09ea-e0a1-72e2-7a0f" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="5608-382a-a725-5fe7" name="Warrior Familiar" hidden="false" targetId="e768-b3e6-668d-98ff" type="rule" />
@@ -4783,7 +4783,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       <selectionEntries>
         <selectionEntry id="9f61-99a7-2d4d-0f3b" name="Wailing Helm" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4149-17f1-813f-98ec" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4149-17f1-813f-98ec" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="6c97-215a-ea6a-a2b0" name="Wailing Helm" hidden="false" targetId="c57b-23e3-3b4f-4a51" type="profile" />
@@ -4797,7 +4797,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="1f0a-21c7-64a2-c9a0" name="Armour of Bone" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c01f-6a56-8971-99a2" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c01f-6a56-8971-99a2" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="12ec-68f1-30a7-8887" name="Armour of Bone" hidden="false" targetId="1ed3-0189-a443-d6ec" type="profile" />
@@ -4810,7 +4810,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="4b13-4b0e-ee69-a27c" name="The Flayed Hauberk" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c27-05df-dcdf-410d" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5c27-05df-dcdf-410d" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="c124-0572-65c3-a1ce" name="The Flayed Hauberk" hidden="false" targetId="8782-34e1-bb82-2746" type="profile" />
@@ -4823,7 +4823,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="c949-399d-6dd0-dddd" name="The CursedShield of Mousillon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17d-3e44-97c3-f935" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f17d-3e44-97c3-f935" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="3618-99db-b806-409e" name="The CursedShield of Mousillon" hidden="false" targetId="1a93-1518-707f-1d23" type="profile" />
@@ -4850,7 +4850,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       <selectionEntries>
         <selectionEntry id="81fb-ab77-ea23-b042" name="Obsidian Amulet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f8c-6f87-e0e1-45bf" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f8c-6f87-e0e1-45bf" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="vamc-obsi-amul-0-81fb-ab7" name="Obsidian Amulet" hidden="false" targetId="vamc-obsi-amul-0001" type="rule"/>
@@ -4863,7 +4863,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="b9f8-03f6-d4ca-89bd" name="Crown of the Damned" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e1a-ec6a-22d1-6911" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3e1a-ec6a-22d1-6911" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="vamc-crow-damn-0-b9f8-03f" name="Crown of the Damned" hidden="false" targetId="vamc-crow-damn-0001" type="rule"/>
@@ -4876,7 +4876,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="7df6-2d7d-883f-36c4" name="Wristbands of Black Gold " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3e8-8d87-db98-20d6" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3e8-8d87-db98-20d6" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="vamc-wris-bgol-0-7df6-2d7" name="Wristbands of Black Gold" hidden="false" targetId="vamc-wris-bgol-0001" type="rule"/>
@@ -4889,7 +4889,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="1e95-2d72-65af-0c15" name="Ring of the Night" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b81-2423-b654-86c6" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b81-2423-b654-86c6" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="vamc-ring-nigh-0-1e95-2d7" name="Ring of the Night" hidden="false" targetId="vamc-ring-nigh-0001" type="rule"/>
@@ -4902,7 +4902,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="08d5-c974-29c6-301d" name="The Gem of Blood" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b43-2252-e0aa-162d" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b43-2252-e0aa-162d" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="vamc-gem0-bloo-0-08d5-c97" name="The Gem of Blood" hidden="false" targetId="vamc-gem0-bloo-0001" type="rule"/>
@@ -4925,7 +4925,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       <selectionEntries>
         <selectionEntry id="3b13-2eed-78e8-7b5e" name="Rod of Flaming Death " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2ec-5554-2d8a-1779" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b2ec-5554-2d8a-1779" type="max" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0" />
@@ -4935,7 +4935,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="3dc1-4316-1202-f34f" name="Cursed Book" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c586-506a-f23d-a3d6" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c586-506a-f23d-a3d6" type="max" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0" />
@@ -4945,7 +4945,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="a625-09a2-e955-39a5" name="Cloak of Mist and Shadows " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0d0-f11b-729a-ec55" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f0d0-f11b-729a-ec55" type="max" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0" />
@@ -4955,7 +4955,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="91b1-f0ca-4e9d-8699" name="Talon of Death" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee19-27fb-6d99-c50b" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee19-27fb-6d99-c50b" type="max" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0" />
@@ -4965,7 +4965,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="bc8a-4a23-9a1f-8865" name="Casket of Ages" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf2-3639-24b8-0bd1" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0bf2-3639-24b8-0bd1" type="max" />
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0" />
@@ -5626,7 +5626,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="0e8f-66fa-671d-f749" name="Armour of Bone" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2639-c780-695d-3531" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2639-c780-695d-3531" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="43f4-eb85-4f3a-ae5b" name="Armour of Bone" hidden="false" targetId="1ed3-0189-a443-d6ec" type="profile" />
@@ -5681,7 +5681,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
       <selectionEntries>
         <selectionEntry id="3a82-5d96-6b69-9c14" name="Frostblade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f6-7d93-2d9d-5384" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="76f6-7d93-2d9d-5384" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="ba4d-2082-fc4c-f5f1" name="Frostblade" hidden="false" targetId="6900-f405-0716-cd9f" type="profile" />
@@ -5694,7 +5694,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="91e9-a95e-0370-04d5" name="Sword of Unholy Power " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcdb-93a6-bf7b-d67d" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fcdb-93a6-bf7b-d67d" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="e8ad-1971-d56f-dd4e" name="Sword of Unholy Power " hidden="false" targetId="1e80-9ed6-c1a0-1bc1" type="rule" />
@@ -5707,7 +5707,7 @@ The Necrach Thrall can only be general if you choose the noble blood trait.
         </selectionEntry>
         <selectionEntry id="4380-6df6-1fa6-eedb" name="Tomb Blade " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6d1-b411-efb2-ccae" type="max" />
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e6d1-b411-efb2-ccae" type="max" />
           </constraints>
           <infoLinks>
             <infoLink id="d4c4-ddd8-5f20-26eb" name="Tomb Blade " hidden="false" targetId="8605-d024-e20c-077d" type="rule" />

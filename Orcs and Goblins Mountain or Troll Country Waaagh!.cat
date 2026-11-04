@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b1c2-d3e4-f5a6-7890" name="Orcs and Goblins Mountain or Troll Country Waaagh!" revision="3" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b1c2-d3e4-f5a6-7890" name="Orcs and Goblins Mountain or Troll Country Waaagh!" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="98f8-a49d-dd48-98d7" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000" />
   </publications>
@@ -7110,7 +7110,7 @@
     </selectionEntry>
     <selectionEntry id="a204-aec8-7613-a146" name="Bigged's 'Ed Kickin Boots " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce6f-95c5-0922-b743" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ce6f-95c5-0922-b743" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2316-d83f-0756-2350" type="max" />
       </constraints>
       <infoLinks>

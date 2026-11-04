@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b9ee-6e98-8803-a9cd" name="Orcs and Goblins Storm of Chaos Grimgor's Ardboys" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b9ee-6e98-8803-a9cd" name="Orcs and Goblins Storm of Chaos Grimgor's Ardboys" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Grimgor's 'Ardboyz Special Rules:&#10;- The army may include Grimgor Ironhide as its General. It may also include Borgut Facebeater. If Grimgor is not present then Borgut will be the General. If neither are present then the General must be a Black Orc Warboss or Orc Warboss. If no Lord choices are allowed (because of the maximum points being played) then the General must be a Black Orc Big Boss or Orc Big Boss.&#10;- Black Orc Warbosses and Black Orc Big Bosses only count as a further Hero choice if they have a mount of any type.&#10;- There must be more Warbosses and Bigbosses in the army, including Grimgor and Borgut, than there are Great Shamans and Shamans.&#10;- Grimgor is only interested in getting the biggest, strongest, hurtiest Orcs in his army. Consequently, any number of units of Orc Boyz or Orc Boar Boyz can be upgraded to Big 'Uns, and any number of units of Orc Boar Boyz (including Big 'Uns) count as Core choices rather than Special.&#10;- Note: Grimgor's Bodyguard may be armed with additional hand weapons or with great weapons, as you wish.</readme>
   <publications>
     <publication id="e8ac-7f46-4a66-abc7" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000"/>
@@ -3254,7 +3254,7 @@
     </selectionEntry>
     <selectionEntry id="e876-9968-c31c-2d0c" name="Bigged&apos;s &apos;Ed Kickin Boots " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b315-de11-3058-3131" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b315-de11-3058-3131" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef8e-6ffb-f48d-7d44" type="max"/>
       </constraints>
       <infoLinks>

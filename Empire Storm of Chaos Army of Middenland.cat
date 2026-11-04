@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e911-dc85-88aa-940b" name="Empire Storm of Chaos Army of Middenland" revision="14" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e911-dc85-88aa-940b" name="Empire Storm of Chaos Army of Middenland" revision="15" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Huntsmen do not count towards the MINIMUM core choice.
 
 Tzarina Katarin, the Ice Queen (not mechanically enforced in BattleScribe - apply manually on the tabletop): Katarin counts as a single Lord choice and must be fielded exactly as described here. She must be the Allied Contingent's commander and may not purchase any additional equipment or magic items. If you field the Tzarina Katarin, you may not field Tzar Boris. Her Protectors of the Khan-queen rule (waiving the 0-1 restriction on Gryphon Legion units if she leads the Allied Contingent) has no effect in this catalogue, since Kislevite allied units are not modeled here.
@@ -4048,7 +4048,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="5108-36f5-070c-e277" name="Imperial Banner" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad27-9e30-d23c-cb20" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e556-4bd9-d7da-b750" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e556-4bd9-d7da-b750" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="296a-d3ca-7f9a-f60b" name="IMPERIAL BANNER" hidden="false" targetId="7075-7e54-a2a7-c5bc" type="rule"/>
@@ -4062,7 +4062,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="827f-d9ad-8cba-85ce" name="Banner Of Duty" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db08-73d9-b10a-4346" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ff3-2615-fb8f-7914" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ff3-2615-fb8f-7914" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="6e8e-55b0-ae84-f023" name="BANNER OF DUTY" hidden="false" targetId="9f77-d4fd-f5f5-07eb" type="rule"/>
@@ -4076,7 +4076,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="1964-5641-b160-c4d4" name="Steel Standard" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6053-28bd-df91-351b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9e5-934b-2d19-6991" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a9e5-934b-2d19-6991" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e0bf-3951-d7a3-74dc" name="STEEL STANDARD" hidden="false" targetId="378f-0290-24d6-36d0" type="rule"/>
@@ -4104,7 +4104,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="a2ca-944a-4152-0e28" name="Banner Of Sigismund" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a8-5ad8-5cb5-edb1" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bb7-d06a-4abc-0fe3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4bb7-d06a-4abc-0fe3" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="a9e2-e45e-4510-59c1" name="BANNER OF SIGISMUND" hidden="false" targetId="ed11-45c3-a69f-e488" type="rule"/>
@@ -4118,7 +4118,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="cdbd-d647-4458-a2bc" name="Banner Of Ulric" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4fd-0b8c-04ee-044c" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f8-afea-3ed9-0f58" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="50f8-afea-3ed9-0f58" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="9cc9-0d2a-5d23-b7d2" name="BANNER OF ULRIC" hidden="false" targetId="3597-878e-e7e6-f936" type="rule"/>
@@ -4145,7 +4145,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="6f1f-4ee4-c3bf-8f20" name="Banner Of Valour" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ae-e91a-58ae-2b3d" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ed-71e2-9437-e7eb" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74ed-71e2-9437-e7eb" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="869b-2384-40fe-c042" name="BANNER OF VALOUR" hidden="false" targetId="3aa1-f932-7a16-bfb2" type="rule"/>
@@ -4159,7 +4159,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="2f09-9b2e-b0de-0693" name="Standard Of Arcane Warding" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7995-4976-b47f-5533" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c42f-6846-44d3-8f5d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c42f-6846-44d3-8f5d" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="2a33-5497-baba-0794" name="STANDARD OF ARCANE WARDING" hidden="false" targetId="7072-abbe-0618-ef4e" type="rule"/>
@@ -4173,7 +4173,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="a504-3821-23fe-2edb" name="Icon Of Magnus" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c65-9017-9bf8-4f01" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d8b-d6b8-e46a-5192" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1d8b-d6b8-e46a-5192" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e488-e48c-3051-7aaa" name="ICON OF MAGNUS" hidden="false" targetId="9205-7d02-94b1-7201" type="rule"/>
@@ -4187,7 +4187,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="46c9-3f9e-434e-46da" name="Ring Of Volans" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c1e-ddd7-d644-8e5c" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a45-7556-9517-71e8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2a45-7556-9517-71e8" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="9dd6-77b0-4963-7db5" name="Ring Of Volans" hidden="false" targetId="536f-8dd4-1ef8-75dc" type="rule"/>
@@ -4201,7 +4201,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="7c4f-3b10-5516-cd42" name="Doomfire Ring" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08c8-c6de-8732-98b6" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feca-68be-32cc-7fd0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="feca-68be-32cc-7fd0" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="98ac-8904-4a16-bcd0" name="Doomfire Ring" hidden="false" targetId="eadd-9d93-97df-d842" type="rule"/>
@@ -4215,7 +4215,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="a3a4-d8c8-275a-6465" name="Van Horstmann&apos;s Specullum" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c99-ccad-b35f-704e" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbff-29a5-6330-0eb8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbff-29a5-6330-0eb8" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="6cee-3e74-8cbd-fef0" name="Van Horstmann&apos;s Specullum" hidden="false" targetId="8f86-1a2d-6c5e-be4e" type="rule"/>
@@ -4346,7 +4346,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     </selectionEntry>
     <selectionEntry id="03c3-368f-9d04-17dc" name="Runefang" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c09-5d36-ab8f-2ccc" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6c09-5d36-ab8f-2ccc" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="523a-e610-c12a-7e98" type="max"/>
       </constraints>
       <infoLinks>
@@ -4361,7 +4361,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="c7fb-e76c-97bf-02f8" name="The Mace Of Helstrum" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9213-a9a1-6ea3-c1cc" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4afa-4e76-40ca-2383" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4afa-4e76-40ca-2383" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0"/>
@@ -4372,7 +4372,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="1081-2ee3-2df0-9c0d" name="Sword Of Fate" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c63-826a-dbaa-88c6" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2581-7a5a-e8af-e0d1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2581-7a5a-e8af-e0d1" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="421b-83ac-0c04-6865" name="Sword Of Fate" hidden="false" targetId="c0b7-f514-8681-d427" type="rule"/>
@@ -4389,7 +4389,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="5d57-053f-ef96-f23c" name="Sword of Sigismund" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3227-1621-d00f-fa09" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f68-6278-2f0d-6ad3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f68-6278-2f0d-6ad3" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="1fd0-064f-a16e-c3f6" name="Sword of Sigismund" hidden="false" targetId="1c12-4d1a-be7f-4824" type="rule"/>
@@ -4403,7 +4403,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="9370-5ccd-4984-0840" name="Sword of Righteous Steel" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a678-1e78-826b-2349" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f815-3b30-c038-c542" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f815-3b30-c038-c542" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="4615-5514-b952-39be" name="Sword of Righteous Steel" hidden="false" targetId="648c-0e23-0ea9-b7e5" type="rule"/>
@@ -4417,7 +4417,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="a731-dff8-1b76-6169" name="Sword of Power " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62d7-d1b6-9e42-de06" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a06b-ff73-182c-cccd" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a06b-ff73-182c-cccd" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="bd8d-87f7-0844-879f" name="Sword of Power " hidden="false" targetId="afae-287a-8816-cfb2" type="rule"/>
@@ -4431,7 +4431,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="87dd-b310-ee5a-aa7a" name="Hammer of Judgement" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f140-8e9e-2903-f0eb" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90a7-cae1-83b0-a1b1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="90a7-cae1-83b0-a1b1" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="a7d6-835c-1770-ec72" name="Hammer of Judgement" hidden="false" targetId="b6ea-1050-331c-a1e4" type="rule"/>
@@ -4445,7 +4445,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="c363-ecd0-1fde-3ef5" name="Dragon Bow" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d8-5211-e422-cd76" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5e9-d35f-beca-7745" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b5e9-d35f-beca-7745" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="ed28-f578-b323-1de6" name="Dragon Bow" hidden="false" targetId="1612-d074-25b2-d50e" type="rule"/>
@@ -4459,7 +4459,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="146a-4956-972e-04b5" name="Sword of Justice" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f1-a38a-0c3d-96e6" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b10b-6098-e862-078f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b10b-6098-e862-078f" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="cbbb-0553-cd33-21e0" name="Sword of Justice" hidden="false" targetId="f85d-aabf-7272-85fe" type="rule"/>
@@ -4473,7 +4473,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="7807-2fee-1433-b908" name="Wyrmslayer Sword " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5884-7518-594f-a05b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9262-e8b0-1022-eb08" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9262-e8b0-1022-eb08" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="f25a-d377-f0f5-10b5" name="Wyrmslayer Sword " hidden="false" targetId="7f02-923c-9e9d-d12c" type="rule"/>
@@ -4487,7 +4487,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="9d27-3697-ea69-2816" name="The Gilded Armour" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43a1-bbad-00ca-4a26" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36b0-b1bc-f13a-e642" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="36b0-b1bc-f13a-e642" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="a167-5dd0-9cbb-9d68" name="The Gilded Armour" hidden="false" targetId="296b-79e2-486e-aca8" type="rule"/>
@@ -4501,7 +4501,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="f406-2920-5b07-2db2" name="Dawn Armour" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c60-12cb-7433-8009" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a594-2e3a-842a-224e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a594-2e3a-842a-224e" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="b073-8622-df26-1517" name="Dawn Armour" hidden="false" targetId="231e-c990-9a02-2af6" type="rule"/>
@@ -4515,7 +4515,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="e804-9771-58e8-50b3" name="Armour of Tarnus" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="981a-4879-f495-1c87" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bfb-9c48-94c6-c17b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3bfb-9c48-94c6-c17b" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="d15b-c9ff-6973-970d" name="Armour of Tarnus" hidden="false" targetId="3126-fec8-fd6c-76f0" type="rule"/>
@@ -4529,7 +4529,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="b787-720a-000f-f393" name="Shield of the Gorgon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b55-37ec-e082-2ff0" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2768-18bf-95b6-0394" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2768-18bf-95b6-0394" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="9a2e-07af-4e3b-fd3f" name="Shield of the Gorgon" hidden="false" targetId="faa3-5844-08ed-533c" type="rule"/>
@@ -4543,7 +4543,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="af6d-50c0-ba4e-7908" name="Armour of Meteoric Iron" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c6-c3c0-e67f-0f90" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="163b-1860-f098-92e6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="163b-1860-f098-92e6" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="4a53-e7d5-67ea-f24a" name="Armour of Meteoric Iron" hidden="false" targetId="6ff0-18ee-b37a-e011" type="rule"/>
@@ -4557,7 +4557,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="cdda-9e45-c69a-25a2" name="Bronze Shield" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ed-6185-ae3d-13b4" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2661-effa-6bbc-be31" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2661-effa-6bbc-be31" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="581b-8837-1a9f-e3c0" name="Bronze Shield" hidden="false" targetId="1eae-356c-854e-b95f" type="rule"/>
@@ -4571,7 +4571,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="d3dc-a3e2-9cc8-c9ac" name="Helm of the Skaven Slayer" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be53-103d-ed23-5868" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c05-db75-1774-602d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c05-db75-1774-602d" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="9432-5074-9954-7f9f" name="Helm of the Skaven Slayer" hidden="false" targetId="e7af-8ef6-0bb4-29d9" type="rule"/>
@@ -4585,7 +4585,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="9b24-7d68-503f-40e9" name="Shroud of Magnus" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e56-4797-f14a-d040" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="322a-a1df-521c-ed7d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="322a-a1df-521c-ed7d" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="779d-12cc-0700-2a9e" name="Shroud of Magnus" hidden="false" targetId="76c0-e1f0-f521-289a" type="rule"/>
@@ -4599,7 +4599,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="f496-a25d-c997-4893" name="Jade Amulet" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c7-26f5-8753-61dc" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2c4-e2ee-dc2a-5499" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e2c4-e2ee-dc2a-5499" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="55b3-ad0f-069a-8163" name="Jade Amulet" hidden="false" targetId="91de-8b69-f73a-1e11" type="rule"/>
@@ -4613,7 +4613,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="a4b0-8b65-16b0-9f56" name="Holy Relic" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="107b-b17a-0963-822b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6ee-e080-28aa-6111" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d6ee-e080-28aa-6111" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="97bb-3933-7943-3579" name="Holy Relic" hidden="false" targetId="0066-c800-985d-c3bf" type="rule"/>
@@ -4627,7 +4627,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="504f-fe0b-d4a5-71ee" name="Sigil of Sigmar" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd31-22ba-344a-44b0" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e502-46db-4f79-3753" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e502-46db-4f79-3753" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="f8fa-2ee2-26ec-476e" name="Sigil of Sigmar" hidden="false" targetId="afaa-73b6-38e8-3791" type="rule"/>
@@ -4641,7 +4641,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="758e-4b60-4821-df78" name="The White Cloak" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e09-90ab-486f-c4cc" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d66-3462-28ca-e5ba" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3d66-3462-28ca-e5ba" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="b804-810f-f7a6-b03d" name="The White Cloak" hidden="false" targetId="60b7-0bb9-d0db-0c47" type="rule"/>
@@ -4655,7 +4655,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="33f1-d35d-1f82-c65a" name="The Crimson Amulet" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bb2-63cb-af99-0f99" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f72-2937-277c-a63e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f72-2937-277c-a63e" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="c0d1-6fbf-fb37-4666" name="The Crimson Amulet" hidden="false" targetId="f775-10b8-c078-4239" type="rule"/>
@@ -4669,7 +4669,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="c0b0-ac21-c349-7cfa" name="Grey Wand" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b90e-e7f3-84ab-a093" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e90a-0057-450a-566f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e90a-0057-450a-566f" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="c3ac-841c-10b2-f628" name="Grey Wand" hidden="false" targetId="6b30-ac29-eadb-1378" type="rule"/>
@@ -4683,7 +4683,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="b3df-1178-4f19-2447" name="Seal of Destruction" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d58f-d34b-ad7c-5cd4" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ba-b55e-8c72-628b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="26ba-b55e-8c72-628b" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="a50a-1869-6821-7765" name="Seal of Destruction" hidden="false" targetId="1450-45e2-37b8-8b61" type="rule"/>
@@ -4697,7 +4697,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="801f-e7e3-9cdb-20f6" name="Rod of Power" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef94-cc54-4e8e-d052" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="558c-ce88-8ed3-df66" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="558c-ce88-8ed3-df66" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="345e-7016-acb7-b697" name="Rod of Power" hidden="false" targetId="1302-8d6e-63bb-c88b" type="rule"/>
@@ -4711,7 +4711,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="cd49-9b59-f4d0-9f03" name="Luckstone" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df0-63ed-6ba5-9aa8" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d3-058e-9fcb-4778" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="53d3-058e-9fcb-4778" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="5f29-3008-7103-6a21" name="Luckstone" hidden="false" targetId="7a52-4066-677a-d2a8" type="rule"/>
@@ -4725,7 +4725,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="8a1e-2ce8-683c-5971" name="Crystal Ball" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aaa-5991-f666-51e0" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e25a-a132-0dae-6478" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e25a-a132-0dae-6478" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="c7f7-a495-4444-52b3" name="Crystal Ball" hidden="false" targetId="2689-1b61-26d1-d481" type="rule"/>
@@ -4739,7 +4739,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="90ff-e6eb-ae1b-5d71" name="Wizard’s Staff" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b24-7ad8-16e0-06f3" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ba6-a943-fc40-cf32" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9ba6-a943-fc40-cf32" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="91b2-442e-6811-a5f3" name="Wizard’s Staff" hidden="false" targetId="0a91-8ec2-4630-406a" type="rule"/>
@@ -4753,7 +4753,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="65af-b490-1984-3f9d" name="Laurels of Victory" publicationId="aecb-710a-1314-8b8d" page="22" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bfd-5c1e-2255-51dd" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17c8-b8dd-b4a9-abbb" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="17c8-b8dd-b4a9-abbb" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="2671-1237-22c3-08f7" name="Laurels of Victory" hidden="false" targetId="855a-e716-c4f5-44e5" type="rule"/>
@@ -4767,7 +4767,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="a507-3e8f-85c5-5c9c" name="Rod of Command" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="516c-0249-3d2a-9a29" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e27-6e97-66cf-85d3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1e27-6e97-66cf-85d3" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="8e38-45ee-5cef-c293" name="Rod of Command" hidden="false" targetId="4c31-e27b-0d31-1260" type="rule"/>
@@ -4781,7 +4781,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="bebc-94b6-a44a-3dd6" name="The Silver Horn" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30cd-47cd-8b5d-27b5" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f98a-3e97-1cae-3d88" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f98a-3e97-1cae-3d88" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="b614-7d80-1b9a-7cf6" name="The Silver Horn" hidden="false" targetId="af90-886c-49d7-2b10" type="rule"/>
@@ -4795,7 +4795,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="8911-f93f-c487-d559" name="The Orb of Thunder" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9717-fc11-04d9-6c50" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df22-7539-2c1f-9490" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="df22-7539-2c1f-9490" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="5812-93e5-05ca-963c" name="The Orb of Thunder" hidden="false" targetId="d449-fac3-5770-3afd" type="rule"/>
@@ -4809,7 +4809,7 @@ Boris Ursus, the Red Tzar (not mechanically enforced in BattleScribe - apply man
     <selectionEntry id="eacd-661a-793b-7fe1" name="Aldred’s Casket of Sorcery" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2a1-ebef-2407-4ac3" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4843-957c-cb32-1c92" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4843-957c-cb32-1c92" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="cc4a-e939-d2fe-f4b3" name="Aldred’s Casket of Sorcery" hidden="false" targetId="2831-ee6d-460f-0889" type="rule"/>

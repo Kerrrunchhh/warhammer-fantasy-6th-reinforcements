@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d21b-c434-a940-4035" name="Lizardmen" revision="11" battleScribeVersion="2.03" authorName="Thomas Saxon and Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d21b-c434-a940-4035" name="Lizardmen" revision="12" battleScribeVersion="2.03" authorName="Thomas Saxon and Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3a49-dd2e-fcaa-cdb1" name="Lizardmen 2003"/>
   </publications>
@@ -2735,7 +2735,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
     <selectionEntry id="70ac-f325-7ce2-eb0f" name="Cupped Hands of the Old Ones" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dca8-0cbd-0953-6206" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a7-abf5-dabc-0abc" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="61a7-abf5-dabc-0abc" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="lzrd-cupp-hand-il01" name="Cupped Hands of the Old Ones" hidden="false" targetId="lzrd-cupp-hand-0001" type="rule"/>
@@ -2749,7 +2749,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
     <selectionEntry id="a164-635a-a7e5-7c55" name="Plaque of Dominion" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4f2-dae2-6376-6782" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4a-43fe-7612-c21f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="db4a-43fe-7612-c21f" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="lzrd-plaq-domi-il01" name="Plaque of Dominion" hidden="false" targetId="lzrd-plaq-domi-0001" type="rule"/>
@@ -2763,7 +2763,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
     <selectionEntry id="3ceb-3da3-41cd-917a" name="Plaque of Tepok" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3399-27b7-4cb0-856e" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a4-429c-6eb4-3fe4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="87a4-429c-6eb4-3fe4" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="lzrd-plaq-tepo-il01" name="Plaque of Tepok" hidden="false" targetId="lzrd-plaq-tepo-0001" type="rule"/>
@@ -2777,7 +2777,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
     <selectionEntry id="de9a-1fb7-3431-713d" name="The Divine Plaque of Protection" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dd5-339c-6aef-424e" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ae2-0059-a11c-28d4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ae2-0059-a11c-28d4" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="lzrd-plaq-prot-il01" name="The Divine Plaque of Protection" hidden="false" targetId="lzrd-plaq-prot-0001" type="rule"/>
@@ -2833,7 +2833,7 @@ The Hand of Gods has a range of 8&quot; and strikes every enemy unit within line
         <selectionEntry id="9495-d338-1fc5-6b12" name="Rod of the Storm" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e06e-a7a3-bc9f-baf5" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead7-ab00-98a9-2805" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ead7-ab00-98a9-2805" type="max"/>
           </constraints>
           <profiles>
             <profile id="845b-e69b-1dd8-675c" name="Rod of the Storm" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
@@ -2852,7 +2852,7 @@ May be targeted against an enemy during the Magic phase. It is a magic missile t
         <selectionEntry id="644c-0089-b68e-879b" name="Cube of Darkness" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c81-350c-280a-470e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2594-9151-b357-f2dc" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2594-9151-b357-f2dc" type="max"/>
           </constraints>
           <profiles>
             <profile id="ba82-c7bb-692e-20a0" name="Cube of Darkness" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
@@ -2871,7 +2871,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="1775-fd8c-f361-115d" name="Diadem of Power" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a09-779b-8fb9-cd38" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="351c-9840-b8ca-28cf" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="351c-9840-b8ca-28cf" type="max"/>
           </constraints>
           <profiles>
             <profile id="ffe8-3dae-3b7e-2477" name="Diadem of Power" publicationId="3a49-dd2e-fcaa-cdb1" page="55" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
@@ -2889,7 +2889,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="48fa-a15c-23ad-d51b" name="Staff of Sorcery" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebb5-5231-7759-9798" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3850-c0ee-0e58-a88e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3850-c0ee-0e58-a88e" type="max"/>
           </constraints>
           <profiles>
             <profile id="c33c-9828-0eaa-75b2" name="Staff of Sorcery" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="a89b-d5a3-7805-c44e" typeName="Magic Items">
@@ -2937,7 +2937,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="4e1a-69dd-8971-5abc" name="Shield of the Mirrored Pool" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b9d-bf63-07a9-866a" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ab1-08b8-4136-1e71" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6ab1-08b8-4136-1e71" type="max"/>
           </constraints>
           <profiles>
             <profile id="fa7f-868d-687c-3d3d" name="Shield of the Mirrored Pool" publicationId="3a49-dd2e-fcaa-cdb1" page="53." hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
@@ -2956,7 +2956,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="e95e-dbca-6876-cc65" name="Maiming Shield" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c36-c1b7-e269-2e8f" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bac-541f-ff41-da2c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5bac-541f-ff41-da2c" type="max"/>
           </constraints>
           <profiles>
             <profile id="c87e-16e7-1280-a235" name="Maiming Shield" publicationId="3a49-dd2e-fcaa-cdb1" page="53" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
@@ -2975,7 +2975,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="fb45-acc1-6417-32a8" name="Enchanted Shield" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="430f-8431-e4b4-d69f" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2f2-be08-87b7-8764" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b2f2-be08-87b7-8764" type="max"/>
           </constraints>
           <profiles>
             <profile id="ae5f-ba87-e6d1-fd70" name="Enchanted Shield" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="f681-9937-db53-f1d8" typeName="Armour">
@@ -3001,7 +3001,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="427a-2e1b-50f9-d83a" name="Talisman of Protection" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7125-117f-2f46-c21a" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5e4-aa77-22cf-d911" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f5e4-aa77-22cf-d911" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="lzrd-tali-prot-il01" name="Talisman of Protection" hidden="false" targetId="lzrd-tali-prot-0001" type="rule"/>
@@ -3015,7 +3015,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="c54b-0bd1-c1a4-5758" name="Aura of Quetzl" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a957-48a0-57b0-bb42" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2df-14ca-cff7-5b5d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d2df-14ca-cff7-5b5d" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="lzrd-aura-quet-il01" name="Aura of Quetzl" hidden="false" targetId="lzrd-aura-quet-0001" type="rule"/>
@@ -3029,7 +3029,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="8cde-627c-4317-aa12" name="Glyph Necklace" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba9-9036-1f26-b0b5" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ef8-20b4-a6d8-e901" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ef8-20b4-a6d8-e901" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="lzrd-glyp-neck-il01" name="Glyph Necklace" hidden="false" targetId="lzrd-glyp-neck-0001" type="rule"/>
@@ -3043,7 +3043,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="f8f5-2c0e-5160-214a" name="Amulet of Itzl" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb9-5f56-08d6-10f4" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152f-0171-643c-887d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="152f-0171-643c-887d" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="lzrd-amul-itzl-il01" name="Amulet of Itzl" hidden="false" targetId="lzrd-amul-itzl-0001" type="rule"/>
@@ -3064,7 +3064,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="2d46-00f0-4c5d-b9d6" name="Blade of Revered Tzunki" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f0d-a5d4-3412-1371" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd00-00ae-3682-588d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd00-00ae-3682-588d" type="max"/>
           </constraints>
           <profiles>
             <profile id="6f3c-d7a7-26e1-ba8e" name="Blade of Revered Tzunki" publicationId="3a49-dd2e-fcaa-cdb1" page="53" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3084,7 +3084,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="8dbe-99c7-8a44-0418" name="Scimitar of the Sun Resplendent" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fc4-3d60-0f91-04a9" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dcd-20d6-2456-4faf" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3dcd-20d6-2456-4faf" type="max"/>
           </constraints>
           <profiles>
             <profile id="4414-822c-13fd-b391" name="New SelectionEntry" publicationId="3a49-dd2e-fcaa-cdb1" page="53" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3104,7 +3104,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="197f-52b2-34ea-1862" name="Sword of the Hornet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16e2-178b-bf52-69af" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01f4-d208-7374-a8a0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="01f4-d208-7374-a8a0" type="max"/>
           </constraints>
           <profiles>
             <profile id="0718-3c13-5324-c64c" name="Sword of the Hornet" publicationId="3a49-dd2e-fcaa-cdb1" page="53" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3124,7 +3124,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="9b20-e93e-7d34-d791" name="Sword of Striking" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ac7-8537-faac-1e50" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76fb-a812-c608-3605" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="76fb-a812-c608-3605" type="max"/>
           </constraints>
           <profiles>
             <profile id="13c0-c88f-f645-fd3e" name="Sword of Striking" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3144,7 +3144,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="f90d-30b4-2a5b-10f7" name="Biting Blade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa2-818c-b0a8-74b0" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aeb-0c31-802b-4fea" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1aeb-0c31-802b-4fea" type="max"/>
           </constraints>
           <profiles>
             <profile id="3681-d89f-b27c-229c" name="Biting Blade" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3164,7 +3164,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="0f42-aa82-7c86-fba2" name="Sword of Battle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e07e-411f-9434-c108" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe79-c698-e1f5-87f7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe79-c698-e1f5-87f7" type="max"/>
           </constraints>
           <profiles>
             <profile id="53e4-3b87-6160-0420" name="Sword of Battle" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3184,7 +3184,7 @@ This may be used with the exact sam effects as a Dispel Scroll. In addtion, all 
         <selectionEntry id="bd27-4323-33a2-d1c8" name="Burning Blade of Chotec" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14aa-29e6-5bd0-85ba" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69c7-3901-1852-204f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="69c7-3901-1852-204f" type="max"/>
           </constraints>
           <profiles>
             <profile id="4773-4c7d-b048-7fb7" name="Burning Blade of Chotec" publicationId="3a49-dd2e-fcaa-cdb1" page="53" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3205,7 +3205,7 @@ All attacks made with this weapon count as flaming attacks.</characteristic>
         <selectionEntry id="5478-5c8d-2f64-5f56" name="Sword of Might" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f68-ecf3-79a0-20dd" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70b5-9337-597b-3613" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70b5-9337-597b-3613" type="max"/>
           </constraints>
           <profiles>
             <profile id="977b-76a5-627a-5a13" name="Sword of Might" publicationId="315e-e3c4-08af-fd51" page="154" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3225,7 +3225,7 @@ All attacks made with this weapon count as flaming attacks.</characteristic>
         <selectionEntry id="d642-8f21-5d84-94a6" name="Dagger of Sotek" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ff-bae8-5104-1c19" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83cc-8aab-6231-d086" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="83cc-8aab-6231-d086" type="max"/>
           </constraints>
           <profiles>
             <profile id="da9f-e84d-cb5b-2023" name="Dagger of Sotek" publicationId="3a49-dd2e-fcaa-cdb1" page="53" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3248,7 +3248,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="aaf4-ca24-eb2e-6e54" name="The Blade of Realities" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0016-cc3b-2e96-7ff5" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab9-5e0e-e89e-45da" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ab9-5e0e-e89e-45da" type="max"/>
           </constraints>
           <profiles>
             <profile id="ec42-ce6e-6585-946c" name="The Blade of Realities" publicationId="3a49-dd2e-fcaa-cdb1" page="35" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3268,7 +3268,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="c287-bcb2-eea1-c33e" name="Piranha Blade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c266-b634-87a4-cb82" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="555b-2de7-d9f7-a69d" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="555b-2de7-d9f7-a69d" type="max"/>
           </constraints>
           <profiles>
             <profile id="4cc2-b170-abdf-694b" name="Piranha Blade" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3288,7 +3288,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="49b7-b045-fe06-c9a2" name="Staff of the Lost Sun" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc5-45ba-461a-716e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7069-f33a-77ca-20ca" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7069-f33a-77ca-20ca" type="max"/>
           </constraints>
           <profiles>
             <profile id="4a8d-cc32-999f-4917" name="Staff of the Lost Sun" hidden="false" typeId="7889-42d9-70a0-3ea9" typeName="Weapon">
@@ -3315,7 +3315,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="7d2b-1c52-b6d6-e4db" name="Gleaming Pendant of Chotec" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b0-b863-428e-52ec" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d46-bf8d-4d0e-72ce" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d46-bf8d-4d0e-72ce" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="lzrd-glea-pend-il01" name="Gleaming Pendant of Chotec" hidden="false" targetId="lzrd-glea-pend-0001" type="rule"/>
@@ -3329,7 +3329,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="baf9-bfc3-fc73-ce53" name="Blood Statuette of Spite" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f2-0727-1b7d-9802" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f8c-4893-58af-fd45" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f8c-4893-58af-fd45" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="lzrd-bloo-stat-il01" name="Blood Statuette of Spite" hidden="false" targetId="lzrd-bloo-stat-0001" type="rule"/>
@@ -3343,7 +3343,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="38bf-4f9b-20ce-1681" name="Cloak of Feathers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae0b-8bb1-0785-7de9" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f44-3ca2-6270-a80b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f44-3ca2-6270-a80b" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="lzrd-cloa-feat-il01" name="Cloak of Feathers" hidden="false" targetId="lzrd-cloa-feat-0001" type="rule"/>
@@ -3357,7 +3357,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="1bc4-303f-b477-cd07" name="Charm of the Jaguar Warrior" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5d5-dec9-58f3-12fe" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff4-99e7-4c44-fae5" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bff4-99e7-4c44-fae5" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="lzrd-char-jagu-il01" name="Charm of the Jaguar Warrior" hidden="false" targetId="lzrd-char-jagu-0001" type="rule"/>
@@ -3434,7 +3434,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="05de-c5f5-f807-383d" name="Totem of Prophecy" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e91-31c4-54b9-f820" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a7f-312e-1b32-3f88" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a7f-312e-1b32-3f88" type="max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
@@ -3445,7 +3445,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="f240-b576-060a-718f" name="Jaguar Standard" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="553d-6cea-7a5a-af04" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152d-d478-c993-cea5" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="152d-d478-c993-cea5" type="max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -3456,7 +3456,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="883a-cfa4-2fbb-6c56" name="War Banner" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d9e-325b-61ca-008b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="057b-d25a-df88-316b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="057b-d25a-df88-316b" type="max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -3467,7 +3467,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="78eb-0b3d-888c-777a" name="Huanchi&apos;s Blessed Totem" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="384c-4889-ea00-c157" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded7-e56a-79fd-b123" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ded7-e56a-79fd-b123" type="max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
@@ -3478,7 +3478,7 @@ In addition, the bearer causes Fear in Skaven.</characteristic>
         <selectionEntry id="b6a2-837d-ed39-5f0b" name="Sun Standard of Chotec" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="996f-0ad6-4f75-a43e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ec-d1b0-d154-d35e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="35ec-d1b0-d154-d35e" type="max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>

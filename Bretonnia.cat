@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="31c3-8e29-6a12-45bc" name="Bretonnia" revision="11" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="31c3-8e29-6a12-45bc" name="Bretonnia" revision="12" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="143d-ca87-8001-00a0" name="Bretonnia Army Book 2005"/>
   </publications>
@@ -2669,7 +2669,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="1424-1576-880d-6ee6" name="The Silver Lance of the Blessed" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e2c-e061-62db-084c" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee45-9354-2dc9-3925" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee45-9354-2dc9-3925" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="19f4-d612-ab47-ef49" name="The Silver Lance of the Blessed " hidden="false" targetId="2a3a-82af-f3f1-f196" type="rule"/>
@@ -2683,7 +2683,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="1e69-b89e-b408-4bd8" name="Sword of the Quest" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61c8-9143-ca25-fe1f" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea3-3c2e-95ef-5070" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ea3-3c2e-95ef-5070" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="df1c-648a-c742-8ab5" name="Sword of the Quest" hidden="false" targetId="dd82-3b42-09e3-4b05" type="rule"/>
@@ -2697,7 +2697,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="4ed9-7132-c7fa-1da5" name="Sword of the Lady&apos;s Champion " publicationId="143d-ca87-8001-00a0" page="60" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9633-490f-c783-a7c3" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab7-7eb9-e9a3-c3ba" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ab7-7eb9-e9a3-c3ba" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="2645-0133-bd0e-1724" name="Sword of the Lady&apos;s Champion " hidden="false" targetId="4fe5-fa63-620e-f9d7" type="rule"/>
@@ -2711,7 +2711,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="0f78-6e9a-d4b6-cfad" name="Sword of Heroes" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1917-bab2-e4ef-4df7" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97db-4519-6dd3-8f84" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="97db-4519-6dd3-8f84" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="033e-bab4-3b32-e2b6" name="Sword of Heroes" hidden="false" targetId="2548-5078-0fb0-4e67" type="rule"/>
@@ -2725,7 +2725,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="8e87-79ae-84d0-86fa" name="The Heartwood Lance" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c169-9cac-1f82-032d" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa78-bc2b-c76a-9b46" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fa78-bc2b-c76a-9b46" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e666-ec42-6252-49cd" name="The Heartwood Lance" hidden="false" targetId="80ae-9570-04f0-a191" type="rule"/>
@@ -2739,7 +2739,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="5b2c-3249-32e0-1c87" name="Birth-sword of Carcassonne" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93f9-a6cf-3ced-a3e7" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c22-6ef4-d4c7-d284" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c22-6ef4-d4c7-d284" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="4b5b-2da3-22f4-f377" name="Birth-sword of Carcassonne" hidden="false" targetId="7527-d7cd-ef1a-dcec" type="rule"/>
@@ -2753,7 +2753,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="a911-89a0-f993-75da" name="Morningstar of Fracasse" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82b7-c898-0f56-7ed7" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dcb-9bea-7591-5105" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1dcb-9bea-7591-5105" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="fb17-86a1-4a8e-9b46" name="Morning Star of Fracasse" hidden="false" targetId="7a10-89d4-1afd-b3b0" type="rule"/>
@@ -2767,7 +2767,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="1597-d746-70da-10fa" name="The Lance of Artois" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e73c-ab05-6e0f-ccfe" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9793-5ff0-c03b-a6cd" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9793-5ff0-c03b-a6cd" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="f5e8-f48f-948f-5535" name="The Lance of Artois" hidden="false" targetId="ecfb-6fe0-706b-c9c7" type="rule"/>
@@ -2781,7 +2781,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="a8df-9c69-4183-3670" name="The Wyrmlance" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="125f-3cdc-eceb-deca" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f91-65b4-2b20-e9ec" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f91-65b4-2b20-e9ec" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="8778-a705-3945-10cb" name="The Wyrmlance" hidden="false" targetId="75f6-f8a7-50b9-19c9" type="rule"/>
@@ -2795,7 +2795,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="9c85-a604-b888-7232" name="Gilded Cuirass" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4857-7967-fe76-fa0c" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc4b-dc5b-8a45-2eef" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fc4b-dc5b-8a45-2eef" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="371d-efd1-cecc-39df" name="Gilded Cuirass" hidden="false" targetId="00ea-6be3-9a5b-0c5e" type="rule"/>
@@ -2809,7 +2809,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="fc08-cc9b-932c-0ebb" name="Armour of the Midsummer Sun " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47af-678e-3e13-6204" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a79-39b3-ff03-6656" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9a79-39b3-ff03-6656" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="9006-3205-7c7d-091f" name="Armour of the Midsummer Sun " hidden="false" targetId="1b74-ea84-8a23-06ae" type="rule"/>
@@ -2823,7 +2823,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="ad02-0266-e95c-9c0a" name="The Grail Shield" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66f0-f601-b635-f269" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dad8-9f5c-f158-c4b6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dad8-9f5c-f158-c4b6" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="3468-d4d6-634f-847a" name="The Grail Shield" hidden="false" targetId="642d-e4ab-63f0-86f2" type="rule"/>
@@ -2837,7 +2837,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="1946-c2f1-1792-3b6a" name="Armour of Agilulf" publicationId="143d-ca87-8001-00a0" page="61" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb07-cc26-8c36-b167" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2117-5cb1-cb54-35e2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2117-5cb1-cb54-35e2" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="7fbd-c2e8-6b37-c960" name="Armour of Agilulf" hidden="false" targetId="8b99-fc77-d751-4643" type="rule"/>
@@ -2851,7 +2851,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="6046-02b4-f756-bd5f" name="Gromril Great Helm" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a394-b4ab-b97d-5f47" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf5d-a185-c328-a842" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bf5d-a185-c328-a842" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="d22c-eebf-752d-cd96" name="Gromril Great Helm" hidden="false" targetId="bec5-ae66-3521-40db" type="rule"/>
@@ -2865,7 +2865,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="f9ec-4e14-388b-4456" name="Cuirass of Fortune" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c26d-6add-6a60-a70f" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e1-65ca-111e-ca0c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="95e1-65ca-111e-ca0c" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="9ead-3573-80ae-ccf9" name="Cuirass of Fortune" hidden="false" targetId="eeb6-5791-a6da-ae48" type="rule"/>
@@ -2879,7 +2879,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="a26b-4cb5-b19d-3146" name="Orcbane Shield" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="427e-692f-6e77-aac4" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cb2-a5c3-4ae9-f757" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2cb2-a5c3-4ae9-f757" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="a8f0-6ac9-fb7a-a334" name="Orcbane Shield" hidden="false" targetId="83d2-eedb-7f22-2203" type="rule"/>
@@ -2893,7 +2893,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="d3a3-5142-439e-3e24" name="Sirienne&apos;s Locket" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f07-ede6-69a4-de6d" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e25b-8e4b-5942-9372" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e25b-8e4b-5942-9372" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="17a4-2e38-961f-381e" name="Sirienne&apos;s Locket" hidden="false" targetId="04e1-c437-8a10-5825" type="rule"/>
@@ -2907,7 +2907,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="97ca-239f-6113-029e" name="Token of the Damsel" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1114-08ce-e9d1-0e5a" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4770-df96-8495-f3ae" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4770-df96-8495-f3ae" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="b3f8-4fc0-232c-325e" name="Token of the Damsel" hidden="false" targetId="9112-4ef0-b5ae-def2" type="rule"/>
@@ -2921,7 +2921,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="025b-572a-af10-dce4" name="Insignia of the Quest" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49bb-aedd-0f29-b508" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fc1-8794-27f6-76b7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7fc1-8794-27f6-76b7" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="02ba-e522-84dc-86a1" name="Insignia of the Quest" hidden="false" targetId="1547-6367-2930-d802" type="rule"/>
@@ -2935,7 +2935,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="1cc4-799e-a272-c507" name="Braid of Bordeleaux" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95b4-5be4-b289-b9f6" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c088-fa87-9462-4582" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c088-fa87-9462-4582" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="999c-5071-0c87-4bbc" name="Braid of Bordeleaux" hidden="false" targetId="4ceb-f8ba-21e8-b5e0" type="rule"/>
@@ -2949,7 +2949,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="dfd3-aedc-e16f-2cc8" name="Dragon&apos;s Claw" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d80-b861-e370-529b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="950a-5f54-3b13-7eb6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="950a-5f54-3b13-7eb6" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="5931-0fc9-9224-9f2a" name="Dragon&apos;s Claw" hidden="false" targetId="5bd8-4f2f-3b73-c129" type="rule"/>
@@ -2963,7 +2963,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="a536-69a9-0367-3695" name="Mantle of Damsel Elena" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43df-4339-5975-20fe" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1692-1368-b729-e499" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1692-1368-b729-e499" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="f644-54cf-79c9-55e9" name="Mantle of Damsel Elena" hidden="false" targetId="9e21-0023-55a6-805c" type="rule"/>
@@ -2977,7 +2977,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="a55f-7727-ac39-35b3" name="Falcon-horn of Fredemund" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1056-5713-0547-a217" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="099d-423c-ed32-3467" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="099d-423c-ed32-3467" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="4ed1-c2de-642a-bd1c" name="Falcon-horn of Fredemund" hidden="false" targetId="64de-6903-ef75-78db" type="rule"/>
@@ -2991,7 +2991,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="67bc-8844-17c2-e3ec" name="Holy Icon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7195-27be-1b61-9eac" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f68c-0cb3-2909-7c25" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f68c-0cb3-2909-7c25" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="987c-7c96-f807-a010" name="Falcon-horn of Fredemund" hidden="false" targetId="64de-6903-ef75-78db" type="rule"/>
@@ -3005,7 +3005,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="9853-fbb6-4921-7f57" name="The Ruby Goblet" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeda-6513-c975-5e7a" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f4-3047-ee70-d68f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="17f4-3047-ee70-d68f" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="bc58-5a85-3303-571b" name="The Ruby Goblet" hidden="false" targetId="9e4a-469e-eb5d-38fc" type="rule"/>
@@ -3019,7 +3019,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="6247-d615-ee34-3413" name="The Mane of the Purebreed" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7170-5673-d017-4ee2" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9b2-732a-f8e2-81ac" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f9b2-732a-f8e2-81ac" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="1500-5ab4-bd32-2592" name="The Mane of the Purebreed" hidden="false" targetId="9e60-247c-058c-5819" type="rule"/>
@@ -3033,7 +3033,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="1940-b956-b028-b8e8" name="Antlers of the Great Hunt" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a006-415c-ba5d-a260" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56b2-a3b1-c78f-7d0f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="56b2-a3b1-c78f-7d0f" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="4e1f-3b4f-b54d-5c05" name="Antlers of the Great Hunt" hidden="false" targetId="4310-c2e7-f940-4a47" type="rule"/>
@@ -3047,7 +3047,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="6dba-31c1-aa6d-2fdd" name="Tress of Isoulde" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="610f-75b3-e292-4b96" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4ea-6f26-b854-ce66" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a4ea-6f26-b854-ce66" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="42ba-7394-123f-301e" name="Tress of Isoulde" hidden="false" targetId="c3d8-e3c4-f947-4189" type="rule"/>
@@ -3061,7 +3061,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="68b8-ffb9-b650-e56b" name="Gauntlet of the Duel" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b93-4f1d-052a-6293" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a46-36c0-2871-50c4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a46-36c0-2871-50c4" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="2674-6b0f-251d-5d0a" name="Gauntlet of the Duel" hidden="false" targetId="2181-c999-1f77-9585" type="rule"/>
@@ -3075,7 +3075,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="36ea-06e6-53d9-6b07" name="The Silver Mirror" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd9-9310-2363-2fe2" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbb3-c518-5a3c-2716" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbb3-c518-5a3c-2716" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="13e3-6c81-a9e6-6ede" name="The Silver Mirror" hidden="false" targetId="afc8-9337-167e-80dd" type="rule"/>
@@ -3089,7 +3089,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="c4fd-03c7-4bdd-e9e2" name="Sacrament of the Lady" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da7-0a60-acd2-77e1" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2558-a76e-4cff-e31e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2558-a76e-4cff-e31e" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="abeb-5f8c-d169-2210" name="Sacrament of the Lady" hidden="false" targetId="8ad6-8189-3fe3-5907" type="rule"/>
@@ -3103,7 +3103,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="d25d-1d90-359a-0a42" name="The Verdant Heart" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3659-4b6f-1284-f2be" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7890-cd0d-d8a7-7cf4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7890-cd0d-d8a7-7cf4" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e7b5-0dab-92f0-a5a1" name="The Verdant Heart" hidden="false" targetId="63f4-7d3a-9779-5ee6" type="rule"/>
@@ -3117,7 +3117,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="67bd-9b76-dc48-1535" name="Prayer Icon of Quenelles" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6363-6f99-2507-cb90" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf89-3675-85c7-3db0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf89-3675-85c7-3db0" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="fe76-ca0b-bc00-c8ab" name="Prayer Icon of Quenelles" hidden="false" targetId="272f-472c-2fd8-ba37" type="rule"/>
@@ -3131,7 +3131,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="496a-849e-b9c1-6750" name="Chalice of Maifleur" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2569-9e36-67a8-a353" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29a7-5e85-6fff-5b1b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="29a7-5e85-6fff-5b1b" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="ab66-017d-8ac3-a0c4" name="Chalice of Maifleur" hidden="false" targetId="f154-2ecd-b834-0cb1" type="rule"/>
@@ -3145,7 +3145,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="7cce-9475-3f04-1534" name="Potion Sacre" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="012c-5686-6147-d06f" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a55c-117a-f9ce-8bd0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a55c-117a-f9ce-8bd0" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="dc55-b64d-6f37-578d" name="Potion Sacre" hidden="false" targetId="b2c0-a77e-c6a8-3aef" type="rule"/>
@@ -3159,7 +3159,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="76ee-2d01-c510-d8e9" name="Banner of the Lady" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c58c-5827-d4f9-528f" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed95-24d6-a944-5d95" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed95-24d6-a944-5d95" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="73c3-a50c-73de-b8b5" name="Banner of the Lady" hidden="false" targetId="5e09-69a6-7dc1-d044" type="rule"/>
@@ -3173,7 +3173,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="5abf-6594-b34e-1755" name="Valorous Standard" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a2-c6aa-d196-bef3" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b817-e294-f594-d863" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b817-e294-f594-d863" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e0c2-f0b8-b019-1b18" name="Valorous Standard" hidden="false" targetId="a5d1-3826-e8f3-3971" type="rule"/>
@@ -3187,7 +3187,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="fe78-d0b7-d8d6-15a2" name="Banner of Defence" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8098-8ddb-55f0-68ab" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4de-49ba-bf8f-bf31" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c4de-49ba-bf8f-bf31" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="f576-ce00-2b10-2c6b" name="Banner of Defence" hidden="false" targetId="960d-87fc-b49f-d4ab" type="rule"/>
@@ -3201,7 +3201,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="ee42-2ebd-4d24-7e2c" name="Twilight Banner" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1761-f63b-c3ea-0160" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3941-5985-a555-0f3f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3941-5985-a555-0f3f" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="2940-3fff-dce6-5496" name="Twilight Banner" hidden="false" targetId="ab5f-01a7-f38a-1f95" type="rule"/>
@@ -3215,7 +3215,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="ba96-4c1c-bb0e-596b" name="Conqueror&apos;s Tapestry" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2879-20e2-de85-126a" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3ff-1c23-3be7-a0bc" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b3ff-1c23-3be7-a0bc" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="4bbd-7b34-99e5-956d" name="Conqueror&apos;s Tapestry" hidden="false" targetId="c944-97c1-2d1c-1e26" type="rule"/>
@@ -3229,7 +3229,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="11f2-47db-45fa-2c62" name="Errantry Banner" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5fe-d2ec-d097-3169" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82fb-3068-4765-d511" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="82fb-3068-4765-d511" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="d532-2b22-2bb4-d218" name="Errantry Banner" hidden="false" targetId="390f-b25e-5be3-6ab1" type="rule"/>
@@ -3243,7 +3243,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="cd54-e462-6b64-cef7" name="Banner of Chalons" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b55-eeba-4f04-20ce" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1829-a3f8-ebe0-43e6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1829-a3f8-ebe0-43e6" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="835d-92dd-a1e8-39ab" name="Banner of Chalons" hidden="false" targetId="0867-043b-5c9e-d2fc" type="rule"/>
@@ -3257,7 +3257,7 @@ The range of the Field Trebuchet is 12&quot;-60&quot; and its Strength is 5(10).
     <selectionEntry id="7507-ad3e-1c80-9fe1" name="The Dolorous Blade" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf1c-a4e6-a6ea-5b99" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e685-0e9a-8dea-f529" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e685-0e9a-8dea-f529" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="5170-0302-69d5-3b0c" name="The Dolorous Blade" hidden="false" targetId="6970-b8f5-b81f-e173" type="rule"/>

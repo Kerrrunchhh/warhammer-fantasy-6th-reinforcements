@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c7d8-e9f0-a1b2-3456" name="Skaven Clan Pestilens" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c7d8-e9f0-a1b2-3456" name="Skaven Clan Pestilens" revision="9" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="a754-2a62-0b2a-5391" name="Skaven army Book 2002" />
   </publications>
@@ -1861,7 +1861,7 @@
     <selectionEntry id="7e1e-43ec-d413-da41" name="Fellblade" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad6d-9d72-3a1b-be5c" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b7-fcc2-6767-6e87" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a2b7-fcc2-6767-6e87" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="6db2-7851-c4bb-86b0" name="Fellblade" hidden="false" targetId="32d3-a4cd-24f5-a3ea" type="rule" />
@@ -1874,7 +1874,7 @@
     </selectionEntry>
     <selectionEntry id="a892-9669-235a-57ff" name="Gouger" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc4-80c6-9295-e96e" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1bc4-80c6-9295-e96e" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0927-d1f3-d054-b599" type="max" />
       </constraints>
       <infoLinks>
@@ -1888,7 +1888,7 @@
     </selectionEntry>
     <selectionEntry id="fb1a-7523-4600-52be" name="Blade of Black Fury" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e28c-f6a3-b1ab-95dc" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e28c-f6a3-b1ab-95dc" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee0-eab2-59da-1e28" type="max" />
       </constraints>
       <infoLinks>
@@ -1903,7 +1903,7 @@
     <selectionEntry id="cbef-8e65-2f74-450a" name="Warpstone Stars" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3945-7b52-12ce-56da" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6bc-e0fb-f023-e6f3" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c6bc-e0fb-f023-e6f3" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="9b45-bbee-7e41-fc94" name="Warpstone Stars" hidden="false" targetId="0d00-2db1-65ba-d6ff" type="rule" />
@@ -1917,7 +1917,7 @@
     <selectionEntry id="5442-ae95-761e-9fb0" name="Weeping Blade" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f14-df98-ee97-b13f" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de10-24a5-fbf8-375b" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de10-24a5-fbf8-375b" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="41a8-1a83-846e-b34b" name="Weeping Blade" hidden="false" targetId="156e-a4a3-4c7e-0058" type="rule" />
@@ -1931,7 +1931,7 @@
     <selectionEntry id="0c86-fdf2-1fde-283e" name="Cursed Blade of Delirium" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1395-9aeb-537f-d301" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b066-95c6-708f-a53e" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b066-95c6-708f-a53e" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="6955-cde4-6c56-a12c" name="Cursed Blade of Delirium" hidden="false" targetId="ec48-4287-5f34-5c8c" type="rule" />
@@ -1945,7 +1945,7 @@
     <selectionEntry id="8931-e6d1-d031-5bee" name="Headsplitter" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e7-6c63-7c48-102d" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ad9-8274-4143-a4b7" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ad9-8274-4143-a4b7" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="eacb-dcd2-c683-a14b" name="Headsplitter" hidden="false" targetId="6a53-5177-bcaa-5787" type="rule" />
@@ -1958,7 +1958,7 @@
     </selectionEntry>
     <selectionEntry id="652a-e778-a674-a54d" name="Desolate Blade" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb52-35e5-4294-6ea3" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fb52-35e5-4294-6ea3" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="202b-2795-1cec-b5ba" type="max" />
       </constraints>
       <costs>
@@ -1970,7 +1970,7 @@
     <selectionEntry id="c810-4004-d9bf-4809" name="Dwarf-Slayer" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="228b-c305-ad0a-6426" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a5e-d892-173b-1e67" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6a5e-d892-173b-1e67" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="93e1-32fd-f42a-a080" name="Dwarf-Slayer" hidden="false" targetId="d27d-0dfe-3259-4cee" type="rule" />
@@ -1998,7 +1998,7 @@
     <selectionEntry id="51ed-f992-bb99-b4c2" name="Languishers Sword" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d51a-4e1c-212c-25c7" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a1-0cd9-ec50-14db" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="72a1-0cd9-ec50-14db" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="14b2-eacb-1cb0-e48a" name="Languishers Sword" hidden="false" targetId="800a-ae6b-d43d-ef46" type="rule" />
@@ -2012,7 +2012,7 @@
     <selectionEntry id="08d6-9468-abf2-0ccc" name="Death Globes" publicationId="a754-2a62-0b2a-5391" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ed-e271-74cb-9c95" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d1-7a62-8b18-4044" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70d1-7a62-8b18-4044" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="53e9-a32c-03e0-6fff" name="Death Globes" hidden="false" targetId="2ce8-50c1-7397-19a9" type="rule" />
@@ -2025,7 +2025,7 @@
     </selectionEntry>
     <selectionEntry id="c5f9-54b3-3de9-1ed9" name="Blade of Nurglitch" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bcb-199a-3857-7184" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3bcb-199a-3857-7184" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2da9-f291-6deb-39d7" type="max" />
       </constraints>
       <infoLinks>
@@ -2040,7 +2040,7 @@
     <selectionEntry id="d4cd-68a4-fe31-8c96" name="Things-Catcher" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1a-eb18-c951-fe81" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4e6-7b97-d854-5141" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d4e6-7b97-d854-5141" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="5921-480f-3e25-b4fc" name="Things-Catcher" hidden="false" targetId="7f9d-3dd5-1461-982b" type="rule" />
@@ -2054,7 +2054,7 @@
     <selectionEntry id="122f-231b-167e-b618" name="Rust Armour" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c2-1e63-0fb3-9b0f" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f25d-6efd-eaec-034d" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f25d-6efd-eaec-034d" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="4619-8edb-e25c-47b9" name="Rust Armour" hidden="false" targetId="aa1f-27b9-fa50-4e7d" type="rule" />
@@ -2068,7 +2068,7 @@
     <selectionEntry id="5ac0-85a7-ee95-761b" name="Warpstone Armour " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ce-75d2-48df-5ec9" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffe3-ab84-5103-4361" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ffe3-ab84-5103-4361" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="c235-57e5-d8f9-cf61" name="Warpstone Armour " hidden="false" targetId="3c6d-8c5e-ace3-0aeb" type="rule" />
@@ -2082,7 +2082,7 @@
     <selectionEntry id="51ee-e555-c80c-f8cd" name="Cautious Shield" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e2-7274-4844-53a6" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7fe-7429-7de5-9696" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a7fe-7429-7de5-9696" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="8065-a2f0-3394-747f" name="Cautious Shield" hidden="false" targetId="7700-ccc2-1cdc-e2a1" type="rule" />
@@ -2111,7 +2111,7 @@
     <selectionEntry id="cb42-6e56-9465-8ca7" name="Tenebrous Cloak" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca3-43c5-085f-3352" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f856-8d8f-d978-92f2" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f856-8d8f-d978-92f2" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="ec46-242d-2a17-4f24" name="Tenebrous Cloak" hidden="false" targetId="41a8-4c13-c1c8-0a33" type="rule" />
@@ -2222,7 +2222,7 @@
     <selectionEntry id="7c06-e2e1-fcd6-b46f" name="Cloak of Shadows" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e42-b5cb-4e93-ea40" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf05-e92f-8814-261b" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf05-e92f-8814-261b" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="a4b0-f167-6df3-23fb" name="Cloak of Shadows" hidden="false" targetId="7805-c6d1-500c-59f1" type="rule" />
@@ -2236,7 +2236,7 @@
     <selectionEntry id="77fd-b06d-942d-05b4" name="Skalm" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d26-f5db-fa94-d3c4" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea0-0d2f-f12d-82e0" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bea0-0d2f-f12d-82e0" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="befe-f480-dcc5-20ec" name="Skalm" hidden="false" targetId="0d03-a29c-5c82-7efe" type="rule" />
@@ -2250,7 +2250,7 @@
     <selectionEntry id="663c-dcbe-5833-f5f9" name="Brass Orb" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a1-b3e3-9bf7-a773" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a8-93cc-cbd6-12ef" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b7a8-93cc-cbd6-12ef" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="8eb1-3bfb-8cb7-1eac" name="Brass Orb" hidden="false" targetId="cbc6-2264-3cb9-d5ec" type="rule" />
@@ -2264,7 +2264,7 @@
     <selectionEntry id="043c-a34f-8793-971c" name="Skavenbrew" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adfa-6c04-a1a0-78f7" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b6e-5f6e-9d2f-49ba" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b6e-5f6e-9d2f-49ba" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="c2e2-fc87-547c-dec0" name="Skaven Brew" hidden="false" targetId="25f8-4030-1b40-eae4" type="rule" />
@@ -2278,7 +2278,7 @@
     <selectionEntry id="801f-0ef8-2e88-be0f" name="Liber Bubonicus" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0098-789d-84a9-f0a7" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d939-c7d9-23dd-e957" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d939-c7d9-23dd-e957" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="52ad-7184-7de3-043c" name="Liber Bubonicus" hidden="false" targetId="c104-d016-66db-060c" type="rule" />
@@ -2292,7 +2292,7 @@
     <selectionEntry id="4143-8c86-4ff7-8781" name="Bands of Power" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9017-d8fe-31db-c97c" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4458-db09-c867-89d7" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4458-db09-c867-89d7" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="9b75-47b1-b183-735f" name="Bands of Power" hidden="false" targetId="f47c-b907-9688-c162" type="rule" />
@@ -2306,7 +2306,7 @@
     <selectionEntry id="ea9e-f993-b810-fa26" name="Warpstone Charm" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9881-df27-5f3a-abee" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab9-f080-ddac-f41f" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4ab9-f080-ddac-f41f" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="1776-3cf7-f339-0ead" name="Warpstone Charm" hidden="false" targetId="a68d-a7ee-9228-c6b0" type="rule" />
@@ -2320,7 +2320,7 @@
     <selectionEntry id="4d38-f2eb-d79b-0834" name="Storm Banner" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e89a-7567-64d8-61a1" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c76d-0989-e0f9-3b28" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c76d-0989-e0f9-3b28" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="36a5-1fec-edb1-263a" name="Storm Banner" hidden="false" targetId="c8e1-3a2a-0d3b-dcb0" type="rule" />
@@ -2334,7 +2334,7 @@
     <selectionEntry id="1cb1-628c-22fd-9cba" name="Sacred Standard of the Horned Rat" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1abb-77fa-9b4d-8b99" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4fa-ee3f-de13-2925" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d4fa-ee3f-de13-2925" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="a5dc-7003-4164-31b9" name="Sacred Standard of the Horned Rat" hidden="false" targetId="a742-e09e-53ee-a2c4" type="rule" />
@@ -2348,7 +2348,7 @@
     <selectionEntry id="9f8e-9c3f-305c-b7b7" name="Umbranner" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e20d-e32d-acea-1989" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6407-7bf0-0062-a8b9" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6407-7bf0-0062-a8b9" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="32ec-adff-62c4-66b8" name="Umbranner" hidden="false" targetId="9c02-7e44-4a4e-0701" type="rule" />
@@ -2362,7 +2362,7 @@
     <selectionEntry id="1519-a36f-c266-8f5a" name="Banner of the Four Black Winds" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1120-b87b-970c-2883" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2718-5c31-4f7b-7b16" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2718-5c31-4f7b-7b16" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="cf3d-e8bc-db01-2d47" name="Banner of the Four Black Winds" hidden="false" targetId="3c45-ed64-15c1-1545" type="rule" />
@@ -2376,7 +2376,7 @@
     <selectionEntry id="7d50-5e85-1986-131a" name="Banner of Burning Hatred" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df7-f1b4-f6ec-ac41" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8903-025b-75bf-94a0" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8903-025b-75bf-94a0" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="5a7c-34fb-db2a-ccc2" name="Banner of Burning Hatred" hidden="false" targetId="b959-405d-5000-d180" type="rule" />
@@ -2390,7 +2390,7 @@
     <selectionEntry id="e55a-427d-9eb1-bd18" name="Banner of the Swarm" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63f5-939c-2b7f-102c" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1ab-e0d1-1bf7-da97" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b1ab-e0d1-1bf7-da97" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="54dd-307b-3364-8f1c" name="Banner of the Swarm" hidden="false" targetId="ebb0-e8e3-a56d-9de9" type="rule" />

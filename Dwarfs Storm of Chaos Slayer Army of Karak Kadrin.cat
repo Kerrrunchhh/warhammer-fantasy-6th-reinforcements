@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1fdd-7426-d516-0d75" name="Dwarfs Storm of Chaos Slayer Army of Karak Kadrin" revision="12" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1fdd-7426-d516-0d75" name="Dwarfs Storm of Chaos Slayer Army of Karak Kadrin" revision="13" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>Slayer Army of Karak Kadrin Special Rules:&#10;- "Look Snorri, Trolls!": After deployment, before the first player's turn, the Slayer army surges forward. Each unit and character move directly ahead 2D6" (this ignores terrain modifiers except impassable terrain, and may only be a single move made if necessary to avoid terrain or another unit). In addition, the Slayer player may roll an additional D6 when determining who gets the first turn, discarding the lowest roll.&#10;- A Glorious Death: Keep a note of the number of models slain in close combat by enemies with a Strength and/or Toughness of 5 or more (before modifications). Each Slayer killed by such a worthy foe adds 10 Victory Points to the Slayer army's total. This includes impact hits from chariots or monsters but not the crew or riders of chariots or monsters unless they themselves are Strength or Toughness 5 or more.&#10;- Dispel Dice: A Slayer army generates four Dispel dice in the opponent's Magic phase (instead of the normal two), plus an extra Dispel die for each 1,000 points being played (+1 dice at 1,000 points, +2 dice at 2,000 points, and so on).&#10;- First Amongst Slayers: One character in the army must be nominated as the general, though Slayer characters cannot be a general in a normal Dwarf army. This must be a Daemon Slayer if the army has one.&#10;- No more than half of your Core choices may be Slayer Doomseekers.&#10;- A Slayer Hero (Dragon Slayer) may be given one Slayer Skill; a Slayer Lord (Daemon Slayer) may be given up to two Slayer Skills. Wards of Grimnir may additionally be bought for any Slayer character for +30 points; for simplicity this is modelled here as a separate purchase rather than being deducted from the character's Rune points allowance.</readme>
   <publications>
     <publication id="5d31-5485-aad4-121e" name="Dwarf Army Book 2000" />
@@ -2208,7 +2208,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="108a-cb74-5a82-0c0b" name="MASTER RUNE OF SWIFTNESS " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7474-87d4-5607-2379" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2168-cc07-2c1b-58af" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2168-cc07-2c1b-58af" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="3ca5-e1bd-ad1d-3502" name="MASTER RUNE OF SWIFTNESS " hidden="false" targetId="b902-de70-294f-25a8" type="rule" />
@@ -2222,7 +2222,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="6119-bacb-e6d9-e0c1" name="MASTER RUNE OF BREAKING" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f24a-5940-78b5-838e" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ea-7fec-064a-937f" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f5ea-7fec-064a-937f" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="a6f3-377c-1b11-d8e1" name="MASTER RUNE OF BREAKING" hidden="false" targetId="78c3-2d72-789d-ec09" type="rule" />
@@ -2236,7 +2236,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="40b2-a3f5-a70b-bd09" name="MASTER RUNE OF FLIGHT" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e076-5a2a-8110-b5f4" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="148e-423b-310b-5753" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="148e-423b-310b-5753" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="b95e-282e-36ec-9aa6" name="MASTER RUNE OF FLIGHT" hidden="false" targetId="9b7e-987d-1fb8-a921" type="rule" />
@@ -2250,7 +2250,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="97ce-533b-131b-00e4" name="MASTER RUNEOF ALARIC THE MAD" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5867-4276-b6e7-92dd" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825e-b1c2-810d-fa39" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="825e-b1c2-810d-fa39" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="b9b0-2f26-1868-dec0" name="MASTER RUNEOF ALARIC THE MAD" hidden="false" targetId="2216-aa9a-da6c-daad" type="rule" />
@@ -2264,7 +2264,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="d26c-5c56-aced-c9eb" name="MASTER RUNEOF SKALF BLACKHAMMER" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf93-d299-ecb5-c096" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b990-74b8-729f-8360" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b990-74b8-729f-8360" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="a9f5-e40a-4f64-1e82" name="MASTER RUNEOF SKALF BLACKHAMMER" hidden="false" targetId="64f5-c4c9-6f7c-092f" type="rule" />
@@ -2278,7 +2278,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="f4e8-1080-17a4-8ef9" name="MASTER RUNEOF SNORRI SPANGELHELM " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dca9-98ee-e84b-46cc" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85a0-45c6-81df-86ef" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="85a0-45c6-81df-86ef" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="ebd0-9c56-8d37-07b2" name="MASTER RUNEOF SNORRI SPANGELHELM " hidden="false" targetId="cb2e-7316-705b-bc62" type="rule" />
@@ -2305,7 +2305,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="b083-8929-f152-1400" name="MASTER RUNE OF STEEL" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c165-f387-5cf1-a4b8" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fd0-f57d-455c-c0b8" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4fd0-f57d-455c-c0b8" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="f946-1867-e1cb-d4f7" name="MASTER RUNE OF STEEL" hidden="false" targetId="d27c-5291-e81e-df6b" type="rule" />
@@ -2319,7 +2319,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="ae21-cbdd-5949-dfaa" name="MASTER RUNE OF ADAMANT " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e9-8275-e746-8fcb" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29c7-c2c2-ba64-2e29" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="29c7-c2c2-ba64-2e29" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="be58-7ac1-54eb-c312" name="MASTER RUNE OF ADAMANT " hidden="false" targetId="54b6-4fe7-6be9-dc5f" type="rule" />
@@ -2333,7 +2333,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="e128-ddf3-fc02-f9ea" name="MASTER RUNE OF GROMRIL " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="509c-8a47-4c7c-33c8" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1608-ffea-9362-f6ce" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1608-ffea-9362-f6ce" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="ff4d-6af5-14fc-3e0e" name="MASTER RUNE OF GROMRIL " hidden="false" targetId="3730-87b5-86ce-80e7" type="rule" />
@@ -2357,7 +2357,6 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="611d-6f24-ec38-378b" name="RUNE OF SHIELDING" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d90-f8bb-813a-2be2" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5768-ba1b-6c6e-6d39" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="c5d4-6c61-6890-88d7" name="RUNE OF SHIELDING" hidden="false" targetId="bafe-6cf8-a0ab-534d" type="rule" />
@@ -2371,7 +2370,6 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="2872-7848-7f06-dacb" name="RUNE OF RESISTANCE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f30b-f671-ae1b-3c4f" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="732e-7920-17ca-73c8" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="5d4f-9fd0-6a00-c063" name="RUNE OF RESISTANCE" hidden="false" targetId="893c-ce02-b74f-7383" type="rule" />
@@ -2420,7 +2418,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="1f68-1826-e850-5bbc" name="MASTER RUNE OF VALAYA " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dcd-d675-59cb-f9e0" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b3d-b699-eb2d-9d1b" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b3d-b699-eb2d-9d1b" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="2e32-6afe-548f-6066" name="MASTER RUNE OF VALAYA " hidden="false" targetId="6958-7623-7281-dee4" type="rule" />
@@ -2434,7 +2432,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="b4fd-cca1-513c-a874" name="MASTER RUNEOF STIROMNI REDBEARD" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1051-2d38-909c-e06b" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb35-5508-8105-67ee" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eb35-5508-8105-67ee" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="752a-492d-3dd0-8acb" name="MASTER RUNE OF STIROMNI REDBEARD" hidden="false" targetId="668b-2fbd-20eb-adcd" type="rule" />
@@ -2448,7 +2446,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="52f0-9175-74f3-52f2" name="MASTER RUNE OF TAUNTING " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b52f-b03b-3c1c-9ca2" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5beb-a10b-c7a6-25c7" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5beb-a10b-c7a6-25c7" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="6e2c-0ab1-388d-ea33" name="MASTER RUNE OF TAUNTING " hidden="false" targetId="a6fc-ffbe-e12b-843e" type="rule" />
@@ -2462,7 +2460,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="ad1b-675b-8668-798b" name="MASTER RUNE OF FEAR" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="857b-9ed4-23b0-52b2" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa0-ffeb-eae7-dd27" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cfa0-ffeb-eae7-dd27" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="a334-d082-4e08-37db" name="MASTER RUNE OF FEAR" hidden="false" targetId="f090-47e6-5205-fd53" type="rule" />
@@ -2476,7 +2474,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="ad6a-5ae1-61c4-f36f" name="MASTER RUNEOF GROTH ONE-EYE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dccd-0b36-41dc-f132" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d1c-20f1-5eae-61f2" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2d1c-20f1-5eae-61f2" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="26ac-5093-177b-59af" name="MASTER RUNEOF GROTH ONE-EYE" hidden="false" targetId="202f-19aa-5a88-d9ce" type="rule" />
@@ -2490,7 +2488,6 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="476d-a4c4-3f8d-e24b" name="RUNE OF COURAGE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="133b-69df-2d05-78cd" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1344-f608-9825-3146" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="1297-093b-8a76-7285" name="RUNE OF COURAGE" hidden="false" targetId="95ae-a2a9-882d-d5a7" type="rule" />
@@ -2504,7 +2501,6 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="1f46-2cdd-c889-e7d7" name="RUNE OF KADRIN" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8da-32a8-7123-4640" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43f3-eae2-228b-1d3b" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="f6ef-f5b9-f259-c181" name="RUNE OF KADRIN" hidden="false" targetId="7e18-bdd0-e3ce-ccf9" type="rule" />
@@ -2528,7 +2524,6 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="d24a-5aa2-bed3-fa5a" name="RUNE OF BATTLE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5ac-a419-7891-5bd9" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a58c-2db9-cfa7-3187" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="949f-0bfa-5e19-5d0a" name="RUNE OF BATTLE" hidden="false" targetId="5eca-d70a-4b57-c941" type="rule" />
@@ -2552,7 +2547,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="d187-0be1-c0fc-36af" name="MASTER RUNE OF DEFENCE " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="742c-7964-9b5b-b234" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8ba-0171-0b8f-6be9" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a8ba-0171-0b8f-6be9" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="29ed-1fdc-a171-e798" name="MASTER RUNE OF DEFENCE " hidden="false" targetId="078c-7e94-fe9d-7db7" type="rule" />
@@ -2565,7 +2560,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     </selectionEntry>
     <selectionEntry id="e9f6-a6e5-22ed-9727" name="MASTER RUNE OF DISGUISE " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ee-d10f-40b8-ce09" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13ee-d10f-40b8-ce09" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="109c-ba53-0c87-8756" type="max" />
       </constraints>
       <infoLinks>
@@ -2580,7 +2575,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="b355-23b1-a18f-b356" name="MASTER RUNE OF IMMOLATION" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3652-64d3-1e39-5a7e" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58d0-98bb-9e95-8d25" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="58d0-98bb-9e95-8d25" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="32df-383d-f6ed-3eff" name="MASTER RUNE OF IMMOLATION" hidden="false" targetId="8255-e29d-7a72-3380" type="rule" />
@@ -2594,7 +2589,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="3c2b-ef3d-06c7-01d2" name="MASTER RUNE OF SKEWERING " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9058-bfda-cdf5-3a4b" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9918-244c-2f3d-481b" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9918-244c-2f3d-481b" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="0e6f-8689-b418-4a4f" name="MASTER RUNE OF SKEWERING " hidden="false" targetId="89dd-a5ec-4a07-cea7" type="rule" />
@@ -2621,7 +2616,6 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="59dc-5890-8c51-b2a5" name="RUNE OF RELOADING" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1080-72e3-058b-7113" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66e4-4de7-a7e1-591c" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="7eaa-05b6-8e4a-f266" name="RUNE OF RELOADING" hidden="false" targetId="5d72-2144-df42-18ce" type="rule" />
@@ -2635,7 +2629,6 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="1b8e-db47-1538-d2ef" name="RUNE OF ACCURACY" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a61-7476-e570-6a97" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e77-5427-f940-aae9" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="bb79-7ea6-f33c-612f" name="RUNE OF ACCURACY" hidden="false" targetId="7e7a-ee91-f329-0d9a" type="rule" />
@@ -2649,7 +2642,6 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="0c0e-e23b-ca9a-17bf" name="RUNE OF FORTUNE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab88-1794-6d70-d66e" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9187-da85-6033-bf79" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="fff2-7187-8df9-a21b" name="RUNE OF FORTUNE" hidden="false" targetId="ae82-ae17-ec38-74eb" type="rule" />
@@ -2663,7 +2655,6 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="7e01-22f2-1f44-54a8" name="VALIANT RUNE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ec-3c9f-41f4-f6bb" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e788-0a88-f617-b805" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="872b-0c4c-f773-d1a6" name="VALIANT RUNE" hidden="false" targetId="2744-258f-296b-4f8d" type="rule" />
@@ -2739,7 +2730,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     </selectionEntry>
     <selectionEntry id="9fd8-44de-9b66-22cc" name="MASTER RUNE OF KINGSHIP " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9269-9562-4b3a-a704" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9269-9562-4b3a-a704" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1798-54dd-a58b-0cc2" type="max" />
       </constraints>
       <infoLinks>
@@ -2754,7 +2745,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="c2c9-3fea-c7ac-663f" name="MASTER RUNE OF BALANCE " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bce3-cb4b-0f0b-e2c8" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="431f-4daf-089b-4882" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="431f-4daf-089b-4882" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="d0d6-9b36-bf52-6c99" name="MASTER RUNE OF BALANCE " hidden="false" targetId="dc0d-5510-96aa-f1b1" type="rule" />
@@ -2768,7 +2759,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="2a60-e682-04a3-334a" name="MASTER RUNE OF SPELLBINDING" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d51-7978-2cc9-a183" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73fe-4419-4cf4-5285" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="73fe-4419-4cf4-5285" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="1f95-a815-8833-769a" name="MASTER RUNE OF SPELLBINDING " hidden="false" targetId="ce90-fc3b-cbdf-7464" type="rule" />
@@ -2782,7 +2773,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="fb56-e547-1921-450f" name="MASTER RUNE OF SPITE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc2-a3cb-fe3f-82d9" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb1f-489e-a793-476c" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cb1f-489e-a793-476c" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="4943-9d5c-b640-5deb" name="MASTER RUNE OF SPITE" hidden="false" targetId="2106-db24-3295-f6b1" type="rule" />
@@ -2796,7 +2787,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     <selectionEntry id="7b9f-ab3e-2297-0b8e" name="MASTER RUNE OF DISMAY " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4358-12e4-2d10-3fca" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="949c-bdb9-33ae-aaf6" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="949c-bdb9-33ae-aaf6" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="da22-3cc4-22bc-33a9" name="MASTER RUNE OF DISMAY " hidden="false" targetId="258d-6d73-3562-cf8d" type="rule" />
@@ -2881,7 +2872,7 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
     </selectionEntry>
     <selectionEntry id="6b02-da34-92ed-ab49" name="Anvil of Doom" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f30d-061d-520a-50dc" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f30d-061d-520a-50dc" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="5a63-6260-8cf4-77b2" name="Anvil Guard" hidden="false" targetId="29e3-b97c-90aa-1d3e" type="profile" />

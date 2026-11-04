@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a7f1-dab9-5345-4db2" name="Dwarfs" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a7f1-dab9-5345-4db2" name="Dwarfs" revision="9" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="6265-1d51-76e2-4fe2" name="Dwarf Army Book 2000" />
     <publication id="9208-1c76-af8c-c05c" name="Storm of Chaos" />
@@ -2231,7 +2231,7 @@
     <selectionEntry id="df2b-33f3-9f66-bec0" name="MASTER RUNE OF SWIFTNESS " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e524-ecd2-e5ab-72b6" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd24-9cf0-bce7-d223" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd24-9cf0-bce7-d223" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="0c08-650f-bbd4-c9d7" name="MASTER RUNE OF SWIFTNESS " hidden="false" targetId="acc9-11cc-bd04-3600" type="rule" />
@@ -2245,7 +2245,7 @@
     <selectionEntry id="ec4d-c977-56e6-8ca2" name="MASTER RUNE OF BREAKING" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8c2-a3ff-43c2-f2b5" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd6f-f47a-fa6f-e71a" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd6f-f47a-fa6f-e71a" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="a6ca-b95f-9de3-d384" name="MASTER RUNE OF BREAKING" hidden="false" targetId="f01d-da32-9d87-f6e4" type="rule" />
@@ -2259,7 +2259,7 @@
     <selectionEntry id="3bc6-de40-b028-548d" name="MASTER RUNE OF FLIGHT" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fee4-3f66-5eb9-b810" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3091-7595-3bc6-243b" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3091-7595-3bc6-243b" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="7fba-a421-1aeb-e8b8" name="MASTER RUNE OF FLIGHT" hidden="false" targetId="56a6-09d9-7435-66ce" type="rule" />
@@ -2273,7 +2273,7 @@
     <selectionEntry id="c144-57dc-2f8e-1244" name="MASTER RUNEOF ALARIC THE MAD" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85da-11f3-3470-5cab" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c7-3eb3-022d-861c" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c3c7-3eb3-022d-861c" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="2cde-0029-64d6-2bcc" name="MASTER RUNEOF ALARIC THE MAD" hidden="false" targetId="959e-b7fd-cab5-f24b" type="rule" />
@@ -2287,7 +2287,7 @@
     <selectionEntry id="6309-13b8-d589-77f5" name="MASTER RUNEOF SKALF BLACKHAMMER" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad3-a15f-1c9a-5b6d" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ada6-6724-8733-ce74" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ada6-6724-8733-ce74" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="3f79-f26a-615b-742f" name="MASTER RUNEOF SKALF BLACKHAMMER" hidden="false" targetId="5df1-6029-58e7-143b" type="rule" />
@@ -2301,7 +2301,7 @@
     <selectionEntry id="f1ef-caf1-bcfa-9b27" name="MASTER RUNEOF SNORRI SPANGELHELM " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25f0-64ec-0ae1-a839" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b68-7bc9-e02c-1423" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2b68-7bc9-e02c-1423" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="71d6-28aa-5f3a-db66" name="MASTER RUNEOF SNORRI SPANGELHELM " hidden="false" targetId="a839-4454-9f5d-5e00" type="rule" />
@@ -2328,7 +2328,7 @@
     <selectionEntry id="f3f2-fdff-a6b7-a387" name="MASTER RUNE OF STEEL" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c8-f102-b4cf-1868" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84d-856d-f544-177f" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b84d-856d-f544-177f" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="c827-3fb1-bda4-5664" name="MASTER RUNE OF STEEL" hidden="false" targetId="8278-a862-5982-c5c2" type="rule" />
@@ -2342,7 +2342,7 @@
     <selectionEntry id="3fe4-0fbd-7588-e098" name="MASTER RUNE OF ADAMANT " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edb1-4fc9-b887-bf0c" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a80-b4a1-4c34-9c84" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0a80-b4a1-4c34-9c84" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="bd39-e6ca-5db5-5133" name="MASTER RUNE OF ADAMANT " hidden="false" targetId="2e14-d5d4-0a41-7499" type="rule" />
@@ -2356,7 +2356,7 @@
     <selectionEntry id="33d5-be99-5ec4-b2f3" name="MASTER RUNE OF GROMRIL " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba5-eafd-d8f4-ccd2" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f0f-61f2-89cd-9b9f" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f0f-61f2-89cd-9b9f" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="ad10-338f-1b2c-3249" name="MASTER RUNE OF GROMRIL " hidden="false" targetId="fc72-1e7d-0526-ab5c" type="rule" />
@@ -2380,7 +2380,6 @@
     <selectionEntry id="5ad6-f4c8-76d7-9cae" name="RUNE OF SHIELDING" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddcb-2201-51c7-d4a9" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b50e-889d-8828-d1d2" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="41ce-5f0a-1b47-368c" name="RUNE OF SHIELDING" hidden="false" targetId="1090-fcec-b750-c470" type="rule" />
@@ -2394,7 +2393,6 @@
     <selectionEntry id="a620-1d4c-1e15-696b" name="RUNE OF RESISTANCE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b61-f31f-0e85-a36c" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e0-00ba-133e-58b2" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="b167-624d-3cf2-2b99" name="RUNE OF RESISTANCE" hidden="false" targetId="d0b0-823b-ab86-615b" type="rule" />
@@ -2443,7 +2441,7 @@
     <selectionEntry id="a471-e4a2-e290-78c0" name="MASTER RUNE OF VALAYA " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8af-77a0-5566-d58c" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48f7-4a2e-f1d6-d186" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="48f7-4a2e-f1d6-d186" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="21a5-97d5-89af-fc79" name="MASTER RUNE OF VALAYA " hidden="false" targetId="dd32-0148-6e92-cf57" type="rule" />
@@ -2457,7 +2455,7 @@
     <selectionEntry id="3dac-6eb0-fe12-81d9" name="MASTER RUNEOF STIROMNI REDBEARD" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c05f-5ade-685b-f8ec" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e62-231c-af08-f47f" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3e62-231c-af08-f47f" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="ce2a-2531-77b2-21a6" name="MASTER RUNE OF STIROMNI REDBEARD" hidden="false" targetId="cca3-9e5b-985a-afe1" type="rule" />
@@ -2471,7 +2469,7 @@
     <selectionEntry id="681b-cd68-ec58-3ec0" name="MASTER RUNE OF TAUNTING " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbdc-93cd-d236-f580" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b480-64ec-590b-a9c9" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b480-64ec-590b-a9c9" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="071a-ac2b-4aa1-54d9" name="MASTER RUNE OF TAUNTING " hidden="false" targetId="70af-8090-dcac-699a" type="rule" />
@@ -2485,7 +2483,7 @@
     <selectionEntry id="b793-0f9f-1750-815b" name="MASTER RUNE OF FEAR" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72f3-f319-2aa2-1cae" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c75-b381-2b0e-2b41" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9c75-b381-2b0e-2b41" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="8095-b219-8a26-879d" name="MASTER RUNE OF FEAR" hidden="false" targetId="425d-2789-3b1e-5f01" type="rule" />
@@ -2499,7 +2497,7 @@
     <selectionEntry id="230f-d0da-026c-3ff6" name="MASTER RUNEOF GROTH ONE-EYE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9194-7d30-ec58-68c8" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7fb-60d1-cbf7-88ba" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c7fb-60d1-cbf7-88ba" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="b8fe-a02c-772b-1d33" name="MASTER RUNEOF GROTH ONE-EYE" hidden="false" targetId="054a-ce6c-9420-1e52" type="rule" />
@@ -2513,7 +2511,6 @@
     <selectionEntry id="7a5a-f4c6-6584-12e3" name="RUNE OF COURAGE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="579a-d737-fe27-54f2" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c65a-9d99-8b38-8026" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="3307-9426-c843-d3dd" name="RUNE OF COURAGE" hidden="false" targetId="82a9-5bdb-8416-2a65" type="rule" />
@@ -2527,7 +2524,6 @@
     <selectionEntry id="12c4-cbbd-8ff5-d2b4" name="RUNE OF KADRIN" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a52-20bb-380d-11e2" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a1-a8c1-fa83-c65c" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="bac6-cf37-3dc0-a261" name="RUNE OF KADRIN" hidden="false" targetId="e511-51a6-8f4b-62f8" type="rule" />
@@ -2551,7 +2547,6 @@
     <selectionEntry id="be32-0a32-929e-2cb9" name="RUNE OF BATTLE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81ae-5225-419c-06f8" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf25-0b1c-f16a-b4e8" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="2e48-7f60-e1cd-3639" name="RUNE OF BATTLE" hidden="false" targetId="d68e-03e8-9500-9da7" type="rule" />
@@ -2575,7 +2570,7 @@
     <selectionEntry id="0025-2a53-a428-ac58" name="MASTER RUNE OF DEFENCE " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02af-b374-0859-fd09" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6a0-0638-efcf-8934" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b6a0-0638-efcf-8934" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="1e99-5254-d5fa-b973" name="MASTER RUNE OF DEFENCE " hidden="false" targetId="11ae-054a-491a-11f1" type="rule" />
@@ -2588,7 +2583,7 @@
     </selectionEntry>
     <selectionEntry id="3029-0de4-79df-b665" name="MASTER RUNE OF DISGUISE " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6496-f1fd-dbed-fef8" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6496-f1fd-dbed-fef8" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aa7-eafe-0e99-eae0" type="max" />
       </constraints>
       <infoLinks>
@@ -2603,7 +2598,7 @@
     <selectionEntry id="cd01-2979-d978-083b" name="MASTER RUNE OF IMMOLATION" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3f5-f15a-c2a8-5d71" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9457-f6a6-7076-16dd" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9457-f6a6-7076-16dd" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="f1a2-82dc-95c1-8ba9" name="MASTER RUNE OF IMMOLATION" hidden="false" targetId="f49b-7a6e-701c-0b62" type="rule" />
@@ -2617,7 +2612,7 @@
     <selectionEntry id="16f1-f109-822f-11e9" name="MASTER RUNE OF SKEWERING " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07c3-9095-c158-d906" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb54-4f23-bd86-32e3" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cb54-4f23-bd86-32e3" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="e3d8-a423-a683-4ed8" name="MASTER RUNE OF SKEWERING " hidden="false" targetId="c15f-5da5-1eeb-e34b" type="rule" />
@@ -2644,7 +2639,6 @@
     <selectionEntry id="8cae-de73-1f70-665b" name="RUNE OF RELOADING" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37e4-8e0c-f9ea-ca8a" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="134a-d84b-09b2-30a6" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="10a6-5c67-c0a8-0cac" name="RUNE OF RELOADING" hidden="false" targetId="3bb3-98cd-419f-58b9" type="rule" />
@@ -2658,7 +2652,6 @@
     <selectionEntry id="92d9-cdd4-c614-6538" name="RUNE OF ACCURACY" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd2e-b674-f37d-5acb" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7135-fe5e-6032-e5af" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="6e99-d5f5-2ddd-7c42" name="RUNE OF ACCURACY" hidden="false" targetId="59ed-b301-253e-40a7" type="rule" />
@@ -2672,7 +2665,6 @@
     <selectionEntry id="612f-be5f-ea4a-41f4" name="RUNE OF FORTUNE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef76-df44-7471-0ba3" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a56-7e64-7e73-7921" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="e99d-d546-1e1a-11ff" name="RUNE OF FORTUNE" hidden="false" targetId="12bb-52ba-88fc-52a8" type="rule" />
@@ -2686,7 +2678,6 @@
     <selectionEntry id="3f95-c35f-ac21-a08a" name="VALIANT RUNE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9794-d446-ebbd-ec58" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fc-21bc-6ba0-bcfe" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="0a70-398a-7e56-807e" name="VALIANT RUNE" hidden="false" targetId="292b-f1bb-e8e3-32a1" type="rule" />
@@ -2748,7 +2739,7 @@
     </selectionEntry>
     <selectionEntry id="06aa-9282-5f60-118b" name="MASTER RUNE OF KINGSHIP " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ba-b4c4-1f39-8bb3" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="96ba-b4c4-1f39-8bb3" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbea-b846-0f51-b396" type="max" />
       </constraints>
       <infoLinks>
@@ -2763,7 +2754,7 @@
     <selectionEntry id="e8aa-7617-dda7-9966" name="MASTER RUNE OF BALANCE " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e325-1149-6eb2-0b50" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2961-2c71-573b-1595" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2961-2c71-573b-1595" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="8a8c-c6e1-689a-de6b" name="MASTER RUNE OF BALANCE " hidden="false" targetId="87b8-21b7-5ea9-e421" type="rule" />
@@ -2777,7 +2768,7 @@
     <selectionEntry id="5555-7e8c-687e-48fb" name="MASTER RUNE OF SPELLBINDING" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf2b-9f6f-9e0c-d402" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d75-1a3a-a43f-fe81" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9d75-1a3a-a43f-fe81" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="5b50-9247-ae78-3dbf" name="MASTER RUNE OF SPELLBINDING " hidden="false" targetId="a433-b489-5e8b-e009" type="rule" />
@@ -2791,7 +2782,7 @@
     <selectionEntry id="494a-728f-625c-2531" name="MASTER RUNE OF SPITE" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b277-86c1-b37a-2a1b" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f97e-5b82-3056-b2c6" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f97e-5b82-3056-b2c6" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="3b23-f37e-f95d-6e2f" name="MASTER RUNE OF SPITE" hidden="false" targetId="528a-522d-c737-1c3b" type="rule" />
@@ -2805,7 +2796,7 @@
     <selectionEntry id="04a0-5f58-fcb9-c8d1" name="MASTER RUNE OF DISMAY " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f908-a232-f321-801e" type="max" />
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="951a-02fe-bd08-7e71" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="951a-02fe-bd08-7e71" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="2da5-5fb7-1731-0a4e" name="MASTER RUNE OF DISMAY " hidden="false" targetId="1afc-2cfc-502f-7f3c" type="rule" />
@@ -2890,7 +2881,7 @@
     </selectionEntry>
     <selectionEntry id="f003-bab0-b27d-6acd" name="Anvil of Doom" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae4-e66a-4ac0-8cd4" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fae4-e66a-4ac0-8cd4" type="max" />
       </constraints>
       <infoLinks>
         <infoLink id="9dea-3c4b-41c9-a10f" name="Anvil Guard" hidden="false" targetId="504d-03f5-6794-040f" type="profile" />

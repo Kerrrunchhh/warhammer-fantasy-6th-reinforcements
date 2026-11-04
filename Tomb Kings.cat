@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="84d2-86cf-1048-402b" name="Tomb Kings" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele and Bryce Rutledge" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="84d2-86cf-1048-402b" name="Tomb Kings" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele and Bryce Rutledge" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="04f9-cede-fdb3-1e6c" name="Tomb Kings"/>
     <publication id="024c-2a27-ea11-a5e8" name="Chronicles 2004"/>
@@ -1720,7 +1720,7 @@
     </selectionEntry>
     <selectionEntry id="a2e1-3e71-94e8-1f55" name="Crook and Flail of Radiance" publicationId="04f9-cede-fdb3-1e6c" page="36" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eeb-8d1e-ab67-c360" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9eeb-8d1e-ab67-c360" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b860-ae40-f821-7d02" type="max"/>
       </constraints>
       <infoLinks>
@@ -1734,7 +1734,7 @@
     </selectionEntry>
     <selectionEntry id="9bf8-ea0f-0eff-163b" name="Blade of Setep" publicationId="04f9-cede-fdb3-1e6c" page="36" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dcd-6672-b9ed-c074" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8dcd-6672-b9ed-c074" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd80-b2c7-550b-76c1" type="max"/>
       </constraints>
       <infoLinks>
@@ -1776,7 +1776,7 @@
     </selectionEntry>
     <selectionEntry id="0983-d552-ce9b-7308" name="Spear of Antarhak" publicationId="04f9-cede-fdb3-1e6c" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f95-ecb3-b626-e2f5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f95-ecb3-b626-e2f5" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="860d-52f3-c2ed-490a" type="max"/>
       </constraints>
       <infoLinks>
@@ -1804,7 +1804,7 @@
     </selectionEntry>
     <selectionEntry id="0b7b-e733-ec92-7e24" name="Armour of Eternity" publicationId="04f9-cede-fdb3-1e6c" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2c8-f6a2-aece-8492" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d2c8-f6a2-aece-8492" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca15-dbfd-88a9-27f8" type="max"/>
       </constraints>
       <infoLinks>
@@ -1818,7 +1818,7 @@
     </selectionEntry>
     <selectionEntry id="230c-d090-80d6-bb2c" name="Scorpion Armour" publicationId="04f9-cede-fdb3-1e6c" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e520-d8ab-a6f4-01f0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e520-d8ab-a6f4-01f0" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ce7-5e44-3f0c-62fb" type="max"/>
       </constraints>
       <infoLinks>
@@ -1888,7 +1888,7 @@
     </selectionEntry>
     <selectionEntry id="cc96-de01-5228-48d4" name="Amulet of Pha-Stah" publicationId="04f9-cede-fdb3-1e6c" page="37" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ba-1be2-9312-d074" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55ba-1be2-9312-d074" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="8581-d973-9db3-35bb" name="Amulet of Pha-Stah" hidden="false" targetId="ea59-c5a2-98bb-c3a7" type="rule"/>
@@ -1901,7 +1901,7 @@
     </selectionEntry>
     <selectionEntry id="0ae7-3dd4-bdf9-3b2a" name="Collar of Shapesh" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adba-c739-926c-d825" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="adba-c739-926c-d825" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc9-a230-a486-3594" type="max"/>
       </constraints>
       <infoLinks>
@@ -1915,7 +1915,7 @@
     </selectionEntry>
     <selectionEntry id="24c8-6961-0ce2-c939" name="Golden Eye of Rah-Nutt" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4240-e0ec-071a-0eec" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4240-e0ec-071a-0eec" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -1925,7 +1925,7 @@
     </selectionEntry>
     <selectionEntry id="a30a-fa6e-c818-770a" name="Blue Khepra" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb7-9193-d76d-cfcc" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="abb7-9193-d76d-cfcc" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a449-f0c2-934f-1ccd" type="max"/>
       </constraints>
       <costs>
@@ -1936,7 +1936,7 @@
     </selectionEntry>
     <selectionEntry id="c317-e9bc-832c-426b" name="Death Mask of Kharnut" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9f3-a593-f7f7-76ce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c9f3-a593-f7f7-76ce" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da00-f54d-b34f-a503" type="max"/>
       </constraints>
       <costs>
@@ -1947,7 +1947,7 @@
     </selectionEntry>
     <selectionEntry id="20a5-b1a6-3f55-c87a" name="Brooch of the Great Desert" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76af-1adc-8059-4997" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="76af-1adc-8059-4997" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d25-4888-0ba0-f85f" type="max"/>
       </constraints>
       <costs>
@@ -1958,7 +1958,7 @@
     </selectionEntry>
     <selectionEntry id="641a-bf6e-fda7-88ff" name="Chariot of Fire" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf8-df79-0467-db86" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="caf8-df79-0467-db86" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7685-8a27-1a7b-585d" type="max"/>
       </constraints>
       <costs>
@@ -1969,7 +1969,7 @@
     </selectionEntry>
     <selectionEntry id="e4f6-712d-29f4-705c" name="Cloak of the Dunes" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40fe-0e07-a134-748a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="40fe-0e07-a134-748a" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ea-1839-8405-02d4" type="max"/>
       </constraints>
       <costs>
@@ -1980,7 +1980,7 @@
     </selectionEntry>
     <selectionEntry id="d3d7-06b7-64b2-6d70" name="Icon of Rulership" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74eb-ac9f-8fc4-7343" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74eb-ac9f-8fc4-7343" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa83-92f9-bc28-a6d2" type="max"/>
       </constraints>
       <costs>
@@ -1991,7 +1991,7 @@
     </selectionEntry>
     <selectionEntry id="f708-b8f1-b729-998c" name="Vambraces of the Sun" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a59-8e81-b4e0-2560" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3a59-8e81-b4e0-2560" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd22-2bd2-2f10-3612" type="max"/>
       </constraints>
       <costs>
@@ -2002,7 +2002,7 @@
     </selectionEntry>
     <selectionEntry id="ce3e-4c01-1bb1-54de" name="The Sacred Crook of Shapesh" publicationId="024c-2a27-ea11-a5e8" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d822-f16f-6cde-a295" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d822-f16f-6cde-a295" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2012,7 +2012,7 @@
     </selectionEntry>
     <selectionEntry id="41d4-3709-0119-eeb9" name="Staff of Ravening" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccd2-e7a2-9faf-6219" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ccd2-e7a2-9faf-6219" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="45.0"/>
@@ -2022,7 +2022,7 @@
     </selectionEntry>
     <selectionEntry id="fe28-1e60-a5c4-be59" name="Neferra&apos;s Plaques of Mighty Incantations" publicationId="04f9-cede-fdb3-1e6c" page="38" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e71-7948-583e-1753" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e71-7948-583e-1753" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac1-76f8-e708-3fe0" type="max"/>
       </constraints>
       <costs>
@@ -2043,7 +2043,7 @@
     </selectionEntry>
     <selectionEntry id="b6ef-eca4-7801-afd8" name="Hieratic Jar" publicationId="04f9-cede-fdb3-1e6c" page="39" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ef8-ba96-33fe-e288" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ef8-ba96-33fe-e288" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -2053,7 +2053,7 @@
     </selectionEntry>
     <selectionEntry id="cb80-6a3b-45e9-2e13" name="Enkhil&apos;s Kanopi" publicationId="04f9-cede-fdb3-1e6c" page="39" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e7a-38da-f9c8-a16c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6e7a-38da-f9c8-a16c" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="20.0"/>
@@ -2063,7 +2063,7 @@
     </selectionEntry>
     <selectionEntry id="bbdb-1f71-068f-961a" name="Standard of the Sands" publicationId="04f9-cede-fdb3-1e6c" page="39" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c688-5790-b849-c21c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c688-5790-b849-c21c" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0"/>
@@ -2073,7 +2073,7 @@
     </selectionEntry>
     <selectionEntry id="2452-7bff-e8cd-b6b0" name="Banner of the Hidden Dead" publicationId="04f9-cede-fdb3-1e6c" page="39" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7561-62e7-eae7-374a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7561-62e7-eae7-374a" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="60.0"/>
@@ -2083,7 +2083,7 @@
     </selectionEntry>
     <selectionEntry id="c7f4-7125-ab32-7b17" name="Icon of the Sacred Eye" publicationId="04f9-cede-fdb3-1e6c" page="39" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22c1-5b15-e1e8-aa7f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="22c1-5b15-e1e8-aa7f" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="50.0"/>
@@ -2093,7 +2093,7 @@
     </selectionEntry>
     <selectionEntry id="7138-50d5-c3ee-f6d8" name="Mirage Standard" publicationId="04f9-cede-fdb3-1e6c" page="39" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd9a-5984-8170-e489" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd9a-5984-8170-e489" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
@@ -2103,7 +2103,7 @@
     </selectionEntry>
     <selectionEntry id="9007-1a8a-7d3a-96c5" name="Icon of Rakaph" publicationId="04f9-cede-fdb3-1e6c" page="39" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b08-73c3-4a73-079e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b08-73c3-4a73-079e" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="40.0"/>
@@ -2113,7 +2113,7 @@
     </selectionEntry>
     <selectionEntry id="d52a-e197-1151-4801" name="Standard of the Cursing Word" publicationId="04f9-cede-fdb3-1e6c" page="39" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ec5-5f7a-1953-d12c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2ec5-5f7a-1953-d12c" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -2123,7 +2123,7 @@
     </selectionEntry>
     <selectionEntry id="a7dd-89a1-93cd-264b" name="Banner of the Undying Legion" publicationId="04f9-cede-fdb3-1e6c" page="39" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fea-1f9d-ec89-dc10" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9fea-1f9d-ec89-dc10" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="25.0"/>
@@ -2133,7 +2133,7 @@
     </selectionEntry>
     <selectionEntry id="b3c9-1f9c-ef2e-e611" name="Blessed Blade of Ptra" publicationId="04f9-cede-fdb3-1e6c" page="67" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40f9-9378-2510-9279" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="40f9-9378-2510-9279" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2143,7 +2143,7 @@
     </selectionEntry>
     <selectionEntry id="0afd-fdf3-750a-25f1" name="The Armour of Golden Magnificence" publicationId="04f9-cede-fdb3-1e6c" page="67" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8707-8f44-bbde-c670" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8707-8f44-bbde-c670" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2153,7 +2153,7 @@
     </selectionEntry>
     <selectionEntry id="bc2d-3c4e-d3a7-520f" name="The Crown of Nehekhara" publicationId="04f9-cede-fdb3-1e6c" page="67" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4777-190c-d00e-54db" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4777-190c-d00e-54db" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -2163,7 +2163,7 @@
     </selectionEntry>
     <selectionEntry id="0875-943e-a57d-025a" name="Venom Staff" publicationId="04f9-cede-fdb3-1e6c" page="69" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3049-2fe3-121d-441c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3049-2fe3-121d-441c" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>

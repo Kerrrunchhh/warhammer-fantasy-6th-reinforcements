@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1d30-bbdf-823d-416a" name="Wood Elf" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1d30-bbdf-823d-416a" name="Wood Elf" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="5471-0e6f-161c-97bd" name="Wood Elf 2005"/>
   </publications>
@@ -1494,7 +1494,7 @@
     <selectionEntry id="b215-4430-a420-cbdd" name="Daith’s Reaper" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbdc-e332-661e-4769" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4545-25f4-b519-8052" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4545-25f4-b519-8052" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e769-626f-d08f-e628" name="Daith’s Reaper" hidden="false" targetId="0d73-a3e9-1a3a-d1a0" type="rule"/>
@@ -1508,7 +1508,7 @@
     <selectionEntry id="43be-d1e0-d554-0353" name="The Bow of Loren" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac90-9369-aabd-dcbd" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="909a-cd42-3da7-c6fe" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="909a-cd42-3da7-c6fe" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="d1b7-8b3a-e9f4-04b8" name="The Bow of Loren" hidden="false" targetId="719c-3c0a-ea6f-d08a" type="rule"/>
@@ -1522,7 +1522,7 @@
     <selectionEntry id="2184-e5b4-c16e-69bf" name="Blades of Loec" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5973-b9d5-ff7b-c028" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f1c-abc6-0085-4758" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f1c-abc6-0085-4758" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="0b50-9ae4-162a-4e8b" name="Blades of Loec" hidden="false" targetId="fc09-e87b-f11f-b02d" type="rule"/>
@@ -1536,7 +1536,7 @@
     <selectionEntry id="5bbd-6d2a-fc32-7663" name="The Dawnspear" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e663-b110-c4dc-cd36" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c0c-18af-6000-f6c8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c0c-18af-6000-f6c8" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="5e98-8445-2f37-bd47" name="The Dawnspear" hidden="false" targetId="0a32-d000-bdb9-4d5e" type="rule"/>
@@ -1550,7 +1550,7 @@
     <selectionEntry id="f602-82b5-2a2e-500b" name="The Spear of Twilight" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c432-3eb3-8f29-86c8" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cec4-48d5-3cc5-15de" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cec4-48d5-3cc5-15de" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="c4e9-ef46-2550-501f" name="The Spear of Twilight" hidden="false" targetId="3313-6964-0430-53b2" type="rule"/>
@@ -1564,7 +1564,7 @@
     <selectionEntry id="902c-a1b0-69cb-e675" name="The Callach’s Claw" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c54b-632c-b506-21e1" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3b3-6425-1a37-44d4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f3b3-6425-1a37-44d4" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="e34b-b312-6064-69bc" name="The Callach’s Claw" hidden="false" targetId="7e15-513c-92a5-9915" type="rule"/>
@@ -1578,7 +1578,7 @@
     <selectionEntry id="5e7d-4108-3ea6-6f07" name="The Hunter’s Talon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaec-3835-eea9-3bbe" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="603b-484c-3faf-9525" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="603b-484c-3faf-9525" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="83c2-2804-a8e3-1e15" name="The Hunter’s Talon" hidden="false" targetId="11b0-95af-1094-8514" type="rule"/>
@@ -1592,7 +1592,7 @@
     <selectionEntry id="d5bb-9c18-5628-117c" name="The Sword of Thousand Winters" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f175-d9a5-07cf-ab2b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3a2-059f-c76a-8480" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a3a2-059f-c76a-8480" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="ced7-1587-ccb8-9ed1" name="The Sword of Thousand Winters" hidden="false" targetId="af5f-d2d5-12b6-4537" type="rule"/>
@@ -1606,7 +1606,7 @@
     <selectionEntry id="08b0-9e28-f1b8-1f33" name="Rageth’s Wildfire Blades" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ddf-5ddd-5761-e7c6" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9413-caeb-cb67-a794" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9413-caeb-cb67-a794" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="8086-fbd7-0149-4e09" name="Rageth’s Wildfire Blades" hidden="false" targetId="a67d-ed4a-3cb1-973a" type="rule"/>
@@ -1620,7 +1620,7 @@
     <selectionEntry id="e5d0-1a2f-5ae7-87b2" name="Asyendi’s Bane" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec73-8b1f-6657-14d0" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f85-b74a-4c50-b163" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9f85-b74a-4c50-b163" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="dd72-a9f1-18e8-64a0" name="Asyendi’s Bane" hidden="false" targetId="69c2-9ea6-0213-d989" type="rule"/>
@@ -1634,7 +1634,7 @@
     <selectionEntry id="2d70-82f8-c475-bc6e" name="Oaken Armour" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a2e-c143-d867-068b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ee-e42c-14c3-c463" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="61ee-e42c-14c3-c463" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="ad68-7bbc-846c-84e1" name="Oaken Armour" hidden="false" targetId="196d-8dee-b77f-d8f3" type="rule"/>
@@ -1649,7 +1649,7 @@
     <selectionEntry id="2546-d8b2-3f79-d356" name="Railarialn’s Mantle" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ae-6284-e999-6a88" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81d9-b6a1-0217-1afa" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="81d9-b6a1-0217-1afa" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="6b3f-7622-7a67-f1dc" name="Railarialn’s Mantle" hidden="false" targetId="6236-730a-e6ce-197b" type="rule"/>
@@ -1663,7 +1663,7 @@
     <selectionEntry id="c8b3-5d76-2392-2179" name="Armour of the Fey" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50b1-4d41-ac1b-5a3d" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85ef-6d37-7481-0346" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="85ef-6d37-7481-0346" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="df6d-e406-ab5b-148c" name="Armour of the Fey" hidden="false" targetId="6c03-efe7-9fa6-510c" type="rule"/>
@@ -1677,7 +1677,7 @@
     <selectionEntry id="a313-2819-af74-219b" name="The Helm of the Hunt" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3753-a12c-de31-eb4c" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66df-aa41-b3c9-f077" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="66df-aa41-b3c9-f077" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="df4f-61ba-24fb-4c27" name="The Helm of the Hunt" hidden="false" targetId="ec6d-e9f0-d28f-141f" type="rule"/>
@@ -1691,7 +1691,7 @@
     <selectionEntry id="d9be-7de5-5642-37a3" name="Briarsheath" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdb4-517c-c144-ad40" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c28a-ad43-9615-3b8c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c28a-ad43-9615-3b8c" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="29c7-2363-f078-3621" name="Briarsheath" hidden="false" targetId="9c43-9c56-9520-c162" type="rule"/>
@@ -1789,7 +1789,7 @@
     <selectionEntry id="5bcc-69a8-74da-eed6" name="The Fimbulwinter Shard" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="265e-f891-75b6-176b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9be0-fa05-bde0-4eb7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9be0-fa05-bde0-4eb7" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="6773-8c84-6319-02c3" name="The Fimbulwinter Shard" hidden="false" targetId="e733-50be-b427-d1aa" type="rule"/>
@@ -1803,7 +1803,7 @@
     <selectionEntry id="cdf1-2e4f-9e25-a3de" name="Merciw’s Locus" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afdf-fa2b-6c2e-71d4" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71fb-9f81-c204-2c65" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="71fb-9f81-c204-2c65" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="1aa7-0b0e-ff82-5d5a" name="Merciw’s Locus" hidden="false" targetId="dd86-b333-5b5f-ae49" type="rule"/>
@@ -2012,7 +2012,7 @@
     <selectionEntry id="fef0-1dda-e46e-12ac" name="The Deepwood Sphere" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2ad-f477-3473-bf95" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e682-ac23-60c3-70a7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e682-ac23-60c3-70a7" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="2821-0ed4-45c8-e146" name="The Deepwood Sphere" hidden="false" targetId="a9bb-a256-beff-832e" type="rule"/>
@@ -2195,7 +2195,7 @@
     <selectionEntry id="cb1e-aa1a-9d8f-9813" name="A Lamentation of Despairs" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b6f-06da-ff4c-e8b7" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a61-3e37-0459-0200" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a61-3e37-0459-0200" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="6473-137b-9770-b8c3" name="A Lamentation of Despairs" hidden="false" targetId="fcda-ea0c-6ecd-e209" type="rule"/>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c2d3-e4f5-a6b7-8901" name="Orcs and Goblins Snotling Horde" revision="3" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c2d3-e4f5-a6b7-8901" name="Orcs and Goblins Snotling Horde" revision="4" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="fe83-6f84-3718-78f4" name="Orc and Goblin Army Book 2000" shortName="O+G" publicationDate="2000" />
   </publications>
@@ -7011,7 +7011,7 @@
     </selectionEntry>
     <selectionEntry id="c512-caf9-d61d-05d7" name="Bigged's 'Ed Kickin Boots " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecda-e7e6-80de-cb52" type="max" />
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ecda-e7e6-80de-cb52" type="max" />
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="014e-ccb2-653c-3617" type="max" />
       </constraints>
       <infoLinks>
