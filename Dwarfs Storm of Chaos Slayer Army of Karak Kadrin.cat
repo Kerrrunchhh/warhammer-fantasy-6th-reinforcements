@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1fdd-7426-d516-0d75" name="Dwarfs Storm of Chaos Slayer Army of Karak Kadrin" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1fdd-7426-d516-0d75" name="Dwarfs Storm of Chaos Slayer Army of Karak Kadrin" revision="10" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>Slayer Army of Karak Kadrin Special Rules:&#10;- "Look Snorri, Trolls!": After deployment, before the first player's turn, the Slayer army surges forward. Each unit and character move directly ahead 2D6" (this ignores terrain modifiers except impassable terrain, and may only be a single move made if necessary to avoid terrain or another unit). In addition, the Slayer player may roll an additional D6 when determining who gets the first turn, discarding the lowest roll.&#10;- A Glorious Death: Keep a note of the number of models slain in close combat by enemies with a Strength and/or Toughness of 5 or more (before modifications). Each Slayer killed by such a worthy foe adds 10 Victory Points to the Slayer army's total. This includes impact hits from chariots or monsters but not the crew or riders of chariots or monsters unless they themselves are Strength or Toughness 5 or more.&#10;- Dispel Dice: A Slayer army generates four Dispel dice in the opponent's Magic phase (instead of the normal two), plus an extra Dispel die for each 1,000 points being played (+1 dice at 1,000 points, +2 dice at 2,000 points, and so on).&#10;- First Amongst Slayers: One character in the army must be nominated as the general, though Slayer characters cannot be a general in a normal Dwarf army. This must be a Daemon Slayer if the army has one.&#10;- No more than half of your Core choices may be Slayer Doomseekers.&#10;- A Slayer Hero (Dragon Slayer) may be given one Slayer Skill; a Slayer Lord (Daemon Slayer) may be given up to two Slayer Skills. Wards of Grimnir may additionally be bought for any Slayer character for +30 points; for simplicity this is modelled here as a separate purchase rather than being deducted from the character's Rune points allowance.</readme>
   <publications>
     <publication id="5d31-5485-aad4-121e" name="Dwarf Army Book 2000" />
@@ -265,6 +265,7 @@
           </constraints>
         </entryLink>
         <entryLink id="94cc-eef4-d8e2-8049" name="Wards of Grimnir" hidden="false" collective="false" import="true" targetId="b45a-bf69-bc6a-c1cf" type="selectionEntry" />
+        <entryLink id="29d5-8eea-ba10-43f1" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="130.0" />
@@ -628,6 +629,7 @@
           </constraints>
         </entryLink>
         <entryLink id="1fd1-0746-8ae2-2dca" name="Wards of Grimnir" hidden="false" collective="false" import="true" targetId="b45a-bf69-bc6a-c1cf" type="selectionEntry" />
+        <entryLink id="f8f5-26b4-9d3f-f6b5" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0" />
@@ -1081,9 +1083,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c6a2-fc2a-a9c8-b968" name="Slayers" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="318d-05f0-454f-ecee" type="max" />
-      </constraints>
       <profiles>
         <profile id="3e52-cb3c-7db8-0801" name="Giant Slayer" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
           <characteristics>
@@ -1118,7 +1117,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bd11-8ecc-0f0a-2c2d" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true" />
-        <categoryLink id="05b5-e2ac-b3ce-1b77" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false" />
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="847c-0698-1719-66b1" name="Command" hidden="false" collective="false" import="true">
@@ -1137,6 +1135,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2974-6c04-aa76-d009" type="max" />
               </constraints>
+              <entryLinks>
+                <entryLink id="1929-723a-aa6f-fd2b" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -1990,6 +1991,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="534a-f35b-086f-b621" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="195.0" />
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
