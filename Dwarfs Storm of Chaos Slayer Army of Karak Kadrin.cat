@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1fdd-7426-d516-0d75" name="Dwarfs Storm of Chaos Slayer Army of Karak Kadrin" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1fdd-7426-d516-0d75" name="Dwarfs Storm of Chaos Slayer Army of Karak Kadrin" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>Slayer Army of Karak Kadrin Special Rules:&#10;- "Look Snorri, Trolls!": After deployment, before the first player's turn, the Slayer army surges forward. Each unit and character move directly ahead 2D6" (this ignores terrain modifiers except impassable terrain, and may only be a single move made if necessary to avoid terrain or another unit). In addition, the Slayer player may roll an additional D6 when determining who gets the first turn, discarding the lowest roll.&#10;- A Glorious Death: Keep a note of the number of models slain in close combat by enemies with a Strength and/or Toughness of 5 or more (before modifications). Each Slayer killed by such a worthy foe adds 10 Victory Points to the Slayer army's total. This includes impact hits from chariots or monsters but not the crew or riders of chariots or monsters unless they themselves are Strength or Toughness 5 or more.&#10;- Dispel Dice: A Slayer army generates four Dispel dice in the opponent's Magic phase (instead of the normal two), plus an extra Dispel die for each 1,000 points being played (+1 dice at 1,000 points, +2 dice at 2,000 points, and so on).&#10;- First Amongst Slayers: One character in the army must be nominated as the general, though Slayer characters cannot be a general in a normal Dwarf army. This must be a Daemon Slayer if the army has one.&#10;- No more than half of your Core choices may be Slayer Doomseekers.&#10;- A Slayer Hero (Dragon Slayer) may be given one Slayer Skill; a Slayer Lord (Daemon Slayer) may be given up to two Slayer Skills. Wards of Grimnir may additionally be bought for any Slayer character for +30 points; for simplicity this is modelled here as a separate purchase rather than being deducted from the character's Rune points allowance.</readme>
   <publications>
     <publication id="5d31-5485-aad4-121e" name="Dwarf Army Book 2000" />
@@ -1674,12 +1674,21 @@
         <infoLink id="2106-3e62-08aa-be61" name="Dragon Cloak" hidden="false" targetId="aebb-6fd1-2c0b-8013" type="rule" />
         <infoLink id="dc57-5d7c-e200-8b9d" name="Slayer King" hidden="false" targetId="fb2e-409e-d9fd-b8b6" type="rule" />
         <infoLink id="0444-4518-49bb-c9ec" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule" />
+        <infoLink id="5d04-1483-549b-0c38" name="Army General" hidden="false" targetId="a513-1938-d580-5295" type="rule" />
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4e28-bb6c-1cec-afbb" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true" />
         <categoryLink id="58d2-d9f0-f7a2-fa70" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false" />
         <categoryLink id="c446-5f1f-90c2-46c9" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false" />
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="274e-73ab-a1d0-f07b" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="221a-67ee-e1e5-b44c" type="min" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82c2-7501-3fb9-764a" type="max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="465.0" />
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -3570,6 +3579,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
     </rule>
     <rule id="kadr-gen-rule-0001" name="General" hidden="false">
       <description>One Slayer character in this army must be the general. This has no special effect beyond the normal Victory Points rules.</description>
+    </rule>
+    <rule id="a513-1938-d580-5295" name="Army General" hidden="false">
+      <description>Ungrim Ironfist must be the army&apos;s General, regardless of the Leadership value of any other characters in the army.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

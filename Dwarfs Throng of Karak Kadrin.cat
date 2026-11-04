@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="8516-ad4a-b555-adc7" name="Dwarfs Throng of Karak Kadrin" revision="6" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="8516-ad4a-b555-adc7" name="Dwarfs Throng of Karak Kadrin" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="5d31-5485-aad4-121e" name="Dwarf Army Book 2000" />
     <publication id="c174-396f-f04b-f510" name="Storm of Chaos" />
@@ -2206,12 +2206,21 @@
         <infoLink id="2106-3e62-08aa-be61" name="Dragon Cloak" hidden="false" targetId="aebb-6fd1-2c0b-8013" type="rule" />
         <infoLink id="dc57-5d7c-e200-8b9d" name="Slayer King" hidden="false" targetId="fb2e-409e-d9fd-b8b6" type="rule" />
         <infoLink id="0444-4518-49bb-c9ec" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule" />
+        <infoLink id="091c-73ae-513d-4e5e" name="Army General" hidden="false" targetId="b100-4fe8-adc9-7e04" type="rule" />
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4e28-bb6c-1cec-afbb" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true" />
         <categoryLink id="58d2-d9f0-f7a2-fa70" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false" />
         <categoryLink id="c446-5f1f-90c2-46c9" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false" />
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="f6db-fa4a-a786-ddcb" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2290-1aea-7e2e-f053" type="min" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc4-430e-f7be-2120" type="max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="465.0" />
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -3631,6 +3640,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
     </rule>
     <rule id="kadr-gen-rule-0001" name="General" hidden="false">
       <description>One Slayer character in this army must be the general. This has no special effect beyond the normal Victory Points rules.</description>
+    </rule>
+    <rule id="b100-4fe8-adc9-7e04" name="Army General" hidden="false">
+      <description>Ungrim Ironfist must be the army&apos;s General, regardless of the Leadership value of any other characters in the army.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

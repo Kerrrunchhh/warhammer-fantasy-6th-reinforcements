@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a7f1-dab9-5345-4db2" name="Dwarfs" revision="7" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="a7f1-dab9-5345-4db2" name="Dwarfs" revision="8" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <publications>
     <publication id="6265-1d51-76e2-4fe2" name="Dwarf Army Book 2000" />
     <publication id="9208-1c76-af8c-c05c" name="Storm of Chaos" />
@@ -2091,12 +2091,21 @@
         <infoLink id="5534-15cf-958f-8255" name="Dragon Cloak" hidden="false" targetId="59b3-fec7-929a-9065" type="rule" />
         <infoLink id="3ef3-d14c-3646-9d68" name="Slayer King" hidden="false" targetId="056f-ecf5-468a-6f22" type="rule" />
         <infoLink id="59ea-222d-3543-2918" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule" />
+        <infoLink id="a7d3-eeaa-3d27-319c" name="Army General" hidden="false" targetId="54c1-4669-a9ed-4ce8" type="rule" />
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7bcf-2e27-fc05-6d34" name="Special Characters" hidden="false" targetId="0644-bfcd-32c2-21dc" primary="true" />
         <categoryLink id="3080-53c7-b856-9952" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="false" />
         <categoryLink id="6bf3-9cea-ccda-aa24" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false" />
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="7883-6355-82c6-f62d" name="General" hidden="false" collective="false" import="true" targetId="1b7c-2c90-6d96-28c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9514-a77e-e44d-4402" type="min" />
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d467-ac55-b637-fbb9" type="max" />
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="465.0" />
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -3510,6 +3519,9 @@ In the Movement phase of the turn when they arrive, Miners can enter the battlef
     </rule>
     <rule id="dwrf-irdk-dgun-0001" name="Drakegun" hidden="false">
       <description>Range 24", Strength 5. The Drakegun always hits on a 4+ regardless of the target's special abilities. All hits from the Drakegun count as Flaming Attacks and have the Armour Piercing special rule.</description>
+    </rule>
+    <rule id="54c1-4669-a9ed-4ce8" name="Army General" hidden="false">
+      <description>Ungrim Ironfist must be the army&apos;s General, regardless of the Leadership value of any other characters in the army.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
