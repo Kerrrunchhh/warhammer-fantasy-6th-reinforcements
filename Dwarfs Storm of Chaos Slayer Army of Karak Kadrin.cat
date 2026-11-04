@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1fdd-7426-d516-0d75" name="Dwarfs Storm of Chaos Slayer Army of Karak Kadrin" revision="10" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1fdd-7426-d516-0d75" name="Dwarfs Storm of Chaos Slayer Army of Karak Kadrin" revision="11" battleScribeVersion="2.03" authorName="Markus Döbele" authorContact="markus.doebele@posteo.de" library="false" gameSystemId="6d8e-38d9-3c69-feba" gameSystemRevision="8">
   <readme>Slayer Army of Karak Kadrin Special Rules:&#10;- "Look Snorri, Trolls!": After deployment, before the first player's turn, the Slayer army surges forward. Each unit and character move directly ahead 2D6" (this ignores terrain modifiers except impassable terrain, and may only be a single move made if necessary to avoid terrain or another unit). In addition, the Slayer player may roll an additional D6 when determining who gets the first turn, discarding the lowest roll.&#10;- A Glorious Death: Keep a note of the number of models slain in close combat by enemies with a Strength and/or Toughness of 5 or more (before modifications). Each Slayer killed by such a worthy foe adds 10 Victory Points to the Slayer army's total. This includes impact hits from chariots or monsters but not the crew or riders of chariots or monsters unless they themselves are Strength or Toughness 5 or more.&#10;- Dispel Dice: A Slayer army generates four Dispel dice in the opponent's Magic phase (instead of the normal two), plus an extra Dispel die for each 1,000 points being played (+1 dice at 1,000 points, +2 dice at 2,000 points, and so on).&#10;- First Amongst Slayers: One character in the army must be nominated as the general, though Slayer characters cannot be a general in a normal Dwarf army. This must be a Daemon Slayer if the army has one.&#10;- No more than half of your Core choices may be Slayer Doomseekers.&#10;- A Slayer Hero (Dragon Slayer) may be given one Slayer Skill; a Slayer Lord (Daemon Slayer) may be given up to two Slayer Skills. Wards of Grimnir may additionally be bought for any Slayer character for +30 points; for simplicity this is modelled here as a separate purchase rather than being deducted from the character's Rune points allowance.</readme>
   <publications>
     <publication id="5d31-5485-aad4-121e" name="Dwarf Army Book 2000" />
@@ -253,7 +253,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c87-8844-5061-7a9e" type="min" />
           </constraints>
         </entryLink>
-        <entryLink id="d95c-d60a-b97c-6605" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="d5b5-7a91-4767-de3d" type="selectionEntryGroup">
+        <entryLink id="d95c-d60a-b97c-6605" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="e119-a2fe-475c-7388" type="selectionEntryGroup">
           <constraints>
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d88b-74b4-1404-32eb" type="max" />
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c89-65df-02de-c592" type="max" />
@@ -265,7 +265,6 @@
           </constraints>
         </entryLink>
         <entryLink id="94cc-eef4-d8e2-8049" name="Wards of Grimnir" hidden="false" collective="false" import="true" targetId="b45a-bf69-bc6a-c1cf" type="selectionEntry" />
-        <entryLink id="29d5-8eea-ba10-43f1" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="130.0" />
@@ -617,7 +616,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4db-6f91-0d47-466c" type="min" />
           </constraints>
         </entryLink>
-        <entryLink id="e807-c950-24dd-2486" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="d5b5-7a91-4767-de3d" type="selectionEntryGroup">
+        <entryLink id="e807-c950-24dd-2486" name="Weapon Runes" hidden="false" collective="false" import="true" targetId="e119-a2fe-475c-7388" type="selectionEntryGroup">
           <constraints>
             <constraint field="ecfa-8486-4f6c-c249" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ec6-127c-6903-d650" type="max" />
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bd6-78a5-fd97-900a" type="max" />
@@ -629,7 +628,6 @@
           </constraints>
         </entryLink>
         <entryLink id="1fd1-0746-8ae2-2dca" name="Wards of Grimnir" hidden="false" collective="false" import="true" targetId="b45a-bf69-bc6a-c1cf" type="selectionEntry" />
-        <entryLink id="f8f5-26b4-9d3f-f6b5" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
       </entryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="65.0" />
@@ -1135,9 +1133,13 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2974-6c04-aa76-d009" type="max" />
               </constraints>
-              <entryLinks>
-                <entryLink id="1929-723a-aa6f-fd2b" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
-              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="8932-8c26-9dd3-0984" name="Master Runes" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="1929-723a-aa6f-fd2b" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="12.0" />
                 <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -1991,9 +1993,13 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="534a-f35b-086f-b621" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
-      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0ccd-6867-1d56-363b" name="Master Runes" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="534a-f35b-086f-b621" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="195.0" />
         <cost name=" Casting Dice" typeId="fcec-2340-6368-a2ba" value="0.0" />
@@ -3025,6 +3031,42 @@ Remember that a model with a rune axe loses the normal benefits of a great weapo
             <entryLink id="c72e-6bb0-28b6-fda5" name="RUNE OF CLEAVING" hidden="false" collective="false" import="true" targetId="22e3-e752-4af0-416b" type="selectionEntry" />
             <entryLink id="237a-a14f-b701-fc63" name="RUNE OF FURY" hidden="false" collective="false" import="true" targetId="d515-3760-5768-874e" type="selectionEntry" />
             <entryLink id="de1b-0d1f-52b6-3384" name="RUNE OF MIGHT" hidden="false" collective="false" import="true" targetId="34db-ae1f-a86f-2d81" type="selectionEntry" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e119-a2fe-475c-7388" name="Weapon Runes" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="896d-dbda-1bf0-d0c4" type="max" />
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2fb9-1c06-5d33-8562" name="Master Runes" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="972e-9ca2-77c6-4d98" type="max" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="4d67-c4f5-25e4-23e4" name="MASTER RUNE OF SWIFTNESS " hidden="false" collective="false" import="true" targetId="108a-cb74-5a82-0c0b" type="selectionEntry" />
+            <entryLink id="72e6-4ca5-e529-ec51" name="MASTER RUNE OF BREAKING" hidden="false" collective="false" import="true" targetId="6119-bacb-e6d9-e0c1" type="selectionEntry" />
+            <entryLink id="4631-cfbe-f713-9b4c" name="MASTER RUNE OF FLIGHT" hidden="false" collective="false" import="true" targetId="40b2-a3f5-a70b-bd09" type="selectionEntry" />
+            <entryLink id="b467-4823-220c-4378" name="MASTER RUNEOF ALARIC THE MAD" hidden="false" collective="false" import="true" targetId="97ce-533b-131b-00e4" type="selectionEntry" />
+            <entryLink id="25c0-d1d7-8afa-16b4" name="MASTER RUNEOF SKALF BLACKHAMMER" hidden="false" collective="false" import="true" targetId="d26c-5c56-aced-c9eb" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="75.0" />
+              </costs>
+            </entryLink>
+            <entryLink id="2556-9f25-28a3-0085" name="MASTER RUNEOF SNORRI SPANGELHELM " hidden="false" collective="false" import="true" targetId="f4e8-1080-17a4-8ef9" type="selectionEntry" />
+            <entryLink id="b66c-2275-49a6-b9bf" name="MASTER RUNE OF GRIMNIR" hidden="false" collective="false" import="true" targetId="26c8-11fa-a942-d7b2" type="selectionEntry" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="37b1-7bab-3795-a510" name="Minor Runes" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5424-6424-ab23-86c3" name="RUNE OF FIRE" hidden="false" collective="false" import="true" targetId="0537-99c2-811f-3dd4" type="selectionEntry" />
+            <entryLink id="eb80-3620-214f-59cf" name="RUNE OF SPEED" hidden="false" collective="false" import="true" targetId="783c-2cf9-135b-6d31" type="selectionEntry" />
+            <entryLink id="c877-0448-7c0e-1434" name="RUNE OF STRIKING" hidden="false" collective="false" import="true" targetId="94ca-ec21-49e4-f3eb" type="selectionEntry" />
+            <entryLink id="3b19-5286-b7e0-241a" name="GRUDGE RUNE" hidden="false" collective="false" import="true" targetId="b235-8b73-d7e2-434d" type="selectionEntry" />
+            <entryLink id="5b66-e5d1-c44b-befb" name="RUNE OF CLEAVING" hidden="false" collective="false" import="true" targetId="22e3-e752-4af0-416b" type="selectionEntry" />
+            <entryLink id="ca08-10e8-6fbe-87c2" name="RUNE OF FURY" hidden="false" collective="false" import="true" targetId="d515-3760-5768-874e" type="selectionEntry" />
+            <entryLink id="bbff-2416-dc66-fc7d" name="RUNE OF MIGHT" hidden="false" collective="false" import="true" targetId="34db-ae1f-a86f-2d81" type="selectionEntry" />
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
